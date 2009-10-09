@@ -1,0 +1,14 @@
+--- 
+title: Cleverness in Programming
+typo_id: 144
+layout: post
+---
+I just heard someone explain Kernighan's Law:
+<p />
+<blockquote>
+Debugging is twice as hard as writing the program, so if you
+                   write the program as cleverly as you can, by definition,
+                   you won't be clever enough to debug it.
+</blockquote>
+<p />
+I hadn't heard it phrased quite that explicitly.  I have always said that when I code something particularly clever I usually throw it out.  I think I got that tip from one of Kernighan's books.

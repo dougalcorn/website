@@ -1,0 +1,51 @@
+--- 
+title: Scripting Screen
+typo_id: 1153
+layout: post
+---
+I do pretty much all my work using "GNU Screen":http://www.google.com/url?sa=U&start=1&q=http://www.gnu.org/software/screen/ inside a terminal. I use a different screen session for each project and have pretty much the same window configuration for each session.  After finally getting tired of manually setting up my screen sessions, here's how  I managed to script new session setup.
+
+Like many I have a development directory where all my projects live.  Inside this @devel@ dir I have the trunk of each project checked out from version control.  Most of my projects haven't been converted to @git@ yet, so I'm not sure how different it'd be compared to @svn@.  My screen session is made up of several windows.  Inside the first, I run emacs.  The second is autotest.  The third I run @./script/server@.  I also have a window for @./script/console@ and a database prompt; but the order isn't that important.  After those I'll have a window or two for misc. bash prompts.
+
+One solution to automatically setting all this up is to put screen commands inside your @.screenrc@ to create and name the windows.  You can even specify what command to run in the windows.  The problem is that when you exit that command for whatever reason, the screen window is killed with it.  That's not so handy when you need to restart autotest or your server.  Also, the @.screenrc@ file doesn't allow for any type of scripting for dynamically generating any of your startup information.
+
+After digging in the @man@ page a little bit I found a few screen commands that allow it to be scripted fairly well from outside scripts.  I'll show the important commands here.  
+
+<code>
+screen -d -m -S <screen session name>
+</code>
+
+This will create a new screen session detached but with an input/output stream.  The @-S@ names the screen session to make it easier to refer to it later.
+
+<code>
+screen -X -S <session name> screen -t test 1
+</code>
+
+This sends a screen command to the screen session with the given name.  In this case, the screen command is to create a new screen window named "test" as window 1.
+
+<pre><code>
+screen -X -S <session name> -p 1 stuff "cd $DEVEL/$PROJECT; autotest
+"
+</code></pre>
+
+This again sends a screen command to the named session.  In this case we're sending the @stuff@ command directly to window 1.  The @stuff@ command sends the string into stdin of the running application in that window.  In this case the running app is a bash prompt.  Note the trailing newline inside the string will cause the command "typed" at the bash prompt to be run.
+
+The only other problem I ran into is that when creating screen windows like this, they didn't show up on my hard status line automatically.  My solution was to setup a little for loop and select each window like this:
+
+<pre><code>
+for i in 0 1 2 3 4
+do
+   screen -X -S <session name> select $i
+done
+</code>
+</pre>
+
+Finally, when all is setup the way you want the last thing to do is join the resulting screen session like this:
+
+<code>
+screen -x <session name> -p 0
+</code>
+
+The trailing @-p 0@ says to start in the first window.
+
+You can download my resulting script "here":http://lathi.net/files/start-screen.sh.  One thing to note is that I have an entry in @/etc/services@ for each of my projects.  I use this so that when I run @./script/server@ I always start on the same port for each project.  Also, I'm making use of @bash@'s @select@ command for prompting with project (or which already started screen session) to join/start.  It's a little clumsy in that @select@ wants to keep prompting you for input after you're done with the screen session; but it's a lot better than what I had.

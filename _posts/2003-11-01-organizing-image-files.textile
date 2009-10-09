@@ -1,0 +1,6 @@
+--- 
+title: Organizing Image Files
+typo_id: 272
+layout: post
+---
+I've manually sorted my photo image for the last time <img alt="big grin" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/biggrin.gif" /> .  I created a <a href="http://lathi.net/twiki-bin/view/Main/PhotoSorter">PhotoSorter</a> that uses the image creation time in the EXIF info to put files in a directory heirarchy for year and month.  I still sometimes end up with a hundred or more photos in a month; but, at least this is a good first pass when pulling them off the camera.

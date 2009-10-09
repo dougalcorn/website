@@ -1,0 +1,8 @@
+--- 
+title: Tips for Mastering E-mail Overload
+typo_id: 133
+layout: post
+---
+For being such an important form of communication and an integral part of our society, email is something most people do badly.  If we ignore all the email that's sent to the wrong person with sensitive content, there is still a large body of email that's written poortly, hard to understand, and probably not content best suited for email.
+<p />
+Stever Robbins writes this excellent article titled <a href="http://hbswk.hbs.edu/item.jhtml?id=4438&#38;t=srobbins" target="_top">Tips for Mastering E-Mail Overload</a>.  Very good reading.

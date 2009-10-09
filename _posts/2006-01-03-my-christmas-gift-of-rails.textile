@@ -1,0 +1,26 @@
+--- 
+title: My Christmas Gift of Rails
+typo_id: 828
+layout: post
+---
+I am so excited about this New Year!  I was diligent about learning Ruby on Rails in 2005 and getting some practical experience.  In 2006 I'm ditching my current gig as a Unix Systems programmer and taking a new job as a full-time Ruby on Rails Web developer!  
+
+As of this week I've gotten two production sites running with Ruby on Rails.  One is a significant effort of more than 3000 lines of code.  It took me most of the year working part-time hash out all the requirements and deliver the finished product.  I know there's more to come on this site, but I'm glad to finally have something in production.  
+
+The other one I cheated on.  A client wanted a new feature added to an old site.  I was loath to go back into that code because it was so messy.  So, I re-wrote the whole site in RoR and added her new feature.  Time "lost"? About 25 hours and 350 Lines of Code.  That is exactly what Ruby on Rails is all about!
+
+Now for my big news.  Let's talk about my ideal working conditions:
+
+* Company that uses agile methodologies.
+* Company that sanctions and uses Ruby on Rails.
+* Mostly telecommute that doesn't require me to relocate my family.
+* I get to use a Mac with no questions asked.
+* I get to work on a project that closely aligns with my hobbies and passions.
+
+Check, check, check, check, and check.  I'm not going to divulge all the details right now.  The company hiring me hasn't really made a public announcement about their use of Ruby on Rails.  What I can say is I've always wanted a job like this but felt like it was beyond my reach.  When you're young and just out of college it's much easier to make sacrifices to take the "dream job".  The further out of college you get, the more responsibility you have and the harder to just Do It.
+
+This job allows me to follow the dream without sacrificing my family.  I truly feel this is a gift from God.  I realize many of my readers don't believe in God and just got a sour taste by my saying that.  However, I feel strongly that I need to give Him public credit for this job.  
+
+I have tried for years to find a job like this without success.  Honestly, it's been quite discouraging.  Since early Fall I have been actively pursuing some way to work with Ruby on Rails full time without success.  In fact, my best prospect was a job about 30 miles away doing Perl application development.  Two years ago I would have loved full-time Perl.  Now I was feeling "resigned" to taking it.  Then out of the blue came this position.  Two weeks later and I have an offer.
+
+I'm not going to try and explain how or why God orchestrated this.  I do want to give Him thanks though.  All good things come from God.  I'm very excited about this job.  I know I can do a good job.  One of my top goals for 2006 is to "go above and beyond" to demonstrate why I'm exactly the guy they wanted.

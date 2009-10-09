@@ -1,0 +1,6 @@
+--- 
+title: Dog Owner's Guide
+typo_id: 626
+layout: post
+---
+<a href="http://www.canismajor.com/dog/"><img src="http://www.canismajor.com/images/stdogr.gif" align="right" alt="Dog Owner's Guide" vspace="5" hspace="10" /></a>I'd like to put in a plug for the "Dog Owner's Guide":http://www.canismajor.com/dog/.  It has lots and lots of well written articles about all aspects of owning a dog.  Turns out it is published by a group here in Cincinnati!  This site has done a lot in helping to choose a breed and to prepare me for bringing "Kozmo":http://blog.lathi.net/articles/2005/08/06/welcome-kozmo home.

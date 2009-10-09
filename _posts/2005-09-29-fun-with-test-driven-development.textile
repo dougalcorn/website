@@ -1,0 +1,13 @@
+--- 
+title: Fun with Test Driven Development
+typo_id: 657
+layout: post
+---
+My partner and I are trying to implement the state changes of two people initiating a meeting and negotiating the time.  Thanks to TDD(Test Driven Development) we worked through it!
+
+For a while we sat there talking about "what if", "and then", "but what about" trying to get our minds around the whole process.  We had tried coding a couple of times only to whack half-baked ideas.
+Finally I came to my senses, "Even if we don't understand the whole process, we know what this simple case should look like."  I wrote a five line functional test, and went and hard-coded the controller to make it pass.  Success!  We made something work!
+
+So Dave says, "OK, if that's the way that should work, this case should look just like this," and codes another test.  We then go and hard-code an @elsif@ clause for that test.  Four tests later and some refactoring we had our logic working the way it should.
+
+A couple things we experienced.  First, we didn't really know what to do but was able to code an ultra simple test.  That was enough to get us moving in the right direction.  Second, we didn't have to code the final, elegant solution.  We just hacked together something that would work for the simple test we had.  It wasn't until we had done that a couple times that we could effectively "triangulate" what the elegant solution should be.

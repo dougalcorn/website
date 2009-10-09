@@ -1,0 +1,6 @@
+--- 
+title: Syncronizing my Kyocera 6035 and my Thinkpad via IR
+typo_id: 331
+layout: post
+---
+I'm happy to say that with a little effort I can run the Linux <code>pilot-xfer</code> utilities over <code>/dev/ircomm0</code> to sync my Kyocera 6035 "SmartPhone" with my <a href="http://lathi.net/twiki-bin/view/Main/ThinkPad">ThinkPad</a>.  Unfortunately, I can't use the irda port to connect to my phone as a modem.  I have to use either the docking craddle or the data cable for that.  Well, at least I can start keeping my <a href="http://www.emacswiki.org/cgi-bin/wiki.pl?BbdbMode" title="'BbdbMode' on the Emacs Wiki">Emacs:BbdbMode</a> in sync with my phone.

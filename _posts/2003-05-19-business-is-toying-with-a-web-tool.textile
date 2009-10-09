@@ -1,0 +1,24 @@
+--- 
+title: "\"Business is Toying With a Web Tool\""
+typo_id: 384
+layout: post
+---
+Amy Cortese has written an article on the <a href="http://www.nytimes.com/" target="_top">New York Times</a> about the use of <a href="http://www.nytimes.com/2003/05/19/technology/19NECO.html" target="_top">Wikis in the workplace</a> (sorry, you'll need to register with NYT to read the article).
+<p />
+<blockquote>
+The creative anarchy of the wiki is the philosophical inverse of conventional corporate
+  groupware software. Groupware's highly structured rules and processes do not always reflect
+  the way people really work. Employees often ignore costly corporate-sanctioned software and
+  revert to informal social networks: whether simply e-mail or impromptu water-cooler
+  discussions.
+<p />
+  ...
+<p />
+  Denham Grey, the production manager at Composite Tech, says the wiki has become a central
+  repository for information that formerly was shared only in an ad hoc way through e-mail or
+  face-to-face encounters. The wiki, he says, is making it possible to build an "informal
+  corporate memory."
+<p />
+</blockquote>
+<p />
+Personally, I find a lot of value in Wikis.  I can think of two highly successful wikis that I participate in: the <a href="http://www.emacswiki.org/" target="_top">Emacs Wiki</a> and the <a href="http://www.cliki.org/" target="_top">Common Lisp Wiki</a>.  I have a Wiki at work.  It's been pretty hard getting people to use or understand it.  My hope is that it will become our "corporate memory".  Thanks to <a href="http://www.raelity.org/archives/computers/internet/wiki/wikis_take_manhattan.html" target="_top">rael</a> for the link.

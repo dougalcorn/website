@@ -1,0 +1,29 @@
+--- 
+title: Linux Fantasies
+typo_id: 184
+layout: post
+---
+From time to time I fantasize about switching back from Mac OS X to <a href="http://lathi.net/twiki-bin/view/Main/GnuLinux">GnuLinux</a>.  I think these fantasies are mainly spurred by <a href="http://gimp.org/" target="_top">The Gimp</a> and <a href="http://www.gnu.org/software/emacs/emacs.html" target="_top">GNU Emacs</a>.  The Gimp is X11 only at the moment.  As posted elsewhere, X11 is cumbersome to use on my Mac.  Emacs has a carbon port, but it still misses some things (like recognizing the Cmd key).
+<p />
+Anyway, to combat my fantasies here's the list of things I'd really miss:
+<p />
+<ul>
+<li> Fairly reliable (meaning 90% of the time it works) suspend and fast resume just by closing and opening the lid.
+</li>
+<li> Very reliable detection of my various monitors at various locations and automatically reconfiguring my desktop based on pre-configured preferences (or dynamically creating prefs on a new monitor).
+</li>
+<li> I like having a single menu bar with a fairly good array of applets that can be placed in it.
+</li>
+<li> Very clean fonts.
+</li>
+<li> Consistent interfaces on fringe applications like <a href="http://ecto.kung-foo.tv/" target="_top">Ecto</a>, <a href="http://www.adiumx.com/" target="_top">Adium X</a>.
+</li>
+<li> The opportunity to choose commercial applications like <a href="http://www.iview-multimedia.com/products/mediapro/" target="_top">iView MediaPro</a>.
+</li>
+<li> Not even having the foggiest idea what chipset my sound card uses.
+</li>
+<li> Drop-dead simple WiFi support and network locations.
+</li>
+</ul>
+<p />
+I think a <a href="http://lathi.net/diary/Software/native_port_of_gtk_to_mac_os_x.html" target="_top">native port of Gtk+ to OS X</a> would cure my blues.

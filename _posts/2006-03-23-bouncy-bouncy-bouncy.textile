@@ -1,0 +1,12 @@
+--- 
+title: Bouncy, Bouncy, Bouncy
+typo_id: 921
+layout: post
+---
+
+<a href="http://blog.lathi.net/files/desk.jpg" onclick="window.open('http://blog.lathi.net/files/desk.jpg','popup','width=2048,height=3072,scrollbars=no,resizable=yes,toolbar=no,directories=no,location=no,menubar=no,status=yes,left=0,top=0');return false"><img src="http://blog.lathi.net/files/desk-tm.jpg" height="150" width="100" border="0" align="left" hspace="10" vspace="5" alt="My desk with the bouncy ball" title="My desk with the bouncy ball" longdesc="My desk with my Macbook Pro, iCurve, Apple Bluetooth Keyboard, Dell 2001FP display, and the bouncy ball" /></a>
+From a suggestion on "#caboose":http://caboo.se/ I've snagged my wife's 65cm exercise ball as my desk chair.  I sit at my desk _a lot_ and struggle with poor posture and general lower back pain.
+
+The ball is quite fun.  I'm such a fidgety person, I can't stop bouncing!  If you want to setup an iChat video you can see me bounce.  I'm definitely sitting up straight.  After a little over six hours on it yesterday, my back is definitely feeling sore.  Not aching like I'm out of position sore; but sore like my muscles are feeling the exercise.
+
+I've still got my regular desk chair, but when I sit in it I immediately start to slouch.  After a few minutes I get pretty aggravated when the casters start to make ruts in the chair matt and I have to keep scooting to re-adjust my position.  I'm really liking the ball!

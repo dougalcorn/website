@@ -1,0 +1,14 @@
+--- 
+title: Photoshop Actions for Tiger's Automator
+typo_id: 621
+layout: post
+---
+I had tried and failed to get a single automator action to implement my photo workflow.  Looking at the changelog for the unofficial "Photoshop CS Automator Actions":http://www.automatorworld.com/?p=56 it appears most of the roadblocks have been cleared.
+
+Here's the back story.  I have two Apple Powerbooks: one is mine and the other is my wife's.  We both shoot a lot of photographs.  I want all of our photographs to live in the same repository and follow the same workflow.  My wife has many talents, but performing complicated computer workflows isn't one of them.  My goal is to have an automator action that will take the images off the CompactFlash card, get them converted to the right format, and organize them into the repository: a simple "double-click here and you're done".
+
+Some of the nifty new features of the PS CS Automator actions is better IPTC handling.  It allows you to choose whether to append or replace the individual fields.  Another improvement is to specify the date format when renaming from EXIF data.
+
+Another really cool action is to filter from EXIF.  This will let you only perform certain operations on images with ISO 1600 (like run a noise reduction script) or only resize images based on their orientation.
+
+I'll just add this to my list of TODO items.  Last time I worked on this it took me pretty much an entire evening to decide I wasn't going to get it working.  Also, I have only upgraded "Carla's":http://carla.lathi.net/blog/ Powerbook to Tiger.  I'm waiting to upgrade mine until either: 1) I finish the commercial Rails project I'm doing; or 2) I'm confident enough that upgrading from Panther won't require any work on my part to insure my project can keep going.

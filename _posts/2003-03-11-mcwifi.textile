@@ -1,0 +1,6 @@
+--- 
+title: McWiFi
+typo_id: 489
+layout: post
+---
+According to AOL's news <a href="http://my.aol.com/news/news_story.psp?type=3&amp;cat=0541&amp;id=03031100094938107" target="_top">McDonald's is going to offer Wireless Internet</a>.  The pilot program is going offer customers who purchase an "extra value meal" will also receive an hour of free wireless Internet access.  On the surface, this seems really cool.  I'm all for more places having <span style='background : #FFFFCE;'><font color="#0000FF">WiFi</font></span><a href="http://lathi.net/twiki-bin/edit/Main/WiFi?topicparent=Main.WebHome">?</a> hot spots.  However, I can see how this will play out.  I'm taking the kids to <span style='background : #FFFFCE;'><font color="#0000FF">McDonalds</font></span><a href="http://lathi.net/twiki-bin/edit/Main/McDonalds?topicparent=Main.WebHome">?</a> some Saturday morning only to spend my time on-line.  The kids end up in some playground fight, are crying, and the manager comes looking for the irresponsible parent who should have been watching after them.

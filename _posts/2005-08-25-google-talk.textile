@@ -1,0 +1,6 @@
+--- 
+title: Google Talk
+typo_id: 634
+layout: post
+---
+Since I use "Adium":http://www.adiumx.com/ as my IM client and I already have a Gmail account, you can contact me via Google Talk at <span style="text-decoration: line-through">lathinet</span> 'dougalcorn' at gmail.com.  Google was nice enough to "provide instructions":http://www.google.com/support/talk/bin/answer.py?answer=24075 for how to setup Adium with Google Talk.

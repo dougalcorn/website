@@ -1,0 +1,31 @@
+--- 
+title: A Less Than Ideal Mouse
+typo_id: 849
+layout: post
+---
+This week I've bought a "Logitech V270 Cordless Optical Notebook Mouse for Bluetooth":http://www.logitech.com/index.cfm/products/details/US/EN,CRID=2146,CONTENTID=10916.  On paper it's a great mouse.  In practice, not so much.
+
+I'm now a traveling software developer using an Apple Powerbook.  I've relied on a wired "Kensington Iridio":http://us.kensington.com/html/1404.html mouse for a long time.  It's quite serviceable, but not fantastic.  I wanted something I could travel with easily.  Naturally I started looking into Bluetooth mice since my Powerbook has built-in Bluetooth.  I spent longer than I should have at "Micro Center":http://microcenter.com/ looking at all the mice they had trying to decide on which I wanted.
+
+I settled on Logitech's Bluetooth mouse.  It's a simple and fairly inexpensive mouse that claims Mac compatibility on the box.  It has a fairly high resolution of 1000dpi.  Also, it comes with a handy little carrying bag to keep it from getting bunged up in my bag.  Add in a physical on/off switch and it's nearly the perfect travel mouse.
+
+The only problem is that it's constantly loosing connection with my Powerbook.  I think it's a designed feature for conserving batteries.  The solution is simply to hold the left mouse button until it connects again to the Powerbook.  The result is that nearly ever time I go to grab the mouse it's disconnected.  Very annoying.  Even while I'm actually using it connection can be lost.  I find it hard to believe that a battery saving option would be to simply stop working while in use.
+
+I'm not sure what to do about it.  I guess I should return it since it's a fairly annoying mouse to use.  But I like everything about the mouse except this very intrusive problem.  If you have a solution to this problem, I'd love to hear it.
+
+Also, if you could recommend a better Bluetooth mouse I'd like to hear that too.  Here are my requirements:
+
+* Bluetooth
+* At least two buttons and a scroll wheel
+* No "base station" to travel with.  I want to simply toss the mouse in my bag and go
+* On/Off Switch
+* Reasonably high DPI to make Photoshopping easier.
+* Mac support, of course
+* Ideally I'd like to see battery level too; but oh well...
+
+Here are two mice I'm considering:
+
+* "Belkin Bluetooth Wireless Optical Mouse ":http://catalog.belkin.com/IWCatProductPage.process?Merchant_Id=&Product_Id=157641
+* "Kensington PilotMouse - Bluetooth":http://us.kensington.com/html/5465.html
+
+Does anyone have any experience with either of these?

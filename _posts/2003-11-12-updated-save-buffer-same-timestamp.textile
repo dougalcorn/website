@@ -1,0 +1,6 @@
+--- 
+title: Updated save-buffer-same-timestamp
+typo_id: 261
+layout: post
+---
+Carla asked me to do a little bit of syntactical clean-up on some of her <a href="http://lathi.net/~carla/blog/" target="_top">blog</a> posts.  Since she submits the stories via email, I need to edit them remotely on the server.  I had previously written some stuff for <a href="http://lathi.net/twiki-bin/view/Main/EmacsAndBlosxom">EmacsAndBlosxom</a>, but it didn't work for remote files.  Since <a href="http://www.emacswiki.org/cgi-bin/wiki.pl?TrampMode" title="'TrampMode' on the Emacs Wiki">Emacs:TrampMode</a> alows you to edit remote files using <code>ssh</code>, I thought I'd update my <code>save-buffer-same-timestamp</code> to handle that.  A little tricky, but all's well that ends well.

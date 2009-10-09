@@ -1,0 +1,23 @@
+--- 
+title: Where Does the Disk Space Go?
+typo_id: 678
+layout: post
+---
+<a href="http://lathi.net/images/dix.png">
+<img src="http://blog.lathi.net/files/images/dix-small.png" height="172" width="180" align="left" border="0" hspace="10" vspace="5" alt="Disk Inventory Tree-graph (526KB)" title="Disk Inventory Tree-graph" longdesc="" />
+</a>I've got a nominal 60G disk in my Powerbook; yet I'm continually fighting for space.  I just don't understand how that's possible.  I downloaded the very handy "Disk Inventory X":http://www.derlien.com/ to try and analyze my disk usage -- very interesting.  &lt;rant style="old-timer"&gt; _Back in my day, a 40MB hard disk was big enough for anybody!_ &lt;/rant&gt; Here's the bottom line: 
+
+* I've got 17GB tied up in Applications and various OS related files (including swap)
+* and 16GB in Music
+* After that comes a little over 6GB of images.
+
+Keep in mind I no longer store images on my Powerbook.  I've "setup a server":http://www.lathi.net/twiki-bin/view/Main/HomeFileServer for that.  The 6GB of images on my disk are unprocessed RAW files that I have to sort through and then archive to the server.
+
+I still can't believe the iDVD application is over 1GB all by itself!  What's up with that?  My other big applications are "NeoOffice/J":http://www.neooffice.org/ at 318MB, Photoshop CS2 at 316MB, Adobe Bridge at 133MB, and 130MB of "Canon Utilities".  I never use those Canon Utilities but I can't make myself delete them.
+
+DIX is pretty cool.  I recommend it for nothing less than information overload.  The treegraph of the disk usage is really interesting.  I was able to pick out right away that iDVD was such a hog.  It's literally the largest single file on my computer (of course, it's really a .app folder with lots of stuff in it; but still...).  Be warned though DIX is very slow.  It took several minutes to analyze my hard disk and several more minutes to render the application window.  If you click on the thumbnail above you can see the full application window.  On the left is a folder hierarchy sorted by disk usage.  In the middle is the treegraph of all the files on my filesystem.  On the right is a break-down by file type.  As you click on a file in the folder hierarchy it highlights the corresponding square in the treegraph.  If you click on a folder it will highlight the whole folder.  The magic of the treegraph is that all the files in a given folder are graphed in a rectangle together.  So it's easy to get a picture of which folders are consuming the most space.
+
+Definitely file this under geek porn!
+
+
+

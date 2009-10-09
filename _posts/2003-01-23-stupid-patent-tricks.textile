@@ -1,0 +1,8 @@
+--- 
+title: Stupid Patent Tricks
+typo_id: 561
+layout: post
+---
+Yes, I'm boycotting <a href="http://www.noamazon.com/" target="_top">amazon.com</a> because they not only have, but are enforcing several unbelievably obvious patents.  The only reason they are considered "novel" is because they took an every day business practice and applied it to the Internet.  The <a href="http://slashdot.org/features/00/10/08/0419212.shtml" target="_top">USPTO</a> must be thinking, "Ooo, the Internet!  It's so new and powerful!  This patent mentions the Internet, it must be new and powerful too!"
+<p />
+Well, it appears to me that <a href="http://www.theregister.co.uk/" target="_top">The Register</a> is the first to <a href="http://www.theregister.co.uk/content/6/28985.html" target="_top">report</a> on another stupid patent.  However, this is such a fine piece of reporting; they not only report SBC Communications Inc enforcing this stupid patent, they also did the leg work to find the prior art!

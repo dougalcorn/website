@@ -1,0 +1,6 @@
+--- 
+title: Planet Ruby on Rails
+typo_id: 675
+layout: post
+---
+I would like to join "Christian Romney":http://www.xml-blog.com/ in thanking the "Mystery Maintainer":http://www.xml-blog.com/articles/2005/10/20/planet-ruby-on-rails of "Planet Ruby on Rails":http://www.planetrubyonrails.org/ for hosting and maintaining the site.  I'd also like to join him in asking said "mystery maintainer" to identify themselves and provide a feedback link on the site.

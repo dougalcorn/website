@@ -1,0 +1,6 @@
+--- 
+title: A FASTer Internet?
+typo_id: 463
+layout: post
+---
+<a href="http://www.theregister.co.uk/" target="_top">The Register</a> is <a href="http://www.theregister.co.uk/content/5/29983.html" target="_top">reporting</a> on work from <a href="http://netlab.caltech.edu/FAST/overview.html" target="_top">CalTech</a> on a new protocol that replaces the TCP in TCP/IP.  Basically it has better error recovering and queueing to more efficiently use bandwidth.   Says more testing and research is needed.  Maybe one day we can get more usage out of our current lines.

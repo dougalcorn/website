@@ -1,0 +1,6 @@
+--- 
+title: Why is the RIAA such an easy target?
+typo_id: 582
+layout: post
+---
+Speaking of the <a href="http://www.boycott-riaa.com" target="_top">RIAA</a>, <a href="http://www.wired.com" target="_top">Wired Magazine</a> has an <a href="http://www.wired.com/news/technology/0,1282,57048,00.html" target="_top">article</a> about the RIAA's web site.  It's been cracked six times in six months.  It seems like they just don't get the Web.

@@ -1,0 +1,8 @@
+--- 
+title: Double Posts
+typo_id: 641
+layout: post
+---
+So it seems I've been subscribed to the "Ruby on Rails Planet":http://planetrubyonrails.org twice.  I like probably all of the planet Rails readers find this pretty annoying.  I've tried contacting whoever it is that runs the planet with no success.  Knowing my posts would show up double has caused me to blog less; that makes me sad too.
+
+So, I'm sorry about all the double posts; but, I'm going to continue blogging.  To prevent spamming the planet Rails too much I'll start using the shortened into with extended text for the full article.  I hope this is a good enough comprimise.

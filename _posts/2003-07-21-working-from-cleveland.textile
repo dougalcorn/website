@@ -1,0 +1,6 @@
+--- 
+title: Working from Cleveland
+typo_id: 323
+layout: post
+---
+This is the week!  I'm going to be putting all my <a href="http://lathi.net/twiki-bin/view/Main/DataPlay">DataPlay</a> stuff on our prototype!

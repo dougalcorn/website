@@ -1,0 +1,6 @@
+--- 
+title: I'm upgrading Blosxom
+typo_id: 412
+layout: post
+---
+I've finally decided to bite the bullet and upgrade <a href="http://www.raelity.org/apps/blosxom/" target="_top">blosxom</a> to the version 2 <a href="http://www.raelity.org/apps/blosxom/downloads/blosxom_2_0_rc2.zip" target="_top">pre-release</a>.  The driving force is the plugins for feed-back comments and the improved calendar plugin.  So, I'm redoing some of my look to be based off CSS.  Let me know how this breaks for you <img alt="wink" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/wink.gif" /> .

@@ -1,0 +1,14 @@
+--- 
+title: Why I Won't use Dreamweaver
+typo_id: 65
+layout: post
+---
+So, I've been searching for a good CSS editor.  Before Dave pointed me in the <a href="http://www.westciv.com/style_master/" target="_top">Style Master</a> direction, I was looking at the big names.  Being a recent convert to Adobe Photoshop, I thought I'd give something like GoLive a try.  I saw some quicktime movies showing some really nice integration between Photoshop, Indesign, and Golive.  I downloaded the demo of Golive and then started working through some of the tutorials.  I also got some books on Golive through my company's Safari On-Line Bookshelf and skimmed through them.
+<p />
+Of course, Dreamweaver is the big name in Web development.  I had an experience where a client hired a kid out of a tech collage to do web design for him.  What I got was static HTML pages designed in DW to convert into the dynamic templating system we were using.  It was a total mess: nested tables galore, lots of unnecessary markup.  It took me a long time to straighten it all out.
+<p />
+Even though I have a bad taste in my mouth from DW I decide to go look to see how much it is.  So I load up <a href="http://macromedia.com" target="_top">http://macromedia.com</a>.  One click to get to the Dreamweaver page.  One click on "buy now".  One click to select my region.  Whoa!  Macromedia bombs out saying they won't tell me how much Dreamweaver costs because my web browser isn't supported!  I'm using Camino, the carbon native version of Firefox.
+<p />
+And that, in a nutshell, is why I won't use Dreamweaver.  What year is this?  Browser incompatibility?  "This site works best with...?"  What is that saying to web designers when the company selling the #1 web designing tool doesn't bother to support the #2 browser on the market?
+<p />
+<strong>UPDATE</strong>: OK, So Macromedia's store supports Firefox; just not Camino.  The point remains.  They are browser sniffing and trying to tailor their content based on browsers.  In my mind the proper way to do web design is to make it standards based and then add what tweaks are needed to make it look OK in the browsers you want to support.  It's pretty bad form to just block a browser.

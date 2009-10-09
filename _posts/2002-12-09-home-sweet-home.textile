@@ -1,0 +1,6 @@
+--- 
+title: Home, Sweet Home
+typo_id: 610
+layout: post
+---
+This week I'm <a href="http://lathi.net/twiki-bin/view/Main/TeleCommuting">TeleCommuting</a> from home in Cincinnati.

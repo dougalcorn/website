@@ -1,0 +1,6 @@
+--- 
+title: Programming is Hard
+typo_id: 288
+layout: post
+---
+I saw mentioned on <a href="http://lambda.weblogs.com/" target="_top">Lambda the Ultimate</a> a paper by <a href="http://www.bedarra.com/" target="_top">Dave Thomas</a> (not the Wendy's guy I'm guessing.  <a href="http://blogs.gotdotnet.com/emeijer/" target="_top">Eric Meijer</a> had <a href="http://blogs.gotdotnet.com/emeijer/PermaLink.aspx/51847cf6-6a9d-4ba4-ba4c-73eef9b265b1" target="_top">high praise</a> for Dave and this paper.  I read it in just a few minutes and also enjoyed it.  The crux of the matter is that <a href="http://www.jot.fm/issues/issue_2003_09/column1" target="_top">programming is hard</a>, getting harder, and doesn't need to be.  I'm reminded of a <a href="http://joelonsoftware.com/" target="_top">Joel on Software</a> article <a href="http://www.joelonsoftware.com/printerFriendly/articles/LeakyAbstractions.html" target="_top">on the same subject</a>.  Basically, I agree.  Complexity is the word of the day.

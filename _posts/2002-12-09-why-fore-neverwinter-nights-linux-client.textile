@@ -1,0 +1,10 @@
+--- 
+title: Why fore Neverwinter Nights Linux Client?
+typo_id: 607
+layout: post
+---
+I'm really excited about Bioware's <span style='background : #FFFFCE;'><font color="#0000FF">NeverwinterNights</font></span><a href="http://lathi.net/twiki-bin/edit/Main/NeverwinterNights?topicparent=Main.WebHome">?</a>.  It's a faithful rendering of the Dungeons &amp; Dragons, 3rd Ed "d20" ruleset.  Basically, this game is everything teenage geeks across the world were wanting when computers first started having games on them.  Bioware originally promised that Windows, Linux, and MacOSX versions of the game would be co-released on the same CD in the same box.  That just didn't happen.  So now we wait for <a href="http://nwn.bioware.com/downloads/linuxclient.html">weekly updates</a> on the status of the Linux client.
+<p />
+Meanwhile there is much complaining about the lack of the Linux client most recently <a href="http://nwn.bioware.com/forums/viewtopic.html?topic=168103&amp;forum=42&amp;highlight=Linux+Client" target="_top">here</a>, but also <a href="http://nwn.bioware.com/forums/viewtopic.html?topic=162526&amp;forum=42" target="_top">here</a>, <a href="http://nwn.bioware.com/forums/viewtopic.html?topic=158191&amp;forum=42" target="_top">here</a>, <a href="http://nwn.bioware.com/forums/viewtopic.html?topic=153591&amp;forum=42" target="_top">here</a>, and <a href="http://nwn.bioware.com/forums/viewtopic.html?topic=143904&amp;forum=42&amp;sp=0" target="_top">here</a> among others.
+<p />
+So some <a href="http://www.tuxedo.org/~esr/jargon/html/entry/troll.html" target="_top">troll</a> was asking if all of us complaining about not having a Linux client, "I take it that all you people who use Linux and totally hate Windows have never played nwn".  I know I shouldn't feed the trolls, but I couldn't <a href="http://nwn.bioware.com/forums/viewtopic.html?topic=168103&amp;forum=42&amp;sp=180" target="_top">resist</a>.  My post is about half way down (too bad you can't link directly to an individual post).

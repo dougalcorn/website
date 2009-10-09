@@ -1,0 +1,15 @@
+--- 
+title: Clean Code That Works
+typo_id: 635
+layout: post
+---
+<a href="http://www.amazon.com/exec/obidos/redirect?link_code=ur2&camp=1789&tag=lathinet-20&creative=9325&path=tg/detail/%2D/0321146530/"><img src="http://www.informit.com/ShowCover.asp?isbn=0321146530&type=a" width="160" hspace="10" vspace="5" align="left" border="0" alt="Test-Driven Development by Example"></a>My good friend, "Mark Windholtz":http://leansoftwarecincinnati.blogspot.com/, loaned me a copy of "Kent Beck's":http://c2.com/ppr/about/author/kent.html <a href="http://www.amazon.com/exec/obidos/redirect?link_code=ur2&camp=1789&tag=lathinet-20&creative=9325&path=tg/detail/%2D/0321146530/">Test Driven Development by Example</a><img src="http://www.assoc-amazon.com/e/ir?t=lathinet-20&amp;l=ur2&amp;o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />.  While I've been practicing TDD for a while now and experimenting with various techniques, I hadn't actually read this book yet.  I found it very enlightening even though I already had some TDD experience.
+
+I have been convinced for a long time that automated tests are the way to go.  TDD seems like the logical conclusion to that belief.  What the book does is explicitly define the procedure of red/green/remove duplication, why that works, and patterns that come out of it.  There's almost a third of the book related to testing patterns.  Most of the book is targeted towards Java, but the patterns are pretty applicable to Ruby on Rails too.  Having read this book will definitely improve my development practices.
+
+I feel I should mention that the overall tone of this book is much more informal than the XP books I've ready by Kent Beck.  Also, I really liked the acknowledgment he wrote about Ward Cunningham.
+<blockquote>
+My life as a real programmer started with patient mentoring from and continuing collaboration with Ward Cunningham.  Sometimes I see Test-Driven Development as an attempt to give any software engineer, working in any environment, the sense of comfort and intimacy we had with our Smalltalk environment and our Smalltalk programs.  Tere is no way to sort out the source of ideas once two people have shared a brain.  If you assume that all of the good ideas here are Ward's, then you won't be far wrong.
+</blockquote>
+
+I've communicated with Ward several times via IM and a couple times over the phone.  I like him a great deal.  Kent certainly gets a lot of attention because he writes the books.  He's never shy of giving credit to Ward.  Ward's such an easy going guy.  He doesn't push himself on you; it's more like he infects you.  With all I know about Ward, one of my career goals is for someone to say I'm like him.  Of course, I'm far from that now.  For starters, I need another 15 to 20 years of solid experience.

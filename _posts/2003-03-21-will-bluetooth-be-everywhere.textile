@@ -1,0 +1,16 @@
+--- 
+title: Will Bluetooth be everywhere?
+typo_id: 475
+layout: post
+---
+On <a href="http://slashdot.org/" target="_top">Slashdot</a> this morning I saw an <a href="http://slashdot.org/article.pl?sid=03/03/20/2253201" target="_top">article</a> on Motorola's new super-wireless chipset.  It includes Wifi, Bluetooth, and GSM.  That sounds really interesting.  I like the concept of Bluetooth.  For those who don't know, it's a wireless protocol for "personal area networks".  In other words, devices in close proximity to each other can communicate wirelessly.  An application that's available today is using a cell-phone with bluetooth to sync up with your comptuer;  or syncing your palm with your phone; or using a wireless headset with your phone.
+<p />
+Anyway, <a href="http://slashdot.org/~milosoftware" target="_top">milosoftware</a> shared this scenario:
+<p />
+<blockquote>
+I have a very vivid image of Saddam sitting behind a Gates powered laptop that goes:
+<p />
+"New hardware found: US Laser Guided Missile"
+<p />
+And then asks for <span style='background : #FFFFCE;'><font color="#0000FF">DirectMedia</font></span><a href="http://lathi.net/twiki-bin/edit/Main/DirectMedia?topicparent=Main.WebHome">?</a> 8 to be able to get a live cam view
+</blockquote>

@@ -1,0 +1,8 @@
+--- 
+title: Current Photo Contests
+typo_id: 155
+layout: post
+---
+A friend from <a href="http://planet.photogeeks.org" target="_top">#photography</a> picked up on my interest in <a href="http://lathi.net/twiki-bin/view/Main/PhotoContests">PhotoContests</a> and created a page to list all the current contests.  I feel like I need some kind of reminder of what the current contest topics are.  I haven't submitted any photos to any contests yet.  I really want to start doing this as an effort to improve my photographs.  If you know of any good sites that run contests or know of any open contests feel free to add them to my <a href="http://lathi.net/twiki-bin/view/Main/PhotoContests">PhotoContests</a> page.  I've also setup a <a href="webcal://ical.lathi.net/ical/doug/Photo32Contests.ics">Photo Contest vCalendar</a> with the same information if you calendar program can grok that.
+<p />
+Thanks, <a href="http://journal.boblycat.org/musings/" target="_top">Fufie</a>!

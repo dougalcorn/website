@@ -1,0 +1,6 @@
+--- 
+title: Is there a link between Caffeine and Depression
+typo_id: 574
+layout: post
+---
+Yesterday was a bad day for me.  I was generally grumpy and actually lost my temper over not being able to setup a printer for my GNU/Linux laptop.  Stuff like that has been happening more often than I'd like.  Somewhere back in my mind, I remember a college friend of mine who was studying nursing at the time telling me of a link between depression and caffeine.  A quick <a href="http://google.com/search?q=caffeine+depression" title="Google query 'caffeine+depression'">Google:caffeine+depression</a> search shows there's been quite a bit of links between the two.  That and sucrose.  The HELP YOURSELF pages at Kansas State University Counseling Services <a href="http://www.ksu.edu/counseling/csweb/topics/life/blues.html" target="_top">says</a> it most plainly, "The long-term (four hours or so) effects of caffeine are depression."  So, if you think you're struggling with depression and moodiness, cut out the caffeine and sugar.

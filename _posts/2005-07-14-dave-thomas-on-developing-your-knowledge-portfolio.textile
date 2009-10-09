@@ -1,0 +1,12 @@
+--- 
+title: Dave Thomas on Developing your Knowledge Portfolio
+typo_id: 64
+layout: post
+---
+Here's a great <a href="http://www.theserverside.com/talks/video.tss?id=DaveThomas&#38;format=http" target="_top">interview with Dave Thomas</a> covering several topics: knowledge portfolios, dynamic languages, the state and future of Java, and software complexity.  That's a lot to cover!  If you write code, no matter what language, I highly recommend you read the interview.
+<p />
+I really like Dave Thomas.  Back in 2000 I bought <a href="http://www.pragmaticprogrammer.com/ppbook/index.shtml" target="_top">The Pragmatic Programer</a>.  It's still one of my favorite programming books.  It's not so much about code itself, but coding.  It's about how to be a better programmer regardless of your language or industry.
+<p />
+Dave consistently champions this cause.  He's like The Godfather of all programmers.  It's like one day he decided his life goal was to make us all better and happier programmers.  Ever since he's been looking out for us.  He's been actively promoting tools and practices that improve our daily lives.  
+<p />
+It's a totally different take than what most big name consultants take.  In this interview, he makes a big point of calling himself a programmer.  He's one of us and his sincerity is visible.

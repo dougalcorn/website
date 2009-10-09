@@ -1,0 +1,10 @@
+--- 
+title: I'm in the wrong biz
+typo_id: 126
+layout: post
+---
+The <a href="http://boingboing.net/" target="_top">Directory of Wonderful Things</a> points out a write-up of a tour of Pixar's facilities.  One of the cool things is the "groovy non-cubicles" there.  Cubicles are the bane of corporate existence.  Nobody likes them.  I honestly don't know why companies keep buying them.  I guess it's like all the other silly corporatisms: it makes financial sense to someone at some level.  Probably the guys who have really nice offices.
+<p />
+<a href="http://www.boingboing.net/2005/03/16/pixars_groovy_noncub.html"><img src="http://www.boingboing.net/images/pixarcubicle.jpg" width="300" height="202" vspace="5" hspace="10" alt="Groovy non-cubicles at Pixar" border="0" align="left"/></a>  "A lot of the animators decided early on that they didn't want cubicles, so instead, Pixar found these groovy little cottages that they bought for them. Walking through the animation department is like walking through a neighborhood for dwarves. Lots of little houses laid out along streets each one with an address on the door."
+<p />
+I guess I missed the time when developers could make decisions like this.  Try this out and see if it works: "A lot of the developers decided early on they didn't want 17" monitors, so instead Big Company found these groovy 30" Cinema Displays that they bought for them."

@@ -1,0 +1,14 @@
+--- 
+title: Calendars and Group Scheduling
+typo_id: 650
+layout: post
+---
+It's been a pretty good couple of days for Rails coding.  I've done a bunch of validation tweaks, mostly finished the calendar, and begun on group scheduling.
+
+I was having problems using embedded hidden forms for all my edit and add links on events.  I did a couple things to improve the performance of the page.  First, I ditched the embedded forms and made them separate page loads.  It was cool to have the embedded forms the magically appear and disappear; I miss it.  Several people suggested I just embed a single edit form and a single add form and use Javascript to update the values before it's submitted.  If I were a Javascript stud that's what I'd do.  Maybe when I'm all grown up I'll be smart enough to do that.
+
+The other thing I did was change how I tested for events on calendar days.  I had a @find_by_day@ method that would basically @find(:all).select { |expr| expr.occurs_on?(day) }@.  I'd then loop over the calendar days calling that function.  What I decided to do instead was simply collect all the @TimeExpressions@ into a single list in the controller and let the view do the select for each day.  This exposes more of the model's logic a little.  I like the way the code looks to simply calll @find_by_day@ for each day.  However, only doing one @find@ and then doing the @selects@ in the view shaved a fair amount of time off the page load.
+
+So I'm doing some "group scheduling" too.  It's quite limited.  The @TimeExpressions@ I've been working with is really to build a "free-busy" schedule of available times to book appointments.  What I need to do is allow a user to invite another user to an appointment.  These two users may have to negotiate an appointment time.  So, it makes sense for my @Invitations@ to @acts_as_versioned@.  I had seen @acts_as_versioned@ discussed a couple times on the maling list.  Let me just say, I'm really happy with it.  I was able to set it up without too much fuss.  It works pretty much exactly as advertised.  Thanks " technoweenie":http://techno-weenie.net/!
+
+Finally, to send out the initial invitations I finally got around to coding some AJAX stuff.  It's quite simple; just a link that makes a single request to send the invitation.  I felt so sophisticated!  Only about an hour or so to get it studied, written, tested and committed.

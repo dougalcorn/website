@@ -1,0 +1,6 @@
+--- 
+title: Welcome, Dave!
+typo_id: 325
+layout: post
+---
+I'd like to personally welcome <a href="http://www.dminor.com/blog/" target="_top">David Minor</a> to the world of blogging!  He's one of my closest friends.  I'd call him my best friend, but don't want to upset any of the hundreds of other people who think they are my best friend.  (If you're one of those people, you're still my best friend.  I'm only saying this about him because this post is to honor him.  If you start blogging too, I'll make a similar post about your blog <img alt="big grin" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/biggrin.gif" /> ).  For those of you that are keeping track, I've added him to the list of <a href="http://lathi.net/twiki-bin/view/Main/BlogsIRead">BlogsIRead</a>.

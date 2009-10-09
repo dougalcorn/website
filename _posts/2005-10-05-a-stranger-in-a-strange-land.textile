@@ -1,0 +1,8 @@
+--- 
+title: A Stranger in a Strange Land
+typo_id: 662
+layout: post
+---
+Happy, Happy! Joy, Joy!  I had been using MS-Windows as a remote access client for my Unix development at this engagement.  I've just gotten official approval to plug my "PowerBook":http://www.lathi.net/twiki-bin/view/Main/PowerBook into the network!  That means I can happily go back to using Emacs with tramp for remote editing.
+
+The director in charge of that decision only had two concerns.  First, he recognized that the Mac is inherently more secure than Windows.  As such, he wasn't worried about my machine being a vector for introducing viruses.  Second, he mentioned there was some concern about me copying confidential data onto my machine that would then leave their campus.  Of course, he also said I could do the same thing with a memory stick and that trust had to be involved either way.

@@ -1,0 +1,15 @@
+--- 
+title: Finally... Macbook Pro benchmarks
+typo_id: 923
+layout: post
+---
+After wrestling extensively with my main Rails project, I finally got all tests passing again.  Here's the results of various systems I have access to for running the tests:
+
+| *system* | *time rake* |
+|2.0 GHz Macbook Pro 2GB| 1:38 |
+|2.66Ghz Xeon 1GB server| 1:35 |
+|2.0 GHz G5 iMac | 2:08 |
+|1.33GHz G4 Powerbook 1.25GB | 3:45 |
+|866MHz G4 Powerbook 2GB | 6:45|
+
+Those times seems really precise, but they are just single runs of our tests (324 tests, 1343 assertions).  What this means is that it's as fast for me to do local development now as it was to ssh into the server and develop there.  Also worth noting but not included above; When I used my PowerPC DarwinPorts binaries for Ruby, Mysql, and all my other libraries the test time was nearly 4 minutes.

@@ -1,0 +1,18 @@
+--- 
+title: Monaco EZColor + Optix XR
+typo_id: 99
+layout: post
+---
+I finally got my own color calibrator.  I had borrowed a SypderPRO from a friend for my <a href="http://lathi.net/twiki-bin/view/Main/MonitorCalibration">MonitorCalibration</a>.  It was working OK, but I was pretty much unable to print anything on my <a href="http://h10025.www1.hp.com/ewfrf/wc/product?lc=en&#38;lang=en&#38;cc=us&#38;dlc=en&#38;product=303756&#38;" target="_top">HP Printer/Scanner/Copier 2410ix</a>.  I couldn't find generic printer profiles.  Without those, there was no way to get anything resembling accurate colors.  The Monaco EZColor system solved that problem.  It includes a method for building printer profiles using an IT8 color chart and a scanner.  I saw a demo of this the other day.  I was so impressed with how easy it was, I bought the system.  I managed to get a really good deal on a used system from Midwest Photo Exchange.
+<p />
+So, I changed the ink in my printer and profiled it last night.  My ink levels were very low.  The manual says to re-profile any time you change the ink.  My printer takes two cartridges: a single tri-color cartridge, and then either another photo tri-color or a straight black cartridge.  Unfortunately I didn't have another photo cartridge to put in.  So I just profiled the standard color cartridge.
+<p />
+My first print with it totally sucked.  It was a close-up of Tiffany.  The flesh tones were clipped and blotchy.  I was really frustrated.  Then I did a soft proof in Photoshop with the printer's profile.  Yep.  It looked on the screen pretty much exactly like my crappy print.  So, I did some tweaking of the brightness and saturation to get the colors within the gamut of my printer.
+<p />
+My second print ended up looking pretty good.  When Carla saw it she was very impressed.  Me, not so much.  It's a good sample proof, but not really display quality.  I was pretty discouraged until I remembered that I didn't have the photo tri-color cartridge in.  That cartridge has the "light" versions of the standard CMY.  So, I'm hoping that when I get the new cartridge I can get pretty good prints with it.
+<p />
+It didn't take much effort, but Carla's enthusiasm convinced me the print was good enough to take into work.  When I put it next to some of my prints I got from <a href="http://dotphoto.com" target="_top">dotPhoto.com</a>, I could really see the difference.
+<p />
+As a side note, the HP printer driver didn't have an easy option to just "turn off color management".  I had to individually turn off all the automatic adjustments.  Luckily, <span style='background : #FFFFCE;'><font color="#0000FF">MacOSX</font></span><a href="http://lathi.net/twiki-bin/edit/Main/MacOSX?topicparent=Main.WebHome">?</a> allows me to save printer driver configurations.  So I can get easy access to this "everything off" setup.  Also, I wasn't able to tweak the output settings at all unless my printer was connected directly to my <a href="http://lathi.net/twiki-bin/view/Main/PowerBook">PowerBook</a>.  In other words, I couldn't do color management in Photoshop and print over the network.
+<p />
+Anyway, the moral of this story is that I know have good color managed workflow end to end.  Monaco EZColor lived up to it's name and made this pretty easy to do.  Is my printer's profile as good as the high-dollar ones?  I doubt it.  But for one-off prints and proofing I think it's good enough.

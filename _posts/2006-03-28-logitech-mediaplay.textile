@@ -1,0 +1,18 @@
+--- 
+title: Logitech Mediaplay
+typo_id: 929
+layout: post
+---
+Here's an update on my mouse woes.  I've given up on bluetooth mice.  There's some chance that the problem lies buried in my @~/Library/Preferences@, but I can't find it.  Instead, I've followed the recommendation of "neom":http://neom.ca/ and gotten a "normal" RF wireless mouse: the "Logitech Mediaplay":http://www.logitech.com/index.cfm/products/details/US/EN,CRID=3,CONTENTID=9340
+<img src="http://blog.lathi.net/files/logitech-mediaplay.gif" height="163" width="163" border="0" align="left" hspace="10" vspace="5" alt="Logitech Mediaplay" title="Logitech Mediaplay" />
+
+
+The good news is that it takes standard AA batteries and has an on/off switch.  Both of these mean easier travel.  Unfortunately, since it's not bluetooth I've got to carry a dongle around.  Alas.
+
+More good news is scads of buttons that all trigger roughly standard button events.  It has horizontal scrolling, forward and backward, volume up and volume down, and next and previous along with two other buttons.  Of course, Logitech's mouse driver software, SetPoint, doesn't work with the Mac.  So sad.  The good news is that "USB Overdrive":http://www.usboverdrive.com/USBOverdrive/News.html has been recently updated to work with Intel and it recognizes my mouse.
+
+I was able to get most of the buttons doing what they should be doing.  The exception is the media buttons that I'd like to control iTunes in a global context.  I'd like the volume buttons to control iTunes' volume and not the system volume.  I'd like to get the play/pause button to control iTunes; same with next and previous.
+
+Overall I like it.  It's the right size, right feel, tracks flawlessly, has a on/off switch and no wires.
+
+("Previous":http://blog.lathi.net/articles/2006/01/19/a-less-than-ideal-mouse "mouse":http://blog.lathi.net/articles/2006/02/15/further-mouse-woes "woes":http://blog.lathi.net/articles/2006/03/09/status-on-bluetooth-mice)

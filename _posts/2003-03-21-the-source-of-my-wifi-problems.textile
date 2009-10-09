@@ -1,0 +1,6 @@
+--- 
+title: The source of my wifi problems?
+typo_id: 474
+layout: post
+---
+Incidently, another piece of information I picked up from the <a href="http://slashdot.org" target="_top">Slashdot</a> <a href="http://slashdot.org/article.pl?sid=03/03/20/2253201" target="_top">article</a> is that wifi and bluetooth sometime (and sometimes not) have interference problems.  There was a <a href="http://slashdot.org/comments.pl?sid=57864&amp;cid=5561787" target="_top">post</a> claiming Apple had a hard time with this on their new powerbooks that support both bluetooth and wifi. I'm wondering if this is why I have so many lockups of my wifi card in my thinkpad.  I'll have to test next week.

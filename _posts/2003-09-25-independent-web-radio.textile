@@ -1,0 +1,6 @@
+--- 
+title: Independent Web Radio?
+typo_id: 296
+layout: post
+---
+I thought I had found a big piece of the puzzle I have been looking for.  The catch in <a href="http://www.boycott-riaa.org/" target="_top">boycotting the RIAA</a> is that so many music labels are members.  I've checked.  Every CD I own is on a member label.  So how do you find new independent music?  I've mentioned <a href="http://www.cdbaby.com" target="_top">http://www.cdbaby.com</a> before.  Well, today I found <a href="http://radioaid.com" target="_top">http://radioaid.com</a>, unsigned and independent radio.  The funny part is they only support the Windows Media Player.  So while they scorn one monopoly, they flock to another!  I would think a big part of their target market (people who favor originality and innovation) would be using "alternative" operating systems that don't support the WMP format.

@@ -1,0 +1,14 @@
+--- 
+title: Welcome to Plainsfield
+typo_id: 653
+layout: post
+---
+I've started a new assignment in Plainsfield, IN just west of Indianapolis.  For the next several weeks I'll be working fulltime from there. Each Monday morning I'll drive to Plainsfield, spend the week staying in a hotel and then drive home on Friday.  It's a pain, but not too bad; I expect this to only last 8 weeks.
+
+I really have two jobs.  I'm a fulltime, salaried employee of "Fusion Alliance":http://fusionalliance.com and I'm a partner in "Sus4 Internet Services":http://sus4.net.  For my day-job I'm farmed out to various clients to do various types of Unix programming.  I work my own company in the evenings developing and hosting web applications.
+
+So this new gig is working in Informix 4GL.  I've never used 4GL, but it's kinda nifty for a 20 year old technology.  I'm working in MS-Windows again for the first time in I can't remember how long; maybe six years. My "PowerBook":http://lathi.net/twiki-bin/view/Main/PowerBook has become a very large and very expensive iPod. Fullscreen "PuTTY":http://www.chiark.greenend.org.uk/~sgtatham/putty/ is nice.  No @emacs@ installed on the server, but a fairly recent @vim@ and @screen@.  Oh, and a 67MB @/home@ partition.  They don't like for us to store much in our home directories.
+
+I'm "backfilling" the regular employees who are supposed to be working on the replacement system.  Everyone here believes the system I'm working on will be gone in a year.  It's kinda weird.  People say things like, "Yea, that's pretty cruddy but why fix it when we're replacing it so soon?"  Of course, I've worked on legacy systems for multiple companies.  Back in my Government contracting days we had a saying: There's nothing so permanent as a temporary solution.
+
+Hmm, wonder if that applies to my 8 week assignment?

@@ -1,0 +1,10 @@
+--- 
+title: Adhocracy
+typo_id: 603
+layout: post
+---
+<em>noun.</em> An organization with little or no structure; the opposite of bureaucracy.
+<p />
+I first read this word on <a href="http://www.scripting.com/" target="_top">Dave Winer's</a> essay on <a href="http://davenet.userland.com/" target="_top">DaveNet</a> about <a href="http://davenet.userland.com/2002/12/11/weblogsInMeatspace#weblogsInMeatspace" target="_top">Weblogs in Meatspace</a>.  That's a strange title, I know.  He's talking about how to organize a conference for people who write weblogs; but, to organize the conference similar to how weblogs work.  The example usage of "adhocracy" given by <a href="http://www.wordspy.com/" target="_top">Wordspy</a> is somewhat disparaging (but then the sample citation makes bureaucracy sound good).  He said the challenge to organizing such an event is not knowing who was going to have the most important things to say before the conference started.  "There's got to be an element of <a href="http://www.wordspy.com/words/adhocracy.asp" target="_top">adhocracy</a> to it."
+<p />
+<a href="http://dictionary.reference.com/search?q=anarchy" target="_top">Anarchy</a> has such a bad connotation.  I really like the sound of adhocracy though.  It makes it sound like it's not really "anything goes".  It is an "organization".  It's just not an over organized organization. <img alt="smile" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/smile.gif" />

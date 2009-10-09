@@ -1,0 +1,17 @@
+--- 
+title: No Xmas for Sony protest badge
+typo_id: 797
+layout: post
+---
+<a href="http://www.boingboing.net/2005/11/30/no_xmas_for_sony_pro.html"><img src="http://craphound.com/images/noxmasforsony.gif" width="185" height="68" align="left" vspace="5" hspace="10" alt="No Xmas for Sony"/></a>
+
+From "Boing Boing":http://www.boingboing.com:
+
+<blockquote>
+
+Gisela sez, "I got tired of waiting for someone else to start the 'No Xmas for Sony' thing, so I opted to do it myself. There is an <a href="http://gigi.pixcode.com/noxmas.gif">image</a>  that I have taken up using in my sig files around the Internet, linking it to <a href="http://www.sysinternals.com/blog/">Mark Russinovich's blog</a> on the Sony rootkit debacle.   So far, in less than 1 hour of it being live, it convinced someone not to buy a Vaio, so I am quite pleased with it."
+
+</blockquote>
+
+
+Previous installments of the Sony Rootkit Roundup: <a href="http://www.boingboing.net/2005/11/14/sony_anticustomer_te.html">Part I</a>, <a href="http://www.boingboing.net/2005/11/17/sony_rootkit_roundup.html">Part II</a>, <a href="http://www.boingboing.net/2005/11/21/sony_rootkit_drm_rou.html">Part III</a>

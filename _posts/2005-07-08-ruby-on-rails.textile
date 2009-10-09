@@ -1,0 +1,10 @@
+--- 
+title: RUBY on Rails
+typo_id: 74
+layout: post
+---
+A friend of mine is still stuck in .Net land.  We have discussions about <a href="http://RubyOnRails.com" target="_top">Ruby on Rails</a> from time to time.  That's why I was pretty interested to find <a href="http://article.gmane.org/gmane.comp.lang.ruby.rails/13734" target="_top">this thread</a> on the mailing list about a "Rails in .Net".
+<p />
+There are several "Rails in Foo" projects to implement the ideas of Rails in various languages.  All in all, I like to see  environments try to learn from each other and all grow.  After all, Rails is "just" a good implementation of some solid design patterns for web development.  It has some nice helper methods thrown in to improve testing and also HTML/AJAX generation.  Theoretically, you could implement Rails in almost any language.
+<p />
+Don't be misled though.  It's called RUBY on Rails for a reason.  The strengths of Ruby really shine in Rails.  I was once asked, "Could you implement Rails in Perl?"  The answer is yes.  In fact, prior to picking up Rails I had attempted to do just that.  It was hard work and very complicated code though.  Ruby makes this stuff a lot simpler.

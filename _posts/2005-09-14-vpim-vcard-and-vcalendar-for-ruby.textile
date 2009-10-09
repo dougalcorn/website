@@ -1,0 +1,7 @@
+--- 
+title: vPim - vCard and vCalendar for Ruby
+typo_id: 647
+layout: post
+---
+"vPim":http://vpim.rubyforge.org/ is an implementation of the vCard and vCalendar IETF standards for Ruby.  I'd like to thank "D'Andrew Thompson":http://dathompson.blogspot.com/ for pointing this out to me.  We're both working on projects that needs calendar functions.  I haven't done anything with vPim yet, but wanted to note it here so I could remember it.
+

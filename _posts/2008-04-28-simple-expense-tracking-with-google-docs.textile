@@ -1,0 +1,16 @@
+--- 
+title: Simple Expense Tracking with Google Docs
+typo_id: 1152
+layout: post
+---
+As my family prepares for our pending Disney trip, I'm thinking about clever ways to take advantage of my wife's iPhone.  One of the things we've done is budget the trip based on a few simple categories of expenses.  There's a lot of ways to track expenses to budgets, but I'm particularly happy with how this worked out using Google Documents and the iPhone.
+
+The kicker is that Google Docs are only viewable from the iPhone.  My initial hopes of editing a spreadsheet directly from the phone were quashed rudely in a live demo with the wife.  Plan B is to use Google Doc's forms to add individual expenses.  This is really a better solution as it's much easier for my wife to fill out three text fields than to worry about editing a spreadsheet in the right cells.
+
+So the expense sheet of the document is simply the form entries: description, amount, and type.  I added help text that listed the valid values I was looking for: food, gas, tickets, junk.
+
+The budget sheet has four rows; one for each budget type.  One column has the budgeted amount, and another uses "SUMIF" to sum up all the expense entries if the type matches the budget category.  I can then subtract these two to get how much of our budgeted money remains in that category.
+
+I bookmarked the form url on the iPhone for my wife and she can fill it out repeatedly.  I also bookmarked the actual spreadsheet.  It's unfortunate that the Google Doc forms don't let you specify a "thank you" url instead of a thank you message.  Anyway, I bookmarked the actual Google Document so we can check the budget remaining easily while out and about.  It seems that the iPhone has some trouble changing sheets while viewing Google Documents, so I made the budget sheet the first and default page.
+
+All in all it's very simple and has a high wife approval factor.  Plus, the whole thing took me less than 30 minutes to setup including several "customer approval testing" iterations.  Spreadsheets with Google Docs are really fun.  Adding in these forms is almost like rapid prototyping custom web apps.

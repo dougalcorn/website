@@ -1,0 +1,12 @@
+--- 
+title: Totally Blogolicious!
+typo_id: 629
+layout: post
+---
+My wife, "Carla":http://carla.lathi.net/blog/, is a stay-at-home mom; for which I'm very thankful.  We have three kids that are fairly young.  For the longest time I've wanted Carla to blog about their daily life.  Since I have a stinking day-job I don't get to hang out with them as much as I'd like.  There's so many little things that happen all the time.
+
+Anyway, computers aren't Carla's thing.  If you look back through her history, she's had a hard time being consistent with blogging.  After "switching to Mac OS X":http://www.lathi.net/twiki-bin/view/Main/SwitchingToMacOSX, I got her "ecto":http://ecto.kung-foo.tv/.  That made it a lot easier for her.
+
+I'm between RSS readers right now.  The various aggregators I've used I've found lacking for one reason or another.  So, I'm back to manually tracking web site changes.  Without my noticing, Carla's blogged a bunch over the past weeks.  Her writing style is totally authentic.  I love that.  So, for a glimpse of life as a mom, "check it out":http://carla.lathi.net/blog/.
+
+BTW, her blog is one of my first 100% CSS designs.  She has this thing for smilie faces and the color yellow.  Back when we were dating (and she was teaching elementary school), I made her a huge smilie face out of a half sheet of plywood.  It was like 4 feet in diameter.  So when I went to set her up a web log, it was only natural to use smilie faces.  I scoured Google Images for "smile" and then made the composite image in the Gimp.  I was fairly proud (and still am) of that simple design.  I think it works well for her.  She's still running "bloxsom":http://blosxom.com/, but I'll switch her over to "typo":http://typo.leetsoft.com/ soon.

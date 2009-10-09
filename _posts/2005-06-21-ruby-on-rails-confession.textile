@@ -1,0 +1,24 @@
+--- 
+title: Ruby on Rails Confession
+typo_id: 87
+layout: post
+---
+I have a confession to make.  I coded a bunch of stuff last night without writing any tests.  I feel horrible.  <a href="http://lathi.net/twiki-bin/view/Main/MarkWindholtz">MarkWindholtz</a> says the feeling won't go away until I write the tests. <img alt="frown" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/frown.gif" />
+<p />
+I typically code and test at the same time.  Only occasionally do I write tests first.  But I rarely test in the browser before I've written both unit and functional tests. <a href="http://rubyonrails.com" target="_top">Ruby on Rails</a> encourages you to write tests.  It's usually not that hard.
+<p />
+I've been struggling with some image handling code in my commercial Rails project (more on that later).  It's been several weeks with no progress.  I've had to redo this code several times.
+<p />
+I had copied some code I wrote for <a href="http://lathi.net/twiki-bin/view/Main/RailsDay">RailsDay</a> image manipulation.  Unfortunately, that code was dependent on Image Magick.  The Ruby bindings for Image Magick depended on a newer version of IM than what my server, running Debian Woody, had.  The level of effort of upgrading that box to the newly released Debian Sarge was too much.
+<p />
+So, I did some hunting and found I could install Imlib2 and its Ruby bindings without too much headache.  I started hacking on my old <a href="http://lathi.net/twiki-bin/view/Main/RailsDay">RailsDay</a> Image Magick based code trying to get it working like I needed.  The problem is the code for <a href="http://lathi.net/twiki-bin/view/Main/RailsDay">RailsDay</a> has different requirements than what I have for my project.  It was more complicated than what it needed to be.  There was a lot of indirection that was driving me nuts.
+<p />
+So, I did something Mark has encouraged me to do before: I threw out all my code.  My partner, Dave, was a little stressed by this.  I didn't totally throw it away.  I just did a fresh checkout from CVS and put my old working directory aside.  That's when I quit testing.
+<p />
+Dave was concerned about me starting over (again) and I wanted to get this stuff done faster.  So, I started doing what some call "Interface Driven Development".  I started adding code to my HTML views and then started filling in the backend to make that code work.  
+<p />
+In about four hours I managed to get all my image handling working except the part for which I actually need Imlib2.  Both Administrators and Users can upload images to their profile.  Both admins and users can delete images from profiles.  Images upload by admins are automatically approved.  Images uploaded by users are automatically not approved.  Administrators can view the list of not approved and can either delete them or approve them.  
+<p />
+I think there's still a few odd cases that need working out though.  The main thing is I'm not scaling the images as thumbnails or a standard image size.  Also, there are some issues with informing the user their image was disapproved and allowing users to delete their own not approved images before the admin gets around to it.
+<p />
+I don't think I'm going to do much of that until I get tests though.  Maybe my partner, Dave, will pair up with me to work on that together.  Writing test code for handling file uploads is tedious.  It always helps to have company when doing tedious work.

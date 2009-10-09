@@ -1,0 +1,6 @@
+--- 
+title: Cool Mozilla Stuff
+typo_id: 327
+layout: post
+---
+Debian updated me to Mozilla 1.4 recently.  That picked up quite a bit of new features I'm happy about (mainly in the arena of <a href="http://www.mozilla.org/docs/end-user/moz_shortcuts.html" target="_top">keyboard shortcuts</a>).  Specifically, the text zoom feature is nice.  The keyboard shortcuts are Ctrl-+ and Ctrl-- for increase and decrease default font size.  The nice thing is that's tab specific.  While I'm mentioning tabs, Ctrl-Tab and Ctrl-Shift-Tab are for next and previous tab.  I've wanted keyboard shortcuts to switch between tabs for quite a while now.  I'm not sure when this got introduced, but you can bookmark groups of tabs.  So, when you select a specific bookmark it opens a bunch of tabs and loads the appropriate pages.  Ah, and Ctrl-Shift-R is to force a page reload not from cache.  Handy.  Don't know how many times I've been bitten with the "why does my web development changes not work oh it's the stupid cache problem" problem.  There's also a top of page and bottom of page shortcut (Home and End).  All in all quite a few nice improvements for the rodent free operation of our favorite browser.

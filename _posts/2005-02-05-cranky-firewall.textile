@@ -1,0 +1,10 @@
+--- 
+title: Cranky Firewall
+typo_id: 157
+layout: post
+---
+I've been wrestling with my firewall last night and today.  At home I use a <a href="http://lathi.net/twiki-bin/view/Main/ThinkPad">ThinkPad</a> running Debian Linux and Shorewall as my firewall/router.  I know I could buy a dedicated firewall/router unit for less than $100; but I really like having full control over my public network interface.  For instance I use my <a href="http://lathi.net/twiki-bin/view/Main/ThinkPad">ThinkPad</a> to do VPN-like tunneling from my work.
+<p />
+Anyway, for some reason it quit working Thursday night.  After more than a few hours of mucking with it, I finally fixed it.  Turns out my shorewall configuration had <code>IP_FORWARDING=Keep</code>.  This told it to preserve whatever IP forwarding that had previously been configured.  So apparently, my configuration had enable IP forwarding at some time outside of shorewall.  I don't know how my IP forwarding got disabled. <img alt="frown" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/frown.gif" />  However, setting <code>IP_FORWARDING=on</code> in my shorewall.conf fixed the problem.
+<p />
+As an added bonus, I got aggravated enough typing in IP addresses of my home LAN that I finally setup an internal DNS.  It's always bothered me typing <code>ssh 10.0.1.1</code> but never enough to actually do anything.  Now I can just type <code>ssh gateway</code>.

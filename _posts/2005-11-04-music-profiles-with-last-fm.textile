@@ -1,0 +1,14 @@
+--- 
+title: Music Profiles with Last.fm
+typo_id: 770
+layout: post
+---
+<a href="http://www.last.fm"><img src="http://static.last.fm/media/lastfm_badge.gif" width="88" height="30" border="0" alt="Last.fm: Social Music Revolution" align="left" vspace="5" hspace="10" /></a>"Last.fm":http://www.last.fm is a cool web site that allows you to build a music profile.  It then uses this profile to do a lot of different things.  It can recommend new music, find groups of people with the same tastes, and even let you listen to a custom playlist.  It's a really impressive service.
+
+You build the profile by installing a plugin for your normal mp3 player.  It then uploads what you're actually playing.  By collecting this information it can get an accurate picture of all the music you listen to without any real manual data entry.
+
+They want like 300 songs before they'll start making recommendations.  At the rate I go, that will be a few days.  I'm anxious to see how well the profiling and recommendations work.
+
+If you want to see what I'm listening to, I've added a list over on the side of my most recent tracks.  You can also see more at "my user page on last.fm":http://last.fm/user/dougalcorn.
+
+%{color:red}*UPDATED:*% Yes, Rich, I should definitely give props to you for pointing me towards last.fm.  "Rich Campoamor":http://rcampoamor.blogspot.com/ is a fellow photographer that lives in my same suburb of Cincinnati.  It really is pretty amazing that we're both in "Kings Mills":http://geourl.org/near?p=http://blog.lathi.net/&dist=25

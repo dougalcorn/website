@@ -1,0 +1,6 @@
+--- 
+title: Welcome to Beijing
+typo_id: 442
+layout: post
+---
+I upgraded my TWiki today to the <a href="http://twiki.org/cgi-bin/view/Codev/BeijingRelease" title="'Codev/BeijingRelease' on TWiki site, we know it!">TWiki:Codev/BeijingRelease</a> from the previous <a href="http://twiki.org/cgi-bin/view/Codev/TWikiRelease01Dec2001" title="'Codev/TWikiRelease01Dec2001' on TWiki site, we know it!">TWiki:Codev/TWikiRelease01Dec2001</a>.  If you see things that are obviously wrong, let me konw.  Thanks.

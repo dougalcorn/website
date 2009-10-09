@@ -1,0 +1,6 @@
+--- 
+title: "\"The New American City\""
+typo_id: 580
+layout: post
+---
+I'll be working in Cleveland, Ohio this week.

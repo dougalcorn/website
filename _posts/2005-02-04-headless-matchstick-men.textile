@@ -1,0 +1,17 @@
+--- 
+title: Headless matchstick men
+typo_id: 158
+layout: post
+---
+<div style="float: right; margin-left: 10px; margin-bottom: 10px;">
+ <a href="http://www.flickr.com/photos/spyzter/3302907/" title="photo sharing"><img src="http://photos2.flickr.com/3302907_cdc6a1c4ef_m.jpg" width="120" height="80" alt="Headless matchstick men" style="border: solid 1px #000000;" /></a>
+ <br />
+ <span style="font-size: 0.9em; margin-top: 0px;">
+  <a href="http://www.flickr.com/photos/spyzter/3302907/">Headless matchstick men</a>
+  <br />
+  Originally uploaded by <a href="http://www.flickr.com/people/spyzter/">spyzter</a>.
+ </span>
+</div>
+No one can argue that high-speed ballistic photography is cool.  <a href="http://www.flickr.com/photos/spyzter/sets/82850/" target="_top">Here's</a> a set of photos posted by <a href="http://www.flickr.com/photos/spyzter/" target="_top">spyzter</a> to <a href="http://www.flickr.com/" target="_top">Flickr</a>.
+<p />
+By the way, I posted this blog entry using Flickr's "blog this" utility and the <span style='background : #FFFFCE;'><font color="#0000FF">MetaBlogger</font></span><a href="http://lathi.net/twiki-bin/edit/Main/MetaBlogger?topicparent=Main.WebHome">?</a> API.  Unfortunately, I had to do a lot of hand-tweaking in Ecto.  However, it did simplify setting up the image and getting all the URLs correct.  Also, I was unable to set the category from the Flickr interface.  Nor was I able to change the category in Ecto.  I suspect that might be a bug in the old version of blosxom-xmlrpc.cgi I'm using.

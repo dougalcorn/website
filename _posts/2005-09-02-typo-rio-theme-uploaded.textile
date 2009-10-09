@@ -1,0 +1,13 @@
+--- 
+title: Typo Rio Theme Uploaded
+typo_id: 637
+layout: post
+---
+
+<img src="http://blog.lathi.net/files/preview.png" height="181" width="250" border="0" align="left" hspace="10" vspace="5" alt="Rio Theme Preview" title="Rio Theme Preview" />
+When I "switched to Typo":http://blog.lathi.net/articles/2005/08/05/running-on-typo I started using a page design called "Rio".  I liked the layout and functionality, but not the colors.  When I switched my "color scheme":http://blog.lathi.net/articles/2005/08/08/color-scheme-generator I said I'd make my old Rio theme available.  Now I have!  It's uploaded to the Typo ticket system as "ticket #378":http://typo.leetsoft.com/trac/ticket/378.
+
+Keep in mind the theme isn't "finished".  Some of the colors are left over from the default Azure theme.  Rather than polish off Rio, I ended up switching to my current theme and putting the work in on it.  Also, there are a lot of images in this theme.  I've included the photoshop files I used to generate the PNG files.
+
+Have fun with it!  If you end up using it, I'd like to see your site.  Drop me a note and let me know if you can.
+<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://technorati.com/tag/typo" rel="tag">typo</a></p><!-- technorati tags end -->

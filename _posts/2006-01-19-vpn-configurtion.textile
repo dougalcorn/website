@@ -1,0 +1,19 @@
+--- 
+title: VPN Configuration
+typo_id: 850
+layout: post
+---
+I'm working from home a lot requiring a VPN connection to my work.  The default VPN setup for the Mac is a little less than ideal; it routes all traffic through the VPN.  As our VPN is a little sluggish, I'd like for only work related traffic to route through the VPN.  Here's what I had to do.
+
+I started with this Mac OSX Hint to "Set no default route for VPN Client via PPTP/L2TP":http://www.macosxhints.com/article.php?story=20050531163742751.  The hint says to set @nodefaltrouter@ in @/etc/ppp/vpn-name@ and then do my routing in @/etc/ppp/ip-up@.  The good news is that in Mac OS 10.4 Tiger, there's a configuration option for Internet Connect to toggle setting of the default route.  Progress: all my traffic is no longer going over VPN.
+
+Problem: my local DNS can't do lookups for the company's LAN.  So, I go into Network Preferences for the VPN and statically assign the DNS Servers.
+
+Hmmm, that should work but host name lookup still doesn't work.  Ah, I still don't have a route defined for the corporate LAN to use the VPN.  So, I create @/etc/ppp/ip-up@ to include this simple command:
+
+<typo:code lang="shell">
+#!/bin/sh
+route add 10.1.0.0/16 -interface ppp0
+</typo:code>
+
+Unfortunately, this doesn't automatically set the route when I establish the VPN connection.  So, that's where I stand.  I've got @/etc/ppp/ip-up@ @chmod +x@ and manually run it when I initiate my VPN connection.  Also, I think this whole setup will affect my other VPN configuration for which I _do_ want all traffic to use.  Ah, well... nothing's perfect.

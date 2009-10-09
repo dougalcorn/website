@@ -1,0 +1,6 @@
+--- 
+title: Lawyers and their ilk
+typo_id: 403
+layout: post
+---
+I guess this is how they make their money.  They have to perpetuate "schemes" like this to keep revenues up.  <a href="http://cyberlaw.stanford.edu/lessig/blog/" target="_top">Lawrence Lessig</a> is <a href="http://cyberlaw.stanford.edu/lessig/blog/archives/2003_05.shtml#001170" target="_top">writing</a> about some <a href="http://www.teleread.org/blog/2003_05_01_archive.html#200276896" target="_top">advice</a> Bruce Lehman -- the Clinton Administration's <span style='background : #FFFFCE;'><font color="#0000FF">IntelectualProperty</font></span><a href="http://lathi.net/twiki-bin/edit/Main/IntelectualProperty?topicparent=Main.WebHome">?</a> czar -- gave to a consotium in Cairo, Egypt when they asked about putting images of Egyption artifacts on the web.  He advised them against spreading such knowledge freely.  He's reported to have said the images "should be licensed."

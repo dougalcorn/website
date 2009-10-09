@@ -1,0 +1,8 @@
+--- 
+title: The Internet Movie Database and Amazon.com
+typo_id: 479
+layout: post
+---
+If you don't know, I'm <a href="http://www.gnu.org/philosophy/amazon.html" target="_top">boycotting Amazon.com</a>.  I feel they have and continue to abuse the <a href="http://lpf.ai.mit.edu/" target="_top">US patent system</a>.  I have recently learned the <a href="http://www.imdb.com" target="_top">IMDB</a> is "an Amazon.com company."  This greatly disappoints me.  As you can tell by reading my <a href="http://www.lathi.net/cgi-bin/blosxom.cgi/Movies" target="_top">Movies</a> section on my blog, I like linking to information in the IMDB.  It's probably the most exhaustive resource for films, actors, and all things related.  I really like movies.  I really like following actors, directors, and to some extent producers.  I think I'm a pretty good judge of films (who doesn't?).  I'm really sad that one of my favorite resources is owned by a company I'm boycotting.
+<p />
+The knee-jerk reaction (and maybe most appropriate in respect to my boycott) would be to go through and remove all the imdb.com links.  Then I thought, linking to IMDB isn't the same as buying from Amazon.  However, what if I recommend a movie with a link to IMDB, someone follows the link, sees the link to amazon and buys the film?  Wouldn't that be me contributing to amazon's profits?  At this point, I'm just sad.  I don't want to remove the IMDB links, but I don't want anyone to follow them and then buy products off Amazon.  It's too bad IMDB isn't a volunteer based community resource instead of a gateway to a profiteering, bad Internet citizen.

@@ -1,0 +1,6 @@
+--- 
+title: A site for the coffee geek in all of us
+typo_id: 400
+layout: post
+---
+I just read about <a href="http://www.coffeegeek.com/" target="_top">coffeegeek.com</a> from <a href="http://www.raelity.org/archives/society/food/coffee_geek.writeback" target="_top">raelity.org</a>.  This seems like a really cool site.  I could definitely get into something like this.  The problem is I don't really like web forums.  Why can't there be a web forum to mailing list gateway?  Email is how I do things.  Also, the site doesn't seem to support an RSS feed.  Again, how am I supposed to know when new things come to the site?  Actually visit it each day?  What a waste of time.  Community sites work best when it's easy to participate in the community.  Forcing me to go out of my way to participate is just too much work.  RSS Aggregaters of the world unite!

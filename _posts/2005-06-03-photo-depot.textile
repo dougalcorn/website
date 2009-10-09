@@ -1,0 +1,12 @@
+--- 
+title: Photo Depot
+typo_id: 97
+layout: post
+---
+I'm participating in <a href="http://railsday.com" target="_top">Rails Day</a> with Scott Barron and Mark Windholtz this Saturday.  Our project is called <a href="http://lathi.net/twiki-bin/view/Main/PhotoDepot">PhotoDepot</a>.  For a long time I've wanted a web gallery that was something different than the 1,000 gallery packages out there.  I've spent a lot of time looking at more than a few web galleries.  I think I have a pretty good idea on what the "standard" gallery does and what I want more than that.
+<p />
+I had made a lot of notes as to what I wanted.  Last night, Scott, Mark and I did a <a href="http://skype.com" target="_top">skype</a> conference call to review my notes and plan our attack for Saturday.  Mark had some really good observations about the structure of my notes and some suggestions for reorganizing them.
+<p />
+We ended chucking most of my notes and starting a new description of <a href="http://lathi.net/twiki-bin/view/Main/PhotoDepot">PhotoDepot</a>.  That page is a rough outline of our plans for Saturday.  It's broken into roughly three iterations; three chunks of work that are logical increments.  I don't think that the iteration boundaries are important.  They could certainly change.  Each iteration is broken out by short stories that each of the actors can take.  
+<p />
+The whole thing may or may not make sense to you, but I wanted to share our thoughts.  If you have any ideas that aren't represented there or have questions, <a href="mailto:doug@lathi.net">send them my way</a>.

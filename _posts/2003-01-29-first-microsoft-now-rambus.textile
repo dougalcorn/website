@@ -1,0 +1,6 @@
+--- 
+title: First Microsoft now Rambus
+typo_id: 547
+layout: post
+---
+Can we tech-heads not get any cases won in our favor?  <a href="http://www.theregister.co.uk/" target="_top">The Register</a> is <a href="http://www.theregister.co.uk/content/3/29102.html" target="_top">reporting</a> that a Federal appeal court has overturned an earlier verdict that Rambus had committed fraud in seeking royalties from Infineon for patents relating to DDR SDRAM.  It seems like all the important tech-related cases that do seem to go right get overturned.

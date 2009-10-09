@@ -1,0 +1,14 @@
+--- 
+title: Mozilla Keywords
+typo_id: 150
+layout: post
+---
+I knew this feature existed, but I never did anything about it.  In the <a href="http://mozilla.org" target="_top">Mozilla</a> browser (and any of it's derivatives I'd guess), you can assign keywords to entries in your bookmarks.  If you assign a keyword of '/.' to <a href="http://slashdot.org" target="_top">http://slashdot.org</a> then you can simply type that in the location bar and it will open that bookmark.  Cool for sure.
+<p />
+Here's why keywords <a href="http://www.mozilla.org/docs/end-user/keywords.html" target="_top">ROCKS!</a>  You can pass arguments to your keywords.  So, I have a bookmark for my main twiki page with a keyword of 'lathi'.  I modified the bookmark to accept a parameter like this:
+<p />
+<blockquote>
+http://lathi.net/twiki-bin/view/Main/%s
+</blockquote>
+<p />
+Now I can type 'lathi <a href="http://lathi.net/twiki-bin/view/Main/PhotoContests">PhotoContests</a>' in the location bar and jump right to that page.  Since a lot of my TWiki pages are kindof launching points to other places on the web, this makes finding them a lot easier.

@@ -1,0 +1,6 @@
+--- 
+title: More results from Bogofilter
+typo_id: 537
+layout: post
+---
+Subjectively I can't tell how much bogofilter is helping.  I still got three obvious spam messages in my inbox this morning.  On a Monday morning I would usually come in with 10 - 20 spam messages in my inbox.  So, I guess it is an improvement.  I'm just a little disappointed to have <em>any</em> in my inbox.  Maybe after another week or so that'll happen.  Also, I haven't seen any false positives for several days.

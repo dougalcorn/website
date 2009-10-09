@@ -1,0 +1,13 @@
+--- 
+title: Photo Updates
+typo_id: 817
+layout: post
+---
+<a href="http://home.lathi.net/gallery/2005/12-December/Kid%20Portraits/JPEG/20050910_193.jpg"><img src="http://home.lathi.net/gallery/2005/12-December/Kid%20Portraits/JPEG/.cache/100x66-20050910_193.jpg" width="100" height="66" align="right" class="alignright" alt="Big Smiles" /></a>Big day for photo processing.  I've added galleries for:
+
+* "Snow Day":http://home.lathi.net/gallery/2005/12-December/snow/JPEG/ <a href="http://home.lathi.net/gallery/2005/12-December/snow/JPEG/20051209_043.jpg"><img src="http://home.lathi.net/gallery/2005/12-December/snow/JPEG/.cache/53x75-20051209_043.jpg" width="53" height="75" align="right" class="alignright" alt="Jumping the culvert" /></a>
+* Tiffany's first "Ballet Recital":http://home.lathi.net/gallery/2005/12-December/ballet/JPEG/
+* Pictures with "Santa":http://home.lathi.net/gallery/2005/12-December/santa/JPEG/
+* and some miscellaneous "candids of the kids":http://home.lathi.net/gallery/2005/12-December/Kid%20Portraits/JPEG/<a href="http://home.lathi.net/gallery/2005/12-December/ballet/JPEG/20051210_003.jpg"><img src="http://home.lathi.net/gallery/2005/12-December/ballet/JPEG/.cache/50x75-20051210_003.jpg" width="50" height="75" align="left" class="alignleft" alt="Happy Ballerina" /></a>
+
+<br />

@@ -1,0 +1,6 @@
+--- 
+title: Mobile workers of the world, rejoice!
+typo_id: 396
+layout: post
+---
+The number one performace bottleneck on notebook computers will soon go away!  <a href="http://www.theregister.co.uk/" target="_top">The Register</a> is <a href="http://www.theregister.co.uk/content/54/30704.html" target="_top">reporting</a> that Hitachi is unveiling it's new 7K60 disk drive later this month.  It runs at 7200rpm giving 15% improvements in data transfer and 20% improvements in latency.  The trick is that it has the same power consumption and noise levels as exiting 5400rpm drives.  In the same article, they mention HP is unveiling their new X1000 notebook that offers a 15.4" wide-screen display with 1920x1200 resolution.  That's bascially the same resolution as my <a href="http://lathi.net/twiki-bin/view/Main/ThinkPad">ThinkPad</a>, but wider.  I hate to think of the abysmal battery life and weight this thing will probably have; but, more pixels is cool.

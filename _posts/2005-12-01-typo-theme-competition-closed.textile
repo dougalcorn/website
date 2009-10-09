@@ -1,0 +1,6 @@
+--- 
+title: Typo Theme Competition Closed
+typo_id: 798
+layout: post
+---
+"120 themes submitted":http://typogarden.com/articles/2005/12/01/last-themes-posted for the "Typo Theme Contest":http://typogarden.com/.  That's a lot of themes!  Congratulations to all who participated.  Like "Rails Day":http://lathi.net/twiki-bin/view/Main/RailsDay, just participating is an accomplishment.  I appreciate everyone who's worked to pull this event off; particularly the sponsors.

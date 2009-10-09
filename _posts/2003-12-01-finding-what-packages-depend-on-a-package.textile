@@ -1,0 +1,6 @@
+--- 
+title: Finding what packages depend on a package
+typo_id: 246
+layout: post
+---
+Sometimes on my <a href="http://debian.org/" target="_top">Debian</a> system I wonder what would happen if I were to remove a particular package.  I wrote this evening a <a href="http://lathi.net/twiki-bin/view/Main/ReverseDepends">ReverseDepends</a> perl script to do just that.  It took me three iterations to get it "right"; but, I'm mostly happy with it.  I'm assuming someone has already done this and I'm re-inventing the wheel.  However, I couldn't easily find it in google; so there.

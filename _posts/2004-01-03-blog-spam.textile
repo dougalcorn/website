@@ -1,0 +1,6 @@
+--- 
+title: Blog Spam
+typo_id: 229
+layout: post
+---
+I'm so angry about the <a href="http://lathi.net/twiki-bin/view/Main/BlogSpam">BlogSpam</a> I'm getting.  Some jerk has written a script to post crap onto my website.  I know I run a very permissive web site and I should expect stuff like this.  For the most part I've been spared crap on my website.  Yes, there are a few guys who post stuff that are completely unrelated to me or the rest of my site.  Yes, that's a little odd, but OK.  What I don't like is when anonymous people post advertisements for their illegal drugs or pornography disguised as comments about my blog.  That's worse than just filling my inbox with crap day after day after day.  It's defacing my site.  It's like spray painting crap on my house.  Anyway, I've modified my writeback script in such a way as to stop this for now.  I hate it that we have to bring this spam arms race to my blog.  If for some reason you're unable to post comments to my blog because of the defenses I've had to put in place, I'm terribly sorry.  I value legitimate comments a great deal.  Please just email them to me.

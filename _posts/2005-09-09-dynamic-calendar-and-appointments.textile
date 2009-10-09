@@ -1,0 +1,8 @@
+--- 
+title: Dynamic Calendar and Appointments
+typo_id: 642
+layout: post
+---
+
+<img src="http://blog.lathi.net/files/jscalendar.png" height="153" width="194" border="1" align="left" hspace="10" vspace="5" alt="Jscalendar" />
+One of my clients wants to allow her customers to book appointments through her web site.  I'm breaking this down into two parts: available time slots and actual appointments.  To get more "Web 2.0" pizzaz I'm also using "jscalendar":http://www.dynarch.com/projects/calendar/ from "Dynarch":http://dynarch.com.  The good news is: I don't have to wrestle with Time Zones!

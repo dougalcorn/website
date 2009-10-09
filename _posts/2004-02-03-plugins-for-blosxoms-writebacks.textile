@@ -1,0 +1,6 @@
+--- 
+title: Plugins for Blosxom's Writebacks
+typo_id: 215
+layout: post
+---
+<a href="http://www.blosxom.com" target="_top">blosxom</a> uses a "writeback" plugin to provide a comment mechanism.  I've found that a lot of blosxom-bloggers have modified the original writeback plugin to accomodate special needs or additional tasks.  To facilitate this more, I've written a plugin API for the <a href="http://lathi.net/twiki-bin/view/Main/BlosxomWriteback">BlosxomWriteback</a> plugin.  I know, it's a little sick to have a plugin architecture for a plugin.  I'll give a free copy of writeback to whoever comes up with a writeback plugin that itself needs plugins.

@@ -1,0 +1,25 @@
+--- 
+title: Phonebooks, SIM cards, and a Really Expensive Conduit
+typo_id: 886
+layout: post
+---
+
+<img src="http://blog.lathi.net/files/t809.gif" height="337" width="147" border="0" align="left" hspace="10" vspace="5" alt="Samsung t809" title="Samsung t809" />
+My hot company, "Rosetta Stone":http://corporatetool.blogspot.com//, has bought me a gorgeous "Samsung t809":http://www.samsung.com/Products/MobilePhones/T_Mobile/SGH_T809OKATMB.asp.  The display on this phone is stunning.  I like the size and weight.  I like the auto-lock keypad.  What I don't like is that it doesn't support the syncML Bluetooth profile.  This means it's incapable of working with Mac OS X's "iSync":http://www.apple.com/macosx/features/isync/.
+
+I was just about to throw in the towel and swap the phone out for an uglier "Motorola V360":http://www.motorola.com/motoinfo/product/details/0,,92,00.html when David Nanian (of "Super Duper!":http://www.shirt-pocket.com/SuperDuper/SuperDuperDescription.html fame) gave me an idea.  I had just gotten off the phone with Samsung's tech support.  The end of that conversation was, "We have no phones for T-Mobile that work with a Mac."  When I told that to David he reminded me that _any_ GSM phone will work with T-mobile if you just plug in your SIM card.
+
+That got me thinking.  I still have my "Sony Ericsson T637":http://www.sonyericsson.com/spg.jsp?cc=us&lc=en&ver=4000&template=pp1_loader&php=PHP1_10136&zone=pp&lm=pp1&pid=10136 that has always worked marvelously with iSync.  Why not simply use my SE T637 as a very clumsy conduit between my Mac and my t809?  It works pretty well.  Here's my steps:
+
+* Power down t809, remove T-Mobile SIM card.
+* Power down SE T637, insert T-Mobile SIM card, power back up.
+* Use iSync to load phone numbers onto SE T637.
+* Use the T637 to copy phonebook out to the SIM card.
+* Power down SE T637, remove T-Mobile SIM card
+* Replace SIM card back into t809
+* Power up t809 and feel the love!
+
+
+There are two things that make this work fairly nicely.  The first is props to Sony Ericsson for first-off working with iSync; second for nicely allowing me to copy all my phone numbers out to the SIM card.  Second, while I _can_ copy the numbers from my SIM card into the t809's memory it easily allows me to use the numbers directly off the card.
+
+Besides the umpteen steps needed to complete this process, all is not a bed of roses.  The biggest limitation of this process is the extremely simplified phonebook on the SIM card.  It's basically one name, one number.  So instead of getting one contact with both a cell phone and a home phone, I get "Joe Somebody/Home" and "Joe Somebody/Cell" and "Joe Somebody/Work"....  I may grow tired of that, we'll see.  For the time being, I'm happy enough with this hackery.

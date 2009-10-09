@@ -1,0 +1,20 @@
+--- 
+title: Further Mouse Woes
+typo_id: 881
+layout: post
+---
+So I returned my "Logitec V270 Bluetooth Mouse":http://www.logitech.com/index.cfm/products/details/US/EN,CRID=2146,CONTENTID=10916 (you can read about my "less than ideal mouse":http://blog.lathi.net/articles/2006/01/19/a-less-than-ideal-mouse experiences).  I replaced it with the "Kensington Pilotmouse Mini Bluetooth":http://us.kensington.com/html/5465.html.  Unfortunately, I've found it to be less than ideal as well.
+
+I love the size and feel of the Kensington Pilotmouse Mini.  It's not really a "mini".  It's only slightly smaller than my standard sized "Kensington Iridio":http://us.kensington.com/html/1404.html.  I like the way the Pilotmouse Mini looks.  The silver and blue is sleek.  The rubberized feel is nice too.  I have pretty much zero pairing problems with my 12" Aluminum Apple Powerbook (1.33GHz G4).
+
+My main problem is that tracking is unpredictable.  I got the Kensington Mouseworks driver (which, btw, bonus points for the cute icon) version 2.5 which didn't recognize my bluetooth mouse even thought the release notes said it should.  I waited on hold for however long to talk to some guy in India who finally told me version 2.5 of Mouseworks wasn't compatible with Mac OS 10.4.4 and that a new version would be coming out shortly.  In the meantime I kept wavering between the Pilotmouse and my Iridio depending on how much I hated wires at the moment.  The Kensington software update didn't notice when the new driver was released.  I had to go find it myself.  The good news is that it recognized my Pilotmouse Mini Bluetooth.  The bad news is that I still have tracking problems.
+
+So, I'm returning the Pilotmouse and I've just ordered the "RadTech BT510":http://www.radtech.us/Products/BT510.aspx.  It's not especially attractive, but it's gotten some excellent reviews.  I'm a little worried about "this comment":http://www.maccompanion.com/archives/july2005/Hardware/BT510BlueToothMouse.htm
+
+<blockquote>
+Update: From John Grzeskowiak at RadTech; "...we're working to find out why some are having cursor instabilities with the 510 - we plan to release a button-mapping driver soon which will be able to slow the acceleration curve and prevent this condition which seems to affect about 20% of the folks using this mouse with a Mac."
+</blockquote>
+
+I'm assuming that the "button mapping driver" is the RadMouse Bluetooth HID Driver.  Also, the above lined article doesn't have a date.  So I can't really tell if RadTech has had time to release any updates to the driver or mouse to compensate for the problem.
+
+What I'm really worried about is that my Powerbook somehow falls into that "20% of the folks using this mouse with a Mac" and will affect all my Bluetooth endeavors.  For the record though, I do have the Apple Bluetooth keyboard and am quite happy with it.

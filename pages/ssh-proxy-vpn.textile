@@ -1,0 +1,66 @@
+---
+layout: default
+title: Foo
+---
+h1. Creating a VPN over a SSH Proxy
+
+This page discusses my efforts to get my PowerBook to "punch a whole" in my company's firewall to gain full Internet access.  I'm doing this using a number of tools chained together.  I have to tunnel a ssh session through the proxy server on the HTTPS port and then setup a PPP session over that tunnel.  While there seem to be several tutorials and HOWTOs for this, I haven't found one that puts all the pieces together I need.  Also, the HOWTOs I've read have some inaccuracies for my environment and I've had to make modifications to handle that.
+
+I'm in a bit of an odd situation.  Actually, it's probably not that odd.  My current day-job has me behind a fairly restrictive firewall and proxy server.  Luckily I do have access to the Internet via a username/password on my company's proxy server.  I also have the ability to make both HTTP connections and HTTPS (i.e. HTTP over SSL) connections through the proxy server.  What I can't do are things like POP or IMAP mail access, SMTP for sending mail, SSH, or AIM.  It could certainly be argued that I don't need these services.  The fact remains though that I'm a hacker at heart and I'm more than a little annoyed at the restrictions.  Plus, I've lived a very open life connected through the Internet over the last several years.  Lacking that connectivity leaves me feeling quite isolated.
+
+
+<img src="/images/vpn.png" alt="VPN connection diagram" align="left" hspace="10" vspace="5" />
+
+So, the task is a full Internet access through my company's proxy server.  Note that my desktop environment is Apple's Mac OS X (10.3 at the time of this writing) on my 12" PowerBook.  I also have access to a publicly available Internet server that I can tweak as I see fit.  Here's the idea:
+
+
+When the VPN is active, the default route will be through the VPN and all traffic for 10.0.0.0/8 will be routed through en0 (all of our internal servers are on the 10.0.0.0/8 address space).  There are several pieces to make all this happen.
+
+As of yet, I don't have this working.  This is just my preliminary research to see if all the pieces exist.  Once I get it all setup I'll post more details.
+
+h2. Squidman
+
+"Squidman":http://homepage.mac.com/adg/squidman.html "is a Mac OS X graphical installer and manager for the Squid proxy cache."  The main trick of Squidman is that it can simply forward all proxy requests to a "parent" proxy server with authentication.  That allows me to enter my company's proxy server username and password once for a browsing session rather than over and over again.
+
+This works pretty well for me about 99% of the time.  There seem to be some times where I still get prompted for my company's proxy server username/password.  However, I think this is due to switching locations and how my System Preferences for Network proxy servers are setup.
+
+
+h2. Dyndns.org
+
+Part of making all this work is having a "static" hostname to use as the "slave" host.  As discussed below, this is a host that needs to run SSH on port 443.  The natural host to serve as the "slave" seems to be on my own public web server.  However, Apache is currently configured to listen on port 443 for all interfaces.  I made some attempts to setup Apache to listen on port 443 for all interfaces except one without success.   I've got a Linux box (my wife's old ThinkPad A22m) at home.  I have an Apple Airport Extreme that does port forwarding of 443 on my WAN to 22 on the Linux box.
+
+To get a "static" hostname, I've got to update some DNS with my home IP address whenever it changes.  I've made some half-hearted attempts to setup dynamic updates on my own DNS without much success.  It's really much easier to use one of the publicly available dynamic DNS servers.  I've had very good success with http://dyndns.org.  Because my Linux box isn't actually connected to my WAN port, I have to use the web with @ddclient@ to obtain my IP address for use with Dyndns.org.  That's done with this "use" statement in @/etc/ddclient@
+
+<verbatim>
+use=web, web=checkip.dyndns.org/, web-skip='IP Address'
+</verbatim>
+
+h2. Proxytunnel
+
+"Proxytunnel":http://proxytunnel.sourceforge.net/ is a tool to make 'ssh' connections over HTTPS.  As it turns out, my company's proxy server only allows HTTPS CONNECT requests for port 443.  That means I need to have a @sshd@ daemon running somewhere public on port 443.  The best article talking about using proxytunnel to break firewalls is probably "this one":http://e-zine.nluug.nl/hold.html?cid=196 written by one of the proxytunnel authors.
+
+I'm able to @ssh@ into my ThinkPad pretty easily with Proxytunnel.  Here's the host configuration I'm using in my @~/.ssh/config@
+
+<verbatim>
+Host vpn
+   ProxyCommand /usr/local/bin/proxytunnel -g localhost -G 8080 \
+            -d me.dyndns.org -D 443
+</verbatim>
+
+Notice that I'm using Squidman's proxy server as my Proxytunnel host.  This means I don't have to worry about authentication with my company proxy server.  This part is working (although the above <nop>ProxyCommand is all on one line and not broken by an escaped newline).
+
+h2. Creating a VPN with PPP and SSH
+
+There is a "chapter":http://search.safaribooksonline.com/1565925297/vpn2-CHP-8-SECT-4 in "Virtual Private Networks, 2nd Edition":http://www.oreilly.com/catalog/vpn2/index.html by Mike Erwin, Charlie Scott, and Paul Wolfe that is directly applicable to setting up VPNs like this.
+
+h2. Tunneling PPP over SSH
+
+There are many other documents that talk about setting up PPP based VPN sessions other than the book linked above.  I found an article on "VPN on Mac OS X":http://www.macdevcenter.com/pub/a/mac/2002/12/20/vpn.html?page=1 on "Macdevcenter.com":http://macdevcenter.com/.  This is pretty specific to using PPP over SSH on a Mac platform.  I was hoping for something that would use the Internet Connect dialog's VPN tab.  That would provide pretty easy setup and teardown of the VPN connection and routing.
+
+This is a pretty good article.  I made some first pass experiments to setup a default route over the VPN using this article as a guide.  I was able to establish the PPP session over the SSH tunnel.  What I wasn't able to do is setup the proper routing to take advantage of the VPN.  For whatever reason, the routing commands given in the article just failed.  Also, the article says you should setup the tunnel using @sudo@.  I'm not sure that's right.  What that does is use the @root@ user for the @ssh@ connection.  So you have have root's public key in the @authorized_keys@ file on the "slave" host.  I don't see any reason why the tunnel has to be established as root.  On the other hand, since you're modifying the local routing tables it's clear that the "master's" PPP session needs to be run as root.
+
+h2. pty-redir
+
+One of the key components of running PPP over SHH is a tool called @pty-redir@.  When you make the @ssh@ connection to the "slave" host, you initiate a @pppd@ in "passive" mode.  This causes the output of @pppd@ to be sent to @stdout@ (your screen or ssh session).  The @pty-redir@ utility takes that output and redirects it to a pseudo-terminal.  On the "master", or local, host you start another @pppd@ process and connect it to that pseudo-terminal.  It doesn't take too much googling to find more information on @pty-redir@.
+
+The problem is that there doesn't seem to be an authoritative home for @pty-redir@.  It's just a single C file that compiles directly into an executable.  I grabbed my copy from "this link":http://www.macdevcenter.com/mac/2002/12/20/examples/pty-redir-0.1.tar.gz in the above mentioned Macdevcenter.com article.  I had a problem with it though.  First, there was a simple compiler warning that I cleaned up.  Second, @pty-redir@ explicitly clears all the environment variables before running the @ssh@ command.  The problem with this is that in my current setup with "ssh-agent":http://www.phil.uu.nl/~xges/ssh/ relies on the @SSH_AUTH_PORT@ environment variable to handle authenticating the @ssh@ keys.  So, I made some modifications to set the @SSH_AUTH_PORT@ environment variable in the process that @pty-redir@ spawns.  My version is attached below.

@@ -1,0 +1,6 @@
+--- 
+title: Hacker's Delight
+typo_id: 395
+layout: post
+---
+I noticed that <a href="http://molelog.molehill.org/blox/" target="_top">jtl</a> made <a href="http://molelog.molehill.org/blox/Computers/Programming/HackersDelight.writeback" target="_top">mention</a> of <a href="http://www.allconsuming.net/item.cgi?isbn=0201914654" target="_top">Hacker's Delight</a>.  I actually saw this book and got to spend some time with it while I was in <a href="http://www.lathi.net/cgi-bin/blosxom.cgi/Commute/20030502.writeback" target="_top">Boulder, CO</a>.  It is a really cool book.  Lots of good examples of how to twiddle bits and do math efficiently.  If you're an embedded programmer, this book is probably a must.  If you wish you were an embedded programmer (I'm pretty much in this category), buy this book and think about how cool it would be to actually use algorithms like this.  If you're a Visuall Basic programmer, go ahead and buy the book and see what kinds of issues "hard core" programmers deal with.  If you're a normal application programmer, go ahead and buy the book to learn how to think about efficient code.  Bigger isn't always better.

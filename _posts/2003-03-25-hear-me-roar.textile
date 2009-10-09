@@ -1,0 +1,6 @@
+--- 
+title: Hear Me Roar!
+typo_id: 464
+layout: post
+---
+This is a perfect example of why I wanted to switch from XEmacs to GNU Emacs: I could never get <a href="http://www.emacswiki.org/cgi-bin/wiki.pl?TrampMode" title="'TrampMode' on the Emacs Wiki">Emacs:TrampMode</a> to work.  With GNU Emacs I'm now able to edit files from my own emacs session as root or ssh to remote hosts and edit files locally!Those two things make up about 70% of my shell prompt usage.

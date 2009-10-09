@@ -1,0 +1,6 @@
+--- 
+title: Brrr!
+typo_id: 592
+layout: post
+---
+I'm in <a href="http://lathi.net/twiki-bin/view/Main/LaCrosse">LaCrosse</a>, Wisconsin this week (well, really Bangor...).

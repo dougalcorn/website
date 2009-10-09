@@ -1,0 +1,37 @@
+--- 
+title: Rails without ActiveRecord
+typo_id: 1129
+layout: post
+---
+It's supposed to be easy to turn off ActiveRecord and have a database-less app.   The word is it's possible in rails 1.1.x, but not with vanilla rails 1.2.x.  To get your environment to load with rails 1.2, you still need a database.yml and the database created (even though it can be empty).  That seems a bit silly to me.  If you want a database-less app, you don't want to have to create a database and maintain a connection to that database. There's two problems I've worked around to get a true database-less app with rails 1.2.
+
+Theoretically all you have to do is set 
+
+<typo:code lang="ruby">
+Rails::Initializer.run do |config|
+  config.frameworks -= [:active_record]
+end
+</typo:code>
+
+
+The first problem is whiny nil requires ActiveRecord.  By default @config.whiny_nils@ is set to false.  However, both @config/environments/development.rb@ and @config/environments/test.rb@ both explicitly set it to true.  What I did was just comment out those assignments in the respective files.  Besides detecting when you call ActiveRecord methods on nil, whiny_nil will also detect when you call Array methods on nil.  By turning off whiny_nil, you loose the ability to easily detect when you're treating nil like an Array.
+
+The second problem is that the Rails initializer requires AcriveRecord to load the observers.  This is documented in "ticket #6795":http://dev.rubyonrails.org/ticket/6795 on the Rails trac.  It seems a bit kludgy, but what I did was redefine the load_observers method before I run the initializer in my environment.rb:
+
+<typo:code>
+require File.join(File.dirname(__FILE__), 'boot')
+
+module Rails
+  class Initializer
+    def load_observers
+      ActiveRecord::Base.instantiate_observers if 
+          configuration.frameworks.include?(:active_record)
+    end
+  end
+end
+
+Rails::Initializer.run do |config|
+...
+</typo:code>
+
+There are several reasons for wanting a database-less rails app.  The ticket above references using something like CVS or Subversion as a datastore and using rails' ActionPack to drive an interface.  I'll get into my own uses in another post soon.

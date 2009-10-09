@@ -1,0 +1,6 @@
+--- 
+title: Birthdays and Anniversaries
+typo_id: 377
+layout: post
+---
+A while back I lost the file on my computer that listed all the Anniversaries and Birthdays of my friends and family.  In an effort to avoid a particularly annoying bug in my code, I'm typing all this data back in.  If you read this blog regularly, I'd love to have your "important dates".  <a href="mailto:doug@lathi.net">Send</a> me your birthday, the birthday of your spouse/significant other, and kids.  I'm also interested in knowing your anniversary (if you have one).  Please include the year as well.  I promise not to abuse this information too much. <img alt="wink" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/wink.gif" />

@@ -1,0 +1,37 @@
+--- 
+title: "\"Meaningless! Meaningless! Everything is meaningless.\""
+typo_id: 224
+layout: post
+---
+Here's a good life lesson for you.  I've spent about 15 months of full-time work implementing the <a href="http://lathi.net/twiki-bin/view/Main/DataPlay">DataPlay</a> device driver for Linux.  I was/am proud of that work.  It's the largest project I've ever done and completed single-handedly.  The code is very clean and well designed.  It's a beautiful piece of work.  My web site gets a noticeable number of hits due to the comments I've made about <a href="http://lathi.net/twiki-bin/view/Main/DataPlay">DataPlay</a> and the code I've published here.  I was recently <a href="http://datajoe.bcbr.com/arch/archdetail.cfm?id=27316" target="_top">quoted</a> both in print and on the web in a news article due to my involvement with <a href="http://lathi.net/twiki-bin/view/Main/DataPlay">DataPlay</a>.  I have a couple of cool shirts, a coffee mug, a baseball cap, and a small pile of equipment as mementos of my effort.  In short, I have derived no small amount of pride from that work.  "I'm a kernel hacker!"
+<p />
+Today I learned that <a href="http://lathi.net/twiki-bin/view/Main/DataPlay">DataPlay</a> is implementing FAT16 support for their devices as a firmware upgrade.  This means that all the new <a href="http://lathi.net/twiki-bin/view/Main/DataPlay">DataPlay</a> devices using this new firmware will work out of the box using existing device drivers from the Operating System (confirmed to work with MS-Windows, Mac OS, and Linux).  The product <a href="http://z-kat.com" target="_top">my company</a> is selling using my drivers will be available sometime in March (if all goes well).  That means my code that I've taken such pride in is now deprecated legacy code before it ever ships.
+<p />
+It's good news for <a href="http://lathi.net/twiki-bin/view/Main/DataPlay">DataPlay</a>.  This will make their devices much more attractive to OEMs to use for removable storage.  It's even good news for me in a perverse way:
+<p />
+<pre>
+The words of the Teacher, son of David,
+   king in Jerusalem:
+
+"Meaningless! Meaningless!"
+   says the Teacher.
+"Utterly meaningless!
+   Everything is meaningless."
+
+--   Ecclesiastes 2:1,2 (NIV)
+</pre>
+<p />
+Don't take too much pride in your work because it can crumble in an instant.  Instead:
+<p />
+<pre>
+Fear God and keep his commandments,
+   for this is the whole duty of man.
+For God will bring every deed into judgment,
+   including every hidden thing,
+   whether it is good or evil.
+
+-- Ecclesiastes 12:13,14 (NIV)
+</pre>
+<p />
+It's true.  I was enjoying the modicorum of net fame derived from my work on <a href="http://lathi.net/twiki-bin/view/Main/DataPlay">DataPlay</a>.  I was looking forward to leveraging that in the future as I improved on the driver and also got it accepted into the main-line Linux kernel sources.  All that is pretty much gone now.  There's no need for me to spend personal time to try and capitalize on my momentary net fame.  
+It just goes to show you need to make good decisions about what you give your life to.  What's important at the end of my life is not this <a href="http://lathi.net/twiki-bin/view/Main/DataPlay">DataPlay</a> driver I'm so proud of, but how well I've served God.  Did I raise my kids to love God?  Have I shown God's love to them and to others around me?  Have I been a good ambassador of Christ to the world?  Yes, these are the important questions.

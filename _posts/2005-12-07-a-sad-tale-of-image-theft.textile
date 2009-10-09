@@ -1,0 +1,12 @@
+--- 
+title: A Sad Tale of Image Theft
+typo_id: 804
+layout: post
+---
+I was saddened to read this story of "Behind the Scenes of Image Theft":http://blog.myspace.com/index.cfm?fuseaction=blog.view&friendID=17274714&blogID=66466018&Mytoken=E691382C-7EF7-4168-AB6F548150C864DB605363000.  It's about a photojournalist, "David Leeson":http://profile.myspace.com/index.cfm?fuseaction=user.viewprofile&friendID=17274714&Mytoken=96A17EFA-F1ED-4439-B8397FDEADE6E9F51785303656, and some images he took in Iraq.  He gave some of his best images to the Army for them to use in their yearbook.  This CD of images was then copied and passed around many, many times.  The sad part is then the ever growing list of people who have tried to pass the images off as their own.
+
+There's a lot of talk about "information wants to be free".  Sharing information with your friends is one thing.  Claiming authorship of said information is another.  David's tale demonstrates several times, what he wanted most was proper credit for the images.  We're not talking about someone who's extorting lots of money or scamming the public for more and more money.  Just a photographer looking for proper credit.  This story clearly shows why we need copyright in the first place.  It would be wrong to abolish copyright.
+
+An interesting side note about this story.  "Mark Hancock":http://markhancock.blogspot.com/, another photojournalist, recommends "always ingest and never copy":http://markhancock.blogspot.com/2005/12/reasons-for-distrust.html images from your camera.  This is so that you can at least assign copyright to the EXIF data at the earliest possible moment.  The interesting part of David Leesom's tale is often people would discover he was the original photographer of his images by the copyright in the EXIF.  I'm surprised none of the people who were stealing credit for the images had the sense to alter the EXIF.
+
+It's clear setting the copyright in the EXIF data isn't foolproof.  Almost any image editing program can strip all the EXIF when saving images.  However, it is a tool in protecting your work.  There are also lots and lots of Photoshop actions for adding watermarks to your images.  I'm sure these type of batch jobs are possible in other image editors too.  Obviously you don't want to watermark your original images.  I think that was David's mistake.  He gave out his originals without some means of enforcing his "terms of use".

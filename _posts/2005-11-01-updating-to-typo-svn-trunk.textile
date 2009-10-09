@@ -1,0 +1,14 @@
+--- 
+title: Updating to Typo SVN Trunk
+typo_id: 763
+layout: post
+---
+Just wanted to pass on some kudos to the "Typo":http://typo.leetsoft.com/ team.  I had been running an older stable release version 2.5.3 and just upgraded to the Subversion trunk.  The whole process was very smooth.
+
+When I upgraded Rails on my server to 0.14.2, "ecto":http://ecto.kung-foo.tv/ quit communicating properly with my blog.  I had seen some traffic about compatibility between typo and the latest Rails and decided to just upgrade all the way.  The whole process only took about 10 minutes or so.  The migrations went extremely smoothly; much better than last time.
+
+Another motivator for upgrading to current is category based RSS feeds.  My understanding is the "Planet Typo":http://planettypo.com is going to be fairly focused on typo.  So, I wanted to add something to the content without cluttering it up with "cute kid stories":http://carla.lathi.net/blog/.
+
+<blockquote>
+This blog post was brought to you by the word "smooth" and the number 3.
+</blockquote>

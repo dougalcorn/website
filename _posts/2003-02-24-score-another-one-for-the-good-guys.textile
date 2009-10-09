@@ -1,0 +1,6 @@
+--- 
+title: Score Another One for the Good Guys
+typo_id: 502
+layout: post
+---
+See, when you get those lawyers and judges out of the way, juries often <a href="http://www.theregister.co.uk/content/55/29434.html" target="_top">do the right thing</a>.  <a href="http://www.theregister.co.uk/" target="_top">The Register</a> is reporting that Stefan Puffer has been aquitted by a jury on "two counts of unauthorized access into a protected computer system and unauthorized access of a computer system used in justice administration."  If found guilty Puffer could have served five years in jail and be subject to a $250,000 fine.  The original insident occured when Puffer (who used to be a technology contractor or employee for the Justice Department) demonstrated in public to a reporter and a county official how insecure their wireless network was.  Instead of just fixing the problem that Puffer innocently pointed out, the county prosecuted him.  The prosecution was simply a case of shooting the messenger.  Thank goodness a jury can saw through it.

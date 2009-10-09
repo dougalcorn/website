@@ -1,0 +1,8 @@
+--- 
+title: A One-Man 3D Moviemaking Marvel
+typo_id: 565
+layout: post
+---
+Given my <a href="http://www.lathi.net/cgi-bin/blosxom.cgi/2002/12/13#Massive" target="_top">post</a> the other day fantasizing about doing computer graphics in movies, this <a href="http://www.wired.com/news/digiwood/0,1412,57298,00.html" target="_top">article</a> on <a href="http://www.wired.com/" target="_top">Wired</a> was particularly interesting from several levels.  It tells the story of Andy Murdock who has over 10 years experience as an animator.  After he got laid off from Mondo Media, he decided to start working on his own feature length 3D animation.  What's incredible about this is that feature length films like "Shrek" or "Monsters, Inc." take hundreds of artists and programmers and tens (if not hundreds) of millions of dollars.
+<p />
+This is interesting to me on two levels.  First, here's a guy (admittedly who has lots of experience) doing the work himself without being affiliated with the big animation houses (like Pixar or Industrial Light and Magic).  In a way that gives me some hope that maybe I could do something like this.  The other interesting point is that he's basically self-supporting.  While making his film, he's making and selling tutorials on animation.  He's selling his stuff directly off his <a href="http://www.lotsofrobots.com" target="_top">website</a>.  So here's one guy, by himself, without a major backer creating original work and making a living doing it.  He's not getting rich, but he's doing what he enjoys the way he wants to do it and making a living.  He's proving a viable business model for independent artists.  I think he's a forerunner of what is to come.

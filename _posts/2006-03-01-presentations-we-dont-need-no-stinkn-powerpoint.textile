@@ -1,0 +1,8 @@
+--- 
+title: Presentations? We don't need no stink'n Powerpoint!
+typo_id: 887
+layout: post
+---
+I gave a "bootcamp" style presentation today at work on "Test Driven Development on Rails":http://lathi.net/twiki-bin/view/Main/TDDonRails.  I was struggling to figure out what tool to use to actually compose and give the presentation.  "S5":http://www.meyerweb.com/eric/tools/s5/ is a tool from Eric Meyer that uses XHTML, Javascript, and CSS to make a web-based presentation.  It's really cool.  Rather than all the typing needed to write valid XHTML, I wrote a Ruby script to convert "Textile to S5":http://www.lathi.net/twiki-bin/view/Main/TextileToS5.  I've included the Ruby code needed and my TDD presentation.
+
+BTW, you can view the live presentation "here":http://lathi.net/tdd

@@ -1,0 +1,6 @@
+--- 
+title: Rails Day Lessons Learned
+typo_id: 95
+layout: post
+---
+I've put together my little presentation on <a href="http://lathi.net/twiki-bin/view/Main/RailsDayLessonsLearned">RailsDayLessonsLearned</a>.  This really turned into a postmortem of our project than anything else.  I gave this to the <a href="http://groups.yahoo.com/group/xp-cincinnati/" target="_top">XP Cinci</a> group this last Tuesday.  It's a fun group and the presentation went well.

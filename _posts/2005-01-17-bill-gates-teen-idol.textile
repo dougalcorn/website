@@ -1,0 +1,8 @@
+--- 
+title: Bill Gates, Teen Idol
+typo_id: 188
+layout: post
+---
+<a href="http://lathi.net/images/billgates01.jpg"><img src="http://lathi.net/images/billgates01-tm.jpg" height="120" width="119" align="right" border="1" hspace="4" vspace="4" alt="Bill Gates" title="Bill Gates" longdesc="Bill Gates doing a slinky pose on a desk with a computer monitor" /></a>Boing Boing <a href="http://www.boingboing.net/2005/01/17/mr_bill_teen_idol.html" target="_top">pointed</a> me to <a href="http://blog.monkeymethods.org/2005/01/bill-gates-strikes-pose-for-teen-beat.html" target="_top">this post</a> of a couple photos Bill Gates did for "Teen Beat".
+<p />
+UPDATE: <a href="http://www.dminor.com/blog/" target="_top">Dave</a> pointed out there's a Mac Classic in the background behind Bill.  The original link said the photos were from 1983 and that Mac wasn't released until 1984.  Either Bill had an early release of the Mac or the dates on the photo are wrong.

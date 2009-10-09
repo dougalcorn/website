@@ -1,0 +1,6 @@
+--- 
+title: Twitter
+typo_id: 1125
+layout: post
+---
+For those who care, I'm jumping on the twitter bandwagon.  My username is "dougalcorn":http://twitter.com/dougalcorn.

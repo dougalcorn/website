@@ -1,0 +1,23 @@
+--- 
+title: "\"We are the masters.\""
+typo_id: 277
+layout: post
+---
+I read an <a href="http://www.artima.com/intv/ruby.html" target="_top">interview</a> with Yukihiro Matsumoto, the designer of the <a href="http://www.ruby-lang.org/en/" target="_top">Ruby</a> programming language.  It's fairly short and really only talks about language design philosophy.  There were several good sound bites.  This was my favorite:
+<p />
+<blockquote>
+... computers don't mind if I must make effort to communicate with
+them or if it is easy to communicate with them. They don't care if I
+put the numbers of instruction byte sequences in a file and feed it to
+them to run, or if a very high level language generated the
+instructions. The computers don't care. We humans care about the
+effort we pay. Often people, especially computer engineers, focus on
+the machines. They think, "By doing this, the machine will run
+faster. By doing this, the machine will run more effectively. By doing
+this, the machine will something something something." They are
+focusing on machines. But in fact we need to focus on humans, on how
+humans care about doing programming or operating the application of
+the machines. We are the masters. They are the slaves. -- Yukihiro Matsumoto
+</blockquote>
+<p />
+Makes me want to learn Ruby.  Actually, I've thought about learning Ruby several times.  Another plug in its favor is that the <a href="http://pragmaticprogrammer.com/" target="_top">Pragmatic Programmers</a> also recommend Ruby.  Their <a href="http://pragmaticprogrammer.com/ppbook/index.html" target="_top">book</a> is one of my favorites.

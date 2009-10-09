@@ -1,0 +1,6 @@
+--- 
+title: Home, Sweet Home
+typo_id: 490
+layout: post
+---
+I'm working from Cincinnati this week.

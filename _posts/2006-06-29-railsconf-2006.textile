@@ -1,0 +1,20 @@
+--- 
+title: RailsConf 2006
+typo_id: 1052
+layout: post
+---
+<img src="http://blog.lathi.net/files/railsconf-attendee.png" height="54" width="100" border="0" align="left" hspace="10" vspace="10" alt="Railsconf-Attendee" /> I and seven others from "Rosetta Stone":http://corporatetool.blogspot.com/ attended "RailsConf 2006":http://railsconf.org last weekend.  Somewhat surprisingly, after 12 years in the software business this was my first conference!  I had a great time.
+
+My favorite parts of the conference were the "softer" presentations.  I liked -Scott Laird- "Scott Raymond's":http://scottraymond.net/ presentation on working with http://blinksale.com and http://iconbuffet.com.  It's a success story of a single developer working with a company to deliver fantastic results.  I also like "Nathaniel Talbott's":http://blog.talbott.ws/ presentation on "Homesteading" as I mentioned "earlier":http://blog.lathi.net/articles/2006/06/24/barn-raising.
+
+There were a couple of strong themes for the conference though.  First, "FastCGI":http://www.fastcgi.com/ is out or on its way out.  "Mongrel":http://mongrel.rubyforge.org/ is the darling for deployment.  In fact, it was during the conference that patches got applied to rails core so that @script/server@ will use mongrel.  More good news is that deployment is a hot topic getting a lot of attention.  I fully expect deployment to become significantly easier soon.  Towards that end, "Rails Machine":http://railsmachine.com/ got some praise and keep an eye on Ezra Zygmuntowicz's "Engine Yard":http://www.engineyard.com/.
+
+Seoncd, testing was a theme repeated over and over again.  I'm definitely "test infected" and it was good to hear so much encouragement in that respect.  "Mike Clark":http://clarkware.com/cgi/blosxom did an excellent presentation on the basics of testing.  Even for an old hand like me though there were still some good tips in there.  Clearly Mike is a professional.  Both of his presentations were top notch.  
+
+"Dave Hoover":http://redsquirrel.com/dave/ also gave a presentation on acceptance testing using "Selenium":http://wiki.openqa.org/display/SEL/Home.  It was very good to see where selenium testing is and what's being done to improve it.  I think the best solution right now is "SeleniumRC":http://openqa.org/selenium-rc/
+
+There were other topics as well I found interesting: meta-programming/DSLs, usability, accessibility, globalization, optimization.... It was all good stuff.  I'd like to give a thanks to all the speakers and the work they put into their presentations and also the the "Ruby Central":http://www.rubycentral.com guys for organizing it.
+
+Oh, yes, it was ridiculous how many Apple laptops were there.  I think you'd be hard pressed to find higher mac:pc ratios in Cupertino.
+
+And finally, here are <a href="http://blog.lathi.net/files/RailsConf-2006.opml">my notes from RailsConf</a> I took with "OmniOutliner":http://www.omnigroup.com/applications/omnioutliner/.  After reading "this post":http://www.43folders.com/2006/06/20/omni-omni-omni/ from "43Folders":http://43folders.com I decided to really give OmniOutliner a go this weekend.  It turned out to be an excellent note taking tool!

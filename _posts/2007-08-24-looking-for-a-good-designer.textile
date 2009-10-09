@@ -1,0 +1,10 @@
+--- 
+title: Looking for a good designer
+typo_id: 1142
+layout: post
+---
+My company is loosing a top notch designer.  He got a great gig locally with some big names in the usability field.  It's a great opportunity for him to advance his craft.  That leaves us without someone who has an eye to usability, standards compliant HTML/CSS, browser compatibility, and most importantly design.  if you are someone who is interested in the position or know someone who might be interested, please let me know.
+
+Our previous designer worked remote with 25% on-site (roughly one week a month).  He was a FTE with travel expenses and remote office expenses paid.  We're looking for a similar arrangement ideally.  Well, ideally, we'd pay to relocate this person to Harrisonburg, VA as a FTE.  We're totally cool though with working remote with similar travel requirements.  As a last resort (or maybe as the interim solution) we'd hire someone on some type of contract for work.  I'm just a Sr. Developer/Team Lead, so I don't know the details of what such a contract would look like.
+
+For those of you familiar with "_blah blah blah (lawyers made me change this)_":http://corporatetool.blogspot.com/, we're a language learning software company.  We're profitable and privately held.  We're growing fast and going through a lot of internal change.  We have new recruiters, so the hiring process should go smoothly.  Contact me at dalcorn@rosettastone.com if you're interested.

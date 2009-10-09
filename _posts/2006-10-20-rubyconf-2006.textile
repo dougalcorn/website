@@ -1,0 +1,10 @@
+--- 
+title: RubyConf 2006
+typo_id: 1088
+layout: post
+---
+
+<img src="http://blog.lathi.net/files/2005-05-17_49-200x200.jpg" height="200" width="200" border="0" align="left" hspace="10" vspace="5" alt="Doug Alcorn" title="Doug Alcorn" />
+I'm here in Denver for "RubyConf 2006":http://www.rubycentral.org/conference/.  Most of the people I only know online.  So I'm walking around introducing myself to various folks.  Some I already knew and some are new.  I wanted to make a point of speaking to "Nathaniel Talbot":http://blog.talbott.ws/.  I saw him at breakfast and walked over to re-introduce myself.  There were a couple other guys there with him whom I also introduced myself.  One of them introduced himself simply as "Matz".  Pause.  Click.  "Oh, hey!  Thanks, man."
+
+BTW, if you can hear my voice and want to hook up to talk about emacs and ruby or something, let me know.  I'm 'lathinet' on AIM.  My cell is 513-295-2844.

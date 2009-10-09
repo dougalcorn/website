@@ -1,0 +1,16 @@
+--- 
+title: Programming has gotten too hard
+typo_id: 601
+layout: post
+---
+So just how big is the world of programming?  Joel Spolsky thinks it's <a href="http://www.joelonsoftware.com/articles/LordPalmerston.html" target="_top">so big</a> it really several unmeasuruably large worlds: Windows Programming, Machintosh Programming, Unix Programming, Java Programming.  He posits that programming used to be 90% skills and 10% knowlege of the API but that this has flipped.
+<p />
+<blockquote>
+So for now, my advice is this: don't start a new project without at
+least one architect with several years of solid experience in the
+language, classes, APIs, and platforms you're building on. If you have
+a choice of platforms, use the one your team has the most skills with,
+even if it's not the trendiest or nominally the most productive. And
+when you're designing abstractions or programming tools, go the extra
+mile to make them <a href="http://www.joelonsoftware.com/articles/LeakyAbstractions.html" target="_top">leak proof</a>.
+</blockquote>

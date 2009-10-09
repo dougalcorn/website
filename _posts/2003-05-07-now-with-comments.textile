@@ -1,0 +1,6 @@
+--- 
+title: Now with comments!
+typo_id: 411
+layout: post
+---
+I think I'm done mucking with my blosxom <a href="http://www.lathi.net/cgi-bin/blosxom2.cgi/2003/05/07#Internet_UpgradingBlosxom" target="_top">upgrade</a>.  The big difference you'll see now is that each story has a link below it to add your own comments.  Jump right in!

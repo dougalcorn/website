@@ -1,0 +1,6 @@
+--- 
+title: "\"Whole Product\" Design (or Why VHS was better than Betamax)"
+typo_id: 555
+layout: post
+---
+I'm not exactly what interests me about this article.  The age-old common wisdom that "Betamax was better than VHS, but VHS won" has always bothered me.  It's part of the "do the right thing" philosophy versus the "<a href="http://www.dreamsongs.com/WorseIsBetter.html" target="_top">worse is better</a>" philosophy.  Of course, I'm part of the "do the right thing" and am constantly beleaguered by the "worse is better crowd" (whether they realize they're in that camp or not).  In the above mentioned article Jack Schofield "debunks" the "urban myth" that VHS won even though it was "worse".  On the other hand, I'm not sure how to apply this article to other classic contests (ie Linux vs Windows).  Email me if you want to give me your take.

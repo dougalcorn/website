@@ -1,0 +1,6 @@
+--- 
+title: Sketching Websites
+typo_id: 405
+layout: post
+---
+A team at UC Berkeley has developed an application called <a href="http://guir.berkeley.edu/projects/denim/" target="_top">Denim</a> designed to help designers sketch out concepts.  The idea is to actually replace pencil and paper from designers.  It's geared towards web designers and user interface designers.  <a href="http://www.wired.com/" target="_top">Wired.com</a> has a <a href="http://www.wired.com/news/technology/0,1282,58794,00.html" target="_top">review</a>/article.  Here's an example site designed entirely with Denim called <a href="http://www.wired.com/news/technology/0,1282,58794,00.html" target="_top">Denim Daily</a>.  This actually looks cool enough for me to install a JVM to run it with.

@@ -1,0 +1,6 @@
+--- 
+title: Scrmablnig Txet
+typo_id: 306
+layout: post
+---
+<a href="http://www.jwz.org/" target="_top">JWZ</a> posted some <a href="http://www.jwz.org/hacks/scrmable.pl" target="_top">perl code</a> to <a href="http://jwz.livejournal.com/256229.html" target="_top">scramble text</a>.  I thought it was cute and decided to port his code to elisp.  Take a look at <a href="http://www.emacswiki.org/cgi-bin/wiki.pl?ScrmableSrtnig" title="'ScrmableSrtnig' on the Emacs Wiki">Emacs:ScrmableSrtnig</a>.

@@ -1,0 +1,63 @@
+--- 
+title: Suggestion of Demeter
+typo_id: 1154
+layout: post
+---
+Frankly, I haven't ever really made up my mind about how to address the Law of Demeter in Rails. I'd like to use this article as a spring board to discuss the alternatives.
+
+As found on Wikipedia, the "Law of Demeter":http://en.wikipedia.org/wiki/Law_of_Demeter says â€œOnly talk to your immediate friends.â€?   There's a good write-up about it by Brian Donovan specifc to rails, "Law of Demeter, or How to avoid coding yourself into a corner in Rails":http://brian.maybeyoureinsane.net/blog/2006/12/15/law-of-demeter-or-how-to-avoid-coding-yourself-into-a-corner-in-rails/. In this article he sums up nicely the advantage of delegation.
+
+Let's look at an example:
+
+<typo:code>
+class User < ActiveRecord::Base
+  has_one :profile
+end
+
+class Profile < ActiveRecord::Base
+  has_one :address
+end
+
+class Address < ActiveRecord::Base
+end
+</typo:code>
+
+Now if you want to find out what country the user lives in you need to access @user.profile.address.country@.  That's a violation of the LoD.  The problem is if you refactor profile or address you'll have to go back and fix all the places you did this access chaining as well.  The common answer is to delegate!
+
+<typo:code>
+class User < ActiveRecord::Base
+  has_one :profile
+  delegate :country, :to => :profile
+end
+
+class Profile < ActiveRecord::Base
+  has_one :address
+  delegate :country, :to => :address
+end
+
+class Address < ActiveRecord::Base
+end
+</typo:code>
+
+Now we can just access @user.country@.  The problem so far is that (at least in Rails 2.1) if the user's profile is @nil@ or if the profile's address is @nil@ then the call to @user.country@ will blow up.  There are some patches and work arounds, but the problem exists.  Also, this double delegation smells to me and I don't know why.  Maybe it's the obtuseness of this particular design.  Maybe double-delegation is a smell of bad modeling. 
+
+There's a new feature in "Rails 2.2":http://guides.rubyonrails.org/2_2_release_notes.html that relate to delegation and using a prefix for delegated methods.  This might be a little contrived, but continuing with our above example:
+
+<typo:code>
+class User < ActiveRecord::Base
+  has_one :profile
+  delegate :country, :to => :profile, :prefix => true
+end
+</typo:code>
+
+Means that now we call @user.profile_country@ instead of @user.country@.  Instead of passing @true@ to the prefix option, you can also pass a string that will get used instead of the delegator object name.
+
+I question why @user.profile_country@ is any better than @user.profile.country@.  If you rename the profile class, you're almost always going to want to rename that prefix too.  So everywhere in your code you called @user.profile_country@ you'll end up changing it to @user.foobar_country@.
+
+Finally, I'm going to bring up Jay Field's "Presenter Pattern":http://blog.jayfields.com/2007/03/rails-presenter-pattern.html.  Basically, this is creating an object that aggregates multiple objects so they can easily be presented on the same form simply.  In addition, the presenter object gives you a place to put formatting and some computational logic that sometimes finds its way into views.
+
+The Presenter Pattern seems neat, but I'm not sure when to use it instead of delegation straight from the "parent" object.  In the example on Jay's page he talks about a user_account, user_credential, and an address.  All that gets aggregated into a @CompletePresenter@.  But really, that seems contrived too.  His user account only has a name and the credentials has the username and password.  It seems more likely that you'd just define a user that has a name, username, and password and allow the user to has_one address.  Why not just delegate the address attributes directly from the now combined user class?
+
+I'll also mention the Rails @fields_for@ helper.  This seems to be an effort to address having multiple objects on the same web form.  Personally, I think the net effect of that is to push more logic into your controller to deal with these multiple groups of fields.  Both the presenter pattern and straight up method delegation push this back into the models and out of the controllers.  Maybe I just don't understand how this is meant to be used.
+
+So I'll close with these questions.  When is the Presenter Pattern better than delegation from your already existing models?  When is the added complexity of an additional layer of objects worth it?  What about double delegation?  Is it a smell and for what?  Should I just get over my unease when I see double delegation? What's the real value of using a prefix for delegated methods?  What are the legitimate uses of @fields_for@? Also, why doesn't the Rails @delegate@ method handle the case where the delegation target is nil?  I know there are work arounds and patches, but it seems like the Rails implementation of @delegate@ is broke.

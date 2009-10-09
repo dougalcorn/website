@@ -1,0 +1,6 @@
+--- 
+title: We are moving!
+typo_id: 492
+layout: post
+---
+We're moving, we're not moving, we're moving, we're not moving.  Well, it looks like we <em>are</em> moving; just not in the way I expected.  The Internet Service Provider that hosts my server is moving across town.  There will be some downtime associated with this physical move on and potentially around March 7.

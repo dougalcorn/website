@@ -1,0 +1,6 @@
+--- 
+title: Working from Cleveland
+typo_id: 282
+layout: post
+---
+

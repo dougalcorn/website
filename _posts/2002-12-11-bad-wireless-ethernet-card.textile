@@ -1,0 +1,6 @@
+--- 
+title: Bad Wireless Ethernet Card?
+typo_id: 604
+layout: post
+---
+My <a href="http://lathi.net/twiki-bin/view/Main/ThinkPad">ThinkPad</a> has built in 802.11b wireless ethernet (<span style='background : #FFFFCE;'><font color="#0000FF">WiFi</font></span><a href="http://lathi.net/twiki-bin/edit/Main/WiFi?topicparent=Main.WebHome">?</a>).  It's based on a chipset from Harris Semionductor (at least that's what <code>lspci</code> tells me) and uses the hermes and orinoco_pci Linux drivers.  Periodically it just quits working.  I've written a little <a href="http://lathi.net/twiki-bin/view/Main/ResetWifi">ResetWifi</a> script that unloads all the Linux drivers and then reloads them.  It's pretty annoying.  I always thought it was a Linux driver issue.  However, last night I was playing NWN and my wifi card quit on me!  That means if it's a driver issue, the MS-Windows 2000 driver has the same issue.  So, I'm betting it's some firmware issue (or maybe just plain old bad hardware?).

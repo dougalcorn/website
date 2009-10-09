@@ -1,0 +1,18 @@
+--- 
+title: MindRover
+typo_id: 883
+layout: post
+---
+My son Joshua is eight.  He loves video games, loves robots, and loves video games about robots.  As a full-fledged computer geek, I really want him to enjoy computers as much as I do.  I want him to be able to work creatively on a computer and enjoy it.  In this quest I bought him a new game this weekend.  
+
+We were at "Micro Center":http://microcenter.com this weekend "returning my bum mouse":http://blog.lathi.net/articles/2006/02/15/further-mouse-woes.  As usual, we spent the requisite 15 minutes in the "Mac Games" section.  He really wants "RollerCoaster Tycoon 3":http://www.rollercoastertycoon.com/, but it's $50.  I stumbled across "MindRover":http://www.mindrover.com/ that had been marked down to $9.  I figured this was perfect.  
+
+The setting for this game is that you're a researcher doing work in Europa, a moon of Jupiter.  Since you can't go there yourself, you design robots with AI to go complete missions.  It's a thinking game.  Josh is totally excited about this game.  You select missions, select a robotic vehicle chassis, put various components on the chassis, and then wire them up.  I've done my best to set his expectations for this game.  It really is a lot like programming.  You have to program sensors to the thrusters so that the robot will either move towards or away from other objects.  There are lots of other events that can be wired to various components to control behavior.  It looks extremely well done.  As such, it's quite complicated.  
+
+I just spent my lunch hour with Josh just going through the "basics" tutorial.  I had to explain things like "sensor", "radar", "angles", "thrust", "friction", "resistance", and even right-clicking the mouse!  It's not that Josh can't understand these things.  I have full confidence he can.  It's just that he's never been exposed to this level of detail in mechanical and electrical design.  The reading level for the user's guide is probably 6th grade; maybe higher.  
+
+So, I've set myself up.  This really is a great game for Josh.  He's all the time thinking about robots and how to build them.  This gives him an idea of the complexity for robots and the types of things you have to do without letting him get bogged down in actually working with how a sonar actually works.  On the other hand, the game really is too advanced for him at his current level.  I've been putting off the "Lego MindStorms":http://mindstorms.lego.com/ because I'm not sure he's quite ready for those either.  The good news is that with this game I'm only out $9 for him to learn.  With the Legos it'd be a lot more.  
+
+The moral of the story is that I really _want_ Josh to be able to play this game successfully.  _He_ really wants to play this game successfully.  Odds are though I'll have to play the game with him each time he play for the first while.  If I don't I'm sure he's going to get frustrated and not play.  There's really no way for him to learn this game on his own.  
+
+So it's all up to me.    His success with this game is 100% related to how much time I spend teaching it to him.  That's a lot of pressure on me.  It's certainly good for me to have some pre-structured one on one time with Josh.  The bad news is that if I don't do it for whatever reason he's going to be pretty disappointed with me.  Here's praying I don't drop the ball.

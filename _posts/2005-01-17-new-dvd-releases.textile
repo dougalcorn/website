@@ -1,0 +1,6 @@
+--- 
+title: New DVD Releases
+typo_id: 189
+layout: post
+---
+Once again, Boing Boing <a href="http://www.boingboing.net/2005/01/17/rollyourown_rss_holl.html" target="_top">pointed</a> me to <a href="http://berserk.org/hollywoodvideo/" target="_top">this page</a> where the guy did his own screen scraping to generate an RSS feed of Hollywood Video's new releases to DVD.  I thought that was cool, but the feed doesn't give anything other than the title and a link to more information.  I wanted to see at least the movie synopsis as well.  I did some searching around and finally found <a href="http://movies.go.com/moviesdynamic/dvd" target="_top">this page</a> at Movies.com that has an <a href="http://movies.go.com/xml/rss/dvd.xml" target="_top">XML RSS feed</a>.

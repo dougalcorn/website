@@ -1,0 +1,24 @@
+--- 
+title: Sharing the Mac Clipboard with Emacs
+typo_id: 1147
+layout: post
+---
+While I'm sharing emacs hacks, I finally got around to researching this and/or figuring it out.  I almost always run emacs inside the terminal in a "no window" mode.  It's pretty natural for me to use M-w to copy something from emacs and then try to Cmd-V it in another Terminal window or likewise Cmd-C something in Terminal and then try paste it into emacs with C-y.  Until now, I haven't known how to share the clipboard with emacs.
+
+<typo:code>
+(defun copy-from-osx ()
+  (shell-command-to-string "pbpaste"))
+
+(defun paste-to-osx (text &optional push)
+  (let ((process-connection-type nil)) 
+      (let ((proc (start-process "pbcopy" "*Messages*" "pbcopy")))
+        (process-send-string proc text)
+        (process-send-eof proc))))
+
+(setq interprogram-cut-function 'paste-to-osx)
+(setq interprogram-paste-function 'copy-from-osx)
+</typo:code>
+
+This takes advantage of the @pbcopy@ and @pbpaste@ command line programs to access the clipboard and offers them up as elisp method for emacs' @interprogram-*-functions@.  Easy, peasy, pumkin weasy.
+
+I need to give some props to Mark Aufflick for his post on "Automatic Copy from X11 App to Mac OS Clipboard":http://mark.aufflick.com/blog/2006/10/30/automatic-copy-from-x11-app-to-macos-clipboard.  My @paste-to-osx@ is pretty much a straight rip from him.

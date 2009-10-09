@@ -1,0 +1,6 @@
+--- 
+title: Good news for consultants!
+typo_id: 563
+layout: post
+---
+<a href="http://www.theregister.co.uk" target="_top">The Register</a> is <a href="http://www.theregister.co.uk/content/66/28973.html" target="_top">reporting</a> that Gartner Dataquest is forecasting a 4.9% increase in overall IT spending for 2003.  Is the tech bust nearing an end?

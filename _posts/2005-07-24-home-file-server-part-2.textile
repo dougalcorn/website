@@ -1,0 +1,10 @@
+--- 
+title: Home File Server Part 2
+typo_id: 616
+layout: post
+---
+I posted a while back about my "Home File Server":http://www.lathi.net/twiki-bin/view/Main/HomeFileServer.  When I set it up, I only had one network card.  For whatever reasons I just got  the second card.  Now my "Tiger MP" machine can act as my firewall and router.
+
+I had been using my old "IBM ThinkPad":http://www.lathi.net/twiki-bin/view/Main/ThinkPad.  For the last several weeks it's been crashing like crazy.  Every few hours it just locks up.  Incredibly annoying since I rely on it to do some outside "ssh tunneling":http://www.lathi.net/twiki-bin/view/Main/SshProxyVPN from work.
+
+So I'm pretty excited to get my TigerMP box running as a firewall and retire my ThinkPad.  After about two hours of running with the TigerMP box as my firewall I loose Internet connection.  I'm able to recover by just bouncing the ethernet device connected to the cable modem though.  Like I said, my ThinkPad would lock up.  Just for grins I recycle my cable modem.  I haven't had any problems since.  Makes me wonder if the problem was with my cable modem all along.

@@ -1,0 +1,14 @@
+--- 
+title: New Radiant Website
+typo_id: 1143
+layout: post
+---
+"_blah blah blah (lawyers made me change this)_":http://corporatetool.blogspot.com/ has been going through a major re-branding effort for the last long time.  This morning we're launching a major re-write of our main application.  There's a pretty cool "on-line demo":http://corporatetool.blogspot.com//personal/form/flash-demo-form that shows off our new sexiness.
+
+Simultaneously we're rebranding our website and also restructuring most of our internal item catalog.  Pretty much everyone in the company has been involved in this effort in some way.  After months of work, we're live!
+
+The new website is running Radiant from index to thank you page.  We have a web service for handling all of the EC business logic and multiple user facing web sites that connect to the service for managing their cart.  We've written a "store behavior" to handle this xml-rpc client interface with Radiant.
+
+This actually isn't our first production Radiant site.  Our first was our "Japanese RosettaWorld":http://www.rosettaworld.co.jp/.  That site isn't getting near the traffic that our US site does though.  The US site runs steady-state at about 5 user sessions per second.  We had a bit of a problem serving our CSS and JavaScript out of Radiant.  It was causing a session hit that forced an update to the DB.  Turns out that was a pretty big bottleneck in our load testing.  As a fix, we just moved those files out of Radiant for this rollout.  I'm sure there's some in-Radiant solution to tell it not to track sessions on those pages.  We'll figure that out for this next release.
+
+Hopefully, after all the stress of getting this release done we can take a collective deep breath.  However, I'm guessing it's more likely we'll be scrambling to make all kinds of tweaks and such.

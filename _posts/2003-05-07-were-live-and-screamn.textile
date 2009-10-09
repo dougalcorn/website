@@ -1,0 +1,6 @@
+--- 
+title: We're live and scream'n!
+typo_id: 410
+layout: post
+---
+Ok, I've cut over to the new blosxom!  Let me know what you think!

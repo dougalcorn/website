@@ -1,0 +1,6 @@
+--- 
+title: Guide to the Interactive Fiction Archive
+typo_id: 244
+layout: post
+---
+I think I've found my undoing.  "Back in the day" I really enjoyed the text-based games from Infocom.  I was a little young, but Zork was great fun.  I've been out of it for a long, long time.  I guess I've been aware that text-based games are still being developed.  What I didn't realize was the state of game technology (i.e. the sophistication of the interpreters), the richness of content available, and the strong community of game authors and reviewers.  As usual, it's an <a href="http://slashdot.org/comments.pl?sid=88027&amp;cid=7626997" target="_top">article on slashdot.org</a> that has led me down this terrible road to the <a href="http://wurb.com/if/" target="_top">Guide to the Interactive Fiction Archive</a>.  It didn't take me too long to find <a href="http://emshort.home.mindspring.com/literacy.htm" target="_top">Emily Short's Recommended Playing List</a>.  So here's to fun with interactive fiction and self-control!

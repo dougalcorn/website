@@ -1,0 +1,24 @@
+--- 
+title: Yet Another Stupid Death
+typo_id: 1120
+layout: post
+---
+The title of this post may seem a bit morbid, but it's a familiar meme for those who play "nethack":http://en.wikipedia.org/wiki/Nethack.  Last night I lost the best game of my life.  I'm having a hard time getting over the loss, so I thought I'd give a eulogy here to get it out of my system.
+
+For those who don't know, nethack is a role-playing game that dates back to "when 1200 baud was blazing fast".  It's a text-mode adventure game, but uses the curses library to actually render the dungeon.  Nethack is a very hard game.  There are countless ways to die -- particularly in the early game.  I have been playing nethack since my college days back in the early 90s and I've never won the game.
+
+For the first time I actually thought I was going to win.  I started as an Orcish Wizard with a pet kitten.  My starting items and stats weren't that particularly good.  From the start though, I was lucky.  I found a delicatessen on the second level of the dungeon.  This gave me food so I wouldn't starve, but more importantly I was able to rob the place blind.  There were several pet treats (tripes) in the store that I could use to train my cat to steal the food from the shop.  The food was fairly expensive, so by the time I had 10 or 12 food rations I was able to sell them back to the shop keeper for a nice sum of money.  Then my cat would steal them again and I'd sell them back to the shop again.  Doing this to steel all of the shop's money I ended up with a couple thousand Zorkmoids (gold).  As luck would have it, I found another delicatessen on the third level of the dungeon and did the same thing.
+
+With all this money I headed down into the gnomish mines.  Thus far I had refrained from killing any monsters.  My routine was to dance around the monsters engraving the "E" to scare the monsters away from me.  My pet kitten would gladly kill the monsters for me.  By level three at the entrance to the mines, she was quite a large cat and able to kill pretty much anything that came along.  All the way down the mines to Mine Town I danced around the monsters letting my cat do the dirty work.  When I got to the temple in the Mine Town I donated all of my ill gotten gains to the priest there and was rewarded with a natural armor class of 0.
+
+Luckily enough, I found a magic lamp at a hardware store in Mine Town.  Rubbing it released a djinnis who granted me a wish.  This got me blessed Silver Dragon Scale Mail which combined with my other armor I had collected dropped my AC down to -20.  
+
+At this point I was ready to start developing my fighting skills.  It didn't take too long to get up to level 10.  I got strong enough to eventually kill the priest and convert the altar there to chaotic so I could sacrifice to my god.  I had a wand of create monster, the spell of create monster, and a bag of tricks.  After a short while I managed to get crowned.  During this process I was dipping my potions in the fountains in Mine Town to make water that could be converted to holy water.  One of the times I dipped into the fountain released a water daemon that also granted me a wish.  I used it to get blessed boots of speed.
+
+At this point I felt pretty invincible.  Nothing was even really hitting me much less hurting me.  I found my quest level and visited the Lonely Tower only to be told I wasn't a high enough level.  I went down a few more levels fighting all the way and quickly got to level 14 and went back to my quest level.
+
+Here's where it all went horribly wrong.
+
+Just after I started my quest, I tried to open a chest to loot it.  The chest was booby trapped which stunned, confused me and caused me to start hallucinating.  Usually what I do when I hallucinate is to just sit tight and wait it out.  That's what I was doing.  Apparently though I hit some key other than "wait" and I mistakenly attacked something (either my quest leader or one of the apprentices there, I don't know).  This made my quest leader angry and he kicked me out of the quest level and took away the portal to get back.  I was completely unable to attempt my quest.  This means I couldn't get the silver bell needed to finish the game.
+
+I played on for a while.  There was no joy in it.  I felt like I was utterly wasting time... and I was.  I could still kill pretty much anything I ran across.  My character was still as powerful as ever.  There was just no way for me to get the Amulet of Yendor and finish the game.  So I quit.  This isn't technically another stupid death, but it's a stupid ending to a terrific game.  The most stupid part is that I had a unicorn horn in my sack that could have cured my hallucination and saved me from this terrible end.

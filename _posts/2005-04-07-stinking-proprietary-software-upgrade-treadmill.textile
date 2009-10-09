@@ -1,0 +1,24 @@
+--- 
+title: Stinking Proprietary Software Upgrade Treadmill
+typo_id: 110
+layout: post
+---
+I've actually bought Adobe Photoshop.  I went searching, but it doesn't look like I've ever officially made that announcement here.  This is another blow to my free software loving ego.  I spent several months debating the issue and finally plopped down $300 for a full version of Photoshop CS.  That's significantly discounted from the retail cost of $650.  There was a special upgrade offer for certain customers that allowed this price.  I think Canon, Nikon, and Wacom all had the same deal.  They all bundled Photoshop Elements 2.0 with some of their products (including my Canon Digital Rebel).  This copy of elements was available for a special upgrade to full Photoshop CS.
+<p />
+Anyway, the reason I switched is basically this:
+<ul>
+<li> I had a really, really hard time getting any good RAW converters working with Gimp on my mac.  There are three plugins that do this.  I could only get the worst one working.  One of the better ones wouldn't work due to bit endianness.  I could never figure out what caused the other to crash.  Adobe's Camera Raw is very nice.  I've looked at lots of RAW converters and I think I really do like ACR best.
+</li>
+<li> Having a completely color managed workflow is important.  Just the ability to work in Adobe RGB color space or <span style='background : #FFFFCE;'><font color="#0000FF">ProRGB</font></span><a href="http://lathi.net/twiki-bin/edit/Main/ProRGB?topicparent=Main.WebHome">?</a> has allowed me to salvage some images, make corrections without loosing too much information, and then convert them to sRGB that everyone is more capable of handling.  Color management in Gimp is a daunting if not impossible task.  Add in Gimp on the Mac and you're pretty much not going to get anywhere.
+</li>
+<li> Working with 16-bit images is nice.  These days, I'm doing almost all of my work in Camera Raw with <a href="http://www.russellbrown.com/tips_tech.html" target="_top">Dr. Brown's Image Processor</a>.  I'm almost treating Photoshop as a plugin for Camera Raw.  But, when I do go into Photoshop to work on an image, it's nice to do it in 16-bits.  The results are visibly better than 8-bit manipulations.  Gimp doesn't even have a timeline for handling 16-bit images.
+</li>
+<li> There are lots of things in Photoshop that are vastly easier than in Gimp.  I didn't even know about all these things until i got PS CS and started learning it.  Shadow/Highlight adjustments alone are so superior to anything I could do in Gimp, that feature almost makes it worth the cost all by itself.
+</li>
+<li> Photoshop is easily an order of magnitude faster on my Mac than Gimp.  The realtime updates to the whole image while making adjustments is astoundingly fast.
+</li>
+</ul>
+<p />
+So, here I am blowing the horn of stinking proprietary software.  Wonders never cease.  Here's the rub, of course,  I haven't had PS CS for more than three months before <a href="http://photoshopnews.com/?p=157#more-157" target="_top">Adobe announces PS CS2</a>.  So now I have to spend another $150 to keep up.  I thought about waiting a while to upgrade; maybe even skipping a release.  However, I've been reading <a href="http://photoshopnews.com" target="_top">Photoshop News</a>.  It's like a giant marketing machine working overtime to convince everyone to upgrade.  
+<p />
+So far it's working on me.  The enhancements to the File Browser (now called <a href="http://photoshopnews.com/?p=143#more-143" target="_top">Bridge</a>) to do automated tasks combined with <a href="http://photoshopnews.com/?p=176#more-176" target="_top">some good enhancements to Camera Raw</a> sound too good to pass up.  And oh, btw, Dr. Brown's Image Processor that I depend on so much has been updated and built right into Bridge.

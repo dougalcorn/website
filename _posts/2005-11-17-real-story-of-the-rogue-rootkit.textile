@@ -1,0 +1,12 @@
+--- 
+title: Real Story of the Rogue Rootkit
+typo_id: 790
+layout: post
+---
+Here's an "article":http://www.wired.com/news/print/0,1294,69601,00.html written by "Bruce Scheier":http://www.schneier.com/ talking about the story behind the story.  For those of you who don't know, Sony BMG has distributed software on their music CDs that automatically installs on Windows computers that is hidden, spys on you and reports back to Sony, and can be exploited by others to take control of your computer.  There's a fairly "sordid tale":http://www.boingboing.net/2005/11/14/sony_anticustomer_te.html of how this has played out.
+
+As usual Bruce thinks about things a little differently.  Being part of the security industry, he looks at how his industry has responded to this incident:
+
+<blockquote>That all the big security companies, with over a year's lead time, would fail to notice or do anything about this Sony rootkit demonstrates incompetence at best, and lousy ethics at worst.</blockquote>
+
+That's a fairly damning statement, but well grounded.  Why didn't the various virus protection companies notice the Sony rootkit for the year it had been in the wild?

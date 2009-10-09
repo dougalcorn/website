@@ -1,0 +1,6 @@
+--- 
+title: Good, Old Fashioned MS Bashing!
+typo_id: 407
+layout: post
+---
+Nothing like a good, old fashioned Microsoft bashing party to brighten my day.  I've always been impressed (and depressed) about MS' $40 billion in cash reserves.  What can do you about a competitor that has this much cash on hand?  How about a $2.2 <em>trillion</em> dollar fine?  Both <a href="http://www.wired.com/" target="_top">Wired.com</a> and <a href="http://theregister.co.uk/" target="_top">The Register</a> are reporting (<a href="http://www.wired.com/news/technology/0,1282,58787,00.html" target="_top">here</a> and <a href="http://theregister.co.uk/content/6/30620.html" target="_top">here</a>, respectively) on Microsoft's lapse in security.  Apparently, Muhammad Faisal Rauf Danka, a Pakistani security researcher, found the flaw within a few hours after examining the Passport service.  The flaw allowed anyone to obtain the password on Passport accounts.  Microsoft has over 200 million Passport accounts.  The FTC could fine MSFT up to $11,000 per violation.  Microsoft Passport Product Manager Adam Sohn's comment to <a href="http://news.com.com/2100-1002_3-1000575.html?tag=fd_top" target="_top">CNET</a> was, "You live and learn."  Yes, but who has to pay for your education at Hard Knocks University?

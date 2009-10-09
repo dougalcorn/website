@@ -1,0 +1,10 @@
+--- 
+title: Photo Montage
+typo_id: 129
+layout: post
+---
+<a href="http://jwz.org/" target="_top">Jamie Zawinski</a> is one of my heros.  I try not to be such an unabashed fanboy, but it's hard not to.  His claim to fame is being instrumental in the original fork between emacs and xemacs (meaning he's the one who actually produced a good graphical emacs) and also on the original group of hackers that put together the Netscape browser (remember that?).  It's amazing what he can produce when he says things like, "I saw foo and it didn't work well, so I wrote my own..."
+<p />
+<a href="http://www.livejournal.com/users/jwz/455804.html"><img src="http://www.jwz.org/hacks/picturetile.jpg" border="0" width="199" height="397" align="left" vspace="5" hspace="10" alt="Sample output of tiled photos" /></a>Today's bit of magic from on high is <a href="http://www.jwz.org/hacks/picturetile.pl" target="_top">picturetile.pl</a> that he <a href="http://www.livejournal.com/users/jwz/455804.html" target="_top">announced on his blog</a>.  It's a nice piece of work to create a poster image by randomly tiling roughly arbitrary sized images into a big grid.  Of course, he makes the assumption that anyone using this will use <a href="http://gimp.org/" target="_top">The Gimp</a> to edit the final results.  As a result, he doesn't use the Photoshop file format to put the various images on their own layer for hand adjustments.  In the often imitated jwz style, he then goes on to complain about the lack of good image standards that support layering.
+<p />
+Thanks Jamie, I look forward to playing with this.

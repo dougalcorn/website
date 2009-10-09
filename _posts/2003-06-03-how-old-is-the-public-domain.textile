@@ -1,0 +1,20 @@
+--- 
+title: How old is the public domain?
+typo_id: 362
+layout: post
+---
+It's a long path to get to me, but
+<a href="http://cyberlaw.stanford.edu/lessig/blog/" target="_top">Lessig's Blog</a> recants a
+story found in <em>The Invention of Printing in China</em>, by Thomas Carter
+(1955) about the first book every printed.  On page 56 Carter says,
+<p />
+<blockquote>
+The book consists of six sheets of text and one shorter sheet with 
+woodcut, all neatly pasted together so as to form one continuous roll 
+sixteen feet long... At the end, printed into the text, is the 
+statement that the book was "reverently made for universal free 
+distribution by Wang Chieh on behalf of his two parents on the 15th 
+of the 4th moon of the 9th year of Hsien-t'ung."
+</blockquote>
+<p />
+Designated Universal Free Distribution from day one.

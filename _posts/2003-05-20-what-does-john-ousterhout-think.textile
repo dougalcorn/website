@@ -1,0 +1,26 @@
+--- 
+title: What does John Ousterhout Think?
+typo_id: 379
+layout: post
+---
+I got a pretty good reference to a flame war on comp.lang.tcl started none other than Richard M Stallman himself.  He basically posted an article that says Tcl isn't a good extension/scripting language and let the flames ensue.  After reading most of the highlights, I came across <a href="http://www.vanderburg.org/Tcl/war/0009.html" target="_top">this</a> response from John Ousterhout (the original author and architect of Tcl).
+<p />
+<blockquote>
+I think that Stallman's objections to Tcl may stem largely from one
+aspect of Tcl's design that he either doesn't understand or doesn't
+agree with. This is the proposition that you should use <strong>two</strong> languages
+for a large software system: one, such as C or C++, for manipulating the
+complex internal data structures where performance is key, and another,
+such as Tcl, for writing small-ish scripts that tie together the C pieces
+and are used for extensions.
+<p />
+Thus I designed Tcl to make it really easy to drop down into C or C++
+when you come across tasks that make more sense in a lower-level
+language. This way Tcl doesn't have to solve all of the world's
+problems. Stallman appears to prefer an approach where a single
+language is used for everything, but I don't know of a successful
+instance of this approach. Even Emacs uses substantial amounts of
+C internally, no?
+</blockquote>
+<p />
+And there you have it folks.  Tcl was never designed to be a full-blown programming language.  The architect and author always expected you to "drop down into C or C++" when things got hairy.  And here's where I disagree.  I think C and C++ are overused.  There are lots of times it's used simply because that's what "real programmers" use.  The result is buggy code with security vulnerabilities announced daily.  There is still a place for C and C++ (even assembly); I just don't think it's in the problem domain of user applications.  Another point I'll go ahead and bring up here.  Making the mental shift from C to Tcl and back again is a stumbling block.  That boundary is artificial.  I've thought for a long time that Lisp was far ahead of its time.  In 1994 it simply wasn't feasible to run whole systems in Lisp.  Ten years later I think it is.  Both the Lisp compilers and the computers the programs run on are faster and have more memory.  It's possible to do things in Lisp it wasn't 10 years ago.  That's true of Tcl as well.  However, Tcl suffers from the design assumption that it's not supposed to be a complete programming language.

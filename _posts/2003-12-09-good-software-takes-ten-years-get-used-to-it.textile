@@ -1,0 +1,8 @@
+--- 
+title: Good Software Takes Ten Years.  Get Used To It.
+typo_id: 241
+layout: post
+---
+I often find good things on <a href="http://joelonsoftware.com" target="_top">Joel on Software</a>.  Recently he wrote an article about software <a href="http://www.joelonsoftware.com/articles/Craftsmanship.html" target="_top">craftmanship</a> in which he argues that the last 1% of the problem solved takes aout 500% of the effort.  Incidently, he also gives credit to <a href="http://www.faqs.org/docs/artu/ch07s03.html#id2923889" target="_top">Eric S. Raymond</a> for convincing him to quit using threads and use multiple processes instead.  
+<p />
+He also links to an article he wrote called <a href="http://www.joelonsoftware.com/articles/fog0000000017.html" target="_top">Good Software Takes Ten Years.  Get Used To It.</a>.  This is the piece that motivated me to blog it.  I don't have enough experience to know if his ten year figure is accurate enough (I've only been working professionally just about 10 years).  However, I did think he had some really good pointers for starting up a software company and planning releases.  I think open source software does this really poorly.  Well, maybe just differently.  I think both Joel and open source recognize that there's a time when software is essentially <em>done</em>.  However, open source people want to call this point 1.0.  Joel wants to call it 10.0 (or something).  I think I may agree with Joel on this one.

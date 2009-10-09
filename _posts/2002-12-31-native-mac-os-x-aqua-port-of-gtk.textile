@@ -1,0 +1,11 @@
+--- 
+title: Native Mac OS X Aqua port of GTK+
+typo_id: 587
+layout: post
+---
+And now for the news of the day: The <a href="http://www.gtk.org" target="_top">GTK+</a>
+widget library has an alpha port to Mac OS X using the native Aqua
+graphical interface.  What this means is that the hundres or thousands
+of GTK+ apps written for X-Windows will be much easier to port and run
+natively on Mac OS X.  Anyway, one less stumbling block to
+<a href="http://lathi.net/twiki-bin/view/Main/SwitchingToMacOSX">SwitchingToMacOSX</a>.

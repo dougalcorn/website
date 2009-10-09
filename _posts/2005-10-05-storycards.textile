@@ -1,0 +1,8 @@
+--- 
+title: Storycards
+typo_id: 663
+layout: post
+---
+I've started working on "Storycards":http://lathi.net/storycards.  I've looked at a bunch of solutions for project planning.  None of what I've looked at really models how I like to work.  "37Signals":http://37signals.com has several products that work very much like what I want.  The problem is that none of them are _exactly_ what I want.  What's more, to their prices for the version of basecamp that includes time tracking is simply too expensive for me.  John Wilgar has written "eXPlainPMT":http://explainpmt.com, an XP-based project management app.  Even though John's doing some great work, I think it's just too heavy for me.
+
+So, I'm going to roll my own.  I don't have a lot of time to devote to this.  My plan is to keep it very simple.  I hope to just pick off each of my "requirements" one by one as I can.  I'm thinking maybe one requirement a week.  We'll see.  Feel free to grab the code.  Send me patches and I'll be glad to look at them.  Oh, yea.  Of course, this is in Ruby on Rails.  The "link":http://lathi.net/storycards above has my project summary and goals.

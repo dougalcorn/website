@@ -1,0 +1,6 @@
+--- 
+title: New File Server
+typo_id: 88
+layout: post
+---
+I've finally got my <a href="http://lathi.net/twiki-bin/view/Main/HomeFileServer">HomeFileServer</a> setup to use <a href="http://lathi.net/twiki-bin/view/Main/AfpAndRendezvousOnLinux">AfpAndRendezvousOnLinux</a>.  This allows me to use redundant hard disks in my file server and still mount them easily from either my or my wife's <a href="http://lathi.net/twiki-bin/view/Main/PowerBook">PowerBook</a>.  Follow the links above for details.  All in all, it wasn't too bad to setup.  It's taken me forever to do though mainly due to time and having all the hardware pieces in place at once.

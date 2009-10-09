@@ -1,0 +1,6 @@
+--- 
+title: Steal this Color Scheme
+typo_id: 619
+layout: post
+---
+"I Like Your Colors!":http://redalt.com/Tools/ilyc.php is a tool that parses a page and gives you a simplified pallet of colors based on what it finds in the page.  There's not a lot to it, but still seems like a handy tool.

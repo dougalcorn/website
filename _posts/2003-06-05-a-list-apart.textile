@@ -1,0 +1,6 @@
+--- 
+title: A List Apart
+typo_id: 358
+layout: post
+---
+<a href="http://lathi.net/twiki-bin/view/Main/RandallHand">RandallHand</a> send me a url to an article dealing with <a href="http://www.alistapart.com/stories/taminglists/" target="_top">improving how lists are displayed</a>.  I took a quick look and was impressed.  I'm not that much of a CSS guy.  One of my projects is actually using quite a bit of it.  I'm impressed so far.  I haven't been bitten by many of the frustrations CSS coders have.  Maybe that's because I've had someone else do a lot of my CSS ;-).  Anyway, this article has some neat tips on how to do things like have horizontal lists and use images for your bullet points.

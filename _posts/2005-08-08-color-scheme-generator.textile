@@ -1,0 +1,8 @@
+--- 
+title: Color Scheme Generator
+typo_id: 627
+layout: post
+---
+I posted the other day about a tool to copy color schemes from web sites, here's a tool to "generate new color schemes":http://wellstyled.com/tools/colorscheme2/index-en.html.  I'm not a trained graphic designer, but this looks like a web version of a color wheel.  Pretty handy.
+
+I don't really like the color scheme of my blog right now.  I stole the design from "Jan Brasna":http://www.alphanumeric.cz/ who published it under the "Creative Commons":http://creativecommons.org/licenses/by-sa/2.0/.  I like it's look, layout, and functionality; just not it's color scheme.  I'll use this color scheme generator to redo my blog sooner or later.

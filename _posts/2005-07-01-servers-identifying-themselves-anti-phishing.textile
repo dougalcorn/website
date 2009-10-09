@@ -1,0 +1,12 @@
+--- 
+title: Servers Identifying Themselves (Anti-Phishing)
+typo_id: 81
+layout: post
+---
+Part of the problem with passwords is that users can be tricked into giving them to the wrong people.  <a href="http://www.tygar.net/papers/Battle_against_phishing.pdf" target="_top">This (pdf)</a> is a proposal to help combat that.  <a href="http://www.schneier.com/blog/" target="_top">Bruce Schneier</a>, my favorite security guru, <a href="http://www.schneier.com/blog/archives/2005/07/security_skins.html" target="_top">points</a> out a method developed by Rachna Dhamija and Doug Tygar of UC Berkeley for servers to identify themselves.  To be honest, I haven't read the paper from Dhamija and Tygar; just Bruce's summary.  However, it seems like a really cool idea.
+<p />
+Basically, the server generates a unique abstract image to associate itself with each user.  When the server asks for authentication, it displays the image.  The user can visually determine if the right image is displayed to verify that the web page is authentic.  
+<p />
+Of course, what users are supposed to do is examine the SSL certificate for the site.  No one does this.  In fact, browsers are making this harder to do.  So servers have it in their best interest to make sure that users know they are the legit server.  They suffer as much from phishing as the victim user does.
+<p />
+I might try to figure out how to implement this nicely with some of my web sites.

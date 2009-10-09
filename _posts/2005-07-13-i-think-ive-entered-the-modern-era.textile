@@ -1,0 +1,22 @@
+--- 
+title: I think I've entered the modern era
+typo_id: 68
+layout: post
+---
+For the longest time, all I needed was Emacs.  Really, Linux was just a set of libraries to allow Emacs to interact with the hardware.
+<p />
+Then I switched to a Mac.  I felt comfortable <a href="http://lathi.net/twiki-bin/view/Main/SwitchingToMacOSX">SwitchingToMacOSX</a> because there was a native carbon port of Emacs.
+<p />
+After a while, I got tired of the rsync problems with my blog; so I started using <a href="http://ecto.kung-foo.tv/" target="_top">ecto</a>.  It's a great tool that makes blogging much easier.
+<p />
+I do web development.  I've always said the only thing you need to develop web pages is a text editor; and emacs if you can get it.  I'm still using Emacs for coding my web apps.  However, I think I'm about to switch for editing CSS.
+<p />
+I'm really not that good at CSS.  That's one reason I keep <a href="http://dminor.com" target="_top">Dave</a> around.  But I can't get him to do all my CSS for me.  That's where <a href="http://www.westciv.com/style_master/index.html" target="_top">Style Master</a> comes in.
+<p />
+I just spent the last two hours or so going through the tutorial.  Color me impressed.  It's $60; but that's a drop in the bucket for the level of effort it can save with editing CSS.  I couldn't possibly do justice to listing the cool features.  I highly recommend the tutorial.  It makes me feel like I could actually do design now.  It still requires you to know CSS.  It's not doing it for you.  It's just dramatically reducing the amount of stuff you have to memorize or constantly look up.
+<p />
+On top of all that, they provide over 30 "stylish" templates licensed as <a href="http://creativecommons.org/licenses/by-sa/2.0/" target="_top">Creative Commons Attribution-ShareAlike 2.0 License</a>.
+<p />
+I'm totally blowing off my long standing commitment to <a href="http://lathi.net/twiki-bin/view/Main/FreeSoftware">FreeSoftware</a>.  Ever since I got my Mac, I've been buying a lot of software for it.  Sadly enough, it's all for the better.  It's possible a CSS editor like this exists for Linux; but I've never seen it.  It's also possible there's a blogging tool as good as Ecto for Linux; but I really do doubt it.  These Mac apps just seem so polished and <em>done</em>.
+<p />
+I saw the new <a href="http://www.rubyonrails.org/media/video/rails_take2_with_sound.mov" target="_top">Rails Movie</a> put together by <a href="http://www.loudthinking.com/" target="_top">David Heinemeier Hansson</a>.  In it he's flying through his text editor, <a href="http://macromates.com/" target="_top">TextMate</a>, using all kinds of auto-completion and templating.  I could do something similar with emacs.  But it just looked so slick.

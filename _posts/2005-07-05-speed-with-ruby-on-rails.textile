@@ -1,0 +1,20 @@
+--- 
+title: Speed with Ruby on Rails
+typo_id: 77
+layout: post
+---
+It's official.  I'm a slow developer.  I've always considered myself a fairly smart guy.  I managed to finish engineering school with better than a 3.0.  I read quickly.  I took piles and piles of advanced math while I was still in high school.  I feel like I have a pretty good eye for quality code and am reasonable at writing it.
+<p />
+However, I'm really exasperated by all these claims on speed of development with Ruby on Rails.  DHH has posted this latest one in a post about <a href="http://weblog.rubyonrails.com/archives/2005/06/30/going-from-coldfusion-to-ruby-on-rails/" target="_top">switching from ColdFusion to RoR</a>.
+<p />
+<blockquote>
+I&#8217;d say it took me less than 10 hours to build <a href="http://wordPhoto.org" target="_top">http://wordPhoto.org</a>, which includes image uploads, thumbnail generation, email notifiers, a user login system, extensive data validation, clean urls, and various Ajax tidbits. That&#8217;s super impressive
+</blockquote>
+<p />
+I'd say it is super impressive.  I've got over sixty hours myself (not counting my partner's hours) in my first commercial <span style='background : #FFFFCE;'><font color="#0000FF">RoR</font></span><a href="http://lathi.net/twiki-bin/edit/Main/RoR?topicparent=Main.WebHome">?</a> project.  We're not done.  I've got at least another 20 hours or so to finish; probably 30.  After that, more hours tweaking layout.
+<p />
+As another point of reference, my <a href="http://lathi.net/twiki-bin/view/Main/RailsDay">RailsDay</a> project was somewhat similar to the above wordphoto.org.  With nearly 60 man hours, we finished user management and only some image handling; just shy of what this guy claims took him 10 hours.
+<p />
+Don't get me wrong.  I think <span style='background : #FFFFCE;'><font color="#0000FF">RubyOnRails</font></span><a href="http://lathi.net/twiki-bin/edit/Main/RubyOnRails?topicparent=Main.WebHome">?</a> is the best web framework I've ever used.  I feel like I'm faster at producing better tested and more maintainable code than with anything else I've ever done.  But I'm really sick of what appears to be hyper inflated claims of productivity.
+<p />
+At least I assume they are hyper inflated.  I hope they are hyper inflated.  The alternative is to believe I'm just a second rate programmer.

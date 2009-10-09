@@ -1,0 +1,11 @@
+--- 
+title: Apple Summer Camp
+typo_id: 982
+layout: post
+---
+My oldest son, Josh, can go to "Apple Summer Camp":http://www.apple.com/retail/camp/ this year.  I've signed him up for the "Movie Workshop":http://www.apple.com/retail/camp/movies.html and "iWeb Workshop":http://www.apple.com/retail/camp/iweb.html.
+
+<img src="http://blog.lathi.net/files/apple-summer-camp.jpg" height="201" width="175" border="0" align="left" hspace="10" vspace="5" alt="Apple-Summer-Camp" />
+"Summer Camp" is a bit of a misnomer.  Each "camp" is 3 hours on one day.  Since Josh is under 13, I'll need to take off work to be there with him.  It should be fun!  The idea is to actually finish a project and take it home burned on DVD.  Plus he gets a T-Shirt for each "camp" he goes to.
+
+Oh, and Josh has been asking me about teaching him to write games.  I'm not sure which direction do go here.  I have so much respect for "The Pragmatic Programmers":http://www.pragmaticprogrammer.com/index.html I'm tempted to get "Learn to Program":http://www.pragmaticprogrammer.com/titles/fr_ltp/index.html.  On the other hand, I'm also tempted to do something like "Beginning Flash Game Programming for Dummies":http://www.amazon.com/gp/product/0764589628/sr=8-1/qid=1149773579/ref=sr_1_1/104-1917976-9491918?%5Fencoding=UTF8.  I've heard good things about _Learn to Program_.  I'd expect that it would give a good foundation in programming.  But Flash is... well flashy.  If you have any input on the subject of teaching pre-teens to program I'd love to hear it.

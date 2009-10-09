@@ -1,0 +1,8 @@
+--- 
+title: "\"Massively\" different 3D"
+typo_id: 596
+layout: post
+---
+I can still remember walking out of the theater after seeing "Jurasic Park".  I was a third year electrical engineering student at the time.  As most of the other electrical engineering students I knew, we were pretty smug in how we felt about our chosen major.  We felt like the best jobs were ours for the taking.  When I saw "Jurasic Park" I knew I had chosen the wrong major.  I thought, "I should have chosen computer graphics."
+<p />
+<a href="http://www.wired.com" target="_top">Wired.com</a> has an article titled <a href="http://www.wired.com/news/digiwood/0,1412,56778,00.html" target="_top">"Digital Actors in Rings Can Think"</a>.  Yet more evidence that there are programming jobs out there <a href="http://www.massivesoftware.com/" target="_top">"massively"</a> cooler than anything I could hope to get.  Stephen Regelous is combining state of the art artificial intelligence, fuzzy-logic, and 3D to create the battle scenes for the up-coming <a href="http://www.lordoftherings.net/" target="_top">"The Two Towers"</a>.  I think I may try to get my master's in AI.  Maybe that will make up for it. <img alt="smile" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/smile.gif" />

@@ -1,0 +1,10 @@
+--- 
+title: SMARTReporter
+typo_id: 1000
+layout: post
+---
+<img src="http://blog.lathi.net/files/_julianmayer_SMARTReporter_icon.png" height="128" width="128" border="0" align="left" hspace="10" vspace="5" alt=" Julianmayer Smartreporter Icon" title=" Julianmayer Smartreporter Icon" />
+
+I just now noticed that "SMARTReporter":http://homepage.mac.com/julianmayer/ has gone Universal.  This is a tool pretty much every one on a Mac should be running.  It checks the Self-Monitoring Analysis and Reporting Technology status of your hard disks and lets you know when something bad is about to happen.
+
+When I switched to my Macbook Pro, it wasn't available for Intel Macs.  Now it is! Yay for Julian Mayer!

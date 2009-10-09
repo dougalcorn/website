@@ -1,0 +1,6 @@
+--- 
+title: Distributed Server Boycott List
+typo_id: 316
+layout: post
+---
+I did some testing today of the various real-time blackhole lists available and found <a href="http://www.dsbl.org/main" target="_top">DSBL</a> to be the best among the popular lists for my personal mail.  An RBL is a list of IP addresses from "known spammers".  More realistically, it's a list compiled by some finite group to represent IP addresses they believe to be possible spammers.  The danger in using and RBL is "collateral damage", or false positives.  What this means is that someone's mail server ends up on a list when they really aren't a spammer.  I found that DSBL had no false positives on my own personal mail.  Further, I found they would have caught about 36% of my spam.  Of course, the trick is that everyone's mail is a little different.  Maybe if you use DSBL you'll only see a 20% hit rate.  Who knows?  I'll keep track to see how it turns out.

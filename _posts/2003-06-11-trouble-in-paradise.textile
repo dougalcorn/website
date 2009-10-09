@@ -1,0 +1,10 @@
+--- 
+title: Trouble in Paradise
+typo_id: 347
+layout: post
+---
+For those of you out there with Xinerama envy you can rest easy today.  Here in Cleveland my second monitor is a prototype (of sorts) for a capacitive touch screen.  The thing is built like a tank and probably weighs 45 pounds.  However, they gave us strict warnings that it would probably fail any fire hazard testing.  It does get quite hot throughout the day.  So, I make a habit of turning it off when I leave for the day.  The other thing I do when I leave (if I leave my <a href="http://lathi.net/twiki-bin/view/Main/ThinkPad">ThinkPad</a> at work) is close the lid.  I leave everything running.  This is <a href="http://lathi.net/twiki-bin/view/Main/GnuLinux">GnuLinux</a> after all and I have a password protected screen saver (for all that's worth).
+<p />
+When I got in this morning I lifted the lid on my notebook and turned on the external LCD.  Instead of being in Xinerama, it was in mirror mode (with the second screen just dropped).   When I restarted X I couldn't get it to come up in the nice dual-screen big-desktop mode.  Try as I might, it just wouldn't work.  In fact, I couldn't get it to come up in "normal" mode.  It detected the second screen could only do 1280x1024 and set my resolution to that then center the image on the two monitors.  Plus, my internal LCD was in some funky state that forced me to start toggling through the different screen modes before I could see the image.  
+<p />
+The only way I was able to get a 1600x1200 image on my internal LCD was to unplug the external LCD. <img alt="frown" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/frown.gif" />  Oh well, it was fun while it lasted.

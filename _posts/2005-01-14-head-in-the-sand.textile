@@ -1,0 +1,13 @@
+--- 
+title: Head in the Sand
+typo_id: 194
+layout: post
+---
+When I first saw this <a href="http://boingboing.net/" target="_top">Boing Boing</a> article titled, <a href="http://www.boingboing.net/2005/01/14/locksmiths_freak_out.html" target="_top">Locksmiths freak out over "Safecracking for the computer scientist"</a>, I thought, "Ho hum, another woe is me security article."  But this quote from some locksmith/safe-maker made me laugh out loud:
+<p />
+<blockquote>The real problem is that people like Blaze are in positions of trust in society. Then he abuse it by publishing trade secrets in the name of research. 
+<p />
+When they do things like this and get away with it it gives other peoples like him the idea that this is OK. We have to nip it in the bud or soon there will be no security left after these intellectuals get through with us. 
+</blockquote>
+<p />
+Of course, the unintended implication and possible truth is that locks and safes aren't safe and it's just smoke and mirrors.  In the computer business, when people publish information on how to bypass security the only alternative is to improve security.  This is good for everyone.  The lock and safe industry will have to learn to do the same thing.

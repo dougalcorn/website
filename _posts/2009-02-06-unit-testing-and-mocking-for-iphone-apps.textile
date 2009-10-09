@@ -1,0 +1,60 @@
+--- 
+title: Unit Testing and Mocking for iPhone Apps
+typo_id: 1155
+layout: post
+---
+This was so much harder than I expected it to be.  I'm new to Objective-C, but a long time TDD-er with Ruby.  Being able to write unit tests and mocks is an integral part of any language I work with now.  After much searching and trial and error I got it to work.
+
+First, starting with a new iPhone application I followed "these directions":http://www.sente.ch/s/?p=535&lang=en on how to get it setup.  The "Sen:Te":http://www.sente.ch/ guys are who wrote OCUnit in the first place.  There are other directions out there, but don't let them lead you astray.  XCode 3 doesn't support unit testing iPhone applications out of the box.  Most of the directions for setting up unit testing is for straight Mac OS X Cocoa apps and not iPhone apps.  The gist of the directions are:
+
+ * Add a new target based on Mac OS X Cocoa Unit Test Bundle.
+ * In the new test target's inspector window, whack all the "User-Defined Settings" in the new build tab's settings.
+ * Also delete the '‘Other Linker Flags' setting.
+ * In the General tab, add a dependency to the @SenTestingKit.framework@.  Here's where it gets tricky.  Don't just add any @SenTestingKit.framework@.  You need to add the one from:
+
+<code>
+/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/Developer/Library/Frameworks/SenTestingKit.framework
+</code>
+
+ * Now open the inspector for your application's main target and set a direct dependency between it and the test target.  That will make the tests build and run every time you build the app.  Test failure causes a build failure for your main target.
+
+I also added a "Unit Tests" group/folder to the project as a place to store my tests separate from my classes.  When you want to create a new test, you simply add a new file and choose the "Objective-C test case class" template.  Make sure you add it to the test target and not your main application target.
+
+So that gives you unit tests so you can make assertions; but that's about it.  You also need "OCMock":http://www.mulle-kybernetik.com/software/OCMock/.  I had a little trouble getting this installed and working, but following "Mitchell Hasimoto's":http://mitchellhashimoto.com/using-ocmock-with-xcode-3-in-leopard/ notes I was able to get it working.  Download the OCMock framework and save it into @/Library/Frameworks@.  Then in you test target's inspector add it as a dependency.  That should be enough.  Here's a little test class that I used to prove to myself it was working:
+
+@testTruth.h@:
+
+<typo:code>
+#import <SenTestingKit/SenTestingKit.h>
+
+
+@interface testTruth : SenTestCase {
+
+}
+
+- (void) testTruth;
+- (void)testAcceptsStubbedMethod;
+
+@end
+</typo:code>
+
+@TestTruth.m@:
+
+<typo:code>
+#import "testTruth.h"
+#import <OCMock/OCMock.h>
+
+
+@implementation testTruth
+
+- (void) testTruth {
+    STAssertTrue(1 == 1, @"Must be true");
+}
+
+- (void)testAcceptsStubbedMethod {
+    id mock = [OCMockObject mockForClass:[NSString class]];
+	[[mock stub] lowercaseString];
+	[mock lowercaseString];
+}
+@end
+</typo:code>

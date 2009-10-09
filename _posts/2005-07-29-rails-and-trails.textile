@@ -1,0 +1,12 @@
+--- 
+title: Rails and Trails
+typo_id: 618
+layout: post
+---
+"Chris Nelson":http://www.jroller.com/page/ccnelson/Weblog is a fellow "Fusion Alliance":http://fusionalliance.com/ employee and the author of "Trails":https://trails.dev.java.net/.  He's "speaking at OSCON":http://conferences.oreillynet.com/cs/os2005/view/e_spkr/2185 and wanted to try out his presentation on local interested parties.  I was glad to listen because I'm interested in his Trails project and how it correlates to "Rails":http://rubyonrails.com.
+
+As his stated goal is to provide "Domain Driven Development" to Java and drastically reduce the amount of work to produce CRUD apps, I'm impressed.  If I were a Java developer, I'd be happy to use something like this to make my apps a lot easier to write.
+
+If I had to choose between Rails and Trails, I'd choose Rails.  It really comes down to preferring Ruby over Java.  My background is in C and Perl.  I prefer dynamic languages.  I prefer loosely typed languages.  I like Ruby's iterators and mostly functional nature.  I really like Ruby's <code>module_eval</code> and <code>class_eval</code>.  Like Lisp macros, it's kinda ugly but really nice when you need it.
+
+I've said before, much of Rails' attraction is that it's built on Ruby.  I certainly wouldn't be interested in PHP on Rails.  I could live with Perl on Rails.  I'm impressed with Java on Trails, but uninterested in using it.

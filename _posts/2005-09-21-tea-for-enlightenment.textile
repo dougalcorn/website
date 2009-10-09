@@ -1,0 +1,13 @@
+--- 
+title: Tea for Enlightenment
+typo_id: 654
+layout: post
+---
+<img src="http://blog.lathi.net/files/tazo_zen.jpg" longdesc="An enlightening blend of the finest green teas and rare herbs in this world." alt="TAZO Zen Green Tea and Herbal Infusion" height="176" width="144" border="0" hspace="10" vspace="5" align="left" />
+<blockquote>
+High in the Kunlun Mountains of China, monks spend days chanting and meditating in hopes of reaching complete enlightenment.  Periodically they stop for a cup of tea quite like this. -- on the back of Tazo "Zen" Green Tea bag
+</blockquote>
+
+Yes, this is why I drink Green Tea: it's the shortcut to enlightenment.  I know if I drink Green Tea _just like those monks_ then I can reach enlightenment too!
+
+<span style="font-size: smaller">PS: Sorry about the crappy cell phone photo</span>

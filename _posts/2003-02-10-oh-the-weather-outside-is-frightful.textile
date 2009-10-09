@@ -1,0 +1,6 @@
+--- 
+title: Oh the weather outside is frightful...
+typo_id: 530
+layout: post
+---
+...and there's no fire that's delightful.  I'm working out of Cleveland this week.

@@ -1,0 +1,8 @@
+--- 
+title: iView and Phaseone Team Up
+typo_id: 108
+layout: post
+---
+I've seen a couple places where <a href="http://www.iview-multimedia.com/products/c1pro/" target="_top">iView and Phaseone</a> are teaming up with a special bundle.  You can buy both iView and Phaseone C1 for the price of $499.  Coincidentally enough that's basically like buying C1 and getting iView for free.  I'm not sure who's winning that deal.
+<p />
+I think this deal is in direct response to the new Adobe Bridge and Camera Raw.  I actually own iView MediaPro and have made heavy use of it.  I think it's about as easy as anything I've used for adding annotations (IVMP meta-data) to images.  It does some other things well too.  I don't really know why, but I've been looking for a way to remove it out of my <a href="http://lathi.net/twiki-bin/view/Main/PhotoWorkflow">PhotoWorkflow</a>.  What it comes down to is that iVMP is very good at editing IVMP.  The existing Adobe File Browser doesn't quite cut it for IPTC editing.  I'm hoping that's something they've improved.  I really like the way File Browser manages files; I just don't like editing the IPTC in File Browser.  If I had a really good IPTC editor, I'd dump iVMP.  I suspect iView is aware that their niche is in danger.

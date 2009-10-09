@@ -1,0 +1,20 @@
+--- 
+title: Better OOD in Rails
+typo_id: 85
+layout: post
+---
+Honestly, Object Oriented Design is something I don't get a chance to practice very often. <a href="http://rubyonrails.com" target="_top">Ruby on Rails</a> encourages OOD with it's fundamental MVC functionality split.  What that's typically meant to me is that every database table gets an ActiveRecord model, and every model has it's own controller which drives some number of views.
+<p />
+Reading <a href="http://blogs.pragprog.com/cgi-bin/pragdave.cgi" target="_top">Dave Thomas'</a> new <a href="http://www.pragmaticprogrammer.com/titles/rails/index.html" target="_top">Agile Web Development with Rails</a> has broken that mold a little for me.  Rather than focusing on a strict one model has one controller, Dave illustrates using controllers to group similar actions together.  It seems obvious that's what controllers are for; but, Dave's book is the first place I've seen break the static tie between models and controllers.
+<p />
+My project has an Image model.  Users have many Images and Images belong to Users.  I store Image filenames in the database associated with the User's id.  I also store the image file itself on the filesystem.  Using <a href="http://www.pablotron.org/software/imlib2-ruby/" target="_top">Imlib2-Ruby</a> bindings, I also parse the image to find things like width and height (to make proper image html tags) and scale the image to appropriate sizes.  I've struggled with this object for not very good reasons.  Yesterday I <a href="http://lathi.net/diary/Software/RubyOnRails/ruby_on_rails_confession.html" target="_top">blogged</a> about making progress on this at the sacrifice of tests.
+<p />
+Last night was another "breaking the mold" learning experiences.  I told <a href="http://lathi.net/twiki-bin/view/Main/MarkWindholtz">MarkWindholtz</a> about my testing struggles.  He suggested we pair up to work on it together.  What a valuable experience that was!  He had me extract out the two main groups of non-database-specific Image functionality; ImageFiler, the part that deals with the filesystem; and (for a lack of a better name) Imager, that's a simplified front-end to the Imlib2 functions.  The original Image model contains these other two classes and delegates specific functions to them.
+<p />
+This allowed me to test those other functions without having to worry about the database.  I was struggling with what type of data fixtures to use when testing image scaling.  I didn't want to have to go through the work of making valid Image objects just so I could scale the image.  With it broken apart it's much easier to just test the individual pieces.  It's de-coupled.
+<p />
+I had been lumping everything related to a given database table into a single ActiveRecord object.  So far, it had worked out pretty well.  The problem is when your models get more complex.  It becomes hard to test the models with the database functionality in the way.  I'm not exactly sure where the line is between adding functionality directly in the AR model and putting it in a aggregated class.  I guess you can tell when it needs to be extracted by how ugly your testing ends up.
+<p />
+To Dave Thomas' credit, his Rails book also has an example of this.  It's not exactly the same, but his tutorial includes a primary model that's not an ActiveRecord.
+<p />
+One of the things that's exciting about <span style='background : #FFFFCE;'><font color="#0000FF">RubyOnRails</font></span><a href="http://lathi.net/twiki-bin/edit/Main/RubyOnRails?topicparent=Main.WebHome">?</a> is that you actually get to do object oriented programming.

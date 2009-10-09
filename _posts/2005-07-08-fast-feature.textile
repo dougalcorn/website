@@ -1,0 +1,10 @@
+--- 
+title: Fast Feature
+typo_id: 73
+layout: post
+---
+I had a nice Rails success last night.  My project has admins and users.  The admins create the user accounts and photograph users in a controlled environment.  When the admin creates the user, they upload the controlled photo.  Additionally, users can upload their own photos.  As discussed previously, I have all the code for uploading the photos and such.  In this week's customer meeting, they asked that the users never be able to delete the admin uploaded photos.
+<p />
+So with "all this" imaging code written and tested, I had to add in this little feature of protecting admin uploaded images.  The success was that it took me less than 30 minutes to code and test this feature.  It's nice to have the code cleanly designed and separated.  Without that I think it would have been more difficult to add this restriction in.  Another thing is the tests I already had working.  As I changed code, I was confident that nothing else broke.
+<p />
+The code change was about 4 lines of code.  The tests are 4 - 5 times that many lines of code.  I love how easy it is to test controllers with process, put, and get helper functions.  However, it seems like we need something even higher level to automate testing these longer scenarios: admin creates user, uploads photo, user tries to delete the photo.  That's about 10 lines of test code.  I wish it was only like 5.

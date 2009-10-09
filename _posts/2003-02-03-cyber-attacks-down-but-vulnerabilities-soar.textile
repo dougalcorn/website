@@ -1,0 +1,6 @@
+--- 
+title: Cyber attacks down, but vulnerabilities soar
+typo_id: 540
+layout: post
+---
+<a href="http://www.thregister.co.uk/" target="_top">The Register</a> is <a href="http://www.theregister.co.uk/content/55/29149.html" target="_top">reporting</a> on Symantec's summary of cyber security for 2002.  The bad news is that 2,524 new vulnerabilities were reported last year.  That's up 81.5% over 2001!

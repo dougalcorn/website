@@ -1,0 +1,35 @@
+--- 
+title: Sapphire (aka Slammer) Is a Gem?
+typo_id: 545
+layout: post
+---
+First, some background.  Sapphire (aka Slammer) is a worm that infected Microsoft SQL Server.  The vulnerability was discovered quite some time ago and Microsoft subsequently released a patch.  True to form I understand the patch was difficult to install correctly in one form and came with some other conserns in a second form.  I don't exactly know all of those details.  The moral of the story is that <em>lots</em> of database administrators hadn't installed the patch.  So, Sapphire spread all over the world eating large amounts of available bandwidth and even making Internet connectivity (in some places) impossible.
+<p />
+As it turns out, <a href="http://www.nextgenss.com/davidlitchfield.html" target="_top">David Litchfield</a> is the one who <a href="http://www.atstake.com/research/advisories/2000/a120100-1.txt" target="_top">discovered</a> the vulnerability and included somewhat innocuous exploitation code in the announcement.  David <a href="http://online.securityfocus.com/archive/1/309097/2003-01-27/2003-02-02/0" target="_top">explains</a> Sapphire was most certainly based on his code:
+<p />
+<blockquote> It uses the same addresses as my code in terms of the
+import address entries for GetProcAddress() and 
+<span style='background : #FFFFCE;'><font color="#0000FF">LoadLibraryA</font></span><a href="http://lathi.net/twiki-bin/edit/Main/LoadLibraryA?topicparent=Main.WebHome">?</a>() in sqlsort.dll, it uses the same address in the .data
+section of sqlsort.dll and uses the same address with which to
+overwrite the saved return address on the stack. Further the worm code
+uses the same short jump and has 8 NOPs in the same place as my code.
+That's where the similarity ends, though. My code spawns a remote
+shell - the worm contains none of this.  </blockquote>
+<p />
+David goes on to defend the releasing of the exploit code as part of the security vulnerability announcement.  He concludes, however, that the choice to include exploit code is one that should be made on a case by case basis.  Really, his article is worth reading.
+<p />
+What's interesting is a <a href="http://online.securityfocus.com/archive/1/309379/2003-01-27/2003-02-02/0" target="_top">response</a> (link updated) to David's defense by <a href="http://www.science.org/jasonc/" target="_top">Jason Coombs</a>.  He describes what a "gem" Sapphire was:
+<p />
+<blockquote>
+Sapphire was a gem. With 376 bytes this worm attached a marker that screamed
+"insecure" to every computer it infected, creating a worldwide information
+security reponse focused on precisely those boxes that most urgently needed
+security hardening.
+<p />
+Sapphire could have destroyed data on each computer it entered; its author
+chose not to make it do so: for this we may be lucky, or we may have
+somebody patriotic to thank for calling this threat to our attention before
+it got exploited by somebody else for the purpose of doing real harm.
+</blockquote>
+<p />
+So other than the temporary outages of the Internet and denial of service caused by Sapphire, are we to conclude that Sapphire is a blessing?  Interesting.

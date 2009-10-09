@@ -1,0 +1,9 @@
+--- 
+title: Hey, check me out! I'm Danc'n!
+typo_id: 109
+layout: post
+---
+<a href="http://www.hitachigst.com/hdd/research/recording_head/pr/PerpendicularAnimation.html">
+<img src="http://lathi.net/images/dancing_bit-2.jpg" height="144" width="121" align="left" border="0" hspace="4" vspace="4" alt="Get Perpendicular" title="Get Perpendicular" longdesc="" />
+</a>
+A buddy of mine forwarded a link to this School House Rock <a href="http://www.hitachigst.com/hdd/research/recording_head/pr/PerpendicularAnimation.html" target="_top">spoof</a> explaining Hitachi's new perpendicular storage technologies.  While I had heard about perpendicular storage and thought, "Hmm, that's different," I never thought much about it after that.  This funny little flash animation made me laugh though.  I guess they paid to have this done just for that reason.  Something to push the technology into the limelight with average folks like me.

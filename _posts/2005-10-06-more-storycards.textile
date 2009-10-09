@@ -1,0 +1,8 @@
+--- 
+title: More Storycards
+typo_id: 664
+layout: post
+---
+"Jim Weirich":http://onestepback.org was kind enough to let me hijack the "storycards":http://rubyforge.org/projects/storycards/ on Rubyforge.  I knew he had started a storycards project and that he had basically abandonded it.  Well, really he gave the project to John Wilgar who renamed it to "eXPlainPMT":http://explainpmt.com.  So, it's official.  Jim has given me the name "storycards" so there's no confusion between his pre-alpha project and what I'm doing.
+
+Also, if you're interested I've setup "darcs2rss":http://darcs.simplicidade.org/repos/darcs2rss/README to generate an "rss feed":http://www.lathi.net/storycards/index.rss of my project changes.

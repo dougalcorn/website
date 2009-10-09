@@ -1,0 +1,6 @@
+--- 
+title: Hurah for Electrix!
+typo_id: 326
+layout: post
+---
+I found the <a href="http://reddleman.org/site/projects/electrix/index.html" target="_top">Electrix plugin for Mozilla</a> that allows you to define an external editor for editing HTML textareas.  Basically, you just set editor in the Edit-&gt;Preferences-&gt;Electrix-&gt;Executable to invoke to <code>/usr/bin/emacsclient</code> (which is the default).  Then just hit Ctrl-E in the textarea to load the text into emacs.  Mozilla freezes while it's waiting for the editor to finish.  When you're done editing the file, 'C-x #' prompts to save and quit editing the file.  The text is then loaded into the Mozilla textarea for you to submit the form!  A hearty "Thank You!" to <a href="http://reddleman.org/site/ben/" target="_top">Ben Peter</a>.

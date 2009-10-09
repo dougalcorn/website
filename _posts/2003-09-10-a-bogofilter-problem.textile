@@ -1,0 +1,14 @@
+--- 
+title: A Bogofilter Problem
+typo_id: 309
+layout: post
+---
+I took this <a href="http://lathi.net/images/massive-load.jpg" target="_top">screen shot</a> (warning 281K, 1600x1200) this morning when I checked my mail.  
+<p />
+I've quit checking my mail every five minutes as a way to "improve productivity."  The idea is that I only check my mail about four times a day when I'm in between tasks.  When I say "four times" I mean once in the morning; once around lunch; once at the end of the work day; and once in the evening.  I'll check the mail at other times if I'm waiting on something to come in.  The net result is that I spend about three hours a day reading mail and news at very discrete times rather than some unknown amount of time nearly constantly.  You may find both to be excessive.  Oh well, that's just me...
+<p />
+The point of this blog is what bogofilter is doing to me right now.  I've been letting my databases of spam and ham grow unchecked since I started using bogofilter in January.  Right now they are 47MB for the goodlist and 15MB for the spamlist.  Here's what happens.  I launch fetchmail which downloads the messages fairly quickly; let's say there are 80 of them (which is fairly normal; do the math: I get about 320 messages a day).  Fetchmail dumps the messages individually to a local copy of exim.  For each message exim instantiates procmail.  The one and only procmail recipe is to run the mail through bogofilter.  So for every message bogofilter gets instantiated.  Each instantiation of bogofilter has to parse the individual message and check it against a 47MB file and 15MB file.  I'm not sure how much of the database gets loaded into memory.
+<p />
+The thing to note is what this does to my CPU load.  Look at those <code>uptime</code> results on the left.  The load average starts at 10.39.  It's usually zero.  Honestly, I'm not sure what 10.39 means.  I've heard rumors that 1.0 is supposed to be 100% busy.  I think that rumor started because 1.0 was considered a very busy machine.  I've also heard rumors that's the number of CPU instructions (on average) that are waiting to be executed.  Anyway you cut it, 10 is a pretty high load average for a desktop system.  I started downloading my email at 9:03:57.  Note the time I finished downloading my email (noted as <code>date</code> output in the lower left): 9:07:49.  That's roughly four minutes to download email on broadband.  But my load average didn't clear up until after 9:08:54.  That's really over two minutes for my CPU to catch up.  The other funny thing to note is what <code>wmmon</code> looks like when the CPU load is 10.  Take a look at the line graph of my CPU load in the lower right.
+<p />
+All this means I think I need to way to periodically dump my bogofilter database and retrain on fresh messages.  I've actually thought for a while I should retrain bogofilter, but wasn't really motivated to do it.  This pretty much does it for me.

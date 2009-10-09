@@ -1,0 +1,41 @@
+--- 
+title: Navigating Your Projects in Emacs
+typo_id: 1146
+layout: post
+---
+One of the things that's really nice about TextMate is the Cmd-T navigation of files in your project.  It pops up this little dialog with fancy pattern matching input to select one of the files in your project and then jumps to that file.  There's a similar command once your in a file to jump to symbols in that file.  I've tried a couple things to achieve that behavior in emacs that I'd like to talk about.
+
+The first thing I tried was a method called @find-file-in-project@.  It was originally implemented by "Phil Hagelberg":http://technomancy.us/ as part of his "Another Ruby on Rails Mode" (arorem) and then also ported over to the current "Rinari Is Not a Rails IDE":http://rinari.rubyforge.org/.  Basically, it indexes all the files in a "project" and then provides a nice interactive completing read to switch between them.  It basically works just like Cmd-T in TextMat.  I did quite a bit of work optimizing the completing read so that it would behave nicely.  The problem is that emacs is slow to index the files in your project.
+
+What I'm using now is the tried and true @find-tag@ method which is part of @etags.el@.  ETags depends on an external @TAGS@ file as an index of all the symbols in your project.  When you invoke @find-tag@ (by default bound to M-.) it prompts you with completing read for the symbol to find.  It then jumps directly to the file and location where that symbol is defined.  It's basically combining the find-file-in-project with find-symbol-in-buffer.  It's also very, very fast.  
+
+As an added bonus, you can use @tags-search@ to search through your project finding places that tag is used.  This is similar to TextMate's slowly grep all the files and render a buffer with those results in it, but much faster.
+
+The bad news is you have to manually build the @TAGS@ file periodically.  Emacs is pretty good about continuing to work when you've made modifications to the files, but if you add new methods, new files, or refactor significantly where thing are located then it gets confused.  When that happens, simply rebuild the @TAGS@ file.
+
+"Jim Weirich":http://onestepback.org/ gave me a nice little rake task to do the job:
+
+<typo:code>
+module Tags
+  RUBY_FILES = FileList['**/*.rb'].exclude("pkg")
+end
+
+namespace "tags" do
+  task :emacs => Tags::RUBY_FILES do
+    puts "Making Emacs TAGS file"
+    sh "xctags -e #{Tags::RUBY_FILES}", :verbose => false
+  end
+end
+
+task :tags => ["tags:emacs"]
+</typo:code>
+
+Just put that in @lib/tasks/tags.rake@ and then run @rake tags:emacs@ when you invoke @find-tag@ and it can't find it.  That shouldn't happen very often.  I've found it's also very fast to build the @TAGS@ file.  I might consider putting that tags task as part of the normal run tests task, but I'm not sure that's necessary.
+
+The other catch here is that the rake task above calls out the "exuberant ctags":http://ctags.sourceforge.net/ rather than the ctags that comes with emacs.  The exuberant ctags knows how to parse ruby files whereas the ctags that comes with emacs can't.
+
+I've installed exuberant ctags from MacPorts.  It is xctags even though MacPorts doesn't install it that way.  So (for better or worse) I've renamed the ctags files installed with ports to xctags.  This also gets around the conflict that MacPorts thinks there is between the ctags installed with emacs and the exuberant ctags.
+
+Give this a spin and let me know what you think.  I've found it to be very accurate and very fast.
+
+*UPDATE:*  I've added a github repository for my "find-file-in-project":http://github.com/dougalcorn/find-file-in-project/tree/master.  Feel free to do with it as you will.

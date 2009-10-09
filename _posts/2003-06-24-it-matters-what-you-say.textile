@@ -1,0 +1,10 @@
+--- 
+title: It matters what you say
+typo_id: 334
+layout: post
+---
+<a href="http://www.theregister.co.uk/" target="_top">The Register</a> is reporting that one London recruitment firm, employers are starting to do more searching of popular message boards to find out what people say away from the interview desk or the office.  The <a href="http://www.theregister.co.uk/content/67/31389.html" target="_top">article</a> mentions several people who either missed a promotion, didn't get the job, or were fired because of comments they made on these message boards.  Admittedly, the examples they gave were of terribly stupid things to say in a public forum.  Openly trash-talking your boss is always a bad idea.  
+<p />
+A personal blog is a tempting forum.  It's a place to be open and honest and tell what you think about things and how they affect you.  The lesson to learn from this article is that blogs (or message boards) are no exception to any other form of communication.  It's simply bad form to talk negatively about people behind their back.  Don't write anything on the web that you wouldn't say comfortably directly to the parties involved.  
+<p />
+For that matter, don't talk behind people's back in email either.  I can't count the number of stories where people have addressed email to the wrong people.  I personally have replied to mailing lists when I intended to reply to an individual on the mailing list.  Besides miss-addressing email, you never know when someone on the other end will or won't share your email with someone else.  You should basically assume that email is as public as your web site.  There are obviously exceptions to this rule.  The trick is knowing where the real exceptions are and where you think there are exceptions.

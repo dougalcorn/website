@@ -1,0 +1,6 @@
+--- 
+title: Transcoding and Tagging Video
+typo_id: 1119
+layout: post
+---
+A while back I posted I was "Officially Cable TV Free":http://blog.lathi.net/articles/2007/01/25/officially-cable-tv-free.  We're getting our TV content pretty much only from bittorrent.  I personally think it's going pretty well.  My wife has one complaint: the time it takes me to get new shows loaded into iTunes so she can watch them through FrontRow.  The solution involves some nitty-gritty details of "ffmpeg":http://ffmpeg.mplayerhq.hu/ and some fun use of "Hpricot":http://code.whytheluckystiff.net/hpricot/ to automatically parse "TV.com":http://www.tv.com.

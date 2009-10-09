@@ -1,0 +1,19 @@
+--- 
+title: Let's all get bigger screens
+typo_id: 672
+layout: post
+---
+Here's a piece called "Meet the Life Hackers":http://www.nytimes.com/2005/10/16/magazine/16guru.html?ei=5090&en=c8985a80d74cefc1&ex=1287115200&partner=rssuserland&emc=rss&pagewanted=print on the New York Times about improving efficiency:
+
+<blockquote>But did more screen area actually help with cognition? To find out, Czerwinski's team conducted another experiment. The researchers took 15 volunteers, sat each one in front of a regular-size 15-inch monitor and had them complete a variety of tasks designed to challenge their powers of concentration - like a Web search, some cutting and pasting and memorizing a seven-digit phone number. Then the volunteers repeated these same tasks, this time using a computer with a massive 42-inch screen, as big as a plasma TV.
+
+The results? On the bigger screen, people completed the tasks at least 10 percent more quickly - and some as much as 44 percent more quickly. They were also more likely to remember the seven-digit number, which showed that the multitasking was clearly less taxing on their brains. Some of the volunteers were so enthralled with the huge screen that they begged to take it home. In two decades of research, Czerwinski had never seen a single tweak to a computer system so significantly improve a user's productivity. The clearer your screen, she found, the calmer your mind.
+</blockquote>
+
+I've known this for years.  More real estate!  The largest "affordable" monitor is Apple's "30-inch Cinema Display":http://www.apple.com/displays/ with a whopping 2560x1600 resolution for a meager $2999.
+
+The article goes on to speculate that the answer isn't in simply giving us all bigger screens though.  Rather the answer is designing a computer to be smarter about when to interrupt us: a serene computer.  They give props to Apple for expose and dashboard; but go on to say it's not enough.  The nod on dashboard is for "glanceable displays" of information.  Something you can quickly look at, see that all's right with the world, and go back to what you were doing.
+
+I don't know what the overall answer is.  I know I have focus problems and problems finding things gone by.  I do need some system that lets me offload my brain.  I've heard good things about "Getting Things Done" and listened to that book on audio.  I've not been able to fully implement it.  Maybe what I need is a seminar or something to motivate me.  I wanted my wife to "Get Things Done" with me, but she wants me to go first.  Seems like having someone close-by to go through it with you would be ideal.  
+
+Oh, well; enough distractions.  Back to work!

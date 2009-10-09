@@ -1,0 +1,8 @@
+--- 
+title: Small Code vs. Large Code
+typo_id: 313
+layout: post
+---
+I doubt many programmers would argue that more code is better than less code.  However, the degrees of "better" or "worse" are open to discussion.  I read a <a href="http://bill-clementson.blogspot.com/2003_08_01_bill-clementson_archive.html" target="_top">post by Bill Clementson</a> on the subject.  Really, he was just collecting several other posts and commenting on them.  I guess I'll do the same.  The main thing that caught my attention was Guido Van Rossen's comment that "a good programmer can reasonably maintain about 20,000 lines of code."  I wonder where he got that 20,000 number from.  He said he "heard someone say...."  That's the first time I've heard a number thrown out for how much code a programmer can keep straight in their head.  That reminds me of a second comment.  At one of the companies I worked for (which shall remain namelss) there was a CGI program I partly maintained.  Oddly enough, it was written in C++ (which sucked on its own account).  The other thing that brought this CGI program to mind is that it was about 35,000 lines of code in one .cpp file!  What a mess.  I don't think anyone liked it.  There were a couple of people that made apologies for it.  
+<p />
+The original author of the CGI program was an excellent programmer.  I didn't think he was particularly brilliant.  The main thing was that he could churn out vast quantities of code that worked.  I never thought his code was particularly pleasing to look at.  But, like I said, it worked and it was finished when it was supposed to be finished.  That's a great quality in a programmer.

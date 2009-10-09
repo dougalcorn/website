@@ -1,0 +1,18 @@
+--- 
+title: Snapshot of current Storycards
+typo_id: 776
+layout: post
+---
+Since I'm trying to get more review of my "storycards":http://www.lathi.net/storycards/, I've added a download link for the "current snapshot":http://www.lathi.net/storycards/storycards-current.tar.gz.  That should make it easier for people to check it out without having to install "darcs":http://www.darcs.net/DarcsWiki/FrontPage.
+
+Oh, I've also noticed that "darcs2rss":http://darcs.simplicidade.org/repos/darcs2rss/README seems to be missing some of my changes.  So if you're subscribed to the "RSS":http://www.lathi.net/storycards/index.rss feed for the project, you might not be getting the whole news.  I'll look into that.
+
+%{color:red}*UPDATE:*% I've also added a "demo of storycards":http://www.lathi.net/storycards/demo/ if you just want to play with it.  That link is to the list of projects.  If you click on the project's title, you will go to the project's stories.
+
+%{color:red}*UPDATE:*% Dear lazy web, when I create an Apache 
+
+<blockquote><code>
+Alias /path /path/to/rails/public
+</code></blockquote>
+
+then in the @public/.htaccss@ I include @RewriteBase /path/@, the url http://my.host.dom/path doesn't work; but http://my.host.dom/path/ does.  What's the fix for that?

@@ -1,0 +1,6 @@
+--- 
+title: How technology is changing musicians
+typo_id: 287
+layout: post
+---
+I wasn't sure if I was going to blog this story or not.  <a href="http://wired.com/" target="_top">Wired</a> is running a story called "<a href="http://www.wired.com/news/digiwood/0,1412,60639,00.html" target="_top">The Incredible Shrinking Studio</a>" that is basically about the <a href="http://apple.com/powerbook/" target="_top">Apple Powerbook</a> being used to replace hardware synthesizers and recording studios.  I know at least <a href="http://dminor.com/blog/" target="_top">one person</a> who'd find this interesting to see in "print".  However what really pushed me to blog this story was a tid-bit in the closing lines on the second page.  "Sorcerer Sound in New York, where Norah Johnes recorded her Grammy-winning album, recently closed and auctioned off its recording equipment."  That was a really nice tie-in for the article.

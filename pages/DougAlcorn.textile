@@ -1,0 +1,43 @@
+---
+layout: default
+title: Doug Alcorn
+---
+h1. About Me
+
+My name is Doug Alcorn. I'm a 30-something husband, dad, Christian,
+and hacker living in Cincinnai, OH., USA. When I'm not on my computer
+or being a dad, I'm usually shooting photos or out in the woods.
+
+<div style="text-align: center; padding-top: 10px; padding-bottom: 10px;">
+     <img src="/images/stone-wall.jpg" width="320" height="213" alt="Me looking pensive" />
+</div>
+
+I've been doing professional software development since I graduated
+college in 1993.  Most of my career has been writing embedded SQL
+using C on one Unix platform or another.  Thankfully, those days are
+over.  I'm a straight up web developer now.  I've done a lot of web
+applications in Perl and even one in C++.  Since early 2005 I've done
+all my web development in Ruby on Rails.  As such, I'm "available for
+hire":/pages/ruby-on-rails-developer.
+
+
+If you need to contact me, here's my info:
+
+   * 'lathinet' on Yahoo! IM
+   * 'dougalcorn@gmail.com' on Google Talks
+
+
+I don't mind sharing my mailing address and phone number either.  If
+you're a long lost friend, you can use this to find me.  Also, if
+you're a client with a huge contract contact me too.  If you're a
+telemarketer or identity theif, ignore the following.
+
+<pre>
+Doug Alcorn
+1770 Riverwood Trail
+Kings Mills, OH 45034
+(513) 295-2844
+</pre>
+
+If you're a spammer, please add tarpit@lathi.net to your mailing
+lists.  Otherwise, my email address is doug@lathi.net.

@@ -1,0 +1,24 @@
+--- 
+title: Dynamic Constants and their Pitfalls
+typo_id: 1151
+layout: post
+---
+I've just fixed a bug in production that took me more than eight hours to find.  When I show you the code, you'll wonder why it took me so long.  I have lots of excuses, but it's a fairly interesting bug to think about.  It shows some of the weaknesses in my usual modus operandi.  The code that looks something like this:
+
+<typo:code lang="ruby>
+class Article
+  CURRENT="start_publish_on <= #{Date.today} AND stop_publish_on > #{Date.today}"
+
+  def self.find_latest
+    find(:all, :conditions => CURRENT)
+  end
+end
+</typo:code>
+
+In retrospect the bug is obvious and probably is obvious to you as well.  The Article::CURRENT constant is dynamically generated using the date at the time the class is evaluated.  With rails in production mode, that could be a long time; certainly more than a day.  The conclusion to draw here is to be very, very careful about dynamically generating constant strings.  As a rule, I might suggest not doing it.
+
+The most interesting thing about this is you can't write a test to catch this error.  I think that's the the biggest thing that took me so long to find the error.  I tend to be over confident in our test suite.  As the new guy to the project, I'm proud of them for how conscientious they are about testing their code.  I'm trying to fix this bug by triggering it in a test.  Well, it can't be done.  The difference is how the production environment cache classes versus how testing and development does it.
+
+Here's another tidbit that threw me off the trail for a long time.  Our copy editor that is responsible for publishing articles says to fix it she simply back dates the articles by a day.  So I spent a lot of time looking for off-by-one errors.  I had recently fixed a problem with comparing times to dates and causing off-by-one, so I thought that might be it.  As it turns out, this was a red herring.  There's such a tight loop for feature request, implement, deploy that the production environment gets restarted fairly regularly (like nearly every day).
+
+I guess what prompted me to write about this particular bug was what it said about our testing.  Clearly automated testing can't find all the bugs.  It also says something about our rapid development.  As long as we're really busy, this bug didn't bite us.  It's not until our deployment slows down (like a weekend) that it showed up.

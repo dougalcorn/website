@@ -1,0 +1,58 @@
+--- 
+title: iPhoto Library Sharing Across a Network
+typo_id: 1079
+layout: post
+---
+I've got three Macs and one Linux fileserver.  Why can't we all share the same iPhoto library?  I think we can.  If you google 'iphoto acl' there are lots of tutorials on how to share iPhoto libraries on the same computer between different users.  There's not much that talks about doing it across different computers.  Here's what I did.
+
+I setup a volume on my Linux box with the permissions such that all the files are group read/write and the directories have the group sticky bit set.  With all the users that need access to the photos in the same group, this setup allows anyone to both read and create photos on the shared partition.  Here's a couple commands I use to set this up:
+
+<pre>
+<code>
+$ find /photos -type d -exec chmod 2775 {} \;
+$ find /photos -type f -exec chmod 664 {} \;
+</code>
+</pre>
+
+So now the question of how to share the files.  There are three options: NFS, Samba/smb, and Netatalk/AFP.  As to the later, note that AFP is not necessarily Appletalk.  AFP is a file sharing protocol; Appletalk is a communication protocol.  Netatalk easily allows AFP over TCP/IP.
+
+I've managed NFS before.  Supposedly it's the most mature and efficient of the three file sharing protocols.  My main beef with NFS is managing user ids and group ids across all the NFS clients and server.  I know you can use NIS, but that seems like more systems administration than I want to deal with.
+
+So really it comes down to AFP and SMB.  Which one is better?  I'm not a very good judge of that, so what I did was setup both and measure the performance difference.   I have a directory tree that's several layers deep and has about 450 images; both Adobe DNG raw and processed JPEGs.  The average DNG is about 5MB and the average JPEG is about 2 - 3 MB.  I used @rsync -av@ to copy the folder from my Macbook Pro (with a 7200rpm drive) across a 100Mb/s wired network to the server using both an AFP mount and a SMB mount.
+
+With SMB using Samba 3.0.14a-3sarge1:
+
+<code>
+sent 2532341005 bytes received 8800 bytes 8657606.17 bytes/sec
+</code>
+
+With AFP using Netatalk 2.0.3-2.0.jones.2:
+
+<code>
+sent 2527694620 bytes received 8760 bytes 6591143.10 bytes/sec
+</code>
+
+It would appear SMB is faster.  I'm not sure if this is a proper test or not.  I don't know if doing large file transfers like that is how iPhoto typically does it's I/O.  It seems convincing to me.  Also, is AFP a better "experience" on my Mac because it's Apple's protocol?  Honestly, I don't know why it would be.  The only difference I can perceive is typing 'smb://tigermp/photos' versus 'afp://tigermp/Photos'.
+
+Speaking of which, this brings up an interesting aside.  I had setup netatalk quite a while back and had it working fine when both my Macs were running Panther.  I upgraded my wife to Tiger first and her AFP mount wouldn't work.  I struggled and couldn't figure it out, so I switched to Samba.  This weekend it was recommended I switch back to AFP and I quickly ran into the same issue.  
+
+I would try to mount the volume and my Mac would tersely say "Couldn't mount the volume, 'photos'".  My Linux server's logs were of no help.  They simply showed a login and an immediate logout.  So, I tried connecting via the command line:
+
+<pre>
+<code>
+$ sudo mkdir /Volumes/photos
+$ sudo mount -t afp afp://dalcorn:_my password_@tigermp/photos /Volumes/photos
+mount_afp: the mount flags are 0000 the altflags are 0020
+mount_afp: AFPMountURL returned error -5019, errno is 32
+</code>
+</pre>
+
+I couldn't find what error -5019 meant anywhere.  Eventually I noticed that in my @AppleVolumes.default@ I had specified:
+
+<code>
+/photos                 "Photos" veto:/lost+found/
+</code>
+
+So, when I tried to mount the AFP volume using "Photos" instead of "photos" it worked like a champ.  Apparently, error -5019 means "no such volume".  Also, since this used to work on Panther, but broke on Tiger I'm assuming that means Tiger somehow became case sensitive on AFP URIs when Panther wasn't.
+
+One last thing.  Since this post was originally about sharing iPhoto libraries I should mention that if you hold option down while launching iPhoto it will prompt you for which Library to open.  Simply choose one on the shared volume and you're good to go.

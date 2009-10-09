@@ -1,0 +1,6 @@
+--- 
+title: Making Emacs my "Finder"
+typo_id: 451
+layout: post
+---
+In the spirit of my <a href="http://www.lathi.net/cgi-bin/blosxom.cgi/2003/4/07#Emacs_SpacialFinder" target="_top">note</a> the other day, I decided to see what I could do to make Emacs generally useful for browsing and opening files... and not just text files.  I've written this piece over at <a href="http://www.emacswiki.org/cgi-bin/wiki.pl?MailcapView" title="'MailcapView' on the Emacs Wiki">Emacs:MailcapView</a> explaining it all.  Soon I'll have the code uploaded to <a href="http://www.emacswiki.org/elisp/mailcap-view.el" title="'mailcap-view.el' at the Emacs Lisp Area">Lisp:mailcap-view.el</a>.  The code's already written... honest!  I'm just having a bit of trouble getting the <a href="http://www.emacswiki.org/cgi-bin/upload.pl" target="_top">upload</a> script working.

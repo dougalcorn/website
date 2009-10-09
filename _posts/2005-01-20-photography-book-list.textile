@@ -1,0 +1,6 @@
+--- 
+title: Photography Book List
+typo_id: 186
+layout: post
+---
+I've started keeping a <a href="http://lathi.net/twiki-bin/view/Main/PhotographyBookList">PhotographyBookList</a> recommended by my friends from <a href="http://planet.photogeeks.org/" target="_top">Planet Photography</a>.

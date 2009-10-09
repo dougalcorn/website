@@ -1,0 +1,8 @@
+--- 
+title: Emacs and Radioparadise?
+typo_id: 602
+layout: post
+---
+I often like to listen to <a href="http://www.radioparadise.com" target="_top">http://www.radioparadise.com</a> (which is a great on-line radio station) with <a href="http://www.xmms.org" target="_top">xmms</a>.  The problem is that xmms doesn't display the artist and song info.  Instead it scrolls: "RADIO PARADISE - ECLECTIC INTELLIGENT ROCK - MUSIG INFO &amp; LISTENER COMMUNITY AT COM".  A nice advertisement, but I'm already listening to radioparadise.  You don't have to convert me.
+<p />
+Since I'm always using <a href="http://www.xemacs.org" target="_top">XEmacs</a> anyway, I thought I would write a little <a href="http://lathi.net/twiki-bin/view/Main/EmacsAndRadioparadise">function</a> that would go scrape the artist and title info from the web site and display it in the minibuffer.  I know elisp isn't a "real" Common Lisp and is often disparaged by those who use one; but, elisp still makes me happy!

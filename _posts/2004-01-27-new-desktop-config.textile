@@ -1,0 +1,10 @@
+--- 
+title: New Desktop Config
+typo_id: 219
+layout: post
+---
+Just ask my wife: even at 33 sometimes I'm really set in my ways.  My computer's desktop is one of those things.  I've been using the same font in all of my windows for nearly eight years.  I haven't changed the window layout on my desktop for nearly three.  Well, today I decided it was time for a change.  
+<p />
+I switched from 12pt lucidatypewriter to 15pt neep.  On my IBM <a href="http://lathi.net/twiki-bin/view/Main/ThinkPad">ThinkPad</a>'s 15" 1600x1200 LCD screen the 12pt font was starting to look a little small to these tired eyes.  The change in font size meant that my window layout had to change too.  I figured while I was at it I'd redo my <code>.Xclients</code> and automate some things I always do manually at startup time.
+<p />
+Sometimes change is a good thing!  It feels pretty good.  I had about five or six long paragraphs describing in excruciating detail all the changes I made, how they worked, and why they improved efficiency.  In the end, even I couldn't understand what I had just written. <img alt="whatever" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/indifferent.gif" />  The <a href="http://lathi.net/twiki-bin/view/Main/GoodNews">GoodNews</a> is that I've grown a little and accepted some change in my life.

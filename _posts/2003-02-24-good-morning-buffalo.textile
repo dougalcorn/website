@@ -1,0 +1,6 @@
+--- 
+title: Good Morning, Buffalo!
+typo_id: 506
+layout: post
+---
+I don't remember when my neighborhood was transported from Cincinnati to Buffalo.  I get up, fix coffee, shovel my driveway, rinse, and repeat.

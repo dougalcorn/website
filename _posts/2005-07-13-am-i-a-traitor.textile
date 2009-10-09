@@ -1,0 +1,20 @@
+--- 
+title: Am I a Traitor?
+typo_id: 66
+layout: post
+---
+I feel guilty about using proprietary software.  I certainly don't like paying money to use software.  I think it's safe to say I was a <a href="http://lathi.net/twiki-bin/view/Main/FreeSoftware">FreeSoftware</a> fanatic.  My previous employer once described me as "way out there" in reference to my free software stance.
+<p />
+I've always known user experience is important.  But, as a "power user" I didn't think user experience was the most important thing.  I would have said functionality and configurability was paramount.  In essence the freedom to hack on your software until it did The Right Thing.
+<p />
+I'm not exactly sure what happened.  I think I just got tired of fighting with my computer.  The start of it all was the sound, print and video drivers on my <a href="http://lathi.net/twiki-bin/view/Main/ThinkPad">ThinkPad</a> for Linux.  They just didn't work well.  It was such a hassle to just print!  That's what attracted me to <span style='background : #FFFFCE;'><font color="#0000FF">MacOSX</font></span><a href="http://lathi.net/twiki-bin/edit/Main/MacOSX?topicparent=Main.WebHome">?</a>: system drivers that worked without my mucking.  Here's the good news.  They do work.  Without my mucking.
+<p />
+But that's the trap.  I got sucked into the Mac by reliable device drivers.  I was wowed by smooth graphics and a consistent interface.  I felt safe with my Mac knowing all my same X11 apps would still work seamlessly (meaning a rootless X server).  What I found was I couldn't stand to use X11 apps.  They looked bad.  They felt bad.  They were frustrating to use.
+<p />
+So, I started hunting for native OS X versions of the apps I used.  I found some open source software. <a href="http://www.adiumx.org/" target="_top">AdiumX</a> and <a href="http://www.neooffice.org/" target="_top">NeoOffice</a> are two excellent examples of <a href="http://lathi.net/twiki-bin/view/Main/FreeSoftware">FreeSoftware</a> for Mac done with "Mac quality".  I still use the carbon port of Emacs.
+<p />
+I'd find some shareware that did exactly what I wanted.  $5.  It's worth it to me to reward the programmer who's solving my problem.  $10.  $20.  I slowly got acclimated to paying for software.  It wasn't "free as in beer" or "free as in speech".  But do I really care?  Generally speaking, the apps are good enough I don't need or want to hack on them.  I just use them.  Most of these guys are giving free upgrades to registered users.
+<p />
+I'm not really sure how to end this post.  I wanted to talk about my philosophical shifts and ended up talking about the events that led to the shifts.
+<p />
+Maybe I can't talk about my shifts in philosophy because I haven't really finished working them out.  It's hard for me to make definite statements about it.  I don't want to deal in sweeping generalizations; but that seems like all I have.  Mac software seems easier to use.  Most Mac software is provided from independent software vendors.  So to use Mac software you end up using proprietary software.  I'll leave it at that for now.

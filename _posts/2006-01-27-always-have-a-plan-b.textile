@@ -1,0 +1,14 @@
+--- 
+title: Always have a Plan B
+typo_id: 857
+layout: post
+---
+I work from home now pretty much full time.  Tuesday night my Time Warner cable service failed.  There was a significant outage in Cincinnati at that time (according to their recorded message) and so I assumed I was part of that.  Wednesday morning, I was still without service.  I called and they said there were no active outages at that time.  When could they get someone out to fix it?  Friday morning between 11:00am and 3:00pm!
+
+So on my second week of telecommuting to my new job I had to call up my boss and say, "Sorry, I'm out."  I felt kind of stupid when he asked if I had a backup plan.  My cable service (and Road Runner in particular) had been so rock solid for several years I hadn't actually thought about a backup Internet connection.
+
+So, per his request I'm getting Sprint's DSL service on 2/6.  Yes, Sprint is my local telco.  No, I'm not very excited about that.  However, ordering this DSL service has been a positive experience.  They actually had earlier times for my activation, but I'm out of town next week.  Their prices are pretty good: $19.95 for 1.5M down and 256K up.  If that was my primary connection, I wouldn't be happy with those speeds, but this is strictly backup.  
+
+The other positive thing.  The customer service rep asked me what operating system I ran on my computer.  I told her Linux because my firewall and fileserver runs Linux even though all my desktops are Macs.  The exciting part is she didn't freak out when I said Linux!  In fact, Linux is officially a "supported Operating System":http://local.sprint.com/home/local/dsl/DSL_requirements.html.
+
+Oh, and before I give Time Warner a bad name, they were able to get my service back up that same day.  I called several times on Wednesday and finally got someone who told me a technician would try to squeeze me in during his appointed rounds.  Turns out he was there at 2 and fixed my service in a few minutes.  I wasn't there, so I don't actually know what was wrong though.

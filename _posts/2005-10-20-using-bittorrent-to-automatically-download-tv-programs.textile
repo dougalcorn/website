@@ -1,0 +1,12 @@
+--- 
+title: Using BitTorrent to Automatically Download TV Programs
+typo_id: 676
+layout: post
+---
+I haven't looked into the details of this "Hack a Day":http://www.hackaday.com/ article on "How-To Automatically download and convert TV for your iPod":http://www.hackaday.com/entry/1234000100064041/, but I'm very interested in the topic.  Throwing quickies like this into my blog seems like a good way to "remember" pages like this.
+
+I don't have (and probably won't for quite a while) an iPod Video; however, I'm traveling a lot right now and would like to be able to download TV to my Mac.  The idea isn't new to me, but I've thought for a while that BitTorrent could make a pretty good backend for a PVR.
+
+These are interesting times!
+
+BTW, I found this link from "The Unofficial Apple Weblog":http://www.tuaw.com/2005/10/20/automatically-download-and-convert-shows-for-your-ipod/

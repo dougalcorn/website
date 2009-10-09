@@ -1,0 +1,30 @@
+--- 
+title: The Tigris and the Euphrates Rivers
+typo_id: 470
+layout: post
+---
+This was an excellent <a href="http://www.raelity.org/archives/society/culture/mesopotamia.html" target="_top">blog</a> by <a href="http://www.raelity.org/archives" target="_top">raelity bytes</a>.  I too have often thought about the Garden of Eden while listening to the news lately.
+<p />
+<blockquote>
+If you've turned on your television set or opened your daily newspaper over
+the past days, you've no doubt come to recognize the region currently under 
+an attack of "Shock and Awe" at a glance.  Detailed colourful maps, swirling
+three-dimensional fly-throughs, satellite photographs, and live video are
+shoved in your face at an alarming clip.  And these are peppered with icons
+representing strikes, missiles, bombs, planes, ships, troops, refineries, 
+oil fields, and labels designating points of interest, borders, regions, 
+cities, and rivers.
+<p />
+Yet beneath the audio-visual din, I find my eyes and ears drawn to mention
+of two particular points of orientation: the Tigris and Euphrates rivers.
+Once, according to my old school books, the "cradle of civilization," 
+Mesopotamia (meaning "between the rivers") sits quietly and unassumingly
+in the background.
+<p />
+A Google for Mesopotamia turned up
+<a href="http://www.mesopotamia.co.uk/" target="_top">this lovely resource</a> put together
+by The British Museum.  One wonders what a Google for
+<code>tigris</code> and <code>euphrates</code> will turn up in the
+days and years to come.
+<p />
+</blockquote>

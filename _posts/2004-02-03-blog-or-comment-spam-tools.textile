@@ -1,0 +1,6 @@
+--- 
+title: Blog (or "Comment") Spam Tools
+typo_id: 216
+layout: post
+---
+Earlier I wrote about my <a href="http://www.lathi.net/diary/Software/BlogSpam.writeback" target="_top">anger over blog spam</a>.  Since then I've been busy writing some tools to help me fight it.  I noticed I hadn't said anything about it here, so I thought I would.  Basically, I'm filtering out <a href="http://lathi.net/twiki-bin/view/Main/BlogSpam">BlogSpam</a> by keyword (i.e. the domain name of the spammer).  I've got a light user-agent run from cron that will download a master blacklist from the <a href="http://www.jayallen.org/comment_spam/" target="_top">Comment Spam Clearinghouse</a>.  I've also got a little tool that <code>greps</code> through my writeback "database" and deletes any comments that have a keyword (while leaving the "good" writebacks in place).  Since updating to this scheme, only a couple of comment spam messages have leaked through and they are easily deleted.

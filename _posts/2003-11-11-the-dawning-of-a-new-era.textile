@@ -1,0 +1,6 @@
+--- 
+title: The dawning of a new era
+typo_id: 262
+layout: post
+---
+I don't know whether to be pleased or frightened.  I've just setup Carla with her own <a href="http://lathi.net/~carla/blog/" target="_top">web log</a>.  On the one hand, she catches a lot of things I miss.  I hate to think how many things about this time in our kid's lives we'll forget.  Plus, I really value her opinion.  I look forward to reading what she thinks is important enough to write about.  On the other hand, I can't help but think I've unleashed some terrible monster onto the Internet. <img alt="smile" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/smile.gif" />  Next thing you know she'll be fixing HTML errors in my web site.  Can a family withstand two Internet geeks?

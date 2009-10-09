@@ -1,0 +1,10 @@
+--- 
+title: Tim O'Reilly on File-Sharing
+typo_id: 597
+layout: post
+---
+The whole music/movie "piracy" issue frustrates me.  Current copyright laws allow copyright holders (in most cases of the music industry, the record labels) to set the bounds by which you are allowed to use thier content.  The <a href="http://www.boycott-riaa.com/" target="_top">RIAA</a> has made it clear they don't want their customers to trade music.  As a <a href="http://lathi.net/twiki-bin/view/Main/NewTestamentChristian">NewTestamentChristian</a>, I respect the laws of the land... even the ones I don't agree with.
+<p />
+On the other hand, I love music.  What frustrates me is the cost of enjoying music.  New CDs are roughly $15.  The content the major labels are pushing is campy.  I've found even the CDs I'm willing to pay for only have a few songs that are worthwhile.  Often that means I end up paying $5 per song.  At those prices, who can afford to experiment with new music?  What I want is a source of "eclectic intelligent" music (to steal the catch phrase from <a href="http://www.radioparadise.com" target="_top">Radioparadise</a>) that doesn't cost me and arm and a leg.
+<p />
+Once again, <a href="http://www.openp2p.com/pub/au/27" target="_top">Tim O'Reilly</a> has shown he "gets it".  He's written an <a href="http://www.openp2p.com/pub/a/p2p/2002/12/11/piracy.html" target="_top">article</a> from the perspective of a book author and a highly successfull book publisher entitled, "Piracy is Progressive Taxation, and Other Thoughts on the Evolution of Online Distribution."  Well worth the read.

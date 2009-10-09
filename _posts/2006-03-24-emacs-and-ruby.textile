@@ -1,0 +1,10 @@
+--- 
+title: Emacs and Ruby
+typo_id: 924
+layout: post
+---
+I've been doing some hacking on my Ruby and Ruby on Rails configuration for Emacs.  I don't think it's done (are these things ever?), and maybe not even as good as TextMate.  I'll share it anyway in the hopes that someone can find it useful.  You can find my writeup and the configuration file on my "Emacs And Ruby":http://lathi.net/twiki-bin/view/Main/EmacsAndRuby wiki page.  Notable funcationality:
+
+* Interactively running tests in various ways
+* Go To Alternate File
+* Snippets

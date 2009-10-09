@@ -1,0 +1,10 @@
+--- 
+title: Welcome to Life in the Fast Lane!
+typo_id: 909
+layout: post
+---
+
+<a href="http://blog.lathi.net/files/happydoug-2.jpg" onclick="window.open('http://blog.lathi.net/files/happydoug-2.jpg','popup','width=640,height=480,scrollbars=no,resizable=yes,toolbar=no,directories=no,location=no,menubar=no,status=yes,left=0,top=0');return false"><img src="http://blog.lathi.net/files/happydoug-2-tm.jpg" height="100" width="133" border="1" align="left" hspace="4" vspace="4" alt="Happydoug-2" /></a>
+
+
+Oh happy day!  My Macbook Pro has finally arrived!  Migration from my old Powerbook to the Macbook Pro took about an hour and a half.  Everything went really smoothly.  I lost my VPN configs and had to redo those by hand.  I'm not sure what all else I lost.  Definitely some registration codes.  I need to spend some more time checking stuff out; particularly the stuff from Darwin Ports and running my Rails tests.  More later...

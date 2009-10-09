@@ -1,0 +1,8 @@
+--- 
+title: How well does _your_ backup system work?
+typo_id: 559
+layout: post
+---
+I like <a href="http://www.joelonsoftware.com/index.html" target="_top">Joel Spolsky</a>.  Yea, he definitely has a strong Microsoft background.  Yea, he's got some things to say that don't make some developers very happy (like "Never re-write software"; or something like that).  However, Joel is pragmatic.  I like pragmacit.
+<p />
+He tells the <a href="http://www.joelonsoftware.com/news/20030125.html" target="_top">story</a> of things gone wry and lessons learned.  Specifically, he details how many hours of personal (but unproductive) work he had to do to recover from a hard drive failure.  The lesson learned?  "all non-laptops at Fog Creek will have RAID mirroring."  I like it.  On the surface, it sounds outlandish; however, he builds a very strong business case for why it should be so.

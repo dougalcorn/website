@@ -1,0 +1,52 @@
+--- 
+title: More Calendar Fun
+typo_id: 645
+layout: post
+---
+So I had what I thought was a pretty workable "calendar component":http://blog.lathi.net/articles/2005/09/09/dynamic-calendar-and-appointments ready for my client.  Once she had a look at it, she didn't like it.  Turns out she's a more "visual" person.  That means she wants to see the calendar events on the day they occur inside the calendar.  What I had given her was pretty much just a daily view using "jscalendar":http://www.dynarch.com/projects/calendar/ as the main navigation to change days.
+
+Before I go on, I'd like to thank "Jim Weirich":http://onestepback.org/ for pointing out "Runt":http://runt.rubyforge.org, which is a temporal expression library.  It's basically exactly what I was working towards with my @TimeX@ class.  I haven't switched to using runt just because what I have works so far.  I may still switch in the future.  I _know_ I have other stuff that can use that logic.  I'm just not sure about rewriting what I already have at this point.
+
+As it turns out though, building my own monthy calendar grid was fairly simple.  So simple, I'll go ahead and include the code for it here:
+
+<code>
+<pre>
+  def calendar_grid(year, month)
+    # We're going to build a 5x7 grid of calendar dates
+    first_day = Date.new(year.to_i, month.to_i, 1)
+    # finding the last day of the month is a little clumsy
+    last_day = (month == 12) ? Date.new(year + 1, 1,1) - 1 : 
+       Date.new(year,month + 1, 1) - 1
+    grid = Array.new
+    week = 0
+    # start on the beginning of the week of the first of the month
+    current_day = first_day - first_day.wday
+    while current_day <= last_day
+      grid[week] = Array.new
+      0.upto(6) do |wday| 
+        grid[week] << current_day
+        current_day = current_day + 1
+      end
+      week = week + 1
+    end
+    return grid
+  end
+</pre>
+
+</code>
+
+Just displaying the grid is also only about 10 lines of RHTML(Embedded Ruby Hyper Text Markup Language).  I then went on to include the events on each day and add links for managing those events.  Boy did the page get heavy fast!
+
+I was happy with the quick-post logic for adding new categories in "typo":http://typo.leetsoft.com/.  I wanted to use that for adding an appointment for each day.  I already had that logic for my previous daily view, and only had to do minor changes to put the @Effect.BlindUp@ form on every day in the calendar.
+
+The new event form is a little large.  It's got two select boxes with all the time increments from 7am to 10pm in 15 minute steps.  Adding a "new event" link to every day in the 5x7 grid put a lot of weight on the page.  Don't forget that for every day in the grid I have a pretty crude @find_by_date@ method to scan the @TimeExpression@ table filtering out any that don't occur on the day in question.
+
+The page isn't too bad.  Even running on webrick in development mode, it loads in a few seconds.  Hmm, here's all these events listed.  I need to edit them.  OK, I'll just adapt the quick-post forms for adding a new event to edit the listed event.  For an even that repeats three times a week, that's 15 more somewhat large forms that are embedded and hidden on the page.  Plus, more logic to evaluate the event object to build the form.
+
+So, with just a few events I've got like 50 copies of essentially the same form.  That's a lot of duplication!  The page can easily come in at over 200K.  That's a lot to download and a lot to generate with ERB(Embedded Ruby).  I'm not sure what to do about it though short of not embedding all those forms.  If I had to reload a new page for each of those "edit" and "add" links rather than embed the form, the whole app may actually be faster.  I'd lose a little cool factor of using the @Effect.BlindUp@; but I'm not so sure my client cares about that.
+
+While I'm at it, I still haven't gotten the sophisticated "delete" operation done.  I can delete a whole event; but I can't do nice things like "delete only this one occurance of the event" or "delete all future events".  The controller logic is simple. The model already supports it.  To keep the UI consistent with what I'm doing now though I'd have to embed another form for every event with the radio buttons for the choices.
+
+I'll get this worked out today.  I've got another demo tonight with the client.
+
+

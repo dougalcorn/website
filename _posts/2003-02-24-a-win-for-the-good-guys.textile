@@ -1,0 +1,6 @@
+--- 
+title: A Win for the Good Guys
+typo_id: 503
+layout: post
+---
+I'm usually not a big fan of censorship; however, this is a clear moral victory.  I'm surprised how much effort it required.  <a href="http://www.theregister.co.uk/" target="_top">the register</a> has an <a href="http://www.theregister.co.uk/content/6/29442.html" target="_top">article</a> describing how the people of Chester (I assume in England) got a site removed form Google's database.  The sad thing is that Google wasn't going to do it (I infer from the article) until it was found to be illegal content.

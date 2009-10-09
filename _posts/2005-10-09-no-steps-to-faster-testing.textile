@@ -1,0 +1,39 @@
+--- 
+title: No Steps to Faster Testing
+typo_id: 665
+layout: post
+---
+I was actually hoping to title this blog post "Five Easy Steps to Faster Testing."  Unfortunately not.  Here's why I'm complaining about testing performance:
+
+<code><pre>
+$ time rake
+blah blah blah blah blah
+Started
+.................
+Finished in 81.306421 seconds.
+
+115 tests, 353 assertions, 0 failures, 0 errors
+blah blah blah blah blah blah
+Started
+.......................
+Finished in 85.885546 seconds.
+
+89 tests, 703 assertions, 0 failures, 0 errors
+
+real    3m5.970s
+user    1m48.390s
+sys     0m8.410s
+</pre></code>
+
+Ugh.  It get's really, really annoying to have to do that a few times in an evening.
+
+So, I had heard that "SQLite":http://www.sqlite.org/ was really, really fast.  I thought that most of my bottle neck in testing is loading and unloading the database.  I'm still using MySQL with old MyISAM files; so not transactions for me.  The directions on "How to use SQLite in Ruby on Rails":http://wiki.rubyonrails.com/rails/pages/HowtoUseSQLite seemed so clear, I was sure I could get it working in no time.
+
+My plan was to leave MySQL as my development and production databases, but switch to SQLite for testing.  The first problem turned out to be what I'm calling a bug in "DarwinPorts":http://darwinports.opendarwin.org/ portfile for SQLite.  It appears that "swig":http://www.swig.org/ must be installed before you install SQLite, but it's not a dependency.  So, install swig via ports, sqlite3 via ports, and sqlite3-ruby via gems.  OK, I'm working.
+
+Second problem: rake wants to just dump the structure from development and then load that into testing.  But the schema from MySQL isn't compatible with SQLite.  OK, I modify the Rakefile to not do that.
+
+So now I'm running my tests.  Keep in mind all my tests pass with MySQL.  The first thing I note is that my tests don't seem to be running that much faster.  Then I see a test fail.  Then things get really slow; no wait, it's hung.  The thing is I have no idea why my test failed and then another one hung.  By this point I had sunk more time into it than I had to spare.  I decided to punt.
+
+I don't mean to trash-talk SQLite.  I'm sure it's a marvelous database and I'm the screwup for not being able to get it to work smoothly.  But, I did loose probably four or five hours to this experiment.  I had to write something to account for my time.
+

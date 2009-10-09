@@ -1,0 +1,8 @@
+--- 
+title: Welcome to "Wine Country"
+typo_id: 633
+layout: post
+---
+I couldn't take the John Deere color scheme for my blog and finally redid it.  The old theme was actually called "Rio" by it's "designer":http://www.alphanumeric.cz/.  I like cooler colors, myself.  I'm calling this "Wine Country" after it's purples and greens.  
+
+Oh, and I've also upgraded this to Typo 2.5.  As part of my migration, I actually ported "Rio" to a real Typo theme.  I'll publish that one if anyone wants to use it.  This is a pretty functional design.  Implementing a new color scheme probably took me about three hours to Photoshop all the background images.  I'm pretty happy that I got the colors right without sacrificing the quality of the images.

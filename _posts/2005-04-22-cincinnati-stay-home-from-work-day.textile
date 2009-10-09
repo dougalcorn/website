@@ -1,0 +1,6 @@
+--- 
+title: Cincinnati Stay Home from Work Day
+typo_id: 105
+layout: post
+---
+Today is definitely a "Stay Home from Work Day".  I woke up this morning to the pleasant rumblings of thunder.  I was in that half-sleep bliss listening to the rain and thunder.  I <em>so</em> did not want to get out of bed.  Once I did, the commute this morning was terrible.  I don't know what it is about changes in weather, but people were driving like idiots.  Once I got into work, one of the guys was making the rounds, "The network's down.  Don't bother calling support."  What a start to the day!  Let's see if I can turn it around and crank out vast volumes of code today (now that the network is back up).

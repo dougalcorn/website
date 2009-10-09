@@ -1,0 +1,6 @@
+--- 
+title: Toy Lab
+typo_id: 121
+layout: post
+---
+<a href="http://www.toy-lab.com/"><img src="http://www.toy-lab.com/images/yot_chloe_mac.jpg" alt="Professor Yot and friends build a toy" width="142" height="152" align="left" border="0" /></a>Sooner or later I'd like to schedule a trip to the <a href="http://www.toy-lab.com/index.html" target="_top">Toy Lab</a>.  They take discarded toy parts and allow kids to build new toys out of them.  From the web site it looks really cool and a lot of fun.

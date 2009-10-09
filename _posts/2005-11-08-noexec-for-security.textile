@@ -1,0 +1,23 @@
+--- 
+title: noexec for security
+typo_id: 777
+layout: post
+---
+I don't know why I didn't think of this myself, but I just changed @/tmp@ to mount @noexec@.  Lately I've been having problems on my server with clients uploading stuff to their @/cgi-bin/@ or PHP code to their docroot that has security vulnerabilities.  I don't have anything in place (yet!) to monitor what they upload, so I'm caught by surprise when something happens.
+
+Changing @/tmp@ to @noexec@ is an obvious improvement.  My web server doesn't run as root, so @/tmp@ is a common place for exploits to download, compile and run stuff.  The @noexec@ option cuts that last step off.  Assuming I'm not the last sys admin to figure this out, I encourage you to do the same.
+
+By the way, it turned out to be very simple to affect the change after editing the @/etc/fstab@:
+
+<blockquote>
+<code>
+sudo mount -o remount /tmp
+</code>
+</blockquote>
+
+
+Now on to write some report that will let me know what stuff my clients have installed...
+
+
+
+

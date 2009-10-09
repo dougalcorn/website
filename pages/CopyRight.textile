@@ -1,0 +1,17 @@
+---
+layout: default
+title: Copy Right Statment
+---
+h1. Copyright (C) 2000 - 2003 Lathi.net and Doug Alcorn
+
+All content (the writings, images, and other items) are provided under the terms of the CreativeCommons Attribution Share-Alike License.  You may "view the friendly summary":http://creativecommons.org/licenses/by-sa/1.0/ or the "full license text":http://creativecommons.org/licenses/by-sa/1.0/legalcode.  Alternatively you can send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA and request a copy of the Attribution Share-Alike License.
+
+*Key Terms*
+
+<table cellpadding="5" cellspacing="0" border="0">
+<tr><td> !/images/by.gif! </td>
+    <td> *Attribution*. The licensor permits others to copy, distribute, display, and perform the work. In return, licensees must give the original author credit.</td>
+</tr><tr>
+    <td> !/images/sa.gif! </td>
+    <td> *Share Alike*. The licensor permits others to distribute derivative works only under a license identical to the one that governs the licensor's work.</td>
+</tr></table>

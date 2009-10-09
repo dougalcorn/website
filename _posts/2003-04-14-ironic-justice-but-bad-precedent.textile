@@ -1,0 +1,11 @@
+--- 
+title: Ironic Justice; but, bad precedent
+typo_id: 448
+layout: post
+---
+the self-styled "spam kink" Alan Ralsky has been a victim of some poetic justice.  Internet activist had found his snail-mail address and had subscribed him to thousands of mail-order catalogs.  The result was hundreds of pounds of mail a day.  He eventually moved (albeit to a much nicer house).  The bad news for him is that his address has been published on the Internet again.  I expect he'll get hit again.
+<p />
+This effort to give him a taste of his own medicine was the effort of thousands of individuals.  The bad news for everyone else is that it wouldn't take much of a Perl programmer to automate the whole thing.  I'm not going to go into the details, but Googling would allow you to find an article that does go into it.  Suffice it to say that I could write such a script in a couple of days time.  I'm certainly not trying to make any threats; I'm just trying to show the level of effort required for an automated denial of service attach on your postal mail box.
+<p />
+How do you prevent such a thing?  (What's worse, how much effort would it require to get off all those mailing lists?)  The only way I can think is to closely guard your snail mail address.  I don't see how this is a lasting defense.  Your postal address is loosely guarded information.  The your local county probably has an on-line database that is publicly searchable.  At the least you can find out who ownes what property.  At the worst you could just search on a name to find out what propery an individual ownes.  But really, our postal address isn't something we <em>want</em> to guard.  We want our friends to know how to find us.  So how would you guard your postal address while giving it out to somewhat large groups of people?
+Anyway, I don't know how we'll fair as individuals in the age of short tempers and nearly total loss of private information.

@@ -1,0 +1,6 @@
+--- 
+title: Working from Cincinnati this week
+typo_id: 299
+layout: post
+---
+Call my cell phone (513) 295-2844 if you need me. (Or just use <span style='background : #FFFFCE;'><font color="#0000FF">InstantMessaging</font></span><a href="http://lathi.net/twiki-bin/edit/Main/InstantMessaging?topicparent=Main.WebHome">?</a>).

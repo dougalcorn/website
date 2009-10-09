@@ -1,0 +1,20 @@
+--- 
+title: More "Black Hats"?
+typo_id: 222
+layout: post
+---
+I just posted a <a href="http://lathi.net/diary/Internet/SecurityFocus.writeback" target="_top">blog entry</a> naming spammers as evil men because of their willingness to exploit security vulnerabilities for their own gain.  Not even an hour later, I see <a href="http://www.boston.com/news/nation/articles/2004/01/22/infiltration_of_files_seen_as_extensive?mode=PF" target="_top">this story</a> in the <a href="http://www.boston.com/globe" target="_top">Boston Globe</a> detailing how 
+<p />
+<blockquote>
+From the spring of 2002 until at least April 2003, members of the GOP committee staff exploited a computer glitch that allowed them to access restricted Democratic communications without a password. Trolling through hundreds of memos, they were able to read talking points and accounts of private meetings discussing which judicial nominees Democrats would fight -- and with what tactics.
+</blockquote>
+<p />
+Of course, in reading the article there seems to be some dissent over how the files were found.  I'd like to know how they were accessed.  The quote above indicates it was through a "glitch".  But later on the article explains:
+<p />
+<blockquote>
+A technician hired by the new judiciary chairman, Patrick Leahy, Democrat of Vermont, apparently made a mistake that allowed anyone to access newly created accounts on a Judiciary Committee server shared by both parties -- even though the accounts were supposed to restrict access only to those with the right password.
+</blockquote>
+<p />
+So who's at fault here?  Is it the Democrats for not protecting their secrets better?  Is it the Republicans for snooping where they shouldn't have?  Or is it the system administrators for not securing the server better?  Personally I think all three.
+<p />
+Of course, this really reinforces my advice to all of humanity:  Don't say or write anything you don't want to show up on the front page of the newspaper.

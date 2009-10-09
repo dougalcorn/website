@@ -1,0 +1,12 @@
+--- 
+title: Officially Cable TV Free
+typo_id: 1111
+layout: post
+---
+Today I'm officially (and finally) cable TV free!  We've finally tired of paying the high monthly fees to get content.  Sure, there are lower subscription plans, but none of them include a DVR or are High Def.  So, we just pulled the plug.  We're simply going to rely on our Blockbuster on-line account plus our local library plus some iTunes plus some "backnet".
+
+I setup my old Apple G4 Powerbook (not the "powerbook I'm selling on eBay":http://blog.lathi.net/articles/2007/01/19/12-powerbook-for-sale) in the living room with the mini-DVI to s-video connector.  Using the _1.3.1_ version of "Enabler":http://andrewescobar.com/frontrow (not the 1.3.5 version) I was able to install Apple's Front Row to use as a front end for selecting and displaying shows.
+
+I have a bunch of video and TV shows that I've "aquired" that are in .avi format.  Using "iSquint":http://www.isquint.org/ I'm able to convert those easily into the format that iTunes prefers.  Also using "Parsley is Atomically Delicious":http://them.ws/pad/ I can tag these with the special meta-data iTunes needs to recognize the files as TV Shows and Movies.
+
+All in all I'm real happy with the solution.  I've also got our family iPhoto album with all of the photos we've taken since we got a digital camera setup as a screen saver.  So now the idle TV shows snapshots from the past!  The kids love it.  I think they might actually prefer sitting and watching the slide show of photos to some of the stuff they normally watch on TV when bored.

@@ -1,0 +1,12 @@
+--- 
+title: Whale Woes
+typo_id: 649
+layout: post
+---
+I recommend subscribing to "Dr. Fun":http://www.ibiblio.org/Dave/.  He's a long time cartoonist in the style of "The Far Side".
+
+<img src="http://blog.lathi.net/files/df091505.jpg" height="364" width="486" border="1" hspace="4" vspace="4" alt="Whale Woes" title="Whale Woes" longdesc="'Whale Woes' by Dr. Fun" />
+
+
+
+<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://technorati.com/tag/Dr. Fun" rel="tag">Dr. Fun</a>, <a href="http://technorati.com/tag/iPod Nano" rel="tag">iPod Nano</a>, <a href="http://technorati.com/tag/Whales" rel="tag">Whales</a></p><!-- technorati tags end -->

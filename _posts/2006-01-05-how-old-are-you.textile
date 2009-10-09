@@ -1,0 +1,20 @@
+--- 
+title: How Old Are You?
+typo_id: 838
+layout: post
+---
+In one of my "Ruby on Rails":http://rubyonrails.org apps, I have a @User@ class with a @dob@ date of birth field.  My client wants me to display the user's age.
+
+I had added this code a very long time ago:
+
+<typo:code lang="ruby">
+def age
+  (Date.today - self.dob).to_i / 365.25
+end
+</typo:code>
+
+I just went back and looked at that and was surprised I had let that code stand.  It was just so smelly.  I poked around and didn't find any good helpers to clean it up.  So, I started asking around to the "Ruby":http://ruby-lang.org smart-guys I know.  Not to name drop, but "Jim Weirich":http://onestepback.org/ is a member of "XP Cincinnati":http://www.xpcincinnati.org/.  When I asked him about it he responded with this "paste":http://rafb.net/paste/results/rL4Dt798.html
+
+That demonstrates a lot of things I like about Jim.  First, he's a super friendly guy and very accessible.  I don't remember if he gave me his AIM nick or if it's listed on his web site.  Either way, he never acts bothered by my somewhat periodic interruptions about ruby related stuff.  Second, he responded with code; not just code, but code with unit tests; not just simple unit tests, but fairly exhaustive unit tests.  He was able to demonstrate with those tests why my algorithm wasn't good enough; several of his tests failed with my code.
+
+Jim practices what he preaches.  He's a big advocate for both Ruby and Test Driven Development.  Even with this simple exercise he started off with good tests.  Thanks Jim!  I appreciate your help.

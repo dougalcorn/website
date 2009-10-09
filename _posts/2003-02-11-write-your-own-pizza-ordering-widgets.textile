@@ -1,0 +1,6 @@
+--- 
+title: Write your own pizza-ordering widgets
+typo_id: 521
+layout: post
+---
+Arlo Rose (of <a href="http://www.kaleidoscope.net/" target="_top">Kaleidoscope</a> fame) has teamed up with Perry Clarke to create an application framework for creating "widgets" called <a href="http://www.konfabulator.com" target="_top">Konfabularor</a>.  <span style='background : #FFFFCE;'><font color="#0000FF">Wired Magazine</font></span><a href="http://lathi.net/twiki-bin/edit/Main/Httpwwwwiredcom?topicparent=Main.WebHome">?</a> has a <a href="http://www.wired.com/news/mac/0,2125,57620,00.html" target="_top">review</a> of the new program.  It's bascially a javascript runtime environment.  They are charging $25 for it.  That's not much money if it's as powerful as the article suggests.  I wonder if it comes with source code.  It'd be nice to use something like this to be able to script cross-platform applets.

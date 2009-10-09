@@ -1,0 +1,6 @@
+--- 
+title: Blosxom Updates
+typo_id: 443
+layout: post
+---
+I noticed the "Ask Jeeves" spider loading blosxom pages for really weird dates.  I figured that's because of the mini-month calendar links.  I hadn't trapped for "bad" input.  I really only planned for humans.  So, I've updated the script not to generate links to months in the future and months before when I started blogging.

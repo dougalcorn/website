@@ -1,0 +1,12 @@
+--- 
+title: How much can you read at once?
+typo_id: 792
+layout: post
+---
+I was recently asked how much data you can read from disk at once.  In retrospect, I think it was something of a trick question.  There are a couple of factors that affect this.  First, the disk has a limit on it's buffer sizes and how much it can read at once.  Second, the system bus has some limit on how much data it can pass around.  Third, the kernel probably has some limit on it's buffer sizes too.  Finally, your application makes a read(2) syscall with a buffer and buffer size.  I wasn't really sure which of these buffer sizes he was after and he wasn't very forthcoming on what he was looking for.
+
+Honestly, I didn't really know the answer.  I've done some kernel programming with mass storage devices; but that was over USB.  That protocol isn't really designed for mass data transfer that well.  The max packet size is pretty low.  At or below the kernel I don't really have any good way of knowing what's what and how large buffers are.
+
+In userland I know you're supposed to wrap your calls to @read@ in a while loop capturing the return value of the number of bytes read.  In practice, how much does a single read syscall read?  I didn't really know.  Frankly, I'm not sure he did either.  He was telling me it was probably something around 64KB.  I was sure it had to be higher than that; at least in the MB range.
+
+It was nagging at me so much, I decided to test and measure.  I wrote this little "blocksize.c":http://lathi.net/blocksize.c program to try and figure it out.  Basically, I tried different sized buffers and reading from various sources each time tracking how many times I had to call @read@ and how much data was passed in each time.  On my Mac with 1.25GB of real memory, I never could make it do anything less than a single syscall!  I had a 1GB VOB file laying around that I had ripped from a DVD.  Even in that case, my test program read the whole thing into memory!  Of course, most of my system was swapped out.  I make no claims for efficiency, but a single syscall is all that was required.

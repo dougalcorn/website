@@ -1,0 +1,6 @@
+--- 
+title: Xinerama Rocks
+typo_id: 352
+layout: post
+---
+My <a href="http://lathi.net/twiki-bin/view/Main/ThinkPad">ThinkPad</a> A31p has an ATI Radeon FireGL 7800 with 64MB of video RAM.  One of the reasons I bought this laptop is because I knew this video chipset was capable of driving multiple monitors.  I've just now gotten around to <a href="http://www.google.com/search?hl=en&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=thinkpad+a31p+xinerama&amp;btnG=Google+Search" target="_top">googling</a> on how to setup XFree86 for <a href="http://www.tldp.org/HOWTO/Xinerama-HOWTO.html" target="_top">Xinerama</a>.  After about an hour of reading and futzing, I can now drive two monitors with my laptop!  I've got my main display with 1600x1200 and the second "head" at 1280x1024.  Just a tad more breathing room. <img alt="wink" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/wink.gif" />

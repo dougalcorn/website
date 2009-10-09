@@ -1,0 +1,6 @@
+--- 
+title: The Coolest DHTML Calendar Ever
+typo_id: 115
+layout: post
+---
+While chatting on #rubyonrails last night, someone pointed me to <a href="http://www.dynarch.com/projects/calendar/" target="_top">the Coolest DHTML / Javascript Calendar</a>.  At the risk of being redundant, this thing is cool.  It makes havy use of external CSS, supports keyboard navigation, has click-n-drag time adjustments, context sensitive hints, and more!  This thing <em>has</em> to find it's way into my web apps.  Supreme kudos to <a href="http://www.dynarch.com/mishoo/" target="_top">Mihai Bazon</a> of <a href="http://dynarch.com" target="_top">Dynarch.com</a> for creating the calendar and making it openly available.

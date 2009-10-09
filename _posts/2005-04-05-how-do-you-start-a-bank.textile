@@ -1,0 +1,20 @@
+--- 
+title: How do you start a Bank?
+typo_id: 112
+layout: post
+---
+Are all banks started by really rich guys willing to lend money?  How does a new bank get started?  I've had this idea all morning to start a bank and I don't know why it's a silly idea.  Of course, it's probably silly because I don't know anything about starting a bank.  This is one of those ideas you get where it all makes sense and you think you should write it down, but you don't and then you forget about it.  So, I'm writing it down.  This is the best place I have to write things down that I don't want to forget.
+<p />
+I'm in a little bit of a weird situation (at least it's weird for me).  I know several really high-talent people who are under-employed that are all interested in the same high productivity web application framework at the same time.  I honestly believe that Ruby on Rails is right at the bottom of it's "S" curve.  Yesterday was the third Slashdotting that Rails got this year.  It's a disruptive technology.  There's a whole class of programmers who've been working with sucky web frameworks that absolutely ape over it (think PHP programmers and Perl programmers).  There is a whole class of programmers that are totally ticked off by how much enthusiasm it's being received with (think Java programmers and other web framework developers).  Meanwhile, there's a whole new resurgence of web application programming going on that is stunning everyone (look at the UI on gmail, google maps, basecamp, and 47 folders).
+<p />
+So I know half a dozen people who are already experienced in Rails or are very interested in Rails and also highly accomplished programmers; guys with actual project experience doing Agile development.  These aren't guys like I usually know guys.  They're all in Cincinnati.  It's like some fluke of nature.  I've talked to one guy in particular.  We're both wonder what to do with this opportunity.
+<p />
+So I'm reading some of Paul Graham's stuff about starting startups.  He keeps saying to look around at what sucks and make it not suck; everyday things.  Think about getting Einstein to design refrigerators.  This morning it hit me something that sucks: online banking.  Almost every bank already has something of an online banking application; but they suck.  They look and behave like a huge quantity of suits said, "We need to provide online access to our bank."  This morning I thought, what would happen if a bank formed themselves around really providing a web application people wanted to use to manage their money?  I'm thinking something as broad as Quicken.  But instead of having you enter all your banking data into Quicken, it <em>would be</em> all your banking data.
+<p />
+I'm not saying Quicken is the bee's knees.  Frankly I haven't used Quicken in a very long time.  I either haven't had a computer that could run Quicken or simply didn't want to spend money on Quicken.  That's part of my point I guess.  So many companies are buying up good software and giving it away (Google with Picasa).  People don't expect to pay a lot of money for good software any more.  If a bank has to have a web banking application, why not make it not suck?  Why not make it the best online banking application in the world and see how many banking customers you can get?
+<p />
+Oh, here's the other thing: security.  It seems like nearly everyone is dropping the ball on <em>real</em> security.  All these phishing attacks, Checkpoint style information disclosure, doing everything to sell your information without pissing you off about it; why can't the company with my most critical personal information respect it the most?  You really want your bank to get data security.
+<p />
+The problem with a "real" bank doing this is that they're already entrenched.  There's too much political structure to say, "Let's start over."  It seems like you'd either have to find a bank that is really small and in danger of getting swallowed up or just start your own.
+<p />
+I'll quit rambling now.  I've only had one cup of coffee this morning.  Maybe by the time I've had my second cup I'll realize why this is a silly idea.

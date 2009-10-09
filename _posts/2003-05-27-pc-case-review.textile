@@ -1,0 +1,6 @@
+--- 
+title: PC Case Review
+typo_id: 371
+layout: post
+---
+I got a new PC case at work for my secondary computer.  It's an <a href="http://lathi.net/twiki-bin/view/Main/AntecLanboy">AntecLanboy</a>.  The bottom line is for $99 it's a great value.

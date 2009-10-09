@@ -1,0 +1,6 @@
+--- 
+title: Massive Load, Part Deux
+typo_id: 307
+layout: post
+---
+Did I say that 10.39 was a really high system load average?  Well, it's all relative.  Because of my server downtime this morning, I didn't check mail today until just now.  I was behind all day and could never make time for email.  So, I downloaded all 200 mail messages at once.  The load went through the roof.  I've never seen a desktop PC pushed that hard.  The load got up to 74.86.  For those of you who don't really know what a system load average is, you're going to think it's no big deal.  Two days ago I thought 10 was really high, today it's 75 that's really high.  So, what?  Maybe tomorrow it'll be 150.  I'm flabbergasted.  I couldn't do anything but watch <code>wmmon</code> try and keep up.  Every so often it would increase the scale of the line graph showing the CPU load.  Each time it increases the scale it draws a bright green line across the graph.  By the time the load hit 70, it was a solid green square.  I wanted to get a screen shot of it solid like that.  <a href="http://lathi.net/images/massive-load2.jpg" target="_top">All I could get</a> was after the load had dropped quite a bit.  It took me 15 minutes to download my email.  As soon as I catch my breath, I'm going to retrain bogofilter.

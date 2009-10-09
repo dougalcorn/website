@@ -1,0 +1,10 @@
+--- 
+title: Running Debian GNU/Linux Covertly
+typo_id: 428
+layout: post
+---
+Two items in this week's <a href="http://www.debian.org/News/weekly/2003/17/" target="_top">Debian Weekly News</a> that are of interest to me.
+<p />
+In looking to lease dedicated hosts from ISPs, it sometimes becomes hard to find boxes that aren't pre-configured with Redhat Linux.  To the uninitiated, they might think that as long as I'm running GNU/Linux, I should be happy.  The problem is that doing system administration on different distributions is fairly differnt.  It's just enough different to make my brain hurt.  So, what to do if you've found a really nice ISP but they only have Redhat systems?  It's typically been very difficult to install GNU/Linux without physical access to the boxes.  I haven't read the article yet, but <a href="http://trilldev.sourceforge.net/files/remotedeb.html" target="_top">here's</a> an article that describes how to install debian on a box you don't have physical access to.
+<p />
+Another worrisome issue is when you want to run Debian on a system where you're not allowed to re-install the operating system (think work computer or client's computer when contracting here).  Matthias Muller has written a <a href="http://rz-obrian.rz.uni-karlsruhe.de/knoppix-usb/" target="_top">document</a> on how to boot Debian GNU/Linux from a USB stick.

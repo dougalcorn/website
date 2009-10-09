@@ -1,0 +1,6 @@
+--- 
+title: Planet Cincinnati
+typo_id: 639
+layout: post
+---
+You know "planets":http://www.planetplanet.org/ are becoming mainstream when Cincinnati gets its own "planet":http://planet.cincinnatiblogs.info/.  It was cool to find this.  Kudos to "Clint Ecker":http://phaedo.cx/ for putting this together.  Also, thanks for including me!

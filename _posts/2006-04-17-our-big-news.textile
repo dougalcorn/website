@@ -1,0 +1,9 @@
+--- 
+title: Our Big News
+typo_id: 949
+layout: post
+---
+This will be number four:
+<img src="http://blog.lathi.net/files/sc078fd8b2fw.jpg" height="297" width="400" border="0" hspace="4" vspace="4" alt="Sonogram Results" title="Sonogram Results" />
+
+Due in November.  Definitely not planned, but still exciting.

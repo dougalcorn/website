@@ -1,0 +1,6 @@
+--- 
+title: Life with Bogofilter
+typo_id: 543
+layout: post
+---
+I've been using <a href="http://bogofilter.sourceforge.net/" target="_top">bogofilter</a> to try and stop the flow of spam for a little while now.  I was going to write that yesterday I got no misfilings.  However, this morning I came in with three spam messages in my inbox.  I think my problem is that I trained bogofilter on a pile of spam that <a href="http://spamassassin.org/" target="_top">spamassassin</a> had already filtered.  That means SA had put all kinds of additional headers and text in the message.  I'm pretty sure this has skewed my bogofilter database.  I'll stick with it a while longer to see if it improves.

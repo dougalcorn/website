@@ -1,0 +1,8 @@
+--- 
+title: Confirmed fears in upgrading firewall
+typo_id: 444
+layout: post
+---
+I've been using an old Apple Machintosh 8500 running Debian/ppc as my firewall for almost two years now.  A friend of mine actually went through the pain of getting potato installed and I hand-crafted a shell script with all my ipchains rules in it.  At the time I was doing commercial web hosting out of my house.  This firewall was what protected not only my personal files, but my client's web sites.  It was a rigorous firewall script.  When I moved my web hosting to a dedicated host, I just left the firewall in place.  It was certainly functional.  It kept the "bad guys" out, served up dhcp, local dns, and cached external dns.  What more could you ask?
+<p />
+Funny you should ask.  Because of my <a href="http://lathi.net/twiki-bin/view/Main/TeleCommuting">TeleCommuting</a>, I have a need to run Cicsco's VPN client on my PC to connect to our office network.  Unfortunately, ipchains (ala linux kernel 2.2.x) can't handle the VPN software.  Other guys at work kept saying, "I'm running fine.  All you have to do is upgrade your firewall to use iptables," as if it were a lightswitch to be flicked.  After two 45 minute kernel compiles, about 10 reboots (most of which involved a failed fsck, root login, manual fsck, and reboot), several hours tracing through shell scripts, and about 30 minutes finally getting access to the Internet documentation for <a href="http://shorewall.sourceforge.net/" target="_top">Shorewall</a> I'm finally back up and running.

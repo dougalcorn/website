@@ -1,0 +1,12 @@
+--- 
+title: Science Stories Can Sell
+typo_id: 554
+layout: post
+---
+This year marks the inaugural Alfred P. Sloan Prize at the Sundance Film Festival.  [[http://www.wired.com][Wired Magazine] has an <a href="http://www.wired.com/news/digiwood/0,1412,57417,00.html" target="_top">article</a> about this prize for independent film makers to tell a story that protrays a scientist in something other than the three basic Hollywood steroetypes: the mad scientist, the bumbling scientist and the hopeless nerd.  
+<p />
+<blockquote>
+"I think if you encourage themes about science, you will get a bevy of scripts.  Some will be good, and some will be made," Lynn Hershman Leeson, who created the film Teknolust, said.  "It can trigger a genre."
+</blockquote>
+<p />
+I certainly agree with the article on several points.  There are lots of scientists who have "compelling" stories.  Last year's Oscar-winning "A Beautiful Mind", a biography of the mathematician John Nash, is a good example.  I'd love to see a genre of films about scientists portrayed as interesting, everyday people.  I'd love for my kids to grow up with that.

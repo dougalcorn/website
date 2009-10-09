@@ -1,0 +1,12 @@
+--- 
+title: Keyboard Navigation in Yojimbo
+typo_id: 1115
+layout: post
+---
+I'm becoming a fan of "Yojimbo":http://www.barebones.com/products/yojimbo/ for note taking.  I have a stack of 3x5 cards on my desk that I often write stuff on for quick notes.  I've also used stickies on my computer's desktop.  Both of those are good solutions to keeping up with tid-bits, but are also lacking in different ways.
+
+The Quick Input Window is supposed to be a way to add items to Yojimbo without really interrupting your work.  Unfortunately, it appears that the Quick Input Window requires the use of a mouse.  Of course, this makes it less quick and more disruptive.  My little discovery of the day is that the Quick Input Window does _not_ require the mouse!
+
+You can tab between the fields as you would expect.  The catch is that some of the window's inputs don't highlight like you'd expect.  So F8 brings up the Quick Input Window with focus on the Name field.  Tab moves focus to the selector for adding tags to the new item.  Space then reveals the tags input.  Another tab to the rest of the items fields with a final tab to the Create button.  The trick is that neither the tags selector nor the create button show that focus is on that input.
+
+Armed with this knowledge, I'm going to try and make better use of Yojimbo!

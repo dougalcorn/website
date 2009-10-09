@@ -1,0 +1,6 @@
+--- 
+title: What a loss
+typo_id: 552
+layout: post
+---
+<a href="http://www.theregister.co.uk" target="_top">The Register</a> is <a href="http://www.theregister.co.uk/content/6/29069.html" target="_top">reporting</a> that <span style='background : #FFFFCE;'><font color="#0000FF">EasyInternetcafe</font></span><a href="http://lathi.net/twiki-bin/edit/Main/EasyInternetcafe?topicparent=Main.WebHome">?</a>, a British chain of cybercafes, has lost it's High Court Battle with the British Phonographic Industry (BPI) over allegations that it offered a commercial service burning illegally downloaded music onto recordable CDs for customers.  All that's left is deciding damages.  So, cybercafes in the UK can't offer any removable mass storage capabilities on their computers.  There are no legitimate uses of a removable mass storage device at a public, broadband Internet connection. <strong>sigh</strong>.

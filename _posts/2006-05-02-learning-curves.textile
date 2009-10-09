@@ -1,0 +1,15 @@
+--- 
+title: Learning Curves
+typo_id: 963
+layout: post
+---
+A while back I posted a joke about "classical learning curves":http://blog.lathi.net/articles/2006/02/09/classical-learning-curves-for-common-editors.  Tonight's "XP-Cinci":http://www.xpcincinnati.org/ is talking about leadership for change.  "Mark Windholtz":http://www.railsstudio.com/ put together a little presentation based of some of the stuff he's learned from "Gerald Weinberb":http://www.geraldmweinberg.com/.  One of the interesting things is this little graph:
+
+
+<img src="http://blog.lathi.net/files/learning-curves.png" height="266" width="393" border="1" align="middle" hspace="10" vspace="10" alt="Learning-Curves" title="Learning-Curves" />
+
+There's something of a myth that as we learn we are constantly getting better.  That's represented as the black line. Weinberg says that the real learning curve is more like the red line: you stay mostly stagnant for a while and then you get a big bump.  The interesting thing from tonight's discussion is that just before your quantum jump in productivity/output/learning/whatever, you have a slight dip in performance.
+
+The orange dotted line represents the status quo; when no real effort is put into improving.  There's still some type of improvement.  If you're lazy you still see some type of progress.  You might think, why should I bother with the pain of change when I'm still getting better.  There is pain with change.  Weinberg's graph of improvement (and I assume empirical evidence) shows that there's this dip in improvement.
+
+Maybe this all seems basic.  It was enlightening to me.  Often when trying to get people to accept change, it's hard to understand why they can't see the value of change.  There's a reason people resist change.  Next time you're trying to affect change, remember this graph.

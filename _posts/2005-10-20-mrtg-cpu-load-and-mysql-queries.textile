@@ -1,0 +1,14 @@
+--- 
+title: MRTG, CPU Load, and MySQL Queries
+typo_id: 674
+layout: post
+---
+<a href="http://www.lathi.net/images/mrtg-dashboard.png" title="Full-sized screenshot of Dashboard with MRTG graphs in Slothcam">
+<img src="http://blog.lathi.net/files/images/mrtg-dashboard-crop.png" height="122" width="305" align="left" border="0" hspace="10" vspace="5" alt="MRTG Graphs" title="MRTG Graphs" longdesc="MRTG CPU and Mailgraph in a SlothCam Dashboard widget" /></a>
+For a long time I've been running "mailgraph":http://people.ee.ethz.ch/~dws/software/mailgraph/ to monitory my "Postfix":http://www.postfix.org/ traffic.  Call me a bad sys admin, but until this week I've not had anything recording and graphing other server statistics.  But now I have "MRTG(Multi Router Traffic Grapher)":http://people.ee.ethz.ch/~oetiker/webtools/mrtg/ running on both my CPU load and the MySQL queries.
+
+MRTG is primarily a tool for checking status via SNMP; however, it can also run an arbitrary shell command and graph it's results as long as they follow a particular format.  It only took me about 10 minutes to get something that would run @uptime@ and return properly.  
+
+My partner, "Dave":http://www.dminor.com, asked today if we could also graph how "busy" our MySQL server is.  I thought it'd be possible if we could figure out how to get statistics from MySQL.  Well, duh!  I didn't even know about @mysqladmin version@.  Really, I'm not a DBA(Database Administrator); that's why we run MySQL in the first place.  Dave found without too much problems "mrtg-mysql-load":http://www.bitbybit.dk/mysqlfaq/mrtg-mysql-load/, a perl script to parse the version info properly.  A few minutes later and we've got that graphed too.
+
+I mentioned "SlothCam":http://www.niagara.com/~jax/GloriousSloth/slothcam.html yesterday.  It's a handy webcam Dashboard widget that can fetch arbitrary images off the web and keep them updated.  It's nice to have a single key to see the relative health of my server.  If you click the image above, you can see a full-sized screen shot of my Dashboard with three Slothcam's of my MRTG graphs.

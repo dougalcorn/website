@@ -1,0 +1,12 @@
+--- 
+title: Is this SoBig-G?
+typo_id: 294
+layout: post
+---
+I don't have virus protection.  I run GNU/Linux.  There hasn't been a virus found in the wild yet that infects GNU/Linux.  So, I never really know if I have received a virus via email or not.  Just after the peak of the Sobig-F barrage,  I setup simple filters to reject any mail with a list of known Subject lines; crude at best.  However, I haven't received any more of the <span style='background : #FFFFCE;'><font color="#0000FF">SoBig</font></span><a href="http://lathi.net/twiki-bin/edit/Main/SoBig?topicparent=Main.WebHome">?</a>-F virus.
+<p />
+Until today.  I just recieved a mail message with the Subject "Re: Movie" and an attachment named "your_details.zip".  I'm wondering if this is just one of the Sobig-F viruses with a subject I've never seen or the first of the "next wave" of Sobig viruses.
+<p />
+The infuriating thing is that the origins of Sobig are becoming known.  One of the several <a href="http://www.theregister.co.uk/content/56/33059.html" target="_top">articles</a> on the subject is found over at <a href="http://www.theregister.co.uk/" target="_top">The Register</a>.  It appears someone in the spamming business contracted the Sobig virus so that the spammer could setup a huge network of infected computers to use in an attack on anti-spam sites.  If this is true then all the vile things said about spammers are true.  They are the most selfish individuals I've ever heard of.  Just ignoring the rudeness of spam for a moment; the Sobig virus has been the worst virus of all time.  Calculating the cost to the International community for the amount of downtime, network slowdown, server overload, and PC disinfecting is impossible.  Now add that to the cost for the effort people have to go through to get rid of all the spam in their mailboxes.  Add to that the offensiveness of most of the spam.  All this hardship on the entire world just so that a couple hundred individuals can make a buck.
+<p />
+P.S. I used a service setup by Adreas Gietl to <a href="http://www.gietl.com/test-clamav/" target="_top">scan the attachment</a> on-ine using <a href="http://clamav.sourceforge.net/" target="_top">ClamAV</a>.  It told me the virus I got was Worm.Sobig.E.  I guess I need to go through the hoops of installing clamav on my mailserver.

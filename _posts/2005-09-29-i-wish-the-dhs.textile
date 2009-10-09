@@ -1,0 +1,7 @@
+--- 
+title: I wish the DHS...
+typo_id: 658
+layout: post
+---
+<blockquote>"I wish the DHS were half as good at keeping people safe as they are at scaring people." -- "Bruce Schneier":http://www.scheier.com/blog/archives/2005/01/altimeter_watch.html
+</blockquote>

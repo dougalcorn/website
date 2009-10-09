@@ -1,0 +1,8 @@
+--- 
+title: There's an RSS Feed too!
+typo_id: 608
+layout: post
+---
+If you're into <a href="http://lathi.net/twiki-bin/view/Main/RssFeeds">RssFeeds</a>, this blog is available as such at <a href="http://www.lathi.net/cgi-bin/blosxom.cgi?flav=rss" target="_top">http://www.lathi.net/cgi-bin/blosxom.cgi?flav=rss</a>
+<p />
+My main TWiki changes are also in an RSS feed at <a href="http://www.lathi.net/twiki-bin/view/Main/WebRss?contenttype=text/xml&amp;skin=rss" target="_top">http://www.lathi.net/twiki-bin/view/Main/WebRss?contenttype=text/xml&amp;skin=rss</a>

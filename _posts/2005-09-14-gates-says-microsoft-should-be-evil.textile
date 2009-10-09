@@ -1,0 +1,15 @@
+--- 
+title: Gates says Microsoft should be Evil
+typo_id: 648
+layout: post
+---
+This is a funny quote from Bill Gates.  I don't really think he meant the way it sounds, but it's nice to have it in print!  This is from a CNET interview:
+
+<blockquote>
+<p>*So that would be the philosophical difference between Microsoft and what Google is up to at this point?*</p>
+<p>Gates: Well, we don't know everything they are up to, but we do know their slogan and we disagree with that.</p>
+</blockquote>
+
+If you've been living under a rock for the last five years, Google's philosophy/slogan is "Do No Evil".  It's a poke at the popular perception of how Microsoft runs their company.
+
+So taken literally, Bill is saying he disagrees with doing no evil.  Wonder what he really meant?

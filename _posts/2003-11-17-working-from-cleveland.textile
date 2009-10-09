@@ -1,0 +1,6 @@
+--- 
+title: Working from Cleveland
+typo_id: 251
+layout: post
+---
+Much to <span style='background : #FFFFCE;'><font color="#0000FF">MichelleZaller</font></span><a href="http://lathi.net/twiki-bin/edit/Main/MichelleZaller?topicparent=Main.WebHome">?</a>'s relief I'm working in Cleveland this week.

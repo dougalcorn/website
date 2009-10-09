@@ -1,0 +1,14 @@
+--- 
+title: Please, backup your computers!
+typo_id: 1070
+layout: post
+---
+I'm amazed when I hear things like "this":http://summerofcamino.blogspot.com/2006/07/disaster.html: spill a drink, loose your computer, code not checked into a repository, no backup.  I don't mean to pick on this one guy.  It feels like I hear of this about once a month.  How long have we known about hard disk failures?  How many times have you heard you should back up your data?  How many of you do?
+
+<a href="http://www.shirt-pocket.com/SuperDuper/">
+<img src="http://blog.lathi.net/files/SuperDuper.gif" height="99" width="97" border="0" align="left" hspace="10" vspace="5" alt="Superduper for simple backups" title="Superduper for simple backups" /></a>
+For more than 90% of us (Mac users -- there must be a good solution for others as well) the solution is simple: buy an "external disk":http://www.newegg.com/Product/Product.asp?Item=N82E16822154041 and "SuperDuper!":http://www.shirt-pocket.com/SuperDuper/.  The first backup is somewhat painful, but after that it only takes about 10 - 15 minutes.  You can even schedule it to happen while you're not using your computer.
+
+The combined price of the drive and software is less than $125.  That's a pretty cheap insurance policy for when disaster strikes.  Nightly backups are great for peace of mind.
+
+Oh, another piece of advice: don't leave code on your computer not committed to your source control.  If you think it's going to take a while to get done, branch your code but still check it in often.

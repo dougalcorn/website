@@ -1,0 +1,22 @@
+--- 
+title: The Spam Arms Race Continues
+typo_id: 413
+layout: post
+---
+As I <a href="http://www.lathi.net/cgi-bin/blosxom.cgi/2003/5/05#Software_BogofilterResults4" target="_top">noted</a> the other day, I'm displeased with the performance of <a href="http://bogofilter.sourceforge.net/" target="_top">Bogofilter</a>.  I'm wondering if the problem is specifically with a bad statistical database or if spammers are just becoming better at bypassing it.  Today I got a spam message with a body like this:
+<p />
+<blockquote><pre>
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;slehne&gt;&lt;gem&gt;&lt;asking price&gt;&lt;haBWbhUIa&gt;&lt;yv vhyk;t famxeo:sm;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;blackhearts&gt;&lt;badakshan&gt;&lt;pserait&gt;&lt;leerend&gt;&lt;neveloevel&gt;&lt;dichter&gt;
+&lt;stemoniti&gt;&lt;tumulty&gt;&lt;/p&gt;
+&lt;p&gt;&lt;Beeton&gt;&lt;vajoaa&gt;&lt;cientopie`s&gt;&lt;ghiaino&gt;&lt;Devarsi&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p align="left"&gt;&lt;b&gt;&lt;font color="663366"&gt;The best tax deduction yet!&lt;/font&gt;
+&lt;font color="#000000"&gt; &lt;/font&gt;
+&lt;/b&gt;&lt;font color="#FFFFFF"&gt;slehne kbri mcxjrxgd:tnfhhfj:&lt;/font&gt;&lt;/p&gt;
+</pre></blockquote>
+<p />
+What you can see here is they are relying on the html rendering of the mail message to hide all the garbage.  The tags with junk of them should just go away.  The text with a white foreground shouldn't be visible.  All this junk in the email makes it very hard to do a good statistical analysis of the message.
+<p />
+My earlier hope that statistical analysis alone would be enough to defeat spam is now proving to be in vain.  I guess what I need to do I go back to multiple filters.  I think I may at least add <span style='background : #FFFFCE;'><font color="#0000FF">SpamAssassin</font></span><a href="http://lathi.net/twiki-bin/edit/Main/SpamAssassin?topicparent=Main.WebHome">?</a> back into the mix.  I don't know if I'll need anything more than that.  I've tried to add a filter on Content-Type of charsets I can't read (like Korean text).  I'm not sure my .procmailrc is setup right for that.  I'm still getting mail through with text in character sets that Emacs isn't setup to display.  All this makes me very sad that as a computing professional with over 10 years of professional programming experience I can't manage to keep my spam to a manageable limit.

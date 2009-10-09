@@ -1,0 +1,6 @@
+--- 
+title: My Old Photos Loaded
+typo_id: 285
+layout: post
+---
+I've loaded the new <a href="http://www.lathi.net/cgi-bin/ids/index.cgi" target="_top">Photo Album</a> with the photos I had in the old photo album.  The album is configured so you can purchase individual photos from <a href="http://www.shutterfly.com" target="_top">Shutterfly</a>.  I've not actually used them for photos yet.  The interface is pretty nice though.  Each photo has an "Order this photo" button.  If you click it, you'll add that photo to your cart.  If you hit the "Add more pictures" link it will take you back to my photo album.  When you've used my album to select all the photos you want you just hit the "next" button on the Shutterfly page.  All in all I'm pleased.  It's a little slow, so be patient.  It caches the images it builds on the fly, so it'll be better as time goes on (except for new photos of course).  Anyway, enjoy.

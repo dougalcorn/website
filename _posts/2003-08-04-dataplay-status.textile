@@ -1,0 +1,6 @@
+--- 
+title: Dataplay Status
+typo_id: 322
+layout: post
+---
+I've updated my <a href="http://lathi.net/twiki-bin/view/Main/DataPlay">DataPlay</a> page to reflect my status of pretty much being done.  At this point I'm only doing final work on integrating the use of the device into my company's application.  So, anyone who's interested can use this driver to do something cool with Dataplay and Linux.  Of course, to really do something cool you'll need to talk to Dataplay themselves about getting their filesystem interface.  This driver is just the USB interface.  Writing the filesystem driver is fairly high on my "want to" list, but totally unfunded at this point.

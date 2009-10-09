@@ -1,0 +1,16 @@
+--- 
+title: Photo Gallery Layout Update
+typo_id: 644
+layout: post
+---
+I've updated my "photo gallery":http://home.lathi.net/gallery with my overall site design.  I'm getting pretty good at applying the design as a theme in various software packages.  This time it only took me about half an hour.  A few days ago I had updated my "wiki":http://www.lathi.net/twiki-bin/view and it took me about four hours.
+
+I have friends that complain my gallery is too cumbersome to navigate.  I'm using "Apache::Gallery":http://apachegallery.dk/ as a mod_perl application to serve up my photos.  It's very simple.  It just scans a directory and presents the folder/images it finds there.  I've modified it to handle "IPTC meta-data":http://www.iptc.org/IPTC4XMP/ better and also cache directory indexes.  It already creates thumbnails and scales the images automatically.
+
+I like it because it's very simple.  The server is actually located at my house.  When I take a bunch of photos and then "process them":http://www.lathi.net/twiki-bin/view/Main/PhotoWorkflow, I just copy the whole folder of processed images to my server.  That's my main archive of the photos and A::G automatically serves them without having to be updated.
+
+The bad news is that if you don't understand how I organize photos on my hard drive (and thus in my archive) then it's hard to find photos in the gallery.  It's also impossible to tell which photos are most recently added.  Finally, I've got all the photos I'm saving just crammed into the gallery.  That makes it hard to wade through looking for the best photos.
+
+My "Rails Day 2005":http://www.lathi.net/twiki-bin/view/Main/RailsDay project was supposed to be a new photo depot that solved all those problems.  Unfortunately, we didn't finish to the point where I could use it and I haven't revisited it again.
+
+<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://technorati.com/tag/Apache::Gallery" rel="tag">Apache::Gallery</a>, <a href="http://technorati.com/tag/CSS Design" rel="tag">CSS Design</a>, <a href="http://technorati.com/tag/photo gallery" rel="tag">photo gallery</a></p><!-- technorati tags end -->

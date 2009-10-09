@@ -1,0 +1,33 @@
+--- 
+title: Quicksilver Hotness
+typo_id: 871
+layout: post
+---
+
+<img src="http://blog.lathi.net/files/about-qs.jpg" height="461" width="250" border="1" align="right" hspace="10" vspace="5" alt="About Quicksilver" title="About Quicksilver" longdesc="Act without doing; work without effort.  Think of the small as large and the few as many.  Confront the difficult while it is still easy; accomplish the great task by a series of small acts.  --Lao-Tze (translated by S. Mitchell)" />
+I am totally dependent on "Quicksilver":http://quicksilver.blacktree.com/.  For the uninitiated, QS claims to be "a unified, extensible interface for working with applications, contacts, music, and other data."  
+
+It's hard to describe the QS jive.  Using a single hot key combination, you can easily access nearly all of the data on your system without actually taking a context switch hit.  That's really the goal: a minimal amount of key strokes to access your data without having to leave the application you're already in.
+
+Before I forget, Quicksilver is free software.
+
+Here's a good example of hotness that really turned me on this morning.  Imagine this scenario: you're reading some web site forum/user comments/whatever.  One of the comments has a url you think you'd like to visit but the site hasn't automatically converted the url into a link.  It's just text.  How do you handle that?  Here's some options:
+
+* This is the "old way":
+** Highlight text with mouse, 
+** Command-C to copy the url, 
+** (assuming you're in a decent browser) Command-T to open a new tab, 
+** Command-v to paste the url, 
+** Return to actually load the url
+
+* The "Mac OS X" way:
+** Highlight the text with mouse,
+** Choose "Services" under the application menu
+** Choose "Open URL in Camino" (or Chift-Command-U if you have a good memory)
+
+* The Quicksilver way:
+** Highlight the text with the mouse,
+** Command-Escape is the key combination to open QS with the selection
+** Hit return.  QS is smart enough to recognize that the selected text is a URL and the logical action to take on a URL is to open it.
+
+Why is the QS way better than using the Services menu?  Both take a nominal three steps.  The advantage of QS is that it uses a common hot key with everything.  So you're already in the habit of using Command-Escape to act on selections.  You don't have to train your fingers for one more key combination.  You don't have to remember the Services menu has different options for "Open URL" or "Open URL in Camino".  There are lots and lots of ways to use Quicksilver to simplify common tasks.  This one just made me happy enough I thought I should write about it.

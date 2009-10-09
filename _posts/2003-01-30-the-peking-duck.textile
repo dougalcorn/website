@@ -1,0 +1,6 @@
+--- 
+title: The Peking Duck
+typo_id: 546
+layout: post
+---
+<a href="http://davenet.userland.com/" target="_top">Dave Winer</a> <a href="http://davenet.userland.com/#meetThePekingDuck" target="_top">writes</a> about "Richard", a resident of Beijing in the People's Republic of China.  "Richard" <a href="http://pekingduck.blogspot.com/" target="_top">blogs</a> about "what it's like to be in Beijing; not the China tourists see, it's the China of the Chinese."  Dave also mentions (but doesn't provide any links to) "thousands of weblogs in Iran."  It touches me to think that in many cases it's illegal for these people to publish these journals of their life and what they really think.  It troubles me to think what would happen to some of them if their repressive governments decide to "re-educate" them.  We have so much we take for granted.

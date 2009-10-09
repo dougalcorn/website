@@ -1,0 +1,10 @@
+--- 
+title: "Darwin Ports: Casualty of Migration"
+typo_id: 915
+layout: post
+---
+I've been a big fan of "Darwin Ports":http://www.darwinports.org/getdp for a while.  It's a relatively painless way to install open source software on your Mac.  It borrows heavily from the FreeBSD @ports@.  Gentoo is also based on this type of a system.  Basically, rather than packing up binaries and offering them for download and distribution, Darwin Ports packages up instructions on how to download and compile applications nicely for the Mac.
+
+I was able to successfully migrate my @/opt@ tree with all my custom built ports in them over to my new Macbook Pro.  However, all those binaries are PowerPC binaries.  They all run under "Rosetta":http://www.apple.com/rosetta/ emulation.  So my blindingly 4x faster Macbook Pro runs all my "Ruby on Rails":http://rubyonrails.com tests at the same speed as my 1.33Ghz G4.
+
+The solution appears to be @mv /opt /opt.ppc@ and rebuild all the ports from scratch.  I'll post more when that's all done.

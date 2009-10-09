@@ -1,0 +1,6 @@
+--- 
+title: Sorry for the RSS Feed Spam
+typo_id: 800
+layout: post
+---
+I was having problems with the way "ecto":http://ecto.kung-foo.tv/ was setup to post "technorati":http://www.technorati.com/ tags into "typo":http://typo.leetsoft.com/.  So I had to edit all my posts with keywords to get them updated properly.

@@ -1,0 +1,24 @@
+--- 
+title: What Images Can We Trust
+typo_id: 101
+layout: post
+---
+I recently started reading <a href="http://www.amazon.com/exec/obidos/ASIN/0871564580/lathinet-20?creative=327641&#38;camp=14573&#38;link_code=as1" target="_top">Galen Rowell's Vision: The Art of Adventure Photography</a>.  He has lots of essays on the ethics of photography.  I came across <a href="http://sfgate.com/cgi-bin/article.cgi?file=/c/a/2005/05/23/MNGNVCT8F01.DTL&#38;type=tech" target="_top">this</a> article on <a href="http://sfgate.com/" target="_top">SFGate.com</a> about the unforeseen effects on society of the mass of digital photography.
+<p />
+<blockquote>
+The evolution is having profound and unforeseen effects on society -- from changing the way that people record their daily lives to making it harder to trust the images we see. Archivists wonder whether digital images will remain as permanent as prints for future generations. And sociologists wonder how it will change the way friends and family relate to one another.
+</blockquote>
+<p />
+Specifically, what effect does the ease of which people can clean up images?  Simple things like whitening teeth, cleaning stains out of carpet, cropping people in/out of photos.  What are the long term effects of this?
+<p />
+<blockquote>
+But Dunleavy said the notion that the "camera never lies" has always been a myth. Photographers, he pointed out, have always presented just one, narrow slice of reality, while leaving the rest outside the viewfinder.
+<p />
+"As soon as I pick up a camera, I am editing my reality," he said. 
+</blockquote>
+<p />
+I'm certainly aware of the editing I do to images.  I do whatever I can to clean up images without making them look too fake.  My goal is to create pleasant reminders of my life and the lives around me.  When I remove distracting imperfections from a photo it heightens the value of the photo to me.  I like it <em>because</em> it's a "better than reality" memento.
+<p />
+Galen Rowell has strict ethics about manipulating images.  Basically, he thinks we should only modify images to make them <em>more</em> like what we actually saw.  In other words, it's OK to manipulation the image to compensate for our camera's inability to capture what the human eye can see.  It's not OK to change what was seen (like telephone wires).  At the same time, he complains that much of the "virgin" wilderness he got to explore is quickly becoming "marred by man" such that it would be impossible to retake his most famous photos.
+<p />
+The whole topic is very interesting and deserves more than a little thought from each photographer.

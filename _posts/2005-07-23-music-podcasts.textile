@@ -1,0 +1,6 @@
+--- 
+title: Music Podcasts
+typo_id: 614
+layout: post
+---
+I'd like to make two plugs for music podcasts.  The first is "Accident Hash":http://accidenthash.podshow.com/.  It's another 30-something guy who _loves_ music.  He does a great job of tracking and finding indy music.  Most of the stuff he plays is good ol' Rock-n-Roll.  The other podcast is one he advertised: "Mostly Tunes":http://mostlytunes.com/.  This is exactly what it says it is.  Almost no DJ introductions and more good music.

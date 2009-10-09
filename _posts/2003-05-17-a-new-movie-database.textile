@@ -1,0 +1,8 @@
+--- 
+title: A new movie database
+typo_id: 390
+layout: post
+---
+For those of you who don't know, I'm <a href="http://www.gnu.org/philosophy/amazon.html" target="_top">boycotting amazon.com</a>.  As such, I was particularly <a href="http://www.lathi.net/cgi-bin/blosxom.cgi/Movies/IMDBAndAmazon.writeback" target="_top">sad</a> to learn of <a href="http://www.gnu.org/philosophy/amazon.html" target="_top">imdb.com</a>'s relationship with amazon.com.  As such, I quit linking to imdb.com (although I haven't bothered to go back and remove all the links on my site to them).
+<p />
+Well if you haven't noticed, I've starting putting <a href="http://www.lathi.net/cgi-bin/blosxom.cgi/Movies/WhichMovie.writeback" target="_top">links</a> in my <a href="http://www.lathi.net/cgi-bin/blosxom.cgi/Movies" target="_top">movie</a> stories <a href="http://www.lathi.net/cgi-bin/blosxom.cgi/Movies/MatrixReloaded.writeback" target="_top">again</a>.  I've found <a href="http://www.allmovie.com/" target="_top">Allmovie.com</a>.  They don't appear to be affiliated with anyone at the moment and have similar information to imdb.com.  So, I encourage you to start using allmovie.com instead of imdb.com for all your movie linking needs.

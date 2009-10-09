@@ -1,0 +1,63 @@
+--- 
+title: Simple SwitchTower Setup
+typo_id: 839
+layout: post
+---
+I don't think my situation is that odd, but I had to make several tweaks to use "SwitchTower":http://manuals.rubyonrails.com/read/book/17 work for me.  I have a single server; my web server is Apache launching FCGI on localhost with MySQL also on localhost.  I have two live versions of my application: a real "production" site and an "integration" site.  I use the integration site to demonstrate code to my client before it's moved into production.  Integration uses the same code repository as production and uses the Rails development environment.  There are two of us developers working on the project.  Both of us should be able to deploy.
+
+We'd like the default @rake deploy@ to deploy to our integration server.  We'd like something simple to also be able to deploy to our production environment.  The first recommendation I got was to duplicate the @lib/tasks/switchtower.rake@ tasks and then also duplicate @config/deploy.rb@ for the two environments.  So, I'd end up doing something like @rake deploy@ for integration and @rake deploy_production@ for production.  This quickly lead to a lot of duplication.
+
+"Jamis Buck":http://jamis.jamisbuck.org/ suggested to simply use conditionals in the @config/deploy.rb@ to set the necessary parameters.  After some experimentation, here's what I ended up with:
+
+<typo:code lang="ruby">
+set :application, "myapp"
+set :repository, "svn+ssh://my.hostname.dom/path/to/svn/trunk"
+
+if ENV['RAILS_ENV'] == 'production'
+  set :deploy_to, "/path/to/production/"
+else
+  set :deploy_to, "/path/to/development"
+end
+
+role :app, "my.hostname.dom"
+role :web, "my.hostname.dom"
+role :db, "my.hostname.dom"
+</typo:code>
+
+This means that as requested, the default @rake deploy@ goes to integration.  For production, @RAILS_ENV="production" rake deploy@ works.  This is very similar to all the other rake tasks for development vs. production.  
+
+There's one catch though.  The default @:migrate@ task hard codes the @RAILS_ENV@ when running the migration on the remote host.  So, I had to override that task:
+
+<typo:code lang="ruby">
+task :migrate, :roles => :db, :only => { :primary => true } do
+  directory = case migrate_target.to_sym
+    when :current then current_path
+    when :latest  then current_release
+    else
+      raise ArgumentError,
+        "you must specify one of current or latest for migrate_target"
+  end
+  
+  run "cd #{directory} && " +
+      "#{rake} RAILS_ENV=#{ENV['RAILS_ENV']} #{migrate_env} migrate"
+end
+</typo:code>
+
+The only change there is that I've substituted @#{ENV['RAILS_ENV']}@ where the default has @RAILS_ENV=production@.
+
+A *note about subversion urls* for the repository.  SwitchTower accesses the repository twice during a deployment: first to check the latest version (run from the local system); second to actually check out that revision (run from the remote system).  What that means is the repository needs to be accessible from both the system you deploy from and the system you deploy to.  I was hoping to use the @file://@ url, but that's a no go.
+
+I'm too lazy to setup subversion's http authentication, so that leaves @svn+ssh://@.  SwitchTower users the Ruby @Net::SSH@ module to perform all it's functions.  @Net::SSH@ is smart enough to use the specified ssh-agent when doing it's connections; however, it's not smart enough to forward the agent connection.  So SwitchTower will happily ssh into the remote host using the ssh-agent, but can't use the agent when doing the svn checkout.  That means it's going to use the private ssh key on the remote server for the user who's doing the deploy.  As such, it's either going to prompt for that key's passphrase or prompt for the user's system password if the key doesn't exist.  Until @Net::SSH@ updates to allow forwarding the agent, there's no way to use @svn+ssh://@ with SwitchTower without being prompted for a password.
+
+One final problem.  In @SwitchTower::SCM@ there's the default @run_checkout@ that does the checkout and then adds an entry to the @revisions.log@ for who did this deployment and when.  The problem is that the last thing it does is @chmod 666 #{log}@.  On my Debian/Linux system that command fails if you're not the actual owner of the file.  Same thing with re-linking @current@ to the latest release.  Hooks to the rescue:
+
+<typo:code lang="ruby">
+task :before_deploy, :roles => :app do
+  run <<-CMD
+    /usr/bin/sudo /bin/chown #{ENV['USER']} #{deploy_to}/current;                                      
+    /usr/bin/sudo /bin/chown #{ENV['USER']} #{deploy_to}/revisions.log                                 
+  CMD
+end 
+</typo:code>
+
+This only works though because both of us who do development/deployment have @sudo@ privileges without password prompting.  Jamis said he'd heard of others with this ownership/permissions problem, but hadn't experienced it.  I suspect it's an OS/kernel issue.  I haven't investigated that though.

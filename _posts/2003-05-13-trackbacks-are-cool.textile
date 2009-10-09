@@ -1,0 +1,6 @@
+--- 
+title: Trackbacks are cool
+typo_id: 398
+layout: post
+---
+I've been working with <a href="http://www.yerot.com/~yerase/" target="_top">Randall Hand</a> on our respective blogs and wikis.  He <a href="http://www.yerot.com/~yerase/blog/blosxom.cgi/Software/05-13-2003.writeback" target="_top">figured</a> out what <a href="http://www.movabletype.org/trackback/" target="_top">trackbacks</a> are and how to use them.  Using small words and <a href="http://www.yerot.com/~yerase/twiki/bin/view.pl/Main/TrackBack" target="_top">repeating</a> them often, he finally got me to understand them.  This blog post should work as a trackback to his blog.  Here's to hoping! 

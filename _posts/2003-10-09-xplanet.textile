@@ -1,0 +1,6 @@
+--- 
+title: Xplanet
+typo_id: 283
+layout: post
+---
+I've switched to using <a href="http://xplanet.sourceforge.net/" target="_top">Xplanet</a> for my desktop background.  Since it has so many options, I've put up my <a href="http://lathi.net/twiki-bin/view/Main/XplanetConfig">XplanetConfig</a>.

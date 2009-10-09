@@ -1,0 +1,6 @@
+--- 
+title: Apple Mac mini
+typo_id: 202
+layout: post
+---
+<a href="http://www.apple.com/macmini/"><img src="http://images.apple.com/macmini/images/indexdimensions20050111.jpg" align="left" vspace="3" hspace="10" border="0" /></a>I'm so impressed with Apple's new <a href="http://www.apple.com/macmini/" target="_top">Mac mini</a>.  It's a tiny little computer at a great price.  For $500 you get a fast little G4 with a CD-RW/DVD and a 40G hard disk.  True you have to supply your own monitor and keyboard.  However, I have several close friends that are still Windows users with aging hardware.  This is a great upgrade option!  True, some of their software isn't duplicated by what comes bundled with the Mac.  At least this machine won't be vulnerable to every virus/spyware out there.  As an added bonus you get a beautiful interface.

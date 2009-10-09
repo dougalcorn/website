@@ -1,0 +1,6 @@
+--- 
+title: Is it Spring yet?
+typo_id: 449
+layout: post
+---
+I'm working from Cleveland this week.  <a href="http://www.weather.com/weather/local/44115" target="_top">Weather.com</a> says it'll be nice for a couple of days, but then back down to the upper 40's and 50's by the end of the week.  I guess by the time we'll get consistently nice weather it'll be Summer.

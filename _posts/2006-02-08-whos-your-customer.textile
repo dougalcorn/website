@@ -1,0 +1,12 @@
+--- 
+title: Who's your Customer?
+typo_id: 862
+layout: post
+---
+This is an "interesting observation on AJAX web calendars":http://www.joelonsoftware.com/items/2006/02/08.html by Joel Spolsky:
+
+<blockquote>
+Why so many Ajax calendars? My theory is that about a year ago, there was a lot of buzz (possibly true, possibly false) about Google shipping a calendar, and everybody thought, oh gosh, it's gonna be really good, like Gmail, and then Yahoo! is going to be embarrassed again, and run out and buy the best Ajax calendar company they can find, just like they did with Oddpost, making those very funny kids millionaires overnight. So people aren't really building calendars to sell to people like me who need calendars: they're building calendar companies to sell to Yahoo!, which, for some reason, has given up on the old concept of hiring programmers to write code, and is going with this new age concept of buying entire companies on the hopes that they might contain a good programmer or two, which, by the way, is a sure sign of trouble for a technology company.
+</blockquote>
+
+I haven't really used any of the web calendars, but he may be right.  This fits in with my thinking about building products: you have to build something for customers.  I think not enough companies spend time thinking about and delivering what their customers want.  In this case even the "Web 2.0" companies are failing at that.

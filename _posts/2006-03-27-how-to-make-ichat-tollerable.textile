@@ -1,0 +1,14 @@
+--- 
+title: How to make iChat Tolerable
+typo_id: 928
+layout: post
+---
+
+Go and install "Chax":http://www.ksuther.com/chax/.  "Chax is a collection of minor modifications and additions that make using Apple's iChat more enjoyable."  As of today, I've punted on "Adium":http://www.adiumx.com/index.php.  What was the main impetus for switching back to iChat?  Chax adds tabbed message windows.
+<img src="http://blog.lathi.net/files/chax-tabs.png" height="120" width="269" border="1" align="right" hspace="10" vspace="5" alt="iChat with tabs" title="iChat with tabs" longdesc="iChat Message Window with tabs thanks to Chax" />
+
+Here's some other things I did to make iChat more enjoyable.  It's weird, but you have to click on each buddy list and _then_ choose View -&gt; "Use Groups".  The default seems to be to put all your buddies in one big list.  I'm sorry to those of you I know but don't care to see your status.  I'd like to keep you in my buddy list, but not have to clutter up my list with your nick.  Using groups allow you to expand and collapse groups of users making your buddy list easier to glance at.
+
+Besides Chax's tabs in the message window, here's another good thing: click on the message window and then View -&gt; "Show Names" and View -&gt; "Show Text".  Both of these make for much more dense message windows allowing you to drastically shrink the amount of vertical screen space dedicated to chat.
+
+Things I still wish for: per message time stamping.  That's really petty of me, but I like to see quickly which each message arrived.  Also, I like how Adium supports "Off-the-Record Messaging Encryption":http://www.cypherpunks.ca/otr/.  Finally, I haven't figured out how to take advantage of Chax's logging.  Either way, Chax is worth a look.

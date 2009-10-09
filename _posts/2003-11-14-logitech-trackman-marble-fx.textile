@@ -1,0 +1,8 @@
+--- 
+title: Logitech TrackMan Marble FX
+typo_id: 255
+layout: post
+---
+<img src="http://lathi.net/images/logitech-trackman-marble-fx.jpg" width="150" height="73" alt="" title="Logitech Trackman Marble FX" align="left" vspace="5" hspace="5" />For those of you who don't know, my primary "axe" is an IBM <a href="http://lathi.net/twiki-bin/view/Main/ThinkPad">ThinkPad</a>.  I've quit carrying an external keyboard and mouse around with me.  I'm just too lazy to manually plug in the keyboard, mouse, network, power, and monitor every time I sit down to my desk.  So, I'm exclusively using the built-in LCD, keyboard, and "touchstick" pointing device.  
+<p />
+So what's the point of this?  This week I've needed to use a keyboard and mouse on my secondary computer.  Usually I just <code>ssh</code> into it from my <a href="http://lathi.net/twiki-bin/view/Main/ThinkPad">ThinkPad</a>.  This week I actually need a mouse on the thing.  I had to scrounge around to find one.  The only thing I could find is this old Logitech trackball.  Man do I love this thing!  I didn't realize just how much I miss it!  It's smooth, fast, and accurate.  The trackball on it is huge.  I don't know for sure, but I'm guessing it has a three inch diameter.  The only complaint I ever had with it was it didn't scroll right in XFree86.  There's been some patches added that handle scrolling with only the fourth button (just like the MS-Window's drivers do).  Anyway, it makes me want to start carrying it around again... well, maybe not.  But, it's fun to use again.

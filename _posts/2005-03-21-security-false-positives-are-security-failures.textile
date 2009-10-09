@@ -1,0 +1,10 @@
+--- 
+title: Security False Positives are Security Failures
+typo_id: 122
+layout: post
+---
+Repeat after me, "Security False Positives are Security Failures."  "Security False Positives are Security Failures..."
+<p />
+<blockquote>A man who recently had received radiation treatment for a medical condition set off a nuclear alert detector on a fire engine, prompting police to close down a roadway in Escondido while authorities searched for a nuclear weapon.</blockquote>
+<p />
+On <a href="http://newsobserver.com/24hour/weird/story/2195529p-10305331c.html" target="_top">News Observer</a> from my Number One Security Man, <a href="http://www.schneier.com/blog/archives/2005/03/nuclear_terrori.html" target="_top">Bruce Schneier</a>.

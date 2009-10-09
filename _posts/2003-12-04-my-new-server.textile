@@ -1,0 +1,10 @@
+--- 
+title: My New Server
+typo_id: 243
+layout: post
+---
+My partner, <a href="http://www.dminor.com/blog/" target="_top">David Minor</a>, and I have bought a new server to collocate.  We started with an old sparcstation 20 in my basement with a road-runner connection and a UPS.  We've tried virtual hosting, shared hosting, and dedicated hosting.  We've come to the conclusion that being able to put your hands on your box is a good thing.
+<p />
+To that end, we've bought a 1U server by piece-parts.  It's got a Supermicro X5DPA-TGM motherboard with Intel's ICH5-SATA Serial ATA IDE chipset, dual 120GB Serial ATA drives, a Gigabyte of RAM, and a 2.8GHz Xeon processor with space for one more.  Of course, the common wisdom is that servers should be SCSI.  We've done OK with IDE, but had some problems with the limitations of the IDE bus.  We really wanted faster disk drives, but couldn't really afford SCSI.  It was going to be almost $500 more for a SCSI setup with dual 80GB drives.  Serial ATA seems to be a good compromise between the high performance of SCSI and the low cost of IDE.
+<p />
+What we didn't count on was how tricky it is to get Linux running on SATA.  It turns out (like most things) it's not that bad if you know what you're doing.  Linux on SATA seems to be fragile based on how you have your BIOS configured.  Oh, yea.  You need to be running a <em>very</em> recent kernel (we're running 2.4.22-ac4; 2.4.23 didn't seem to support our chipset).  Since we were going all out (and it's not every day you get the chance to setup a new box) we decided to use the Logical Volume Manager as well.  I've put up pretty detailed notes on how I got <a href="http://lathi.net/twiki-bin/view/Main/DebianSataLvm">DebianSataLvm</a> all working together.

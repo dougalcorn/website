@@ -1,0 +1,8 @@
+--- 
+title: Fun with Photo Booth
+typo_id: 934
+layout: post
+---
+
+<a href="http://blog.lathi.net/files/Photo_2-1.jpg" onclick="window.open('http://blog.lathi.net/files/Photo_2-1.jpg','popup','width=640,height=480,scrollbars=no,resizable=yes,toolbar=no,directories=no,location=no,menubar=no,status=yes,left=0,top=0');return false"><img src="http://blog.lathi.net/files/Photo_2-1-tm.jpg" height="50" width="66" border="0" align="left" hspace="10" vspace="5" alt="Ugh, my sinuses" title="Ugh, my sinuses" /></a>
+My wife "doesn't like photo booth":http://carla.lathi.net/articles/2006/03/31/the-big-bad-wolf.

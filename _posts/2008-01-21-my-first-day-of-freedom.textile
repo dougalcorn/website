@@ -1,0 +1,14 @@
+--- 
+title: My First Day of Freedom
+typo_id: 1150
+layout: post
+---
+Friday was my last day at the company that won't let me blog about them.  I am very excited to be 100% independent freelancing!  This has been a goal of mine for many years and it's finally come true.
+
+This morning "Mark Windholtz":http://railsstudio.com/ is coming over to pair with me on a contract we share.  It's his good for not making me commute on my first day of independence.  I'm looking forward to working with him and several other independent developers.
+
+Hopefully now that I'm not under corporate thumbs I'll be able to blog more about the types of problems I'm seeing and methods for overcoming.  I've specifically been asked to write an article on my experiences working remotely on a Scrum project.
+
+In addition to writing more, I'm also hoping to be able to contribute back to the open source community.  It's tricky when your family depends on your billable hours to also give your work away.  However, I think it's good balance to work on things my clients require as well as things I'm interested in.  At first, this is likely to be helping "Phil Hagelberg":http://technomancy.us/ shape up Emacs for ruby development.
+
+So, there you go.  I'm going to be working with some good guys; doing more writing; and working on more open source.  Wish me luck! 

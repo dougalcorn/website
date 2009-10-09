@@ -1,0 +1,16 @@
+--- 
+title: Done or not done, there is no "polish"
+typo_id: 75
+layout: post
+---
+Leave it to my good friend, <a href="http://lathi.net/twiki-bin/view/Main/MarkWindholtz">MarkWindholtz</a>, to lift my spirits.  After my <a href="http://lathi.net/diary/Software/RubyOnRails/speed_with_ruby_on_rails.html" target="_top">post</a> on <a href="http://RubyOnRails.org" target="_top">http://RubyOnRails.org</a> speed he had this to say.  I was paraphrasing the <a href="http://www.michaelbuffington.com/archives/2005/06/first_rails_app.html#more" target="_top">original post</a> about switching from ColdFusion to RoR.  I had said Michael Buffington claimed it took him 10 hours to do <a href="http://wordPhoto.org" target="_top">http://wordPhoto.org</a> and then another 30 to "polish" it.
+<p />
+<blockquote>
+Mark: "Polishing" is an interesting term, I'm hearing it more latlely. &#160;I've even used it. &#160;It means getting the app to actually work. &#160;Am I wrong?
+<p />
+Me: Hmm, I guess so.  Maybe "polishing" is claiming to finish in N hours of working functionality, and then polishing for 3 - 5 x N to get it to where someone can actually use it.
+<p />
+Mark: To paraphrase Yoda: &#160;Done or not Done there is no polish.
+</blockquote>
+<p />
+How's that for a rash of Ruby on Rails posts for today?

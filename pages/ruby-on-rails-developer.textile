@@ -1,0 +1,22 @@
+---
+layout: default
+title: Ruby on Rails Developer Available for Hire
+---
+h1. Available for Hire
+
+I've been a professional programmer for over 15 years.  Most of my work experience is based around Unix systems programming.  I've programmed extensively in C/C++ and Perl.  Almost all of my work experience involves SQL.  I've also worked as a web application developer since about 2000; first moonlighting, then full-time since 2006. 
+
+Since early 2005, I've become enamored with "Ruby on Rails":http://rubyonrails.com.  It's a great framework that provides a clean design, solid testing, and great helper methods.  Coming from an object oriented background and appreciating test driven development, Rails is exactly what the doctor ordered. Prior to that I used the E-Commerce framework "Interchange":http://icdevgroup.org.  I've also done work with mod_perl, "HTML::Mason":http://www.masonhq.com/ and a little with the "Template Toolkit":http://www.template-toolkit.org.
+
+If you're interested in having a modern, standards compliant web application I'd love to talk with you.  Contact me directly by cell phone *(513-295-2844)* or "email me":mailto:doug@lathi.net if you'd like to talk.
+
+Here's some sites I've worked on in the past:
+
+ * "RosettaStone":http://rosettastone.com - I was the E-Commerce Team Lead doing all back-end development
+ * "ScrumAlliance":http://scrumalliance.org - I was one of the app developers for a year or so
+ * "BudgetSketch":http://bugetsketch.com - I was the principal developer, both back-end and front-end JS
+ * "Pyromaniac":http://pyromaniac.com - I was one of the back-end developers
+ * "Lawn Butlers":http://lawnbutlers.com - Though I have designers that I worked with in the past, I did all the design and html/css work for this simple site
+ * "GIS & Environmental Management":http://gis-environmental.com - I did all the html/css work (not the design) and back-end work on this site
+ * "USI Network Schools":http://usinetworkschools.org/ - I did most of the back-end programming for the member's only area along with another "Gaslight Software":http://gaslightsoftware.com member, Chris Nelson
+ * quite a few other sites that are privately hosted and visible, and sadly several that are now defunct...

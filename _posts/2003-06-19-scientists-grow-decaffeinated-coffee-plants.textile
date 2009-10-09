@@ -1,0 +1,8 @@
+--- 
+title: Scientists Grow Decaffeinated Coffee Plants
+typo_id: 338
+layout: post
+---
+According to a <a href="http://www.cbc.ca/stories/2003/06/18/gm_coffee030618" target="_top">CBC News story</a> Japanese researchers have genetically engineered coffee plants that have 70% less caffeine.  I found the article on <a href="http://slashdot.org/" target="_top">Slashdot</a>.  An observant poster pointed out today's <a href="http://www.dilbert.com/comics/dilbert/index.html" target="_top">Dilbert</a> seems quite appropos.
+<p />
+<img src="http://lathi.net/images/dilbert-20030619.gif" alt="must... find... antidote." width="600" height="210" border="0"/>

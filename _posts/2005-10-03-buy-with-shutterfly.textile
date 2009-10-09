@@ -1,0 +1,10 @@
+--- 
+title: Buy With Shutterfly
+typo_id: 659
+layout: post
+---
+More evidence that nothing is more permanent than a temporary solution: I've hacked purchasing photos from "Shutterfly":http://www.shutterfly.com into my "gallery":http://home.lathi.net/gallery/.
+
+I know I'm supposed to be replacing my gallery with something new and Railsy, but it was much easier to add this into my existing site.  It simply adds an "order" button on the bottom of every photo page.  Clicking the button uses Shutterfly's C4P(Click for Prints) "API":http://www.cs.hmc.edu/~ben/c4p_API_v2.html to add the image to a shopping cart.
+
+It's not that I'm necessarily endorsing Shutterfly as the best online photo "lab", but they happen to be the one with the easiest API to code into my site.  I just didn't want to go through the pain of adding all my photos to some _other_ gallery just so that I could get them printed.  And no, $0.29/4x6 isn't the greatest deal.  Again, this is the simplest way I could get prints.  In the end, that's my biggest goal right now.

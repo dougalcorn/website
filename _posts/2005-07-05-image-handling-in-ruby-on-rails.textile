@@ -1,0 +1,26 @@
+--- 
+title: Image Handling in Ruby on Rails
+typo_id: 76
+layout: post
+---
+<a href="http://lathi.net/diary/Software/RubyOnRails/speed_with_ruby_on_rails.html" target="_top">Speaking of images</a>, I've been doing more image work on my commercial <a href="http://rubyonrails" target="_top">Ruby on Rails</a> project.  
+<p />
+I had some experience with imaging from my <a href="http://lathi.net/twiki-bin/view/Main/RailsDay">RailsDay</a> project.  The bad news is that because of how old my server is (running Debian Woody), I was unable to get the Ruby bindings for Image Magick installed (which is what nearly everyone seems to be using for imaging).  So, I ended up using the <a href="http://www.pablotron.org/software/imlib2-ruby/" target="_top">ruby bindings</a> for <a href="http://www.enlightenment.org/Libraries/Imlib2.html" target="_top">Imlib2</a>.
+<p />
+My main problem came from how to cleanly test the image handling.  Uploading and saving images isn't very hard.  Tracking the images and the various scaled versions gets a little tricky.
+<p />
+After several false starts and finally pairing with <a href="http://lathi.net/twiki-bin/view/Main/MarkWindholtz">MarkWindholtz</a>, here's what I've come up with:
+<p />
+I have an Image class based on ActiveRecord.  This pretty much just stores the filename of where the image is on the filesystem.  
+<p />
+I have an ImageFiler object that is responsible for taking either the StringIO or File object from Ruby's CGI and writing it out to the disk.  It also deletes the file when appropriate.  Its purpose is to be the interface between the Image and the Filesystem.  
+<p />
+I also have an Imager object.  This is a wrapper around the Imlib2 functions.  It does things like scale the image appropriately and returns the image's size.
+<p />
+The containing Image object has pass through functions to a contained Imager and ImageFiler object.  Overall, that works pretty well.  It was easy to test all three objects independent of each other.  My test fixtures were very simple.
+<p />
+The second wrinkle came when I tried to create and cache scaled versions of the images.  I wanted the thumbnail (and other scaled versions) to be actual Image objects, but I didn't want them stored in the database as saved ActiveRecords.  So, I made creation functions off of Image to create new Image objects, but just never saved them.  These "sub-Images" are created on the fly or loaded from disk.  
+<p />
+It was a little tricky to get all the cached versions deleted when the Image object is deleted.  I ended up having a flag on the Image determine what type of Image it is: normal, thumbnail, scaled medium, etc.  This keeps me from going into a recursive loop and not deleting the thumbnail of the thumbnail Image.
+<p />
+The whole thing was kind of tricky.  I'd have thought image handling would be easier.  It could be that I'm just a <a href="http://lathi.net/diary/Software/RubyOnRails/speed_with_ruby_on_rails.html" target="_top">sub-standard programmer</a> and my code is more complicated than it needs to be.

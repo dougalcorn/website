@@ -1,0 +1,9 @@
+--- 
+title: Classical learning curves for common editors
+typo_id: 867
+layout: post
+---
+
+<img src="http://blog.lathi.net/files/curves.jpg" height="333" width="500" border="0" hspace="4" vspace="4" alt="Classical learning curves for some common editors" title="Classical learning curves for some common editors" />
+
+I'm not certain where this originated from, but "this link":http://unix.rulez.org/~calver/pictures/curves.jpg was pasted in #emacs.

@@ -1,0 +1,6 @@
+--- 
+title: On the Internet Anyone Can Sound Important
+typo_id: 227
+layout: post
+---
+I know it's not that much, but it's cool to see your name in print.  I had a reporter from the Boulder, CO area contact me about my involvement with <a href="http://lathi.net/twiki-bin/view/Main/DataPlay">DataPlay</a>.  She ended up actually <a href="http://datajoe.bcbr.com/arch/archdetail.cfm?id=27316" target="_top">quoting me</a> in print in the <a href="http://bcbr.com" target="_top">Boulder County Business Report</a> as well as on the web.

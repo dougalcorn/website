@@ -1,0 +1,6 @@
+--- 
+title: Seed
+typo_id: 201
+layout: post
+---
+Here's where I talk about my new photography hobby.

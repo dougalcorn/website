@@ -1,0 +1,14 @@
+--- 
+title: I Like Smilies
+typo_id: 252
+layout: post
+---
+I try not to get too carried away, but I like smilies (or emoticons for the pedantic).  There are lots of them out there.  I kindof like to collect them.  I came across a good stash of them today and snagged them (well at least the ones that weren't offensive).  I use my "collection" for the <a href="http://lathi.net/twiki-bin/view/TWiki/SmiliesPlugin">SmiliesPlugin</a>.  For those too lazy to follow the link, I'll throw them all in here.
+<p />
+<img alt="smile" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/smile.gif" /> <img alt="cool!" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/cool.gif" /> <img alt="frown" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/frown.gif" /> <img alt="whatever" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/indifferent.gif" /> <img alt="embarrassment" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/blush.gif" /> <img alt="big grin" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/biggrin.gif" /> <img alt="wink" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/wink.gif" /> <img alt="razz (stick out tongue)" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/tongue.gif" /> <img alt="mad!" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/mad.gif" /> <img alt="rant" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/rant.gif" /> <img alt="eek!" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/eek.gif" /> <img alt="confused" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/confused.gif" /> <img alt="doh!" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/doh.gif" /> 
+<p />
+Here are some the larger animations:
+<p />
+<img alt="crazy dance" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/dancefool.gif" /> <img alt="Monty Python Foot" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/pyth.gif" /> <img alt="group hug" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/grouphug.gif" /> <img alt="frustration" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/headbang.jpg" /> <img alt="kiss" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/kiss.gif" />  <img alt="puke" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/puke.gif" /> <img alt="loco" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/loco.gif" /> 
+<p />
+While I'm at it, I'll link to this nice collection of <a href="http://www.windweaver.com/emoticon.htm" target="_top">how to type a bunch of emoticons</a>.

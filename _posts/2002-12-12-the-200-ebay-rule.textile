@@ -1,0 +1,12 @@
+--- 
+title: The $200 eBay Rule
+typo_id: 598
+layout: post
+---
+<a href="http://www.dminor.com" target="_top">David Minor</a> pointed me to an <a href="http://www.remodern.com/caught.html" target="_top">article</a> about a "Mac Addict" being defrauded on eBay.  He's out at least $2300 (realistically more, though he doesn't say how much) and knows of others taken in the same scam for much, much more.  I personally was sold a stolen <a href="http://lathi.net/twiki-bin/view/Main/ThinkPad">ThinkPad</a> that the FBI confiscated.  I would have been out $1500, but the FBI agent took pity on me an managed to sign the notebook out of evidence to me.
+<p />
+The moral of all these stories is that eBay is a breeding ground for criminals.  You have no insurance against fraud.  Your only safety net is the $200 <a href="http://pages.ebay.com/help/community/fpp.html" target="_top">fraud protection program</a> that ebay provides.  So:
+<p />
+<blockquote>
+<i>Never expose more than $200 of your own money in an ebay transaction</i>
+</blockquote>

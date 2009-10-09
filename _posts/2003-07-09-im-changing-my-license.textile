@@ -1,0 +1,6 @@
+--- 
+title: I'm Changing my License
+typo_id: 328
+layout: post
+---
+This blog, my <a href="http://lathi.net/twiki-bin/view/Main/RssFeeds">RssFeeds</a>, and my whole TWiki are now covered under the <a href="http://lathi.net/twiki-bin/view/Main/CreativeCommons">CreativeCommons</a> license.  You can get more information on my <a href="http://lathi.net/twiki-bin/view/Main/CopyRight">CopyRight</a> page.

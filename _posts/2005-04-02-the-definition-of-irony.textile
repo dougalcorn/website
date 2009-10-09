@@ -1,0 +1,16 @@
+--- 
+title: The Definition of Irony
+typo_id: 113
+layout: post
+---
+<a href="http://www.boingboing.net/2005/04/01/valenti_signs_betama.html"><img src="http://www.boingboing.net/images/valentisigning.jpg" alt="Jack Vallenti signs Betamax tape" align="left" width="250" height="188" border="0" vspace="5" hspace="10"/></a>Jack Valenti signs a Betamax tape of an unauthorized copy from TV of a Woody Allen movie on the Supreme Courthouse steps.  Thanks to <a href="http://boingboing.net/" target="_top">Boing Boing</a> for the <a href="http://www.thecopyfight.com/wordpress/index.php?p=106" target="_top">link</a>.
+<p />
+The back story.  The Napster was sued and shutdown for facilitating copyright infringement.  They had a big server farm where everyone went to copy music.  As a central entity with copies of infringing works on their servers, they were a ripe target.  Lesson learned: when setting up P2P networks design around centralized servers.  Enter Grokster, a P2P software company that designs a system with no centralized servers.  MGM studios sues the Grokster software company because the users of their software use it to infringe copyrights.  
+<p />
+Two courts have struck this down on the grounds of the "bright line" of the original Sony  "Betamax" case.  The Supreme Court heard the final appeals of MGM a few days ago to basically decide if the Sony case should be reversed.  The "bright line" of the Sony case says that if a product has significant non-infringing uses then the inventor can't be held liable for what his customers do with it.  The affect on real innovation of reversing this is astounding.  Image the liability an inventor would have to shoulder if <em>someone, somewhere, sometime</em> used their product for copyright infringement.  For those of you who need this spelled out, B-A-D N-E-W-S.
+<p />
+The back back story.  Back in 1982 when the Sony case was being heard.  Jack Valenti was the President of the Motion Picture Association of America (MPAA, essentially the lobby group for all the movie studios).  He testified before Congres that "the VCR is to the American film producer and the American public as the Boston strangler is to the woman home alone."  Even though it's needless to say this I will anyway, he was wrong then.  The opposite is true.  The VCR has made the American film producers an incredible amount of money.  
+<p />
+Jack Valenti is an incredibly frustating man.  He's without a doubt the most successful lobbyist of all time.  Don't let his "I'm just an unsophisticated country boy" act fool you.  He's incredibly intelligent and very smooth.  As President of the MPAA he had one goal: make the film industry as much money as possible.  The American public was not his concern.  He's recently retired from the MPAA, but I still don't trust him.
+<p />
+Stories like <a href="http://www.boingboing.net/2005/04/01/valenti_signs_betama.html" target="_top">this one</a> on <a href="http://boingboing.net" target="_top">Boing Boing</a> are exactly why I follow it.

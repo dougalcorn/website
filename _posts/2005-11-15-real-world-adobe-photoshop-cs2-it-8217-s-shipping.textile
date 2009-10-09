@@ -1,0 +1,14 @@
+--- 
+title: Real World Adobe Photoshop CS2-It's Shipping!
+typo_id: 782
+layout: post
+---
+Yum!  I love Bruce Fraser's stuff.  This has just been bumped to the top of my "wish list":http://www.lathi.net/twiki-bin/view/Main/WishList
+
+<blockquote>
+<a href="http://photoshopnews.com/2005/11/14/real-world-adobe-photoshop-cs2-its-shipping/">Real World Adobe Photoshop CS2-It&#8217;s Shipping!</a>:
+
+Word has come in from Bruce Fraser that he's recieved his author's copies of <i><a href="http://www.peachpit.com/bookstore/product.asp?isbn=0321334116&#038;rl=1">Real World Adobe Photoshop CS2</a></i> and the books should be hitting distributors this week.
+
+<img src='/files/images/rwpscs2.jpg' alt='Real World Photoshop CS2' align='right' hspace='10' vspace="5" width="140" height="140" />In this copiously illustrated volume, best-selling authors David Blatner and Bruce Fraser offer scads of hands-on production techniques as well as clear explanations of the concepts that drive them, so that you can get the best results possible on your own Photoshop CS2 projects. You&#8217;ll learn about managing color, getting great scans, correcting tones and colors, and more. You also find complete coverage of all of Photoshop CS2&#8217;s newest features: integration with Adobe Bridge; Vanishing Point; super-tight integration with the rest of Adobe&#8217;s Creative Suite 2; and more.
+</blockquote>

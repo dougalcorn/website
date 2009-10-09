@@ -1,0 +1,6 @@
+--- 
+title: To Switch or not to Switch...
+typo_id: 510
+layout: post
+---
+I follow <a href="http://www.livejournal.com/users/jwz/" target="_top">Jamie Zawenski</a>'s blog.  He's probably equally most famous for his work in originally maintianing <a href="http://www.xemacs.org" target="_top">XEmacs</a> and being one of the original crew for Netscape back in the day.  Lately he's probably most known at large as a complainer of things technical.  He's one of the ones that wonder "why things just don't work better."  Of course, if it really annoys him, he'll just go write something to fix it.  For the last however long, he's been complaining about Linux and it's lack of user friendliness.  Mind you this is Jamie "I wrote Netscape Navigator" Zawenski saying Linux is too much of a pain to use.  As a result, he's been making noises about Switching over to a Mac.  This recent <a href="http://www.livejournal.com/talkread.bml?journal=jwz&amp;itemid=157378" target="_top">journal</a> entry sheds some new light on the subject.  It's more than possible the "Mac is better" arguments by GNU/Linux people is a classic case of "grass is greener on the other side" arguments.  Things that make you go "Hmmmm".

@@ -1,0 +1,27 @@
+--- 
+title: Commenting Code in Haiku
+typo_id: 796
+layout: post
+---
+"This Slashdot":http://developers.slashdot.org/article.pl?sid=05/11/30/1544256&from=rss  article made me laugh.
+
+<blockquote>
+Should I write comments? What is a good comment? ... I instead suggest commenting in haiku.
+</blockquote>
+
+I've actually been thinking about code comments lately.  For starters, I hate those long journals in the top of source code that say what's been done by whom; learn to use source control!  Second, bad comments tend to live a long time.  I recently went back to a project I had worked on five years prior.  All my old comments were still scattered around the code like little essays on why I was doing what I did.  Five years later, that stuff was meaningless.  Comments typically don't age well.
+
+What I like about commenting in haiku is that it really makes you think about what you write before you do.  You have to boil the essence of what you're doing down to a few words.  Of course, writing haiku is a good mental exercise in general.
+
+So which is worse: comments about the code that don't reflect all the changes that's been made or unit tests that don't pass?
+
+I once dealt briefly with a development team that had an outstanding test environment.  The lead programmer had a continuous build system that reported complete system test status.  At the time that was pretty forward thinking and I was impressed.  I recently visited with the same team and was disappointed the tests were being neglected.  The new lead programmer had a printout pinned to his cubical wall from the last time all the tests passed like a trophy.
+
+Maintaining tests can be cumbersome.  I'm not going to deny it.  I sympathize that the pressure of deadlines can tempt you away from tests.   It can also be pretty annoying to have to make a bunch of tedious changes to bring your tests in line.  I think of it like double-entry accounting though.  All code has a test, all tests have code and the two should be in agreement.  An accountant wouldn't think of adding a credit to an account without adding a debit to the appropriate account.  It's how you know everything is in ballance.  It's comforting and reassuring to have a good test to code ratio that all passes.  It gives you confidence to keep moving forward.  When you leave tests that don't pass, what's a new guy to do?  How's he supposed to know which is right: the code or the test?  I guess he needs to hope there are good comments about what the code is supposed to do.  Of course, with my luck all three would be out of agreement.
+
+I'd say about half of my debugging time on my Ruby on Rails projects is spent fixing tests.  It's an investment that pays off.  I'm able to easily isolate the problems.  Having the tests automated gives me pre-defined data to work with.  I don't have to spend a lot of time in setup to reproduce the bug; it's right there in my test.  Keep in mind that my overall debugging time with Ruby on Rails and TDD is much less than working non-TDD.  I attribute my success with TDD and RoR to the high level assertion helpers.  I find it much easier to write my tests in RoR because of the testing helpers.
+
+For me, tests are better than comments.  They properly demonstrate how the code is supposed to work.  Tests make it easy to tell when they are out of sync with the code.  Reading comments that disagree with the code can be a real stumbling block when trying to maintain systems.  Sometimes comments and code are only subtly out of sync that may not show up for a while.
+
+My suggestion is to always keep your tests at 100%.  Don't check in any code while tests pass less than 100%.  If you have tests that don't pass and don't have time to fix the test I believe it's better to delete the test.  At least then a new guy can assume the code is correct until proven otherwise.  I could be wrong about the deleting part.  I just said that to be inflammatory! ;-)
+

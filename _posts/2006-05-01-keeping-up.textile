@@ -1,0 +1,10 @@
+--- 
+title: "\"Keeping Up\""
+typo_id: 962
+layout: post
+---
+My understanding is that one of "Merlin Mann's":http://www.merlinmann.com/ key tenets is to "do less better".  The simplicity of "this statement":http://www.43folders.com/2006/05/01/keeping-up/ struck a very strong cord for me:
+
+<blockquote>
+It'd be interesting to consider how often the things you monitor most map to the things you (say you) value most. Or, as I might have phrased it in third grade, if you love Digg so much, maybe you should marry it.
+</blockquote>

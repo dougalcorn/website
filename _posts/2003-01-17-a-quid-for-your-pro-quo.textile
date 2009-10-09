@@ -1,0 +1,6 @@
+--- 
+title: A "Quid" for your "Pro Quo"
+typo_id: 569
+layout: post
+---
+Anyone who knows me starts to roll their eyes as I start to bash Microsoft.  Frankly, I'm getting weary of bashing them.  It's clearly not doing any good.  That having been said, here's a good poke. <a href="http://www.theregister.co.uk/" target="_top">The Register</a> has posted this "<a href="http://www.theregister.co.uk/content/7/28914.html" target="_top">analysis</a>" of the Microsoft dividend announcement.

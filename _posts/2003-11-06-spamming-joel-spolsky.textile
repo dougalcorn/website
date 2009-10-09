@@ -1,0 +1,6 @@
+--- 
+title: Spamming Joel Spolsky
+typo_id: 268
+layout: post
+---
+Got a bad email message from <a href="http://joelonsoftware.com/" target="_top">Joel Spolsky</a> this morning.  It turns out he's getting "dozens" of messages from the exim mailer daemon saying a message is bouncing to dalcorn@localhost.  After looking closely at the headers of the sample message he sent me I think I know what's happening.  Someone installed <a href="http://lathi.net/twiki-bin/view/Main/FetchRss">FetchRss</a> and <em>my</em> config files.  The bad news is that they didn't put their own email address in the config file.  So, it's trying to deliver the mail to me but on their box.  My mistake in all this is that <a href="http://lathi.net/twiki-bin/view/Main/FetchRss">FetchRss</a> sets the from address of the email based on the author of the RSS feed.  Since the message is bouncing, the mailer daemon tries to complain to the sender.  What I should be doing is setting the "Sent-By" header or something.  Obviously, Joel is not really the sender and doesn't care that some random <a href="http://lathi.net/twiki-bin/view/Main/FetchRss">FetchRss</a> user has misconfigured the software (or not configured as the case may be).  Oh, well.  Here's to hoping he doesn't trash me on his web site.

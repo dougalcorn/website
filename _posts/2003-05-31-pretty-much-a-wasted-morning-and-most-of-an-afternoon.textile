@@ -1,0 +1,6 @@
+--- 
+title: Pretty much a wasted morning and most of an afternoon
+typo_id: 367
+layout: post
+---
+I was hanging out with the kids this morning while Carla ran some errands.  I thought I could get some simple stuff done on my computer while I was hanging out with them.  Carla's desk is in the living room where the kids mostly play, so I grabed my <a href="http://lathi.net/twiki-bin/view/Main/ThinkPad">ThinkPad</a> and headed to her desk.  The problem is that every time I plug or unplug my power in (or suspend and resume) my sound driver freaks out.  The only fix is a reboot.  Simply unloading and reloading the drivers don't help.  The consensus on the linux-kernel mailing list is noone wants to fix it.  Theoretically, the new ALSA drivers are supposed to be power management aware enough to handle this.  I've tried the ALSA drivers before with no success.  The configure/compile/install/setup issues were too cumbersome.  At this point though, the only reason I reboot my computer is because of soud driver issues.  I'd really like to get it fixed.  So, I figure having successfully written a complete kernel driver from scratch I should now be qualified to get ALSA working.  Not so, after five hours I'm back to the old (and deprecated) OSS driver.  I'll continue to curse and defame this driver and sound card for another six months and then give ALSA another try.

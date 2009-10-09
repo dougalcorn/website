@@ -1,0 +1,10 @@
+--- 
+title: Is this just an unfortunate coincidence?
+typo_id: 361
+layout: post
+---
+I get the article headlines from <a href="http://www.salon.com/" target="_top">Salon.com</a> as email in my inbox.  I don't read much of it, they are way too liberal even for me.  When they're not flaming liberals, they are usually writing about promiscuous sex.  Anyway, occationally they have things that I can stand to read for their differing viewpoints.  Most of the tim I just view their 15 second commercial to get the free one day pass for their premium content.
+<p />
+Today I see an article titled <a href="http://www.salon.com/tech/feature/2003/06/03/sco_linux/index_np.html" target="_top">Lawyers against Linux</a>.  Sure enough, it's about the infamous SCO suit.  For those of you living under a technological rock, SCO believes it owns <span style='background : #FFFFCE;'><font color="#0000FF">IntellectualProperty</font></span><a href="http://lathi.net/twiki-bin/edit/Main/IntellectualProperty?topicparent=Main.WebHome">?</a> from the original AT&amp;T Unix and that IBM misappropriated that IP into the Linux kernel.  This would (if proved in court) make Linux illegal.  Of course, I think this is rubbish.  Anyway, the Salon article said that the suit "only succeeds in underscoring Linux's strength."  I was curious why they thought so, and followed the link to their article.  The free preview of the article didn't seem to jive with the leader in the email I got.  It seemed to paint SCO not as the bane of <a href="http://lathi.net/twiki-bin/view/Main/FreeSoftware">FreeSoftware</a> everywhere, but as a tragic victim only trying to do the right thing.  As usual, Salon has a different take on things than I do.  So, I scrolled down to for the link to the commercial so I could read the rest of the article.  Who was the sponsor? Microsoft.
+<p />
+I'm certain (mostly) that Microsoft didn't actually "sponsor" the article that puts the company doing the most legal harm to it's biggest competitor in the best possible light.  Even still, I didn't watch the Microsoft commercial just so that I could read an article about how SCO isn't such a bad company.

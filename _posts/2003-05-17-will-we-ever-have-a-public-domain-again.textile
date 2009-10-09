@@ -1,0 +1,6 @@
+--- 
+title: Will we ever have a public domain again?
+typo_id: 385
+layout: post
+---
+<a href="http://cyberlaw.stanford.edu/lessig/blog/" target="_top">Larry Lessig</a> is a law professor at Stanford.  He argued the <a href="http://eldred.cc" target="_top">Eldred vs Ashcroft</a> case to get the Sony Bono Copyright Extension Act declared unconstitutional.  His argument was simple.  The Constitution declares that Congress shall set a "limted" term for copyrights.  Congress has repeatedly extended that term.  Their actions have told a tale of never allowing copyrights to expire.  He overwhelmingly lost his case.  However, his new idea for compromise in copyright is to set an automatic 50 year term on all new copyrights.  After that, the copyright must pay $1 to extend the copyright "as long as Congress lets them."  His statistics show that about 98% of copyrights would be allowed to expire.  He thought he had a sponsor to propose the bill.  It turns out lobyists are fighting even this simple $1 fee.  He's asking for <a href="http://cyberlaw.stanford.edu/lessig/blog/archives/2003_05.shtml#001187" target="_top">help</a> to find a sponsor for the bill.  If having a public domain is important to you, write your <a href="http://www.house.gov/writerep/" target="_top">Representative</a> and your <a href="http://www.senate.gov/" target="_top">Senator</a>.

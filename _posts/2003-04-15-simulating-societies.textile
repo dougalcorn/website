@@ -1,0 +1,8 @@
+--- 
+title: Simulating Societies
+typo_id: 446
+layout: post
+---
+We were having our periodic discussion in <a href="http://www.emacswiki.org/cgi-bin/wiki.pl?EmacsChannel" title="'EmacsChannel' on the Emacs Wiki">Emacs:EmacsChannel</a> about politics and which form of government is better (a particularly apt discussion given the state in Iraq).  One guy wanted an anarchy; but most of us agreed it doesn't scale very well at all.  Some wanted libertarian and some socialism; others communism.  Of course, I had to bring up my favorite quote on the subject from Winston Churchill, "Democracy is the worst form of government... except all the others."  Anway, I knew the conversation was going nowhere fast.  So I pined something about "too bad we can't just simulate these various political systems to see how they work out."  Honestly, this business with putting a new form of governemnt in Iraq is tough business.  We should use everything in our vast "bag of tricks" (meaning theoretical and computational resouces within the US) to help the Iraqis get up to speed.
+<p />
+I got an email today from Chris Beggy after he had reviewed the logs of our conversation.  He sent me an <a href="http://www.theatlantic.com/issues/2002/04/rauch.htm" target="_top">article</a> in <a href="http://www.theatlantic.com/" target="_top">The Atlantic</a> about simulating artificial societies.  This happens to me all the time.  I get side-tracked thinking about something weird.  Then I find some resource showing that other people spend a <em>lot</em> of time thinking about this weird thing.  Then I think, "I should go to grad school and get my Phd studying this.  It would be really cool."

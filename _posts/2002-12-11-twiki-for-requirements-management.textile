@@ -1,0 +1,6 @@
+--- 
+title: TWiki for Requirements Management
+typo_id: 605
+layout: post
+---
+I work for a company that has to have very serious <span style='background : #FFFFCE;'><font color="#0000FF">RequirementsManagement</font></span><a href="http://lathi.net/twiki-bin/edit/Main/RequirementsManagement?topicparent=Main.WebHome">?</a>; we can be and are audited by the FDA.  I'm also a really big fan of <a href="http://www.twiki.org/" target="_top">TWiki</a>s.  TWiki is designed for business environments.  It seems so natural to want to mix requirements management with TWiki.  Document management is a non-trivial task though.  I realize that.  However, it seems like with a little perl coding and some careful thought, TWiki would do wonderfully.  I get goosebumps when I read <a href="http://twiki.org/cgi-bin/view/Codev/TWikiForRequirementsManagement" title="'Codev/TWikiForRequirementsManagement' on TWiki site, we know it!">TWiki:Codev/TWikiForRequirementsManagement</a>.

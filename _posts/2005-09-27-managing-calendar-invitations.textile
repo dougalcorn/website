@@ -1,0 +1,31 @@
+--- 
+title: Managing Calendar Invitations
+typo_id: 656
+layout: post
+---
+My client wants to coordinate scheduling meetings between members of her website.  She has a definite flow she wants the invitations to go through.  She even supplied a flow chart of the process!
+
+I've been stumped for a few days how to model this.  I can create the invitations, but wasn't sure how to track the progress through the scheduling process.  Between last night's coding and this morning in the shower I think I've got something that will work.
+
+I've been stuck on this for a few days.  So last night I decided to try a different tact.  Usually, I start from the data model and work my way to the view.  Last night I worked in reverse.  
+
+Members will get the invitation by email with a link to the invitation to view and edit.  So I decided to start with what I wanted that url to look like.  That led me to a controller and new function.  The logic for that function was pretty simple: if the user is the initiator, show one page; if the user is the recipient, show another.  But wait, only certain times can a user edit the invitation.  It depends on who's waiting on who for a response.  So if the invitation is waiting on the current user, show the edit page; otherwise just show the status page.
+
+That led me to implement a @Invitation#waiting_on?(user)@ method.  I messed around with a couple implementations of this method I wasn't really very happy with.  I was trying to correlate the invitation's status with the user and which states were valid for which user. Blech; too messy.
+
+That's when the idea hit me this morning.  My assumption is that the invitation can only be modified by one party at a time.  So, on the invitation, I'll implement a @modified_by@ attribute.  Every time the invitation is saved, I'll update that attribute.  Then @waiting_on?@ is just:
+
+<code><pre>
+class Invitation
+  belongs_to :modified_by, :class => "User"
+
+  def waiting_on?(user)
+    return true if self.modified_by == user
+    return false
+  end
+end
+</pre></code>
+
+It was a nice switch tackling development from the view first.  Well, I didn't actually code the view.  I just had in mind what I wanted the views to do and wrote the controller accordingly.  The "problem" with View first development is I'm tempted more to develop without testing.  Rails is very good for controller tests, but I haven't really figured out how to do view testing.
+
+I suppose if I'd been pairing I would have been better about writing functional tests to demostrate what I was trying to accomplish.  That's one good thing about pairing: it keeps you doing what you should be doing.

@@ -1,0 +1,53 @@
+---
+layout: default
+title: Emacs and Ruby
+---
+h1. Emacs and Ruby
+
+I'm doing a lot of RubyOnRails development these days.  I've flip-flopped back and forth between TextMate and Emacs.  As a long time Emacs user, I'm confident Emacs can do whatever TextMate can.  The question is with how much effort.  This page chronicles my efforts to setup Emacs for development of Ruby and Ruby on Rails code.
+
+First, I'd like to acknowlege the "Emacs Extentions page on RubyGarden.org":http://www.rubygarden.org/ruby?EmacsExtensions, the "rails.el":http://www.emacswiki.org/cgi-bin/emacs/rails.el code by Galinskiy Dmitriy, and "Jim Wierich":http://onestepback.org/ for both inspiration and encouragement.
+
+I'm attaching below my @ruby-conf.el@ file.  I explicitly load this file from my DotEmacs.  It's not a package that can be required, but rather a sub-set of my entire DotEmacs.
+
+h2. Running Tests
+
+I'm pretty big on TestDrivenDevelopment and spend a lot of my development time running tests.  So, it's important that my Emacs config handle this well.  The main way it's handled is to use @compilation-mode@ to highlight errors and make them clickable to jump to the line of code in question.  I've bound the following keys:
+
+| F9 | @rails-rake@ runs the entire test suite from the Rails project root. |
+| C-F9 | @ruby-test-file@ runs either the entire unit test or functional test for either the model or controller being edited. |
+| C-S-F9 | @ruby-test-function@ tests the function at point (assuming you're in a test file |
+
+If you make sure you have @inf-ruby.el@ loaded, when you insert @breakpoint@ into your code and then run the tests from Emacs you can @M-x inferior-ruby-mode@ and interact with the irb prompt.  Pretty slick.
+
+h2. Go To Alternate File
+
+This is a very simplistic alternate @find-file@.  The Rails application directory layout is well known as is the assumed file naming convention.  The @User@ model has a well-known filename in a well-known location with the @UserTest@ class also in a well-known filename and a well-known location.  I've created @rails-alternate-file@ to look at the filename of the current buffer and return the "match".  If you're in a unit test file, @rails-alternate-file@ will return the corresponding model filename.  Using this I've made the following key bindings (yes, I know I'm killing two standard key bindings but these made sense to me and I normally don't use them):
+
+| C-x C-r | @rails-find-alternate-file@ |
+| C-x 4 r | @rails-find-alternate-file-other-window@ |
+
+h2. Snippets
+
+Based on the simplicity demonstrated in @rails.el@ I'm using the snippets library to insert code templates.  Emacs has several mechanisms to handle this, but the method of using snippets in @rails.el@ seems good to me.
+
+I won't enumerate them all here, but this config defines lots of abbreviations in mode specific @abbrev@ tables.  I did more than a little dorking around, but have stuck with @C-x a e@ as expand the abbreviation at the point.  That means I have to remember all those abbreviations.  I'd like to figure out a better way.  I'm sure there is one.
+
+h2. Odds and Ends
+
+I'd like to mention I used @ruby-electric.el@ for a while and finally got tired of it.  It basically will automatically insert closing parens, quotes, curly braces and bars as well as end statments for various stuff.  What I found is that it's easier to actually type the matching character than remember to type C-f to move past the inserted character (or C-e if there are several).  I also found I was killing the inserted @end@ statements more than I'd like.  So, I'm just manually tying that stuff in or using snippets where appropriate.
+
+h2. To Do
+
+ * Find Project File
+
+I really like the way TextMate handles Cmd-T to give you a smart buffer of all the files in a project.  I'd like to make switching between files transparent between whether the file is already open or 
+not and also path independent.  I only have one @users.yml@ in my project.  I should be able to type @users.yml@ and find that file.
+
+ * Better compilation-mode handling
+
+I'd like to bind a toggle somehow that would jump to the compilation output buffer to the irb prompt and toggle to @inferior-ruby-mode@ as well as toggle the read-only flag normally set on compliation output buffers.
+
+ * rhtml handling
+
+Emacs @mmm-mode@ can sorta-kinda handle mixed html and ruby/erb.  But I find it sub-optimal compared to how TextMate handles it.  This needs a lot of work. 

@@ -1,0 +1,6 @@
+--- 
+title: Onward Again!
+typo_id: 600
+layout: post
+---
+Thanks to my friend <a href="http://lathi.net/twiki-bin/view/Main/StuBell">StuBell</a> I'm back into the progress lane again on the highway of writing the Linux device driver for the <a href="http://lathi.net/twiki-bin/view/Main/DataPlay">DataPlay</a> drive.  I had been stalled for what seems like forever.  With some careful code review he caught two errors: one of my data structure members was the wrong size and I was calculating a URB buffer length incorrectly.

@@ -1,0 +1,38 @@
+--- 
+title: "\"Reducing piracy offers direct benefits...\""
+typo_id: 167
+layout: post
+---
+For those who don't know, I believe the copyright laws have gotten out of balance.  They were originally written to promote science and the arts.  Today, copyright laws is all about limiting access to that science and art.  The Business Software Alliance is the enforcer of the software industry.  It's their job to stop "piracy".  (A small tangent here.  I think "piracy" is a bad word to describe copyright violations.  I also think "hacker" is a bad word to describe someone who commits computer trespass.  Alas, the media has not listened to my pleas.).
+<p />
+I found this <a href="http://www.boingboing.net/2005/01/29/some_have_attempted_.html" target="_top">post on Boing Boing</a> about the BSA publishing some material on piracy:
+<p />
+<blockquote>
+Some have attempted to paint copyright piracy as a victimless crime, arguing that "if I make a copy of a computer program, you still get to keep your copy, and we are both better off." This is hardly the case.
+<p />
+Reducing piracy offers direct benefits. The equation is a basic one: the lower the piracy rate, the larger the IT sector and the greater the benefits. 
+</blockquote>
+<p />
+<a href="http://vitanuova.loyalty.org/weblog/nb.cgi/view/vitanuova" target="_top">Seth David Schoen</a> took a <a href="http://vitanuova.loyalty.org/weblog/nb.cgi/view/vitanuova/2005/01/28/0" target="_top">funny slant</a> on this and applied it to other concepts.  In each case, Seth takes something that we all want and shows having it is at the consequence of some less desirable entity.
+<p />
+<blockquote>
+Some have attempted to paint reading books as a victimless crime, arguing that "if you read a book, you gain knowledge, and we are all better off." This is hardly the case.
+<p />
+Reducing reading offers direct benefits. The equation is a basic one: the lower the rate of reading, the larger the television audience and hence the larger the advertising sector, and the greater the benefits.
+</blockquote>
+<p />
+<blockquote>
+Some have attempted to paint children's games as a victimless crime, arguing that "if you and I play tag, we have fun, and we are both better off." This is hardly the case.
+<p />
+Reducing children's unstructured recreation offers direct benefits. The equation is a basic one: the lower the rate of unstructured play, the larger the arcade sector, and the greater the benefits. 
+</blockquote>
+<p />
+As a programmer, it's hard to say that I want a smaller IT sector.  Seth quotes "someone" at <a href="http://redhat.com/" target="_top">Red Hat</a>:
+<p />
+<blockquote>
+His goal was to make the software industry much smaller, and to provide greater benefits to software users and customers in the process. In his view, the software industry was much too large and was extracting much more money than necessary, partly because of limited competition and partly because of defects in its (for lack of a better term) business models.
+</blockquote>
+<p />
+I think I can agree that with this.  Software <em>is</em> too expensive.  It's price/cost seems out of whack with its value.  Overall, software still sucks.  It still crashes frequently.  It's frequently compromised to do something it shouldn't or allow something it shouldn't.  That's just functionality defects.  For the most part, software still doesn't do what users expect.  What it does do is hidden from users behind interfaces that aren't intuitive.
+<p />
+This has turned into a rag on the software industry.  It didn't start out that way.  The point is that the software industry and IT sector isn't something that needs protecting at all cost.  Congress shouldn't keep extending copyright just so that the entrenched software business can keep making money.

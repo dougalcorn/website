@@ -1,0 +1,6 @@
+--- 
+title: Blosxom Email Gateway
+typo_id: 260
+layout: post
+---
+I've uploaded my hacks to <a href="http://www.pipetree.com/testwiki/Blosmail" target="_top">blosmail</a>.  It's the <a href="http://lathi.net/twiki-bin/view/Main/BlosxomEmailGateway">BlosxomEmailGateway</a> I've setup for <a href="http://lathi.net/~carla/blog/" target="_top">Carla's blog</a>.  My improvements are basically that it creates the directories needed for categories as you create them and also makes up mostly random filenames for each blog post.  This keeps Carla from having to worry too much about each individual file as she blogs.  All that matters to her is the category, the title, and the blog story.

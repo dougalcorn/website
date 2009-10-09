@@ -1,0 +1,12 @@
+--- 
+title: My next phone will be a Nokia
+typo_id: 100
+layout: post
+---
+Looks like my next phone will be a Nokia.  They've <a href="http://press.nokia.com/PR/200505/995845_5.html" target="_top">announced</a> they'll allow all their patents to be used to further development of the Linux kernel.
+<p />
+<blockquote>
+Nokia says, that it believes that open source software communities, like open standards, foster innovation and make an important contribution to the creation and rapid adaptation of technologies. And that the investment made by so many individuals and companies in creating and developing the Linux Kernel and other open source software deserve a framework of certainty.
+</blockquote>
+<p />
+Nice.  They get my vote!

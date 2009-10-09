@@ -1,0 +1,12 @@
+--- 
+title: TWiki Is Down
+typo_id: 1104
+layout: post
+---
+Since I think June of 2002 I've run my main website on a "TWiki":http://twiki.org/.  I used to write lots of articles and stuff there kinda like a blog.  I had hoped that friends and family would use the wiki editing fuctions to build the site out.  As it turns out, I was pretty much the only author.  
+
+Over time I've become tired of maintaining it.  This blog is run by typo.  You can probably see I haven't been updating it very well either.  My TWiki has had lots of problems with vandalism and security.  So, I've finally taken it down.
+
+I've migrated my most popular content over to typo as "pages":/pages/index.html.  I added a bunch of rewrite rules to my apache config.  Hopefully this won't affect my google-fu too much.  I'll have to watch the 404s for awhile to see if there's anything I've missed.
+
+Anyway, so long twiki and thanks for all the fish!

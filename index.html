@@ -1,0 +1,10 @@
+---
+layout: default
+title: DougAlcorn@Lathi.Net
+---
+
+{% for post in site.posts limit:15 %}
+<div class="post">
+  {% include post.html %}
+</div>
+{% endfor %}

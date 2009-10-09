@@ -1,0 +1,13 @@
+--- 
+title: Camino 1.0 beta 1 is out!
+typo_id: 779
+layout: post
+---
+I'd like to give props to the "Camino Browser Community":http://www.caminobrowser.org/ for "releasing Camino 1.0 beta 1":http://www.caminobrowser.org/community/2005/11/camino-10-beta-1-is-out.html.  I've been a Camino user since the early 0.8 days.  I prefer it for several reasons.  Overall, it feels more like a Mac app than "Firefox":http://www.mozilla.org/products/firefox/ does.  I think Camino's tabs are much nicer.  Also, keyboard navigation is nicer in Camino than even Safari.  Give it a try!
+
+<blockquote>We've just released <a href="http://www.caminobrowser.org/download/releases/1b1/">Camino 1.0 beta 1</a>.
+
+This is by far the finest Camino release ever. It's so great, we're calling it our stable release and replacing the download link on the main page with it.
+
+Check out the <a href="http://www.caminobrowser.org/releases/10b1.html">release notes</a> for more information on what's changed.
+</blockquote>

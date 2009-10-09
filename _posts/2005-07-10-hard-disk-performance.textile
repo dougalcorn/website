@@ -1,0 +1,8 @@
+--- 
+title: Hard Disk Performance
+typo_id: 71
+layout: post
+---
+It's tough to keep up with who's drives are best.  There's several industry leaders: Seagate, Western Digital, Maxtor, etc.  I don't buy and consume disks enough to really know which is tops when.  It seems like they trade spots fairly frequently.  I found a link on <a href="http://xbench.org" target="_top">XBench</a> a link to <a href="http://www.storagereview.com/" target="_top">Storage Review</a>.  It's a fairly exhaustive comparison of disk drives.
+<p />
+I've just bought some Seagate Baracuda 7200rpm drives.  Looks like I should have bought <a href="http://www.newegg.com/product/Product.asp?Item=N82E16822144701&#38;CMP=OTC-Froogle&#38;ATT=Western+Digital+Caviar+SE16+WD2500KS+250GB+7200+RPM+Serial+ATA+II+Hard+Drive" target="_top">Western Digitals</a> instead.

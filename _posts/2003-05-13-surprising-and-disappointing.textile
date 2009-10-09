@@ -1,0 +1,6 @@
+--- 
+title: "\"Surprising and disappointing\""
+typo_id: 399
+layout: post
+---
+<a href="http://www.wired.com/" target="_top">Wired magazine</a> is running a <a href="http://www.wired.com/news/technology/0,1282,58714,00.html" target="_top">story</a> on <a href="http://web.media.mit.edu/~minsky" target="_top">Marvin Minsky</a>'s comments on the current state of <span style='background : #FFFFCE;'><font color="#0000FF">ArtificialIntelligence</font></span><a href="http://lathi.net/twiki-bin/edit/Main/ArtificialIntelligence?topicparent=Main.WebHome">?</a>.  He made the comment at a recent speech that "AI has been brain-dead since the 1970s."  I agree with <a href="http://www.cs.berkeley.edu/%7Erussell" target="_top">Stuart Russell</a> that Minsky's comments are "surprising and disappointing".  Based on the article in Wired, it looks like Minsky's complaint is that the AI community isn't pursuing a "autonomous intelligent agent."  I'm very interested in AI.  I would like to go to grad school and study AI.  Well, let me say I'd like to have time to work on AI and I see going to grad school the easiest way to reach that goal.  I'd like to see a fully autonomous intelligent agent, but I think it's a disservice to discredit all the work that's been done on learning systems that are able to make sense out of the vast amounts of data available today.

@@ -1,0 +1,23 @@
+--- 
+title: "\"Word is a Steaming Pile\""
+typo_id: 355
+layout: post
+---
+I follow <a href="http://www.raelity.org/archives" target="_top">Raelity Bytes</a>, a blog by the guy who wrote <a href="http://www.raelity.org/apps/blosxom/" target="_top">Blosxom</a> and is the editor of the O'Reilly <a href="http://hacks.oreilly.com/" target="_top">Hacks books</a>.  He recently posted <a href="http://www.raelity.org/archives/computers/operating_systems/apple/mac_os_x/apps/word_is_a_steaming_pile.html" target="_top">this rant</a> to his blog about how he's having problems doing significant things in MS-Word.  It's "the best at what it does" he says.  I've thought MS-Word was a "steaming pile" for a long time.  My last significant experience with it was part of a 10 person team writing a 250 page document for the Government complete with illustrations.  It was a nightmare.  If you want to 
+<p />
+<ul>
+<li> have multiple authors for your documents
+</li>
+<li> put your documents through version control
+</li>
+<li> have your documents be more than 10 or 20 pages
+</li>
+<li> include more than an image per three pages or so
+</li>
+<li> make sure your documents are usable by large numbers of people with consistent layout
+</li>
+</ul>
+<p />
+you pretty much can't use MS-Word.  If you only need one of the above you can probably make it work.  You'll just find yourself occationally cursing.  If you need two or more, you should find a better tool.  If you must use WYSIWYG take a look at Interleaf or <a href="http://www.adobe.com/products/framemaker/main.html" target="_top">Framemaker</a>.  I used Interleaf in college.  Ileaf 5 was a good product.  I have no idea what's happened to it since.  I've never used Framemaker.  It seems to fill the same nitche as ileaf.  The problem is I can't seem to find a link for the Interleaf document editor anymore.
+<p />
+Doesn't really matter though.  What I really recommend is <a href="http://www.latex-project.org/" target="_top">LaTeX</a>.  When I say that some people think I'm totally smoking crack.  <span style='background : #FFFFCE;'><font color="#0000FF">LaTeX</font></span><a href="http://lathi.net/twiki-bin/edit/Main/LaTeX?topicparent=Main.WebHome">?</a> (pronounced /la-TECH/ or /LAY-tech/) is plain ASCII text using a markup syntax to denote the presentation of the text.  It's somewhat like HTML, but much more precise.  It can be very hard to define a new style (what MS-Word calls a "template"); however, once the style's been written it's very easy to generate new documents.  Since it's plain text, it fits in CVS just fine.  Also, it's trivial to break the document into multiple files and include them all together.  Of course, it's <a href="http://lathi.net/twiki-bin/view/Main/FreeSoftware">FreeSoftware</a> and can generate PDFs.  What more could you ask for?  A WYSIWIG editor you say?  Well, there's <a href="http://www.lyx.org/" target="_top">LyX</a>.  I'm not sure where all it runs though.  What I'd really recommend is to give up this obsession with WYSIWYG.  Focus on the content and structure of what you're writing; not how it looks.

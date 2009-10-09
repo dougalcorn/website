@@ -1,0 +1,6 @@
+--- 
+title: Weekly views of diary appointments
+typo_id: 532
+layout: post
+---
+I just finished writing a diary-display-hook that will display the weeks appointments in a graph-type view.  I stole some code from <a href="http://www.gci-net.com/users/j/johnw/" target="_top">John Wiegley</a> that just printed hash marks for all the appointments.  I changed it so that it would actually print as much of the appointment text as possible.  You can see what I'm talking about and download it from the <a href="http://lathi.net/twiki-bin/view/Main/EmacsWeeklyView">EmacsWeeklyView</a> page.

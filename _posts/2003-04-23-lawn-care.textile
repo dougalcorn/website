@@ -1,0 +1,6 @@
+--- 
+title: Lawn Care
+typo_id: 441
+layout: post
+---
+I mowed my grass tonight.  I even mowed against my usual pattern.

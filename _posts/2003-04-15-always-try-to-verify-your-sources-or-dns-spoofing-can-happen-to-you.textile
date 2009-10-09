@@ -1,0 +1,6 @@
+--- 
+title: Always try to verify your sources (or, dns spoofing can happen to you)
+typo_id: 445
+layout: post
+---
+Stories like this make me glad I'm using the <a href="http://www.emacswiki.org/cgi-bin/wiki.pl?EmacsIrcClient" title="'EmacsIrcClient' on the Emacs Wiki">Emacs:EmacsIrcClient</a>.  One of the popular command-line IRC clients whose name I am not going to print here recently had their DNS poisoned.  What this means is that people who went to download the source for the IRC client got a version of the source that had a backdoor built into it (at least this is my understanding).  You can get the "full" story <a href="http://securityfocus.com/archive/1/318599" target="_top">here</a>.  The point is that you have to be pretty careful about what you download from the Internet... no matter what operating system you run.

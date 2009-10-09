@@ -1,0 +1,14 @@
+--- 
+title: AppleCare Protection Plan in Action
+typo_id: 873
+layout: post
+---
+One of my strongest fears is a catastrophic hard disk failure.  That's why I recommend all computer users to have two hard disks: their primary drive and then another drive strictly for backups.  On my Mac, I use "Super Duper!":http://www.shirt-pocket.com/SuperDuper/SuperDuperDescription.html to clone my primary drive to my backup.
+
+I knew I shouldn't have, but last week I actually said out loud, "Even though I'm super paranoid about it, I've never had a hard disk failure."  Of course, that's what happened.  On Friday afternoon I noticed my Mac getting very slow... slower and slower.  Every time I would type something I'd end up with the spinning beach ball of death.  I thought it sounds silly (to a Mac user), but I'll try rebooting to see if that helps.  Instead of helping, my powerbook was actually unable to reboot.  I tried plugging in my backup drive on the Firewire port and booting off that.  The firmware never found the backup drive to boot off of.
+
+Since I have the "AppleCare Protection Plan":http://www.apple.com/support/products/proplan.html I decided to pack up and head to my local Apple Store.  After about an hour in the store I had my machine scheduled for repair.  Originally they claimed it'd take four to five days to repair.  I tried to impress upon them how critical this machine was to me.  So he goes in the back to check the stock on my hard drive.  Instead of finding the same old 60G 4500rpm drive, he comes back with an 80G 5400rpm drive!  He told me that since the drive was in stock, they could repair it the next day.  Less than 24 hours later I had my machine back up and running!
+
+Call me a satisfied customer!  
+
+My company is buying me a new Macbook Pro to replace my 12" Powerbook.  Unfortunately, they don't buy AppleCare Protection on their Macs.  I really wish they did because I like being able to call when I have trouble and take it in to the store when things go wrong.

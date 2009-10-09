@@ -1,0 +1,6 @@
+--- 
+title: Home again, home again...
+typo_id: 453
+layout: post
+---
+I'm working from Cincinnati this week.

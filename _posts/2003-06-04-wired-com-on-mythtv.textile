@@ -1,0 +1,6 @@
+--- 
+title: Wired.com on MythTV
+typo_id: 360
+layout: post
+---
+So <a href="http://yro.slashdot.org/yro/03/06/02/1716229.shtml?tid=158&amp;tid=99" target="_top">Tivo's selling customer data</a> and <a href="http://www.wired.com" target="_top">Wired.com</a> is running an article on <a href="http://www.wired.com/news/technology/0,1282,59088,00.html" target="_top">building your own PVR</a>.  They mention several <a href="http://lathi.net/twiki-bin/view/Main/GnuLinux">GnuLinux</a>-based PVR projects, but really focus on <a href="http://lathi.net/twiki-bin/view/Main/MythTV">MythTV</a>.  As I mentioned earlier, I haven't built a one yet because of <a href="http://lathi.net/twiki-bin/view/Main/MythTVPrices">MythTVPrices</a>; however, they seemed to really harp on the price issue.  In fact, their prices seem a more than a little hight to me.  They mention that a super-duper <a href="http://lathi.net/twiki-bin/view/Main/MythTV">MythTV</a> PC would cost about $1200.  The system I've specified is only $900.  It's a really nice system.  I think I could build a pretty nice system for $600.  Anyway, they had a very useful link to a growing <a href="http://pvrhw.goldfish.org/tiki-pvrhwdb.php" target="_top">database</a> of people who've build PVRs and what hardware they use.

@@ -1,0 +1,6 @@
+--- 
+title: Configuring Mail on the New Server
+typo_id: 218
+layout: post
+---
+<img alt="crazy dance" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/dancefool.gif" /> After about 20 hours spread over two weeks, I finally have the mail server configured properly on our new server!  This is definitely the most complicated software configuration I've ever had to do.  It takes about eight completely unrelated software packages working well together: postfix, sasl2, pam, mysql, courier-imap, amavisd-new, clamav, and spamassassin.  I'll post all the details of the <a href="http://www.lathi.net/twiki-bin/view/Main/PostfixConfiguration" target="_top">configuration somewhere</a> sometime.  Carla wanted me to post my success to my blog though so that I could use this happy animation.

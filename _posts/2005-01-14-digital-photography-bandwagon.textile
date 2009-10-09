@@ -1,0 +1,10 @@
+--- 
+title: Digital Photography Bandwagon
+typo_id: 195
+layout: post
+---
+<p />
+<img src="http://lathi.net/images/pscs4dphotog-1.jpg" height="140" width="112" align="right" border="1" hspace="10" vspace="4" alt="The Adobe Photoshop CS Book for Digital Photographers cover" title="The Adobe Photoshop CS Book for Digital Photographers cover" longdesc="" />
+The Digital Photography Weblog is <a href="http://digitalphotography.weblogsinc.com/entry/1234000903027396/" target="_top">reporting</a> and interesting statitic that Scott Kelby is the top-selling computer book author in the US of 2004.  His <em>Adobe Photoshop CS Book for Digital Photographers</em> "outsold all other computer books by more than 5 percent."  
+<p />
+I'm not sure what this means though.  At the least it means digital photography is a <em>very</em> hot topic.  I like to think of myself as someone that rarely "follows the crowd".  I don't want to believe I have a "group think" mentality, but here I am jumping into the hobby that spawns the number one computer book of 2004.

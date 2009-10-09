@@ -1,0 +1,18 @@
+--- 
+title: A shift in the Security Industry
+typo_id: 223
+layout: post
+---
+There are a couple of threads on <a href="http://www.securityfocus.com/archive/1" target="_top">bugtraq</a> talking about the nature of the security research, full disclosure, proof of concept, and the like.  A few are <a href="http://www.securityfocus.com/archive/1/350265/2004-01-19/2004-01-25/0" target="_top">arguing</a> for less disclosure and less work on PoC and refining and improving PoC.  Something Kurt Seifried <a href="http://www.securityfocus.com/archive/1/350744/2004-01-19/2004-01-25/0" target="_top">said</a> really hit home with me.  The nature of security research has changed recently.  I'm not really that tight in the security industry; so take my words with a grain of salt.  However, I am a system administrator that tries to watch what's happening to protect my systems.
+<p />
+It seems to me that in the past the "Black Hats" were mostly defined as being "script kiddies"; teenagers who were "sowing their wild oats" so to speak.  There were some malcontents who stirred things up.  Honestly, I'm not sure who else was part of that malicious crowd of crackers who's goal was to take advantage of other people's computers.  
+<p />
+Now, I have a pretty good idea of who those people are.  There is a fairly large body of evidence (that I can dig up if asked) that implicates spammers as the main authors of viruses and exploits.  It's their goal to take control over other people's computers so they can send their spam with impunity.  
+<p />
+What this means to the security industry is a shift in who their adversary is.  Previously, it was mainly individuals with some questionable motives.  Now it's well funded individuals with a profit motive.  This change in adversary means that pretty much anything that can be taken advantage of will be.  As a result, we need to do a better job of writing secure code and researching vulnerabilities to whatever extent possible.  
+<p />
+Here's the implication on full-disclosure: since the "Black Hats" are now profit motivated you can assume that any vulnerability you know about they know about.  You can assume that any exploit you know about they know about.  The best thing seems to be for all the "White Hats" to pool their knowlege so they can mount the best defense possible.  Security researchers need to point out what more sophisticated proof of concept code would look like so that programmers can know what to expect.
+<p />
+There is a war here.  One side wants to do as they please and abuse other people for their own gain.  They are selfish individuals motivated soley by greed willing to sacrifice anything for more money.  The other side is a loose group of individuals and corporations who are producing the items the other side wants to exploit.  Caught in the middle is the everyday individuals who have to pay for all this.
+<p />
+On a theological aside, I believe greed, selfishness, and pride are all facets of the same evil.  In fact, I believe they are the truest form of evil.  Anything recognized as evil could be boiled down to one of those three.

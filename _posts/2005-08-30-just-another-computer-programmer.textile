@@ -1,0 +1,16 @@
+--- 
+title: Just another computer programmer
+typo_id: 636
+layout: post
+---
+<a href="http://home.lathi.net/gallery/2005/08-August/NYC/JPEG/20050828_017.jpg"><img src="http://home.lathi.net/gallery/2005/08-August/NYC/JPEG/.cache/640x426-20050828_017.jpg" width="320" height="213" align="right" vspace="5" hspace="10" alt="Busy in New York"></a>The occasion that gave me time to "read TDD":http://blog.lathi.net/articles/2005/08/30/clean-code-that-works was a 3 hour round-trip flight to New York City.  I'll get into what I was doing in NYC later, but I wanted to talk about the experience itself.  One of my strengths/weaknesses is that I typically think more highly of myself than I should.  Sometimes I just call it self-confidence, other times it's flat out pride and even arrogance.
+
+I only had a day and some change and didn't really know which of the billion things to do in NYC given my limited time and limited budget.  What I decided on is a "self-paced walking tour of Manhattan":http://walking.about.com/library/walk/bltop10manhattan.htm.
+
+So, I'm walking around Manhattan on Sunday by myself.  New York is one of those places where it's easy to be alone while in the middle of everything.  Like many, I enjoy people watching.  What I observed is an incredible amount of diversity and similarity.  Many people in NYC dress, walk, and act similar.  However, the range of people is mind boggling.
+
+I just kept thinking, with all these people, surely I'm walking right past lots of people who are top notch in their field.  In fact, I'm probably walking past people who are top notch in my field.  I'm walking past people who are mediocre or who are barely making it.  I'm just one of the millions of people here. 
+
+The whole experience made me feel quite ordinary.  It reminded me of Randall Swartz's "Just Another Perl Hacker":http://en.wikipedia.org/wiki/Just_another_Perl_hacker.  Of course, there was a bit of showing off in that tradition.  In a way it was false modesty.
+
+I hope the effects of this trip can add some temperance to my attitude.  I like to believe there's a reason that customers, clients, and employers come to me to work for them.  However, I need to also remember there's thousands (if not tens or hundreds of thousands) of others they could have chosen instead.

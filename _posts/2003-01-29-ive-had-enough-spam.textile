@@ -1,0 +1,6 @@
+--- 
+title: I've had enough spam
+typo_id: 548
+layout: post
+---
+I finally got tired enough of hitting the delete key that I setup a bayesing-like filter to categorize my mail using statistical analysis.  The point is that I don't want to stop what I'm working on to switch over to my mail to see something about a Nigerian needing assistance.  So, I'm using <a href="http://bogofilter.sourceforge.net/" target="_top">bogofilter</a>.  After training it on the more than 3000 spam messages I happen to have lying around on my hard drive (that's roughly the number of spam messages I've received from the evening of Dec 4 to the present) and training it on all the equally large piles of legitimate mail I have laying around I'm happy to announce not one spam has leaked through to my inbox.  I'm also sad to say there have been several false positives.  So, I'll probably have to spend the next few days parsing all of my junk mail saying, "Yes, that's really spam," and "No, that's not really spam."

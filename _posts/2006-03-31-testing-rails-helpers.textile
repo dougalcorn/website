@@ -1,0 +1,23 @@
+--- 
+title: Testing Rails Helpers
+typo_id: 936
+layout: post
+---
+I've asked "Scott":http://www.lunchboxsoftware.com/ four times now how write functional tests for helper methods.  He's replied the same all four times, and this time I'm going to "remember" it...
+
+<typo:code lang="ruby">
+require File.dirname(__FILE__) + '/../test_helper'
+ 
+class HelperTest < Test::Unit::TestCase
+  include ActionView::Helpers::TextHelper
+  include ActionView::Helpers::TagHelper
+  include ApplicationHelper
+  # include whatever helpers you want to test here, sometimes you'll need
+  # to include some of the Rails helpers, as I've done above.
+ 
+  def test_some_helper
+  end
+end
+</typo:code>
+
+By including the @ApplicationHelper@ in your test class, you have all the methods defined on that class available as local functions.  If you have helpers in other classes, you'd need to include those as well.

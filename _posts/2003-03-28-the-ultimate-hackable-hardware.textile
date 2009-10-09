@@ -1,0 +1,6 @@
+--- 
+title: The Ultimate Hackable Hardware
+typo_id: 461
+layout: post
+---
+<a href="http://www.theregister.co.uk/" target="_top">The Register</a> is <a href="http://www.theregister.co.uk/content/54/29995.html" target="_top">reporting</a> that Fujitsu is going to begin selling a humanoid robot to Japanese consumers in July.  From a purely robotic point of view, HOAP doesn't appear to be feature-wise as well developed as the Sony or Honda robots.  However, HOAP stands for "Humanoid Open Architecture Platform".  Fujitsu has based the robot on real-time Linux and will release the information about the driods control systems and software to make the machine user-programable.  Hackers of Japan, show us your stuff!

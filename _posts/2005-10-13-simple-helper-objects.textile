@@ -1,0 +1,57 @@
+--- 
+title: Simple Helper Objects
+typo_id: 669
+layout: post
+---
+I thought it was a one off, but I've got several data classes in my Rails projects that aren't derived from @ActiveRecord@.  I'm using these to encapsulate some data and logic that doesn't necessarily need to be it's own table associated with some @ActiveRecord@ model.  Let me give a concrete example.
+
+I now have three models that need to record a time.  It's not a @DateTime@ or a @Date@.  It's just a time: "7:00 am".  I need to be able to sort these models based on that 12 hour time.  I suppose I could have just stored the time as a 24-hour time integer.  Even if I had done that, there still would have been some helper methods needed to convert to a 12 hour clock string.  So, this approach seems as good as another.
+
+*WARNING:*  I'm proving to be pretty bad at naming classes.  This example illustrates that point.
+
+So I have a @TimeString@ class.  It's got @hour@, @minute@, and @ampm@ accessors.  It also knows how to dump and load itself to/from YAML.  My @ActiveRecord@ models have special accessors to contain one of these @TimeStrings@.  I have a @before_save@ filter to convert the contained @TimeString@ to a YAML string and save that in the database.  In essense I have a column in my database that @acts_as_object@.  I think a component to implement this feature would be generally useful.
+
+The code looks like this:
+
+<code><pre>
+class TimeString
+  attr_settor: :hour, :minute, :ampm
+
+  # some class implementation details
+
+  def dump
+    YAML.dump(self)
+  end
+
+  def TimeString.load(string)
+    YAML.load(string)
+  end
+end
+</pre></code>
+
+And it's used like this:
+
+<code><pre>
+class MyClass < ActiveRecord::Base
+  attr_accessor :time
+
+  before_save :save_time
+  def save_time
+    self.time_obj = self.time.dump
+  end
+  
+  def time
+    @timex ||= TimeString.load(self.time_obj)
+  end
+
+  def time=(obj)
+    self.time_obj = obj.dump
+  end
+end
+</pre></code>
+
+This assumes you have a database column called @time_obj@.  That column contains the YAML dump of the object.  The @time@ method is an accessor that returns a real @TimeString@ object.  The @time=@ method takes a @TimeString@ object and dumps it to the database column.
+
+The technique is both neat and hackish at the same time.  It's proved to be useful.  The pattern is fairly generic.  This example uses my @TimeString@ class that you may or may not think is necessary, but could really apply to any class you wanted to contain.  The only thing that's proved to vary is the @obj=@ method on the @ActiveRecord@ model.  That varies based on how you want to be able to set the contained object.  In some cases I want to pass in an already instantiated object.  In others I want to be able to pass in some parameters to create the contained object.
+
+I'm not exactly sure how to go about doing it, but I like the idea of converting this into an @acts_as_object@ class method that would set up the appropriate stuff.

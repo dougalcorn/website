@@ -1,0 +1,18 @@
+--- 
+title: Delta to begin profiling
+typo_id: 491
+layout: post
+---
+For a while now, I have thought the intuitive
+way to increase airline security would be to try and profile out who
+are terrorists and who isn't.  Humans are especially good at
+classifying things using fuzzy logic.  It's natural for us to apply
+this classifying skill in all areas of our lives.  We naturally try to
+divide the world into various "us vs. them" groups.
+<a href="http://www.wired.com/" target="_top">Wired Magazine</a> has an
+<a href="http://www.wired.com/news/privacy/0,1848,57909,00.html" target="_top">article</a>
+about Delta beginning to use the CAPPS II system to profile passengers
+and the <a href="http://www.boycottdelta.org" target="_top">boycott on Delta</a> as a result.
+On the surface, I'm temted to say this is a good thing.  Upon further
+investigation, I've decided to write up my feelings on why
+<a href="http://lathi.net/twiki-bin/view/Main/ProfilingWontWork">ProfilingWontWork</a>.

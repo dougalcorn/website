@@ -1,0 +1,6 @@
+--- 
+title: Heading home from Boulder, CO
+typo_id: 424
+layout: post
+---
+What a fun trip!  It was so nice to be around guys that are more like me.  I worked in guy's offices where they had their own lab bench and their own oscilloscopes.  It's been so long since I got to spend much time with people who even knew what oscilloscopes are, much less have one.  I guess that's not really fair.  Most (if not all) of the engineers at <a href="http://www.z-kat.com" target="_top">Z-Kat</a> (where I work) know what an oscilloscope is.  I just don't get to work with folks that deal with that level of detail.  I've been writing this kernel driver for a very long time by myself.  No one at work has really any understanding of my code at all.  I don't have anyone to go to when I get stuck.  It would take me a very long time to get anyone else caught up on what I'm doing (if they were even interested).  Anyway, it was cool to hang with guys who could look at my code, immediately understand what I was trying to do, and make suggestions on how to do it better.

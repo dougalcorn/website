@@ -1,0 +1,6 @@
+--- 
+title: I'm wining converts!
+typo_id: 404
+layout: post
+---
+OK, this isn't nearly as important as actually teaching others about Christ and converting them; however, it does meet my <a href="http://www.lathi.net/cgi-bin/blosxom.cgi/2003/04/30#_BlogMission" target="_top">mission</a>.  <a href="http://www.yerot.com/~yerase" target="_top">Randall Hand</a> is a friend of mine from <a href="http://www.z-kat.com/" target="_top">work</a>.  I've talked more about our relationship on <a href="http://www.yerot.com/~yerase/twiki/bin/view.pl/Main/DougAlcorn" target="_top">my page</a>.  The cool thing is that I got to help him setup a <a href="http://twiki.org" target="_top">TWiki</a> site and link it with a <a href="http://www.raelity.org/apps/blosxom/" target="_top">Blosxom</a> blog.  I've been hoping more people at work would "get" the wiki concept.  Randall "admitted" to me this morning he was "developing a whole new respect for TWiki."

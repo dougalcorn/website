@@ -1,0 +1,14 @@
+--- 
+title: Red
+typo_id: 104
+layout: post
+---
+<a href="http://home.lathi.net/gallery/2005/04-April/Red/JPEG/2005-04-08_14-0.jpg"><img src="http://home.lathi.net/gallery/2005/04-April/Red/JPEG/.cache/100x66-2005-04-08_14-0.jpg" height="66" width="100" align="left" vspace="5" hspace="10" alt="Blue bus" border="0"/></a>I'm taking an photography class on the "Psychology of Color".  We were talking about our emotional response to several colors.  Our assignment each week is to shoot a color.  The first week was "<a href="http://home.lathi.net/gallery/2005/04-April/Red/JPEG/" target="_top">shoot red</a>"; whatever that means.  I thought it would be interesting to see the effect of red in places it wasn't usually found.
+<p />
+At the same time our instructor, Steve Floro, was also talking about creativity being the opposite of fear.  He said it was fear that kept us from trying things we typically label as "creative".
+<p />
+My idea was to take a photo of the inside of the bus I take to work.  It is completely blue.  I'm sure there's a designer somewhere who told the Metro Transit Authority, "You should paint these buses blue to help people stay relaxed and calm."  Would it be the same if the buses were all red instead of blue?
+<p />
+Keep in mind I sort of "know" these people on the bus.  We see each other every day but don't know each other's names.  We're friendly but not intimate.  When I took my camera on the bus to shoot this photo I was really nervous.  What would people say about me trying to take their picture?  Of course, I had to take like 20 shots to get one I liked.  I just kept hearing Steve say, "creativity is the opposite of fear," and kept shooting.
+<p />
+<a href="http://home.lathi.net/gallery/2005/04-April/Red/JPEG/2005-04-08_14-2.jpg"><img src="http://home.lathi.net/gallery/2005/04-April/Red/JPEG/.cache/100x66-2005-04-08_14-2.jpg" height="66" width="100" align="right" vspace="5" hspace="10" alt="Red bus" border="0" /></a>The first time I tried to change the color from blue to red, I totally dropped the ball.  I was trying select by color or lasso or whatever.  Totally the wrong approach.  I saw some tutorials that helped a lot.  I ended up with three hue/saturation adjustment layers: one for the floor, one for the seat trim, and one for the seat backing.  I thought I might want to adjust the hue/saturation individually for those three areas.  It turned out that wasn't necessary.  I ended up setting the adjustment layers' blending mode to simply "hue".  All three layers have the same hue, so I really could have used just one layer.  The other "trick" is to then simply paint with white on a black layer mask for the adjustment layers.  Wherever you paint is where the hue is adjusted.  Easy, peasy.

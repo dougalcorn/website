@@ -1,0 +1,8 @@
+--- 
+title: Native Port of Gtk to Mac OS X
+typo_id: 185
+layout: post
+---
+Calling all mac-heads that read this.  I've recently met <a href="http://www.figuiere.net/hub/blog/" target="_top">the guy</a> who ported <a href="http://abisource.com" target="_top">AbiWord</a> to Mac OS X using the native Cocoa framework.  For those of you who've used it, you know X11 on the Mac works but is a pain to use.  Any Mac users familiar with open source software has wished for a native port of Gtk+ so that apps like <a href="http://gimp.org" target="_top">The Gimp</a>, <a href="http://www.gnome.org/projects/gnumeric/" target="_top">Gnumeric</a>, <a href="http://www.gnucash.org/" target="_top">GnuCash</a>, and other <a href="http://gnome.org/" target="_top">Gnome</a> applications can run natively under Mac OS X.
+<p />
+I think "hub" can do the port.  He claims he can except he currently doesn't have any hardware that can run OS X.  I don't think it would be too hard to raise the roughly $500 for a <a href="http://lathi.net/diary/Hardware/apple_mac_mini.html" target="_top">Mac mini</a>.  If you're interested in kicking in $10, $20, $50, or some other amount <a href="mailto:doug@lathi.net">let me know</a>.

@@ -1,0 +1,16 @@
+--- 
+title: "Productize: Alas, we hardly new you"
+typo_id: 952
+layout: post
+---
+"Productize":http://article.gmane.org/gmane.comp.lang.ruby.rails/14513 seems like such a good idea.  Even "David":http://www.loudthinking.com/ seems to "give it praise":http://weblog.rubyonrails.com/articles/2005/07/12/productize-your-application-from-a-common-base.  It seems though this good idea had a short life-span.
+
+For those who don't know, Productize is a method of making a Rails app a "parent" and then having multiple instances of that app that all shares the same code base allowing for individual tweaks.  For myself, I was wanting to productize "typo":http://www.typosphere.org/trac/ so that I could easily host many typo blogs.  At work we use productize on our website to provide our primary US site and also a customized UK website.
+
+Productize was originally released pre Rails 1.0.  With The Big Milestone, there was some scrambling to get productize to work.  The problem is that productize pokes fairly deep in the internals of Rails class loading.  That code seems to be not yet as stable as it should be.  Each release of Rails seems to break productize.  
+
+To make matters worse, it doesn't seem like Duane Johnson is still using or working on productze.  With the 1.0 release, the patches and work arounds for productize came from the community.  I never did see anything directly from Duane.  
+
+Now that Rails 1.1 and 1.1.2 are out, productize is broken again.  For such a good idea of minimizing duplication, it doesn't look good for productize.  Members of the core team have said there's no interest in making it part of Rails core and no desire to "support" it and the internal hooks it needs.  In my mind, this moves productize into the "high risk" category.
+
+I never did get typo to the point where it would work nicely with productize.  Right now we depend heavily on it at work, but that's changing.  We've decided to take the core pieces of our app and make them into and engine/plugin and then split the US and UK sites into separate apps.  When we first introduces the UK site, productize's primary assumption held true: everything is the same unless it's different.  Now that our UK site is fairly mature, the department heads of the respective sites are pretty much assuming everything is different unless it's the same.

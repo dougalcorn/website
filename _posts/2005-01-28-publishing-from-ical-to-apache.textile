@@ -1,0 +1,6 @@
+--- 
+title: Publishing from iCal to Apache
+typo_id: 170
+layout: post
+---
+I just managed to publish a calendar from iCal on my <a href="http://lathi.net/twiki-bin/view/Main/PowerBook">PowerBook</a> to my own WebDAV server.  I think the whole thing was about 20 minutes from google to publish.  I found <a href="http://www.webweaving.org/ical/" target="_top">this</a> simple article on how to set it up.  My plans for this is to allow my wife to publish our family calendar so I can subscribe to it.  That lets her continue maintaining our schedule of activities, but allow me to keep up with it easily on my <a href="http://lathi.net/twiki-bin/view/Main/PowerBook">PowerBook</a>.

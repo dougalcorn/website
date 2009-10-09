@@ -1,0 +1,6 @@
+--- 
+title: Fear me, I'm a dangerous hacker!
+typo_id: 174
+layout: post
+---
+Boing Boing is <a href="http://www.boingboing.net/2005/01/27/jailed_for_using_a_n.html" target="_top">reporting</a> that London police swarmed this guys house "SWAT style" and arrested him.  Why?  He made a tsnuami-relief donation using a non-standard browser.  He used a text-only browser on a Sun Solaris 10 computer.  The webmasters of the relief site spotted his access log entry, thought it a suspicious hacking attempt, and called in the police.  The scary thing is that I surf the web with the same text-only browser as this guy somewhat often!

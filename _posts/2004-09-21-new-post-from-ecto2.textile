@@ -1,0 +1,8 @@
+--- 
+title: New Post from Ecto2
+typo_id: 208
+layout: post
+---
+<p />
+<p />
+Hmm, well.  I'm not dead.  Eventually I'll start posting frequently enough I won't have to preface each post with that statement.  As part of my <a href="http://lathi.net/twiki-bin/view/Main/SwitchingToMacOSX">SwitchingToMacOSX</a> I'm trying out lots of new software for doing things the "Mac way" instead of the "Linux way".  When Linux was my desktop, I wrote all my post using a plain old text editor.  That's what drew me to <a href="http://blosxom.com/" target="_top">Blosxom</a> in the first place.  Now that I'm on a Mac <a href="http://lathi.net/twiki-bin/view/Main/PowerBook">PowerBook</a> I trying out <a href="http://ecto.kung-foo.tv/" target="_top">Ecto</a> as a "client" for writing, posting, and managing blog posts.  It took a little bit of effort, but I got blosxom listening to the necessary XML-RPC requests with <a href="http://www.hutchison.org/allen/source/bxr/index.html" target="_top">BXR</a> (the Blosxom XML-RPC interface).  Now I have a fancy-dancy interface for writing blog entries.  I'm sure <a href="http://carla.lathi.net/diary/" target="_top">Carla</a> will appreciate this.

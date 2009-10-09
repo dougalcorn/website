@@ -1,0 +1,6 @@
+--- 
+title: Think your code is bad?
+typo_id: 533
+layout: post
+---
+The 16th annual <a href="http://iocc.org/" target="_top">International Obfuscated C Code Contest</a> is releasing the <a href="http://ioccc.org/years.html#2001" target="_top">winning source</a>.  Read it and weep.

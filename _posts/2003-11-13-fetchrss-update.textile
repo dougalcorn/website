@@ -1,0 +1,6 @@
+--- 
+title: FetchRss Update
+typo_id: 259
+layout: post
+---
+I've updated <a href="http://lathi.net/twiki-bin/view/Main/FetchRss">FetchRss</a> to handle <a href="http://lathi.net/diary/Software/SpammingJoel.writeback" target="_top">Joel's problem</a>.  Basically the story is that when things go wrong between fetchrss and the MTA it's the publisher of the <a href="http://lathi.net/twiki-bin/view/Main/RssFeeds">RssFeeds</a> that hears about it.  This update adds the "Sender" field so that the MTA will complain to the message sender rather than the author of the content.  If you upgrade, note that your message cache will be invalidated and you'll get duplicate copies of the messages.  This really shouldn't affect anyone who has a properly configured <a href="http://lathi.net/twiki-bin/view/Main/FetchRss">FetchRss</a>.  The only people it really affects are newbies who are having trouble setting it up.

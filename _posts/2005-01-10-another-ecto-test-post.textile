@@ -1,0 +1,8 @@
+--- 
+title: Another Ecto test post
+typo_id: 207
+layout: post
+---
+One of the problems I had with using Ecto before was with some of my blosxom plugins. Specifically, I use a plugin that convertes the blog story into HTML using the TWiki engine. When I was just writing plain text files, this was really handy. Ecto tries to do the HTML formatting for me. There was a disconnect between Ecto and my TWiki renderer. 
+<p />
+So, this is a test of Ecto with turning off the twikirenderer for this post but leaving it on for all my old stuff.

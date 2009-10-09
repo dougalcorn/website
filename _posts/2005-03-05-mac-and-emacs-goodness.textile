@@ -1,0 +1,26 @@
+--- 
+title: Mac and Emacs Goodness
+typo_id: 142
+layout: post
+---
+I run a locally compiled version of CVS Emacs with the Carbon bindings.  Overall it's great.  It takes me a long time to build Emacs though and I don't update very often.  My last compile was back in October of 2004.  So, I decided to update today.  What a nice surprise!  One of my big pet peeves was fixed!
+<p />
+I'm getting more and more used to the Mac way of Cmd-c for copy and Cmd-v for paste.  My problem has been there wasn't a good way to do this in Emacs.  I leave the control key defined as control and the Alt/Option key as Meta.  My understanding was that the Command/Apple key wasn't really available to Emacs.  However, when I tried it today Emacs recognized Command/Apple as Alt.  So, here are my Emacs settings to work on my Mac:
+<p />
+<pre>
+(setq mac-command-key-is-meta nil
+      mac-pass-command-to-system t
+      mac-pass-control-to-system nil
+      mac-command-modifier nil
+      focus-follows-mouse nil)
+(global-set-key (kbd "A-x") 'kill-region) ; traditional "cut"
+(global-set-key (kbd "A-v") 'yank) ; traditional "paste"
+(global-set-key (kbd "A-c") 'kill-ring-save) ; traditional "copy"
+(global-set-key (kbd "A-m") 'iconify-or-deiconify-frame) ; minimize
+(global-set-key (kbd "A-`") 'other-frame) ; cycle through emacs windows/frames
+(global-set-key (kbd "A-n") 'make-frame-command) ; new emacs window/frame
+(global-set-key (kbd "A-w") 'delete-frame) ; close window/frame
+
+</pre>
+<p />
+My buddy Dave has what seems like a really old Emacs.  When he does 'C-h k Cmd-k' he gets "A-k is undefined" back.  That means his Cmd key is defined as an Alt key and all these settings will work on his Emacs too.  Maybe I could have had this working all along.

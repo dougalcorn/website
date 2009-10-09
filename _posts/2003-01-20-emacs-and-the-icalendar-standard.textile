@@ -1,0 +1,8 @@
+--- 
+title: Emacs and the iCalendar standard
+typo_id: 567
+layout: post
+---
+My previous post was motivated by my desire to work out group scheduling without using Microsoft Outlook.  Theoretically, MS-Outlook can speak (if so configured) the iCal standard (<a href="http://www.faqs.org/rfcs/rfc2445.html" title="IETF RFC #2445">RFC:2445</a>).  I think the iCalendar standard is a really good idea.  You can publish your calendar on-line and have other people subscribe to it.  Your company can publish an events schedule.  Your favorite sports team probably already publishes their game schedule in iCalendar format that you can subscribe to.  Of course, the Outlook killer feature for a long time has been the ability to send meeting invitations electronically and to see people's busy/free schedule for finding a meeting time.
+<p />
+The calendar/diary feature of Emacs is so completely different from nearly any other calendar program, I'm not entirely sure how to integrate Emacs with iCalendar.  It seems simple enough to just "#include "webcal://foo.com/some-calendar.ics" to subscribe to on-line calendars.  The problem is how to publish your own calendar in a similar format.  Also, how to handle adding events to your calendar that arrive in iCalendar format.  I'll do some hacking and see what I can come up with.  Let me know if you have any ideas on how to pull this off.

@@ -1,0 +1,8 @@
+--- 
+title: Barn Raising!
+typo_id: 1005
+layout: post
+---
+"Nathaniel Talbott":http://terrailien.com just gave an excellent presentation on "Homesteading", staking out on your own to build a business.  It was a personal, intimate discourse on his feelings about starting out on your own.  His metaphor was around settling "The Old West".  He closed by suggesting "barn raising."  If you have your "land" staked out and know what you need but just need help getting your building built, ask for help!
+
+One thing "RailsDay":http://railsday.org shows is just how much a small team can accomplish when focusing in a small amount of time.  At some point, I may call upon my friends to come help me.  In the mean time, if you need help raising your barn give me a call!

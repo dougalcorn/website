@@ -1,0 +1,6 @@
+--- 
+title: Rails Planet
+typo_id: 620
+layout: post
+---
+I notice that the "Rails Planet":http://www.planetrubyonrails.org/ has added my blog! Thanks guys.

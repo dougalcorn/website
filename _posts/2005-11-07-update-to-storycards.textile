@@ -1,0 +1,14 @@
+--- 
+title: Update to Storycards
+typo_id: 775
+layout: post
+---
+I'd like to announce some improvements to "Storycards":http://lathi.net/storycards:
+
+* Use Textile to format stories
+* Cards now Acts as a List -- this means you can prioritize the cards
+* Drastic improvement to the layout and usability of nearly all the views
+* Improved versioning of the cards by only bumping revision when we need to
+* Supports multiple projects that have separate cards
+
+I'd like some more eyes on this.  There are quite a few changes that I've been making up off the top of my head.  I'm up to 133 lines of code with 267 lines of test.  I think this version is actually useable.

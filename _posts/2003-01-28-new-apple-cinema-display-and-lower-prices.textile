@@ -1,0 +1,9 @@
+--- 
+title: New Apple Cinema Display and Lower Prices
+typo_id: 551
+layout: post
+---
+I've admired the Apple <a href="http://www.apple.com/displays/" target="_top">displays</a> for quite a while.  Just recently they've announced a new model and lowered prices across the board.  The <a href="http://www.apple.com/displays/acd20/" target="_top">20" Cinema display</a> is 1680x1050 and only $1300.  They've reduced the price of the <a href="http://www.apple.com/displays/acd23/" target="_top">23" HD Cinema display</a> has been lowered to an even $2000 for 1980x1200.  Yes, that's still a lot of money.  However, for large LCD flat panels that's a really good price.  At work we pay about $2500 for an NEC 20" LCD that only displays 1280x1024.
+<p />
+<a href="http://www.apple.com/displays/"><img src="http://a16.g.akamai.net/7/16/51/7838ed2f8c2c6a/www.apple.com/displays/images/index_3shot012403.jpg" width="639" height="249" border="0" alt="Three Apple Cinema Displays showing city skyline at sunset" /></a>
+<center><font size="-2">Image &copy; 2003 Apple Computer, Inc.</font></center>

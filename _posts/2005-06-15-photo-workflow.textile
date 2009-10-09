@@ -1,0 +1,6 @@
+--- 
+title: Photo Workflow
+typo_id: 91
+layout: post
+---
+I've done some more thinking and working on my <a href="http://lathi.net/twiki-bin/view/Main/PhotoWorkflow">PhotoWorkflow</a>.  I'm now making heavy use of Adobe products including: Bridge, Photoshop, the Import Camera script for Bridge, and the Image Processor for Bridge.  I haven't been using <a href="http://www.iview-multimedia.com/products/mediapro/index.php" target="_top">iView MediaPro</a> as much.  Although I'm looking at how to get it back into my workflow.

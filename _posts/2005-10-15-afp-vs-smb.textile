@@ -1,0 +1,8 @@
+--- 
+title: AFP vs. SMB
+typo_id: 671
+layout: post
+---
+I had my "Home Fileserver":http://www.lathi.net/twiki-bin/view/Main/HomeFileServer setup to share my data directories using "netatalk":http://netatalk.sourceforge.net/ and the AFP protocol.  When both of my powerbooks were running Mac OS 10.3 "Panther", it worked fine.  When I upgraded Carla's powerbook to Mac OS 10.4 "Tiger" she could no longer connect.  I've fought with this several times and today finally caved in and installed "samba":http://us1.samba.org/samba/.  It took me about 15 minutes from the time I installed until Carla's machine could mount the drive, read, and write photos.
+
+I don't know why it makes me sad to use Samba over netatalk.  Samba's a fine piece of software with a long and glorious history.  It just seems wrong somehow to resort to SMB when using Macs.  Oh, well.  We do what has to be done.

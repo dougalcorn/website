@@ -1,0 +1,19 @@
+--- 
+title: Transparent Screen
+typo_id: 118
+layout: post
+---
+<style type="text/css">
+.flickr-photo { border: solid 1px #000000; }
+.flickr-frame { float: left; text-align: center; margin-right: 15px; margin-bottom: 15px; }
+.flickr-caption { font-size: 0.8em; margin-top: 0px; }
+</style>
+<p />
+<div class="flickr-frame">
+    <a href="http://www.flickr.com/photos/w00kie/7268327/" title="photo sharing"><img src="http://photos5.flickr.com/7268327_25acbd1f91_t.jpg" class="flickr-photo" alt="Transparent Screen - peon.master" /></a><br />
+    <span class="flickr-caption">
+        <a href="http://www.flickr.com/photos/w00kie/7268327/">Transparent Screen - peon.master</a>,<br /> originally uploaded by <a href="http://www.flickr.com/people/w00kie/">w00kie</a>.
+    </span>
+</div>
+This is just cool.  A very clever hack to make your laptop's LCD look like it's totally transparent.
+<br clear="all" />

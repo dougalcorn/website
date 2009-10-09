@@ -1,0 +1,6 @@
+--- 
+title: Updated Carla's Blog Design
+typo_id: 258
+layout: post
+---
+As a "surprise" I changed Carla's <a href="http://lathi.net/~carla/blog/" target="_top">blog</a> design.  She's always liked smiley faces.  What she told me was she wanted the whole thing yellow with bouncing smiley faces.  I told her I just couldn't allow annimations on her site.  It would cause me nightmares and other troubled sleep.  So, this is a compromise.  I guess it may be a copyright violation.  I did a google on smile in the images, downloaded about 35 of them and made a collage out of them.  The CSS is a rip off from <a href="http://www.meyerweb.com/" target="_top">Eric Meyer's</a> <a href="http://www.meyerweb.com/eric/css/edge/complexspiral/demo.html" target="_top">complexspiral demo</a>.  It's a pretty light page weighing in at about 65K.  Of course, that may go up a few K once she's got more conent.

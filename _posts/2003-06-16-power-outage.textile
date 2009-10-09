@@ -1,0 +1,6 @@
+--- 
+title: Power Outage
+typo_id: 342
+layout: post
+---
+I lost power today for no good reason for about 40 minutes.  This is one of the first times I've been at home when it's happened in a long while.  I watched my UPS wake up and start beeping.  It's not linked to my firewall/gateway (that's really an old Apple Powermac 8500 running Debian <a href="http://lathi.net/twiki-bin/view/Main/GnuLinux">GnuLinux</a>), so I had to manually ssh in and shut it down.  I'd always had quesitons whether my UPS worked or not.  It does.  It just only lasts about five minutes.  Of course, my <a href="http://lathi.net/twiki-bin/view/Main/ThinkPad">ThinkPad</a> switched over to batter power with no problems at all.  The problem was when power came back up.  Getting the two power events caused my sound driver to pork up.  Now the only thing that will fix it is a reboot. <img alt="frown" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/frown.gif" />  Since I don't really like working in total silence I'll probably reboot before too long.  Actually, I probably would like to work in total silence.  The problem is all the noice all these computers make.  Having some music going just covers up the whine of fans.

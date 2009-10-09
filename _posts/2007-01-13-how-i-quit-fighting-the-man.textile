@@ -1,0 +1,40 @@
+--- 
+title: How I Quit Fighting The Man
+typo_id: 1105
+layout: post
+---
+One of the sucky things that's happened at work is a corporate migration to MS Exchange.  This is the story about how I've survived the migration.
+
+Our IT department has decided to only support two mail clients: MS Outlook and MS Entourage.  So I've been using Entourage.  I resisted at first simply because it was MS and it looked a lot more ugly than Apple's Mail.app.  After several months I can truely say I hate it.  The user experience is really awful.  Search is slow and cumbersme.  I've got dialogs popping up all over the place.  Configuration is a hasstle.  The supposed benefit of Entourage is integraton with the rest of the company.  Unfortunately, MS treats Entourage like a red-headed step-child (no offense to all you red-headed step-children out there).  The integration with Exchange is clunky at best.
+
+The good news is our IT department also supports the Outlook Web Access (OWA).  This is really a WebDAV interface with pretty good functionality.  I finally found "fetchExc":http://personal.inet.fi/atk/fetchexc/.  It's like fetchmail, but downloads from Exchange via OWA and dumps it into a local @mbox@ file.  The bad news is fetchExc is a java app.  That means it was kind of a hassle to setup.  What you'll see below is me trying to explain how to get this java app able to run.  Please forgive the Java ignorances.  This is why I took Java off my resume.
+
+The first big step is getting the SSL certificate of your OWA host available to Java.
+
+* @openssl s_client -connect your.outlook.web.access.host:https@
+
+This will dump a bunch of text to the screen.  The important bits are between and including @-----BEGIN CERTIFICATE-----@ and @-----END CERTIFICATE-----@.  I copy/pasted this text into an outlook.pem file.
+
+* @sudo keytool -import -alias your.outlook.web.access.host -keystore keystore -file outlook.pem@
+
+This creates a @keystore@ file that java uses for validating certificates it receives.  I'm not sure how it's different than a @.pem@ file, but whatever.
+
+Now I edit the @fetchExc.properties@ file appropriately.  I think the important bit is setting @MboxFile=/var/mail/dalcorn@ (where @dalcorn@ is my Mac short-name or unix login).  I've also set @Delete=false@ and @All=false@.  This means the mail will be left in Exchange and marked as read.  Only unread messages will be downloaded.
+
+* @java -Djavax.net.ssl.trustStore=/Users/dalcorn/devel/fetchExc/keystore -jar /Users/dalcorn/devel/fetchExc/fetchExc.jar -p /Users/dalcorn/devel/fetchExc/fetchExc.properties > /tmp/fetchExc.log 2>&1@
+
+This is the full command line I use to run the actual fetching of mail.  I'm not smart enough to add the @.pem@ file to the global keystore, so I have to specify it explicitly on the command line.  Also, I'm explicitly calling out the property file as well.  I've got this command running in a cron job every 5 minutes.
+
+The next tricky part is getting Apple's Mail.app to read this mbox file.  In the olden days, Mail had an account type of "Unix" that would read from the default system wide mbox file.  That's gone now.  My only other option was to use POP.
+
+* @sudo port install qpopper@
+
+This installs a simple POP3 server on my mac.  I did zero configuration.  Whatever the Portfile said for it to do was fine.  I did have to manually start the daemon though.
+
+* @sudo launchctl load -w /opt/local/Library/LaunchDaemons/org.macports.mail.qpopper.plist-dist@
+
+That file in the LaunchDaemons directory will make sure qpopper is started at reboot.
+
+After that, I just created a new account in Mail.app of type POP with mail host set to localhost.  Easy, peasy, pumkin weasy.
+
+I can't tell you how much happier I am not having to spend time in Entourage all day.  It's the little things that count.  Big thanks to Juhani Rautiainen who wrote fetchExc!

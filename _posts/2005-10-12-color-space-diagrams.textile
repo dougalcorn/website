@@ -1,0 +1,12 @@
+--- 
+title: Color Space Diagrams
+typo_id: 668
+layout: post
+---
+
+<img src="http://blog.lathi.net/files/images/aRGB_vs_sRGB_mini.png" height="166" width="151" align="left" border="0" hspace="10" vspace="5" alt="aRGB vs sRGB Colorspace" title="aRGB vs sRGB Colorspace" longdesc="" />
+I simply love Apple's ColorSync Utility!  I was talking with a friend of mine, "Randall Hand":http://www.yeraze.com/, about color calibration and color space.  The ColorSync Utility lets me take ICC profiles and compare them in 3D.  It's pretty eye opening to see the different color gamuts of various devices and such.  Here's some screen shots I took to demonstrate.
+
+* "sRGB vs DELL1704FPT":http://lathi.net/images/color_profiles/sRGB_vs_DELL1704FPT.png -- This shows how my current Dell 17" LCD almost perfectly compares to the standard RGB color space.
+* "sRGB vs. HP 2400":http://lathi.net/images/color_profiles/sRGB_vs_HP2400.png -- This shows how tiny my stupid ink jet printer is compared to the standard RGB color space.  There are some areas that my printer can render that sRGB can't though.
+* "aRGB vs sRGB":http://lathi.net/images/color_profiles/aRGB_vs_sRGB.png -- Finally, this shows the Adobe RGB color space versus the standard RGB color space.  Notice how much larger it is.  Also worth noting, but not directly compared here, aRGB handles those colors my HP ink jet can print that sRGB can't handle.

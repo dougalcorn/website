@@ -1,0 +1,6 @@
+--- 
+title: Teeth of Terror
+typo_id: 196
+layout: post
+---
+This is an interesting rant on <a href="http://www.boingboing.net/2005/01/14/something_to_sink_yo.html" target="_top">teeth</a> over at <a href="http://boingboing.net/" target="_top">Boing Boing</a>.

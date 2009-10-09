@@ -1,0 +1,20 @@
+--- 
+title: The End of WYSIWYG?
+typo_id: 666
+layout: post
+---
+I may not really be an old goat, but I remember writing documents in word-processors before WYSIWYG(What You See Is What You Get).  It was laborious to keep hitting F12 to "reveal codes" to see why your document wasn't doing what you expected.  WYSIWYG was fun and much easier.  Except... it was all a farce.  WYSIWYG never really worked.
+
+If you change your print driver and your document would get all screwed up.  Spend a bunch of time getting everything the way you want and then insert a picture and everything is screwed up.  There's more, and "Jacob Nielsen":http://www.useit.com/jakob/ explores it in his "latest Alertbox":http://www.useit.com/alertbox/wysiwyg.html.  Here's his bullet list of what's broke with WYSIWYG:
+
+* WYSIWYG works well when you only have a few commands and can easily locate them in the menus.  Add too many commands and it all gets lost (MS Word 2003 has 1,500 commands).
+* The process of formatting your document requires the user to visualize their end results and then incrementally work towards that goal.
+* There's little guidance towards that goal (Short of that annoying paperclip).
+
+This is great quantization of the problem with WYSIWYG editors.  Nielsen looks forward to MS Office 12 with it's "results oriented UI".  The idea is you choose from templates that morphs your content into it's format.  What this sounds like to me is similar to good HTML/CSS.  The content is meaningfully described and then the presentation can be changed at will (think "CSS Zen Garden":http://www.csszengarden.com/).  So Neilsen is crediting MS with this change in paradigm from *What You See Is What You Get* to *What You Get Is What You See*.  Clever; but hardly a MS innovation.  However, Neilsen does nail this on the head:
+
+<blockquote>
+If anybody else introduced a new user interface paradigm, it would probably remain a curiosity for years, but Microsoft Office has a special status as the world's most-used interaction design. We know from user testing that *users often demand that other user interfaces work like Office*. When you're used to one style most of the day, you want it in other applications and screens as well.
+</blockquote>
+
+Which is exactly what's happened.  Getting users to do authoring in some form of SGML has been a lost cause since SGML was first introduced.  However, if MS sets up user's expectations that content-driven authoring is the way to go; then I'm all for it.  For what it's worth, this will be something else that will push more content authoring to the web since CSS is so ideally suited for it.

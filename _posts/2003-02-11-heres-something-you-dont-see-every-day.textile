@@ -1,0 +1,14 @@
+--- 
+title: Here's something you don't see every day
+typo_id: 519
+layout: post
+---
+Some time ago a security company called <a href="http://www.pivx.com/" target="_top">PivX</a> found a serious security flaw in the <a href="http://www.unrealtournament.com/" target="_top">Unreal Tournament</a> gaming engine.  <span style='background : #FFFFCE;'><font color="#0000FF">PivX</font></span><a href="http://lathi.net/twiki-bin/edit/Main/PivX?topicparent=Main.WebHome">?</a> contacted <a href="http://www.epicgames.com" target="_top">Epic Games</a>, the maker of UT, to notify them of the bug and give them 30 days to acknowledge or respond to the bug before they published to the community.  Epic gave no response until <span style='background : #FFFFCE;'><font color="#0000FF">PivX</font></span><a href="http://lathi.net/twiki-bin/edit/Main/PivX?topicparent=Main.WebHome">?</a> got ready to publish and the press contacted Epic.  The response then was to freak out and ask for more time and help fixing the bug.  <span style='background : #FFFFCE;'><font color="#0000FF">PivX</font></span><a href="http://lathi.net/twiki-bin/edit/Main/PivX?topicparent=Main.WebHome">?</a> gave them 90 more days during which nothing more happened.  So, <span style='background : #FFFFCE;'><font color="#0000FF">PivX</font></span><a href="http://lathi.net/twiki-bin/edit/Main/PivX?topicparent=Main.WebHome">?</a> <a href="http://www.pivx.com/press_releases/ueng-adv_pr.html" target="_top">announces</a> the vulnerability.  The next day, several sources <a href="http://www.bluesnews.com/cgi-bin/board.pl?action=viewthread&amp;threadid=39954" target="_top">quoted</a> Mark Rein, Epic Games Vice President, as frankly admitting fault in not handling the bug properly.  A few days later, <a href="http://www.techtv.com/" target="_top">TecTV</a> <a href="http://www.techtv.com/news/security/story/0,24195,3417248,00.html" target="_top">quotes</a> Rein as saying, "This is slanderous... We're getting our lawyers involved with this."  Thor Larholm <a href="http://online.securityfocus.com/archive/1/311405/2003-02-08/2003-02-14/0" target="_top">publishes</a> this whole story on <a href="http://online.securityfocus.com/archive/1" target="_top">Bugtraq</a> this morning before noon.  
+<p />
+Here's the interesting part.  Two hours, 16 minutes later Mark Rein <a href="http://online.securityfocus.com/archive/1/311443/2003-02-08/2003-02-14/0" target="_top">posts</a> to bugtraq an apology.  Regarding the quote above about lawyers:
+<p />
+<blockquote>
+Again this was a moment-of-stupidity reaction and I sincerely apologize to Pivx and the entire security community.  Epic has already stated that we will take these matters far more seriously in the future.
+</blockquote>
+<p />
+Impressive.  I don't think I can remember the last time a Big Company Veep making such a public apology.

@@ -1,0 +1,20 @@
+--- 
+title: Smart Thinking
+typo_id: 166
+layout: post
+---
+There are few guys that I classify as some our "Smartest Thinkers".  <a href="http://schneier.com/" target="_top">Bruce Schneier</a> is probably one of the smartest guys working in the security business.
+<p />
+<blockquote>
+Imagine for a minute that Secure Flight is perfect. That is, we can ensure that no one can fly under a false identity, that the watch lists have perfect identity information, and that Secure Flight can perfectly determine if a passenger is on the watch list: no false positives and no false negatives. Even if we could do all that, Secure Flight wouldn't be worth it.
+<p />
+Secure Flight is a passive system. It waits for the bad guys to buy an airplane ticket and try to board. If the bad guys don't fly, it's a waste of money. If the bad guys try to blow up shopping malls instead of airplanes, it's a waste of money.
+<p />
+If I had some millions of dollars to spend on terrorism security, and I had a watch list of potential terrorists, I would spend that money investigating those people. I would try to determine whether or not they were a terrorism threat before they got to the airport, or even if they had no intention of visiting an airport. I would try to prevent their plot regardless of whether it involved airplanes. I would clear the innocent people, and I would go after the guilty. I wouldn't build a complex computerized infrastructure and wait until one of them happened to wander into an airport.
+<p />
+It just doesn't make security sense.
+<p />
+That's my usual metric when I think about a terrorism security measure: Would it be more effective than taking that money and funding intelligence, investigation, or emergency response -- things that protect us regardless of what the terrorists are planning next. Money spent on security measures that only work against a particular terrorist tactic, forgetting that terrorists are adaptable, is largely wasted.
+</blockquote>
+<p />
+By the way, I'm filing this article under "Politics" because it seems that politicians are making security decisions more and more.  There doesn't seem to be a lot of reasoning to it either.

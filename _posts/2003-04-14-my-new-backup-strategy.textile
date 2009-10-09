@@ -1,0 +1,6 @@
+--- 
+title: My New Backup Strategy
+typo_id: 447
+layout: post
+---
+I finally talked my company into buying me a 2nd hard disk adapter and drive for my <a href="http://lathi.net/twiki-bin/view/Main/ThinkPad">ThinkPad</a>.  I have two Ultrabay 2000 ports.  This allows me to have the internal hard disk as /dev/hda, a dvd/cd-rw combo drive as /dev/hdb, and my second drive as /dev/hdc.  I manually created all the same partitions on the second drive as my primary and wrote a little script that does an rsync on each partition plus a dd to grab the lilo boot sector.  Hopefully this will allow me to cold swap the drives in th event of a disk failure.  I executed the script and then immediately executed it again.  The execution time was just under 12 minutes.  I guess I really need to actually do the cold swap to see if it all worked.  Assuming it does, I think I'm really going to like this insurance.  I think the whole thing was about $250.

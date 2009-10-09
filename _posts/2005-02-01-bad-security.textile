@@ -1,0 +1,8 @@
+--- 
+title: Bad Security
+typo_id: 164
+layout: post
+---
+<p />
+<a href="http://lathi.net/images/bad-security.jpg"><img src="http://lathi.net/images/bad-security-tm.jpg" height="143" width="155" align="left" border="1" hspace="4" vspace="10" alt="kurios119.jpg" title="kurios119.jpg" longdesc="" /></a>
+Here's another insightful find from <a href="http://www.schneier.com/blog/archives/2005/02/the_weakest_lin.html" target="_top">Bruce Schneier</a>.  This just makes me shake my head and laugh.  How many computer security policies are the same?

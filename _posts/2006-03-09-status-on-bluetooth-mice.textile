@@ -1,0 +1,20 @@
+--- 
+title: Status on Bluetooth Mice
+typo_id: 900
+layout: post
+---
+I have an "older" 12" Apple Powerbook with built in Bluetooth.  This year I have been trying to reduce the clutter of my desk and my bag by getting bluetooth devices without wires.  The three areas I've been working on are the keyboard, mouse, and headset.  I'll write about the headset later.  I love my Apple Bluetooth keyboard.  It's totally awesome.  I'm very sad about bluetooth mice; however.
+
+I have tried three Bluetooth mice:
+
+* "Logitech V270":http://www.logitech.com/index.cfm/products/details/US/EN,CRID=2146,CONTENTID=10916
+* "Kensington Pilotmouse Mini Bluetooth":http://us.kensington.com/html/5465.html
+* "RadTech BT510":http://www.radtech.us/Products/BT510.aspx
+
+I returned the first two and as of right now the third is sitting unused.  Honestly, I think the problem is in my Powerbook.  The newer powerbooks and the Macbook pro all have a newer chipset for Bluetooth that supports v2 of the standard.  Mine only supports v1.3 of the standard.  I don't exactly know what all that means, but my understanding is that the newer standard is (among other things) higher bandwidth.  Who knows? Maybe the newer chipset is higher power too.
+
+I think my problem is that I just have too many devices operating in the 2.4GHz range.  I have a cordless phone on my desk that's 2.4GHz.  I have a GSM cell phone with Bluetooth.  I have two (!) bluetooth headsets that are 2.4GHz.  I have a Bluetooth keyboard operating at 2.4GHz.  I have my Powerbook with built in WiFi also operating at 2.4GHz.  Last but not least, the Airport Extreme basestation for my home WiFi network is sitting a few feet away...
+
+Maybe all those things are supposed to be able to work together.  For the most part they do.  However, mice seem like they'd be more impacted by lost packets.  It stands to reason, if a mouse is 800dpi and you move the mouse one inch then for smooth tracking 800 packets will have to be sent "across the wire".
+
+Rumor has it my Macbook pro is supposed to arrive Real Soon Now.  I'm pretty much waiting to do anything until I get that machine with it's fancy-dancy Bluetooth chipset.  I suspect all of the mice I've tried would work just fine as long as you have the newer Bluetooth chipset.

@@ -1,0 +1,14 @@
+--- 
+title: Annoying logrotate error
+typo_id: 606
+layout: post
+---
+I'm using logrotate from the debian/woody GNU/Linux distribution.  Somehow I've gotten an error in its configuration even though I haven't manyally changed anything.  Every stinking day I get mail from Anacron with this message:
+<p />
+<pre>
+/etc/cron.daily/logrotate:
+error running shared postrotate script for /var/log/apache/*.log 
+run-parts: /etc/cron.daily/logrotate exited with return code 1
+</pre>
+<p />
+When I trace it down, the postroate script is simply <code>/etc/init.d/apache reload &gt; /dev/null</code>  I've run that from the command line and verified it's return code is 0.  How annoying.

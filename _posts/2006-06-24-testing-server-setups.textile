@@ -1,0 +1,12 @@
+--- 
+title: Testing Server Setups
+typo_id: 1004
+layout: post
+---
+I have a server that is euphemistically called "seasoned".  He's definitely due for a refresher in both hardware and software.  The operating system install is over two years old and is an ugly mix of Debian/woody and lots of backports.  Part of the reason we put off upgrading him is fear of what that process would look like going to a clean Debian/sarge setup.  We've tried cobbling together various pieces parts to make a test server to upgrade but had numerous problems often related to troubleshooting the test server remotely.  Enter "Parallels":http://www.parallels.com/.
+
+We finally got a working solution by setting up a virtual machine using Parallels on our Mac.  So we have an image that represents our current server configuration.  We can boot that and share the console via VNC.  Once the box is up, we can ssh into it as any other box.  Since it's on a private network, we went through all the places where our real server's IP address was hard coded (mainly in DNS entries).  The result was that this box performed exactly like our production box on a private network.  We then went through the upgrade procedure over several sessions on several days.  
+
+Last night we finally got the last pieces of the test server upgraded and working properly.  Not a moment too soon either.  Tomorrow Dave and I are scheduled to be in the NOC where the server is located.  We've got a second CPU to add to the server, double its memory to add, and more hard disks.  That plus the OS upgrade should make things pretty nice.  Really, the box is mostly idle as it is.  However, during daily cron jobs it can get pretty sluggish mainly due to backups.
+
+Since we still have the original VM image, our plan is redo the upgrade one more time.  We're much more confident about the process than we were two weeks ago.  One more go at the process and it'll be rock solid!

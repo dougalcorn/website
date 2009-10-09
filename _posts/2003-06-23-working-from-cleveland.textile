@@ -1,0 +1,6 @@
+--- 
+title: Working from Cleveland
+typo_id: 335
+layout: post
+---
+I'm in the <span style='background : #FFFFCE;'><font color="#0000FF">ClevelandOffice</font></span><a href="http://lathi.net/twiki-bin/edit/Main/ClevelandOffice?topicparent=Main.WebHome">?</a> this week.  A big welcome to <span style='background : #FFFFCE;'><font color="#0000FF">JonDoll</font></span><a href="http://lathi.net/twiki-bin/edit/Main/JonDoll?topicparent=Main.WebHome">?</a> (aka <span style='background : #FFFFCE;'><font color="#0000FF">LittleJon</font></span><a href="http://lathi.net/twiki-bin/edit/Main/LittleJon?topicparent=Main.WebHome">?</a>).  He's back for another 13 week co-op.

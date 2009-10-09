@@ -1,0 +1,18 @@
+--- 
+title: More CF Card Speed Goodness
+typo_id: 67
+layout: post
+---
+I don't know why I've been on this kick lately about CF Speed.  I asked over in <a href="http://planet.photogeeks.org/" target="_top">#photogeeks</a> about CF reader performance.  Not a lot of empirical measurements.  I did find that there is a page on <a href="http://www.robgalbraith.com/bins/multi_page.asp?cid=6007-6425" target="_top">Rob Galbraith's CF Performance Database</a> detailing the speed of each CF card in a Lexar Firewire CF reader; which he claims is the fastest reader he's tested.
+<p />
+One of the comments from #photogeeks was something like, "I don't really know how my reader compares to others but it's near the speed of the CF card and that's good enough for me."  That was interesting to me because I hadn't really seen any information on the theoretical max speeds of the CF card.  Rob Gailbraith's testing shows that the fastest CF card is a SanDisk Extreme III 2GB with a card-to-computer transfer speed of 12.933MB/sec.
+<p />
+How does this number compare to the theoretical maximum?  Sadly, I've just now looked up the <a href="http://sandisk.com/retail/ext3-cf.asp" target="_top">SanDisk Extreme III</a> page.  It claims 20MB/sec is it's rated performance on "internal tests".
+<p />
+Well, now we have a reported confirmation of that number from outside SanDisk.  Michael Reichmann reported today that Phase One, the maker of digital backs for medium and larger format cameras has released a firmware upgrade that improves CF performance.
+<p />
+<blockquote>
+Featured are enhanced LCD brightness and something dubbed 3S Technology, which allows more confident in-back CF formatting, and Disk Check, which does a complete CF card validation upon insertion. Of special note is that when used specifically with Sandisk Extreme III cards write speeds of up to 20 mb/s are now claimed to be possible.
+</blockquote>
+<p />
+So pretty much every camera on the market and every flash reader is operating much slower than what the card can support.

@@ -1,0 +1,6 @@
+--- 
+title: Lily-pad Internet
+typo_id: 564
+layout: post
+---
+Mesh networks are large number of wireless enabled computers sharing a limited number of broadband Internet connections.  I'ts "like lilypads which you hop from one to another."  <a href="http://www.theregister.co.uk" target="_top">The Register</a> has an <a href="http://www.theregister.co.uk/content/59/28972.html" target="_top">article</a> describing an bone fide implementation that sells for about half the cost of a PC.  Typically these are "complex" and therefore expensive.  Most geeks fantasize of a time when wireless broadband internet access is everywhere people are.  This is a good step in that direction.  Imagine poping open your laptop nearly anywhere and having IM or email work.  Better yet, imagine a nice PDA capable of the same.

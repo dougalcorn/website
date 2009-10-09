@@ -1,0 +1,8 @@
+--- 
+title: TextMate Rails Goodness
+typo_id: 919
+layout: post
+---
+I'd like to take a moment to thank Duane Johnson for his "update to the Rails bundle":http://socialtwister.com/archives/000660.html for "TextMate":http://macromates.com/.  There are some really nice actions in there; particularly "Go To Alternate File".  Also, I'd like to thank Sebastian Friedrich for his "cheat sheet for the Rails bundle":http://feldpost.com/lighthaus/textmate_rails.pdf
+
+Stuff like this makes it harder to go back to emacs editing!

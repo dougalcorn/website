@@ -1,0 +1,6 @@
+--- 
+title: Existentialist Error Messages
+typo_id: 518
+layout: post
+---
+<a href="http://www.theregister.co.uk/" target="_top">The Register</a> has <a href="http://www.theregister.co.uk/content/28/29290.html" target="_top">proof</a> that <a href="http://www.cs.toronto.edu/~wayne/microsoft-sucks.html" target="_top">Microsoft</a> programmers are existentialists.  Of course, the funniest part of all this is that undoubtedly the exact programmer(s) who wrote these error messages are getting the biggest kick out of this article.

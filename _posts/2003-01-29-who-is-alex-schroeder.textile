@@ -1,0 +1,8 @@
+--- 
+title: Who is Alex Schroeder
+typo_id: 549
+layout: post
+---
+I've known Alex as kensenata on #emacs for a very long time.  Has it been two years?  Maybe.  I know him mainly as an excellent <a href="http://www.emacswiki.org/cgi-bin/wiki.pl?EmacsLisp" title="'EmacsLisp' on the Emacs Wiki">Emacs:EmacsLisp</a> hacker and the webmaster for the <a href="http://www.emacswiki.org/cgi-bin/wiki.pl?EmacsWiki" title="'EmacsWiki' on the Emacs Wiki">Emacs:EmacsWiki</a>.  Over the time I've known him, I've found him to be proactive and level-headed.
+<p />
+Today I "stumbled" on his <a href="http://www.usemod.com/cgi-bin/mb.pl?AlexSchroeder" title="'AlexSchroeder' on 'MeatBall' site, a 'UseMod' Wiki variant">MeatBall:AlexSchroeder</a> online diary.  This reveals him much less to be an emacs centered individual and more of a global citizen, conscientious of how all people are being treated.  I'm impressed by the breadth of his reading and his generocity.  I'm glad Alex has taken the time to journal some of his thoughts an life.  It's nice to learn about the "other side" of people I know only on-line.

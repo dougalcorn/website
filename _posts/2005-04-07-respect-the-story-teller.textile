@@ -1,0 +1,22 @@
+--- 
+title: Respect the Story Teller
+typo_id: 111
+layout: post
+---
+David Heinemeier Hansson <a href="http://feeds.feedburner.com/LoudThinking?m=26" target="_top">pays his respect</a> to Jesse James Garret for coining the term "<a href="http://www.adaptivepath.com/publications/essays/archives/000385.php" target="_top">Ajax</a>".  I've subscribed to <a href="http://www.loudthinking.com/" target="_top">Loud Thinking</a>, David Heinemeier Hansson's blog.  David is the original developer and lead behind <a href="http://rubyonrails.com" target="_top">Ruby on Rails</a>.  I've really come to respect his thinking.  He is excellent at abstraction and captures some sound thinking on his blog.
+<p />
+Today's post is about Jesse James Garrett's coining the term .  If you follow that link and read his "New Approach to Web Applications", you'll see that he's not advocating something new that he's created.  Ajax is not a specific technology, but a name for a technique of using existing technologies to do cool things.
+<p />
+I think Ajax is really cool.  It's what makes <a href="http://maps.google.com" target="_top">Google Maps</a> head and shoulders better than Mapquest.  It's what makes <a href="http://gmail.google.com" target="_top">GMail</a> feel like a "real" mail program.
+<p />
+When I talk to programmers "in the know" about this, there's some derision about calling it "Ajax".  "There's nothing new about Ajax," they say, "It's just JavaScript using XMLHttpRequest and generating dynamic XHTML and CSS using the Document Object Model."
+<p />
+David's props to Jesse James is bang on:
+<p />
+<blockquote>
+The resentment around the term Ajax reminds me of the recurrent rejection I've observed in some programmers around design patterns (less so in recent years, though). An instant rejection that a story can be valuable on its own. That if you know the tech before it received a catchy label, you're entitled to the smug sense of superiority as you berate the illiterate commons of how you were there before it was cool.
+</blockquote>
+<p />
+I was in a conversation just this week with a manager type guy and two programmers.  The manager didn't understand what Ajax was.  One of the programmers (a big-time Java/J2EE programmer) was exhibiting this exact attitude.  He was on the one hand supporting the ideas of Ajax, but at the same time belittling the name "Ajax".  As he was describing what "Ajax" was, he stopped just short of calling it a "pattern".  While he was talking I was thinking, "I know this guy supports the concepts of Design Patterns, why is he scoffing at Ajax?"
+<p />
+"Ajax" is a catchy phrase to describe an established technique.  It's naming something that's hard to explain to people who don't understand it.  Explaining to that manager what Ajax is took some effort; but, he'll now associate the examples we gave him with the name "Ajax".  It's a name he can remember and use as he's planning future projects.  I concur with David HH, bravo to Jesse James Garrett for coining the term!  It's the right thing at the right time to help us push technology further.

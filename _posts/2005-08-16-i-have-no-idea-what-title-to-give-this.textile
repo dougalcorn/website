@@ -1,0 +1,8 @@
+--- 
+title: I have no idea what title to give this
+typo_id: 632
+layout: post
+---
+Something just happened I thought would never happen.  A Microsoft Recruiter just called me.  He said he found my resume by searching the net.  I said, "You know I'm a Unix guy, right?"  He said he knew that, but also saw I had done kernel development.  He was looking for that "special type of person" who does kernel dev.  I was just so stunned he was calling me I couldn't think of anything witty to say.  Yes, I've done kernel development.  I wrote a fairly slick little USB driver for a proprietary mass-storage-like device ("DataPlay":http://dataplay.com).  Of course, about the time my driver goes into production on shipping units they release a firmware upgrade that makes it an _actual_ mass-storage device relegating my driver to nowhere.  Anyway, I told the Microsoft guy I didn't think it'd work out but thanks anyway.  He asked me if I'd like to stay on their mailing list and get an email about every six months.  I declined that too.  Oh, well.  I could have been a millionaire too!
+
+When I told my coworker, he said I should have told the recruiter I'd take the spot if they'd let me do the development on my Mac. Ha! "Yea, I'll test on whatever platform you need, but I like to development on my Mac.  It's so nice!"

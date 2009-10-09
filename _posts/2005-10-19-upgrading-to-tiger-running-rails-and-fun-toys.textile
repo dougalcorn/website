@@ -1,0 +1,19 @@
+--- 
+title: Upgrading to Tiger, Running Rails, and Fun Toys
+typo_id: 673
+layout: post
+---
+<img src="http://blog.lathi.net/files/images/tiger_amazon.jpg" height="134" width="140" align="left" border="0" hspace="10" vspace="4" alt="Apple OS X Tiger" title="Apple OS X Tiger" longdesc="" />When I should have been hacking on my Rails apps, I decided instead to upgrade to Apple Mac OS 10.4 "Tiger".  I did a straight "upgrade" and not a re-install.  Overall it went very well.
+
+I keep all my stuff installed via "DarwinPorts":http://darwinports.opendarwin.  I'm sure that made my upgrade easier.  All my stuff is in @/opt@ and isn't screwed with by the Apple updates.  I guess I do have some stuff in @/usr/local@ too that was left alone.  Anyway, the upgrade took less than an hour.  I immediately went into my Rails projects and ran @rake@.  All my tests passed and I didn't have to do anything to my system to get them to run.  Of course, my system's ruby, ruby-gems, mysql, and rb-mysql are all from DarwinPorts; so nothing really changed with the upgrade.
+
+I'd like to say kudos to "Precision Information Services":http://widgets.precisionis.com.au/ for their RDoc Dashboard widget.  That's great!  Much easier to use than the "API":http://api.rubyonrails.com.
+
+I'm also using "SlothCam":http://www.niagara.com/~jax/GloriousSloth/slothcam.html to periodically fetch my daily statistics graphs from my server.  This is handy to have a hot key that will graphically show me how my server is doing.  "Dave":http://www.dminor.com/ has a script he runs to fetch the graphs, merge them into a single image, and then use that as his desktop.  So, he's had a hot key (show desktop) that gives him the same information.  Dashboard is a little less intrusive, I think, and let's me keep a nice background.
+
+Oddly enough, I've not really used Spotlight yet.  Other than mail, I usually don't have any problems finding my files.  I'm not sure if that's because I'm good at locating stuff or if I just don't save that many diverse notes.  I will admit to using the @locate@ command a lot.  We'll see if Spotlight proves useful over the long haul.
+
+I'm really happy with the new Preview.  The big plus for me is the bookmarks.  Since I use the PDF versions of my "Pragmatic Programmer":http://pragmaticprogrammers.com/ books, this will let me quickly jump to oft referenced tables and such without having to search or scan the document.
+
+I've scanned through the "10.4 Mac OS X Hints":http://www.macosxhints.com/tigertips.php, but I'd still like to hear what Tiger features you can't live without or how I could milk more usability out of my Powerbook.
+

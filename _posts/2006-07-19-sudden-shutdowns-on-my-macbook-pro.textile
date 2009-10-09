@@ -1,0 +1,8 @@
+--- 
+title: Sudden Shutdowns on My Macbook Pro
+typo_id: 1060
+layout: post
+---
+Today while I was working at the "Apple Summer Camp":http://blog.lathi.net/articles/2006/07/19/apple-summer-camp-movie-workshop my Macbook Pro suddenly shutdown three times without warning.  All three times I actually lost work (not to mention time to reboot).  The geniuses at the Apple store said it might be my battery and swapped me a new one.  Something said in passing is that the Macbook Pros (and I assume Macbooks) will shut down when they overheat.  Mine has always run hot and I've not done anything to correct it.  Also, while at the store I was using the machine on my lap or sitting flat on the wooden bench in the training area.  I highly suspect my shutdowns were due to heat.
+
+At home I use Griffen's "iCurve":http://www.griffintechnology.com/products/icurve/ and love it.  When I'm away from my desk I don't have anything to help ventilation around my machine.  So, I'm fairly tempted by something like "MacAlly's icePad":http://www.smalldog.com/product/43179.  If you have any experience with some type of portable work surface, I'd like to hear about it.

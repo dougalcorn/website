@@ -1,0 +1,6 @@
+--- 
+title: Bogofilter is becoming bogus
+typo_id: 420
+layout: post
+---
+I don't understand what's happened.  Somehow <a href="http://bogofilter.sourceforge.net/" target="_top">Bogofilter</a> has almost quit working.  I guess it's working better than nothing.  I'm still getting almost 30 times more mail in my junk folder than spam in my inbox.  However, I'm getting much more spam in my inbox than I want.  This morning I had 14 spam messages in my inbox from all of this weekend.  That's roughly five messages a day.  I think one or two a day would be OK.  Maybe I'll dump my bogofilter's bad email database and retrain it with my current crop of spam.  I'm guessing there is something that's poisoned my statistics so that all this stuff is statistically not considered spam. <img alt="frown" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/frown.gif" />

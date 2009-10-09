@@ -1,0 +1,6 @@
+--- 
+title: Making save-buffer-same-timestamp easier to use
+typo_id: 397
+layout: post
+---
+I was chatting with <a href="http://molelog.molehill.org/blox/" target="_top">jtl</a> about <a href="http://lathi.net/twiki-bin/view/Main/EmacsAndBlosxom">EmacsAndBlosxom</a>.  As a long-time emacser that hasn't futzed with <a href="http://www.emacswiki.org/cgi-bin/wiki.pl?Elisp" title="'Elisp' on the Emacs Wiki">Emacs:Elisp</a> in a while he asked about how to bind save-buffer-same-timestamp to "C-x C-s" only for files that were for his <a href="http://www.raelity.org/apps/blosxom/" target="_top">blosxom</a> blog.  I thought this was a good idea, so I added the code to my TWiki <a href="http://lathi.net/twiki-bin/view/Main/EmacsAndBlosxom">EmacsAndBlosxom</a> page.

@@ -1,0 +1,6 @@
+--- 
+title: On the road again...
+typo_id: 496
+layout: post
+---
+I'm working out of Cleveland this week.

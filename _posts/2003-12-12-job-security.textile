@@ -1,0 +1,16 @@
+--- 
+title: Job Security
+typo_id: 239
+layout: post
+---
+<a href="http://lambda.weblogs.com/" target="_top">Lambda the Ultimate</a>, a programming languages weblog, has awarded "The Best Publicity Quote (and/or bogus statistic) Award to Martin Erwig and Margaret M. Burnett for a statement they made in <a href="http://www.cs.brown.edu/courses/cs274/2002/erwig-slides.pdf" target="_top">this presentation</a>:
+<p />
+<blockquote>
+   The number of end-user programmers in the United States alone are
+   expected to reach 55 million by 2005, as compared to only 2.75 million
+   professional programmers
+</blockquote>
+<p />
+In looking in the actual paper, I only see the 55 million number.  I guess LtU added the reference to 2.75 million professional programmers.  If these numbers are true even within an order of magnitude, the conclusion is obvious.  Computer systems will have to get easier to use and program because end users will be the ones doing the programming.  of course, that's not even remotely true today.
+<p />
+It would be interesting to learn where the 55 million end-user programmers number came from.  I wonder if they are just counting anyone who ownes Excel or Access as an end-user programmer.

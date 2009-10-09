@@ -1,0 +1,8 @@
+--- 
+title: "\"The Inner Ring,\" by C.S. Lewis"
+typo_id: 520
+layout: post
+---
+There is an <a href="http://www.shirky.com/writings/powerlaw_weblog.html" target="_top">article</a> <a href="http://slashdot.org/article.pl?sid=03/02/11/1740233" target="_top">referenced</a> on <a href="http://slashdot.org/" target="_top">Slashdot.org</a> that talks about power law distributions and weblogging.  Basically a power law is something like the 80/20 rule, 80% of the resource or product can be accounted for by 20% of the producers.  In terms of weblogs, if you count references to your own blog, 80% of the references will come from 20% of the weblogs in existence.  Purely theoretically, the contribution of the Nth ranked contributor is 1/N of the total pool.  If you think about it, it's really natural and shows up in many places.  It's basically describing popularity.  To that end, <a href="http://slashdot.org/~zanderredux" target="_top">zanderredux</a> brought up C.S. Lewis' <a href="http://www.geocities.com/bigcslewisfan/" target="_top">"The Inner Ring"</a>.
+<p />
+As most things Lewis, it is subtle, insightful, and terribly accurate.  He supplants Frued's thesis that all of human nature is motivated ultimately by sexual desire with a thesis that human activity can more likely be described in terms of a desire to be on the "inner circle".  More than that, he gives advice as to why pursuing the inner circle is a really bad idea.

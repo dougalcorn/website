@@ -1,0 +1,6 @@
+--- 
+title: Articles for Indpendent Game Developers
+typo_id: 349
+layout: post
+---
+<a href="http://www.joelonsoftware.com/" target="_top">Joel on Software</a> gave me a link to a set of articles written by <a href="http://www.dexterity.com/" target="_top">Dexterity Software</a> (which I think is a great name for a company that writes games) about the <a href="http://www.dexterity.com/articles/" target="_top">development process</a> itself.  I've only read one or two of them, but it looks like great stuff (even if you're not a game developer).

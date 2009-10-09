@@ -1,0 +1,6 @@
+--- 
+title: The Ultimate Roller Coaster?
+typo_id: 534
+layout: post
+---
+I live only a couple miles from <a href="http://www.pki.com/" target="_top">Paramount Parks, Kings Island</a>.  Nearly each year they (and I assume every other amusement park) build some new ride that bigger and better than ever before.  The recent addition of "Son of Beast" is billed as the tallest wooden roller coaster in the country.  They have a ride there (whose name I don't know) that is an elevator that takes people up and then let's them come down in free-fall.  When the park's open there's always a pretty long line.  Seattle-based <a href="http://www.highliftsystems.com" target="_top">HighLift Systems</a> has been commissioned by the <a href="http://www.niac.usra.edu/" target="_top">NASA Institute for Advanced Concepts</a> to research and engineer an elevator 62,000 miles from the Earth's surface to the moon.  Forget about all the practical aspects of being able to put objects into space for $100/kg instead of our current $10,000 - $40,000/kg; just think of the profit from offering it as an amusement park ride.  <a href="http://www.wire.com/" target="_top">Wired Magazine</a> has an article <a href="http://www.wired.com/news/technology/0,1282,57536,00.html" target="_top">detailing</a> the current status and future plans.

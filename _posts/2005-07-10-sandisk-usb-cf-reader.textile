@@ -1,0 +1,8 @@
+--- 
+title: SanDisk USB CF Reader
+typo_id: 72
+layout: post
+---
+Just as a point of reference, I have a SanDisk Ultra II 512MB CompactFlash card and a SanDisk ImageMate CF reader model SDDR-91.  I doubt that's a high-speed USB reader.  I don't see a lot of statistics published on card readers.  So, I thought I'd publish the <a href="http://www.xbench.com/" target="_top">Xbench</a> results for sequential uncached reads.  Using 256K blocks, the sequential uncached read speed is 9.44MB/sec.
+<p />
+I'd be interested in seeing real numbers on how well other compact flash readers perform on sequential uncached reads; especially firewire vs. high-speed USB.

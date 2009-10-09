@@ -1,0 +1,6 @@
+--- 
+title: Monitor Calibration
+typo_id: 148
+layout: post
+---
+I've written up my experiences with <a href="http://lathi.net/twiki-bin/view/Main/MonitorCalibration">MonitorCalibration</a>.  I don't think I've got all this color management figured out, but that page details what I know right now and my experiences with a SpyderPRO

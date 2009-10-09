@@ -1,0 +1,8 @@
+--- 
+title: Internet Radio
+typo_id: 297
+layout: post
+---
+I'm still hunting for a good Internet radio station.  My requirements are that it play eclectic music that's not RIAA afiliated.  I thought I'd look on <a href="http://cdbaby.com/" target="_top">CD Baby</a> since they sell independent music to see if they had their own streams.  I'd gladly pay a monthly subscription for a good quality independent music stream.  Anyway, I found a link from CD Baby to <a href="http://kcrw.com" target="_top">http://kcrw.com</a>, "one of hte coolest radio stations in the world".  I've mostly enjoyed listening to it today.  I've also listened to <a href="http://slax0r.net" target="_top">http://slax0r.net</a>.  It's also a cool station, but get's a little rough for me.  Also, I know both stations are broadcasting RIAA signed music and either are or will have to give money to the RIAA.  
+<p />
+Listening to KCRW made me think it'd be cool to listen to a local public station.  So, I spent some time googling for one.  I only found a few radio stations in Ohio that even broadcast with mp3 format.  Most everyone seems to be using either Windows Media Player or Realaudio.  Also, it looks like Clear Channel ownes about 90% of the radio in Cincinnati with around 20 stations.  Other than the obvious, why is it so hard to find good radio stations?  If I were music smart I'd start an independent only internet music radio station.  I've got a <a href="http://dminor.com/blog/" target="_top">friend</a> who's music smart.  He doesn't think we could do the station.  Maybe it's because he's music smart that he knows this.  I'm music ignorant and think I could.  Send me comments to tell my it's hard.

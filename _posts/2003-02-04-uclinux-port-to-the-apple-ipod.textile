@@ -1,0 +1,6 @@
+--- 
+title: uClinux port to the Apple iPod
+typo_id: 536
+layout: post
+---
+<a href="http://www.uclinux.org/" target="_top">uClinux</a> is a port of the Linux kernel to embedded CPUs (meaning CPUs without memory management units).  Today Bernard Leach announced he had successfully ported the uClinux kernel to Apple's iPod!  The <a href="http://ipodlinux.sourceforge.net/" target="_top">project</a> is still pretty early; not everything works on it.  However, it does open up some possibilities.  For starters, this allows for TCP/IP over Firewire.  While certainly not a full laptop, it would provide generic computing available with a frame-buffer LCD, a very large hard drive, and battery life measured in <em>days</em>.

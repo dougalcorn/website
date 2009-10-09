@@ -1,0 +1,6 @@
+--- 
+title: Now with frames!
+typo_id: 522
+layout: post
+---
+I've been using <a href="http://emacs-w3m.namazu.org/" target="_top">emacs-w3m</a> (or w3m-el for you <a href="http://www.debian.org/" target="_top">Debian</a> users) for a while as my primary web browser.  As you can imagine, it uses <a href="http://w3m.sourceforge.net/" target="_top">w3m</a> to download and render the pages just providing an emacs interface.  Last night I figured out how to get emacs-w3m to render frames properly.  It's possible to change the underlying rendering engine to <a href="http://pub.ks-and-ks.ne.jp/prog/w3mmee/" target="_top">w3mmee</a>, which can render frames.  So, now I can browse sites like <a href="http://www.linux-usb.org" target="_top">http://www.linux-usb.org</a> that rely on using frames. Yea!

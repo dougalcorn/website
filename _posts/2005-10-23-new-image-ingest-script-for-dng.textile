@@ -1,0 +1,24 @@
+--- 
+title: New Image Ingest Script for DNG
+typo_id: 677
+layout: post
+---
+Now that "Adobe's DNG Converter can be used from the command line":http://photoshopnews.com/2005/10/09/dng-converter-32-allows-direct-command-line-control/, I've written a new script to ingest photos from compact flash, convert to DNG, and rename based on EXIF.
+
+The bad news is that the script is written in Perl and relies upon the "Image::ExifTool":http://search.cpan.org/dist/Image-ExifTool/ module from CPAN.  I know there are those of you who read my blog that look down on both Perl and CPAN.  However, it's still the language I can write utility scripts in fastest.
+
+So, here's my "workflow"
+
+# Scan the CF with File::Find to get a list of all the images
+# Sort those images by their 'DateTimeOriginal' from the EXIF data.
+# Generate a new filename based on YYYYMMDD_NNN.foo where NNN is the next serial number for that particular day.
+# For each image either: 1) copy the image using the new filename if it's a JPEG; or 2) run DNG Converter on it if it's RAW renaming to the new filename
+# %{color:red}UPDATED:% Apply an Adobe XMP Template to resulting file.
+
+The script accepts the source directory as the first command line argument and the destination directory as the second argument.  If you're opposed to processing images during ingest, just copy from the CF to some temporary directory and ingest from there.  Also, the script uses @File::Path@ to create the destination directory if it doesn't exist.
+
+<span style="text-decoration: line-through">Ideally, I'd like to be able to specify an "XMP":http://www.adobe.com/products/xmp/main.html template to apply metadata to the images as I ingest them; but I haven't gotten that far yet.  I guess @Image::ExifTool@ can write XMP.  I'll have to look into doing that.  It'd save me a step or two at least.</span> %{color:red}UPDATE:% I talked with "Phil Harvey, the author of ExifTool,":http://www.sno.phy.queensu.ca/~phil/exiftool/ today on the "CPAN Forum for Image-ExifTool":http://www.cpanforum.com/threads/1219 about adding XMP metadata from a Template file.  He was kind enough to release a new exiftool v5.71 that includes this feature.  As a result, I've added support into my @image_ingest.pl@ script.
+
+You can "download image_ingest.pl here":http://lathi.net/image_ingest.pl.txt. ( %{color:red}UPDATED:% The latest version is 1.1) There's not much configurability to the script.  The only thing you really need to configure is the path to where you've saved Adobe's DNG Converter.  This also means that the script won't work on anything but Mac and Windows.  Odds are getting it to run on Windows will be a problem since: a) most Windows machines don't have Perl; and b) I haven't tested this at all with respect to paths and filenames.
+
+

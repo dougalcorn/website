@@ -1,0 +1,16 @@
+--- 
+title: TWiki Spam
+typo_id: 114
+layout: post
+---
+I've been getting more than a little bit of spam on my TWiki.  I like having a TWiki as my main site.  I like how easy it is for me to create new content.  I also like having open registration.  I've had more than a couple people contribute good content this way.
+<p />
+However, I also have some Chinese people creating accounts and putting in links to their sites.  I can only assume their goal is to increase their Google-rank by getting a link from my site.  I've been doing my best to delete it as fast as it appears.
+<p />
+Yesterday, I got tired of it an thought I'd try to fix it.  Assuming this is some 'bot that's registering and then spamming, I edited my <a href="http://lathi.net/twiki-bin/view/TWiki/TWikiRegistration">TWikiRegistration</a> page to rename the <code>register</code> script to something silly and create a completely hidden form that submitted to the now-bogus <code>register</code> script.
+<p />
+Imagine my surprise when I had more spam this morning.  It turns out this spammer is creating these pages by hand!  Checking the access log, I can see he's googling for "TWikiUsers", following the link, then clicking on the link to register and filling out the form.  So renaming the register script doesn't do any good!  No Turing test is going to fool this guy and still allow real humans to register because he <em>is</em> a real human!
+<p />
+I really don't want to have to turn off open registration.  I could go with some type of moderator approved registration process.  I think that'd do as much to discourage contributions as simply turning off registration.  The other thing I'm considering is having the register script reject anyone from the Chinese IP block. <img alt="frown" src="http://www.lathi.net/twiki/TWiki/SmiliesPlugin/frown.gif" />  Tell me that's not a bummer.
+<p />
+Farming links for Google-rank is getting to be a real problem.  We have to come up with the fix or the internet we've all grown to know and love will loose a lot of it's openness.

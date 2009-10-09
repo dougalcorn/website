@@ -1,0 +1,8 @@
+--- 
+title: One last CF Speed Post
+typo_id: 63
+layout: post
+---
+<p />
+<img src="http://lathi.net/images/sandisk_utraII_1gb.jpg" height="75" width="85" align="left" border="0" hspace="10" vspace="5" alt="SanDisk Utra II 1GB" title="SanDisk Utra II 1GB" longdesc="" />
+I received my SanDisk Ultra II 1GB CompactFlash card.  Unsuprisingly, it got pretty much the same benchmark results as my 512MB card.  Also, the package clearly said I should expect about 10MB/sec read and 9MB/sec write speeds.  That's pretty much what I'm getting with my USB SanDisk ImageMate CF reader.

@@ -1,0 +1,9 @@
+--- 
+title: Unlimited Copyrights Not Unconstitutional
+typo_id: 571
+layout: post
+---
+The Supreme Court is clear: we'll never see a copyright expire in the US.  Lawrance Lessig was the lead councel in the Eldred case claiming the Sony Bono Act was unconsistitutional.  The constitution requires copyrights to be "limited".  Lessig's argument is that the original constitution authors intended work to eventually go back into the public domain.  That's what "limited" means: the government sanctioned monopoly on an author's work is limited.  Congress has taken the term "limited" to mean any length that has an end.  So, periodically (coicident with when Steamboat Willie is supposed to enter the public domain) Congress extends copyright by a handful of years.  This week the Supreme Court ruled 7-2 against.
+<blockquote>
+<a href="http://cyberlaw.stanford.edu/lessig/blog/archives/2003_01.shtml#000862" target="_top">Lessig</a>, <a href="http://eldred.cc/" target="_top">eldred.cc</a>, <a href="http://boingboing.net/#90189113" target="_top">boingboing.net</a>
+</blockquote>

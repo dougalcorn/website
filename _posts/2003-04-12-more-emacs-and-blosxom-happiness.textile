@@ -1,0 +1,6 @@
+--- 
+title: More Emacs and Blosxom Happiness
+typo_id: 450
+layout: post
+---
+I've updated my <a href="http://lathi.net/twiki-bin/view/Main/EmacsAndBlosxom">EmacsAndBlosxom</a> page to show a new function I've written called save-buffer-same-timestamp.  It's tailor made for fixing typos in existing Blosxom entries.

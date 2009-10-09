@@ -1,0 +1,6 @@
+--- 
+title: Work News...
+typo_id: 127
+layout: post
+---
+In other news, my current contract at Kroger is expiring at the end of the month.  I was brought on to help them secure the support software used to assist with the Pharmacy application.  Since that project is drawing to a close, they are letting my contract expire.  The good news is that another group in Kroger is picking me up.  I just got word today I was accepted for the position.  I'm going back down to the warehouse management group I originally started with six years ago.  I'm looking forward to the switch.  They do C/ESQL programming on Unix.  It's not the greatest environment, but it's still good work.  Also, I really enjoyed working with the developers and support staff there.  This will be a good move for me to keep a regular job that's still pretty interesting.

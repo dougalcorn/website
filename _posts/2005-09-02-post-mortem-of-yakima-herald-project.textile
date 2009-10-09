@@ -1,0 +1,8 @@
+--- 
+title: Post Mortem of Yakima Herald project
+typo_id: 638
+layout: post
+---
+Ezra Zygmuntowicz was the sole developer redesigning "http://yakimaherald.com":http://yakimaherald.com in Ruby on Rails.  It strikes me as a fairly large project that probably has lots of "legacy" stuff to deal with.  I had asked for a break down of how he built the site and his experiences.  Here's the short of it: 4 month project from start to finish with just under 1500 LOC(Lines of Code).  Here's his full "write-up":http://permalink.gmane.org/gmane.comp.lang.ruby.rails/20637
+
+Success stories like this help everyone.  Thanks for sharing Ezra!

@@ -1,0 +1,14 @@
+--- 
+title: Well Done Tagging
+typo_id: 803
+layout: post
+---
+<img src="http://del.icio.us/static/img/delicious.42px.gif" width="84" height="84" alt="del.icio.us" class="alignleft" />It seems "tagging" is all the rage with new web applications.  The idea is simple and powerful: add tags (aka keywords) to items in some catalog and then allow browsing by those tags.  I humbly submit "Del.icio.us":http://del.icio.us as the best implementation of this idea.  
+
+If you're thinking about adding tagging to your web application, I highly recommend you play with del.icio.us for a while to get a feel for how they do it.  At first glance it looks the same as "flickr":http://flickr.com, "smugmug":http://smugmug.com, and pretty much every other site that has tagging.  After you use it for a while you realize it's much smoother than any of the others.  What makes it so nice?  It's kind of hard to pinpoint, but I'll try.  
+
+Adding a new entry to the catalog and tagging it is very fast.  Reasonable defaults are given for about half the inputs.  All of the inputs are easy to keyboard navigate (that is, no select boxes that might not support tab selections).  You can type in new keywords with AJAX suggest as you type.  It's also got a list of the tags that you can click on to apply.  It makes handy suggestions about what tags it thinks you might want to apply.  Of course, these recommendations might not be that easy to do for other applications.
+
+Browsing the tags is also well done.  As I write this I realize it's another implementation of "opinionated software":http://www.oreillynet.com/pub/a/network/2005/08/30/ruby-rails-david-heinemeier-hansson.html.  The tags are presented in a "cloud".  This is a somewhat common implementation.  All the tags are in a filled paragraph sorted alphabetically.  The tags are given a more weighty font based on how many records have that tag.  I first saw this on smugmug.  However, the assuption is that each additional tag you click on is boolean AND-ed with the other tags.  "Show me all the records that have all these tags."  It's a drill down from least to most specific.  Once you've selected a tag, it becomes a "not-tag" in the cloud.  This makes it easy to undo the selection of the tag.
+
+I'm sure there are other implementations of tagging and tag browsing that are very similar to del.icio.us'.  I don't really want to argue which is best.  I just wanted to say, "well done."

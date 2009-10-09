@@ -1,0 +1,6 @@
+--- 
+title: New Typo Planet
+typo_id: 680
+layout: post
+---
+Adam Greenfield of "Site5":http://site5.com has setup "Planet Typo":http://planettypo.com to aggregate blogs of "Typo":http://typo.leetsoft.com/.  It's running the "newly released":http://atticsofmylife.net/journal/view_entry/8?post_id=271#comments "rails planet":http://rubyforge.org/projects/railsplanet/.  If you have any suggestions for who's blog should be included, send them to admin@planettypo.com.

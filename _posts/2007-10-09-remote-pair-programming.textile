@@ -1,0 +1,36 @@
+--- 
+title: Remote Pair Programming
+typo_id: 1145
+layout: post
+---
+I mentioned in my post the other day about remote pair programming and someone called me out on it via email.  Since I spend probably between 40 - 60% of my work time remote pair programming I thought I'd give some of my experiences.
+
+First, some background.  I've been moonlighting as a freelance web developer for a lot of years.  I work with David Minor at "Sus 4":http://sus4.net.  He and I have done remote pair programming on almost all of our projects for the last four years.  I also telecommute for my day job into "_blah blah blah (lawyers made me change this)_":http://corporatetool.blogspot.com/.  I travel to the headquarters in VA once a month or so, but work from home the other three or four weeks.  Probably half to three-quarters of my programming tasks at _blah blah blah (lawyers made me change this)_ I pair with another developer.  There are several different people that I've paired with regularly over the almost two years I've been there.  Finally, I've talked a lot about remote pair programming at the "Cincinnati Agile Round Table":http://agileroundtable.org/.  From their "Jim Weirich":http://onestepback.org/ has picked up on my techniques while doing remote pairing at "Edge Case":http://www.theedgecase.com.
+
+What I'm trying to say here is that I have done a lot of remote pair programming over the years and I've tried a lot of different techniques.  What I'm about to describe here is tried, tested, and proved.
+
+Being on a Mac, I have paid licenses of both TextMate and SubethaEdit.  They are both fine editors.  I think I prefer TextMat over Subetha simply because I think TM handles projects better.  However, I do think Subetha's networking and multi-user support is really cool.  The problem is with Rails projects I always end up with lots and lots of files open.  Subetha doesn't make it easy enough to share the files by default or for the remote guy to join their shared files by default.  Plus, with TDD you have to have some way for both partners to see the test output.
+
+While talking about things that don't work... there's just not enough bandwidth for VNC.  I've done all I know to do to optimize it: drop the number of colors, change backgrounds to solid colors, muck with compression algorithms.  I just can't quite squeeze enough bandwidth out so that it feels interactive for both people.
+
+So what does work?  Welcome to the past.  What I've found is that "gnu screen":http://www.gnu.org/software/screen/ running inside a terminal is the most bandwidth efficient, highly interactive, flexible multi-user environment.  One person hosts, the other connects via ssh and joins the hosts screen session.  For those who've never used screen, both users connected see exactly the same thing.  Both users keyboards have simultaneous control of the terminal.  Combine this with a good voice/video channel with Skype or iChat and it's nearly as good as actually sitting next to someone.
+
+Inside of screen you can have multiple tabs/windows.  What I typically do is designate my first window to run emacs.  This is my "IDE".  We do all text editing from inside there.  I have another window designated for running tests (although sometimes I run tests from inside emacs).  I have another window designated for the mysql prompt.  Another is for tailing log files and another for running the server.  Screen saves the history (I typically set it to something ridiculously large).  Both people can see when you scroll through the buffer history.  Both people can see all the data.
+
+I've kinda glossed over the use of emacs here.  I've also done remote pairing with vi (well, vim anyway).  The point is that it helps a great deal if you're using an editor that both people understand.  I pair with a guy at work that only begrudgingly uses emacs.  It's not nearly as much fun for him.  I've also paired with folks who aren't comfortable with any terminal based editor.  That's no fun either.
+
+Like pair programming when you're actually together, there are a number of things to consider.  Editor environments is one of them.  Remote pair programming seems to heighten or exacerbate all the issues with local pair programming.  Your communication issues are bigger.  You really have to make a point to tell each other what you're doing.  Talk, talk, talk!  A definite anti-pattern is one of the people in the pair going off to work on solutions locally on their own computer while the other person can't see what's going on.  Do all work in the screen session.  Make sure that both people can see everything that's going on.  Related to this, it's hard for one person to "see" when the other is distracted.  If one person is checking email while the other is trying to stay on task that's no good.
+
+The good news is that remote pair programming can work.  I find actually pair programming in person to be very fulfilling, fun, and exciting.  Remote pair programming isn't as good as actually being together in the same room.  However, it's a very good substitute when the commute cost are high.  If you're the kind of person that doesn't really dig pair programming in general, odds are you'll find remote pair programming to be even less attractive than actual pairing.  
+
+I'll also mention I know one guy (whom I respect a lot) who's big on pair programming, but just can't get in the groove of remote pair programming.  I suspect his problem is lack of familiarity with the editor, but there may be other philosophical issues as well.
+
+All that said, I don't find running emacs inside a screen to be some "least common denominator".  In fact, I do all of my development this way -- even when I'm not pairing.  Lately I've been running multiple screen sessions on my box; one for each project I've got going.  My "state" is always right where I left off.  When I switch from independent work to pairing, it's easy for someone to simply join my screen and we can get started.   I'll stop here and not get too carried away with singing emacs' praises.  That'll be good info for another post...
+
+Before I close out, it occurs to me that screen can be pretty ugly with zero config.  I'll go ahead an post my hard status config.  This dresses things up quite a bit and makes it a lot easier to use.  Put these lines in @~/.screenrc@:
+
+<pre>
+hardstatus on
+hardstatus alwayslastline
+hardstatus string "%{rk}%H %{gk}%c %{yk}%M%d %{wk}%?%-Lw%?%{bw}%n*%f%t%?(%u)%?%{wk}%?%+Lw%?"
+</pre>

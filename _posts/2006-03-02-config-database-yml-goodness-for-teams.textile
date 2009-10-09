@@ -1,0 +1,53 @@
+--- 
+title: config/database.yml goodness for teams
+typo_id: 890
+layout: post
+---
+If you're a one hacker shop doing Rails development it's no big deal to store all your database usernames and passwords in @config/database.yml@.  When you're part of a team all hacking on the same code it becomes a little more complicated.  This is my humble solution that I'm sure dozens of folks have already thought of.
+
+This is the ugliness of the default generated @config/database.yml@:
+
+<code><pre>
+development:
+  adapter: mysql
+  database: rails_development
+  username: root
+  password: my super secret password
+</pre></code>
+
+So let's say we have one master @config/database.yml@ checked into @svn@ and each developer modifies the file with their own username and password.  Now we're stuck with the risk of each developer accidentally checking in their working modification of that file.  Also, do you really want your production database username and password stored in @svn@?
+
+This morning I had an epiphany.  Thanks to Rails 1.0 we can embed ERB into the @config/database.yml@.  Usually I only think of doing things like outputting environment variables and the like.  It occurred to me this morning you can put arbitrary Ruby inside the @config/database.yml@.
+
+First we have to restructure the yaml:
+
+<code><pre>
+login: &login
+  username: defaultuser
+  password: defaultpassword
+
+development:
+  adapter: mysql
+  host: localhost
+  database: foo_development
+  <<: *login
+</pre></code>
+
+I learned that syntax from the Typo guys.  It basically lets you name blocks and then reuse them later in the yaml file.  You probably see where I'm going with this...
+
+<code><pre>
+login: &login
+  username: defaultuser
+  password: defaultpassword
+
+<%= file = File.join(RAILS_ROOT, "config", "dblogin.yml")
+    IO.read(file) if File.exist?(file) %>
+
+development:
+  adapter: mysql
+  host: localhost
+  database: foo_development
+  <<: *login
+</pre></code>
+
+What this will do is insert the contents of @config/dblogin.yml@ if it exists.  This allows each developer to have a separate file in their working dir with their personal db login information.  Further, you can @svn propedit svn:ignore config@ to tell svn not to complain about the unknown file @dblogin.yml@.

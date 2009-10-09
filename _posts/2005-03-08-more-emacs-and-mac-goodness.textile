@@ -1,0 +1,21 @@
+--- 
+title: More Emacs and Mac Goodness
+typo_id: 135
+layout: post
+---
+I've added
+<p />
+<pre>
+(global-set-key (kbd "A-f") 'isearch-forward)
+(global-set-key (kbd "A-M-f") 'occur)
+(global-set-key (kbd "A-g") 'isearch-repeat-forward)
+(global-set-key (kbd "A-a") 'mark-whole-buffer)
+(global-set-key (kbd "A-s") 'save-buffer)
+(global-set-key (kbd "A-q") 'save-buffers-kill-emacs)
+(global-set-key (kbd "A-o") 'mac-key-open-file)
+(global-set-key (kbd "A-i") 'mac-key-show-in-finder)
+(global-set-key (kbd "A-p") 'ps-print-buffer-with-faces)
+(global-set-key (kbd "A-z") 'undo)
+</pre>
+<p />
+to my <code>.emacs</code> for a more complete conformance to the typical Mac key bindings.  This is taken from <a href="http://keihanna.dl.sourceforge.jp/macemacsjp/12851/mac-key-mode.el" target="_top">mac-key-mode.el</a>.  I made a quick attempt at just using <code>mac-key-mode</code>, but it didn't work.  So, I just grabbed the key definitions and added them to my list.

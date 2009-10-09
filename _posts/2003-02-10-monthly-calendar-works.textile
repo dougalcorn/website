@@ -1,0 +1,6 @@
+--- 
+title: Monthly Calendar Works
+typo_id: 524
+layout: post
+---
+I finally got the monthly calendar working on my <a href="http://www.raelity.org/apps/blosxom/" target="_top">blosxom</a> blog.  The links for the days will show only the articles from those days.  Speaking of which, <a href="http://www.raelity.org/" target="_top">Rael Dornfest</a> has had several releases of blosxom since I started.  Problem is my blosxom.cgi is heavily modified.  I need to download and merge.  I'll put it on my <a href="http://lathi.net/twiki-bin/view/Main/ToDo">ToDo</a> list.

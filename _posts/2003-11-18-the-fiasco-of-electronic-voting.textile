@@ -1,0 +1,10 @@
+--- 
+title: The Fiasco of Electronic Voting
+typo_id: 248
+layout: post
+---
+The Register published an opinion piece by Scott Granneman on the <a href="http://www.theregister.co.uk/content/55/34051.html" target="_top">Electronic Voting Debacle</a>.  Here's the two-minute summary.  Several companies have been selling electronic voting systems to various counties across America (seems like the numbers are around 50,000 units).  These units have been proven by security specialists to be faulty, insecure, and open to manipulation.  Little to no action has been taken to install any meaningful oversight of this process.  Obviously, if the electronic voting machines are developed in a secretive way, don't product a paper talley for each vote cast, and don't have a verifiable audit trail how can we trust the elections at all?  
+<p />
+There is some very good research going on with electronic voting.  Wired magazine is reporting on the success of <a href="http://www.wired.com/news/ebiz/0,1272,61045,00.html" target="_top">Australia's voting machines</a>.  These systems are developed in an open manor.  Anyone can audit and verify the code.  In this situation, you don't have to just trust the company that makes them.  You can also trust the third-party groups who audit the code or even audit it yourself.  
+<p />
+What a mess.  People wonder why I'm apathetic towards government.

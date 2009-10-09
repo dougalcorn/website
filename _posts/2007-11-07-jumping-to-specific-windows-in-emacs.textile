@@ -1,0 +1,54 @@
+--- 
+title: Jumping to Specific Windows in Emacs
+typo_id: 1148
+layout: post
+---
+OK, last emacs tip for a while.  It's ironic, but the last two years I've written some cool elisp while at RubyConf.  I typically run emacs full screen and split buffers both vertically and horizontally to arrange bits of code.  It's not uncommon for me to end up with three, four, five or even six visible windows in emacs.  The problem though is navigating between them.
+
+The out-of-the-box solution is to use @other-window@ (bound to C-x o) and just cycle through them.  If you're fancy you can give a prefix argument to @other-window@ and go backwards.  This window cycling is tedious to me though and I'd like something faster.  Particularly when I'm mostly bouncing back and forth between two windows.
+
+To solve this problem I wrote @jump-to-buffer@.  Of course, right now I'm really enamored with the fuzzy matching in @ido-completing-read@.  That's what allows you to type non-sequential characters to match the buffer name.  It's very similar to TextMate's pattern matching.  So, @jump-to-buffer@ uses @ido-completing-read@.  The buffers it gives you as options for completion are only the buffers in visible windows.  It also sorts those buffers in the order of the @buffer-list@; which is in the order of most recently accessed.
+
+To make this work, I've written two helper functions: @rotate-list@, and @sort-by-other-list@.  Without further ado:
+
+<typo:code>
+(defun dka-sort-by-other-list (to-sort-list other-list)
+  (let* ((index 0)
+         (other-alist (mapcar (lambda (buffer) 
+                                (setq index (+ index 1))
+                                (cons buffer index))
+                              other-list))
+         (swartz (mapcar (lambda (item) 
+                           (cons (cdr (assoc item other-alist)) item))
+                         to-sort-list))
+         (sorted-list (sort swartz (lambda (a b) (< (car a) (car b))))))
+    (mapcar 'cdr sorted-list)))
+
+(defun rotate-list (list count)
+  "Rotate the LIST by COUNT elements"
+  (cond
+   ((= count 0) list)
+   ((not list) list)
+   (t
+    (rotate-list (nconc  (cdr list) (list (car list)) '()) (1- count)))))
+
+(defun dka-jump-to-window ()
+  "Interactively jump to another visible window based on it's `buffer-name' using `ido-completing-read'"
+  (interactive)
+  (let* ((visible-buffers (mapcar '(lambda (window) (window-buffer window)) (window-list)))
+         (sorted-visible-buffers (dka-sort-by-other-list visible-buffers (buffer-list)))
+         (rotated-buffer-list (rotate-list sorted-visible-buffers 1))
+         (visible-buffer-names (mapcar (lambda (buffer) (buffer-name buffer)) rotated-buffer-list))
+         (buffer-name (ido-completing-read "Enter buffer to jump to: " 
+                                           visible-buffer-names
+                                           nil t))
+         (window-of-buffer
+          (delq nil 
+                (mapcar '(lambda (window) 
+                           (if (equal buffer-name (buffer-name (window-buffer window)))
+        window nil)) (window-list)))))
+    (select-window (car window-of-buffer)))
+)
+</typo:code>
+
+I'm definitely interested in feedback on this code.  The @dka-sort-list-by-other-list@ method was particularly tricky for me to write.  I think it's both right and fast.  I haven't dove into "elunit":http://www.emacswiki.org/cgi-bin/wiki/ElUnit yet to know for sure if it's right.

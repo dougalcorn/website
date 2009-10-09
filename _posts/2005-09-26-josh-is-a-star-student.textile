@@ -1,0 +1,12 @@
+--- 
+title: Josh is a Star Student
+typo_id: 655
+layout: post
+---
+<a href="http://home.lathi.net/gallery/2005/09-September/Josh-Star-Student.jpg"><img src="/files/Josh-Star-Student-350x438.jpg"  width="350" height="438" alt="Collage of Josh" border="0" align="left" hspace="10" vpsace="10" /></a> Last night I put together a collage of photos of Josh in Photoshop.  Each student is featured as a "Star Student of the Week".  They get extra recognition and privileges.  One of the things we were to do is tape some photos onto a sheet that goes up on a board.  Of course, that would never do!
+
+Instead I put together this collage as an 8x10 and printed that out.  It took me a little over an hour to put this together.  Really, the longest part was scanning through five years of photos for which ones I wanted!  The process is pretty simple.  I just copied all the photos I was going to use into a new folder then opened them all up in Photoshop.  I created a new, blank document that was 8" x 10" @ 300 dpi.  I then took each image and used Image... Image Size... and scaled it to the size I wanted.  The important thing is to make sure to adjust the dpi to be the same as your target image.  That way it's easy to say, "I want this one one inch by 2 inches" and have it come out right.  The other trick is to put each individual image in its own layer in the target image.  That makes it easy to move them around.
+
+The kids really enjoyed it though.  We don't look through old pictures enough.  Josh kept getting embarassed about some of the cute photos we had of him.  He kept saying, "That's ridiculous!  Why do you even have that photo?!?"  He wasn't really upset as long as I didn't threaten too much to include it in the collage.  Overall, I think he enjoyed being the center of attention as we skipped over Justin and Tiffany's photos and just focused on his; embarassing or not.
+
+Carla was happy with the results, but immediately noticed I didn't get any photos of her with Josh in there.  She wanted some pictures of her with him as a baby.  We didn't get our digital camera until Josh was three or four.  We have lots of photos in her scrapbooks, but nothing digitized I can use as raw material for projects like this.  Even after we got our digital camera, Carla took pretty much 100% of our photos until just this last year.  I need to make sure I get more pictures of her.

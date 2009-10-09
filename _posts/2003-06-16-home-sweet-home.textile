@@ -1,0 +1,6 @@
+--- 
+title: Home, Sweet Home
+typo_id: 346
+layout: post
+---
+After three weeks on the road, I'm working from home in Cincinnati this week.

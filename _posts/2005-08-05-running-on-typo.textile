@@ -1,0 +1,7 @@
+--- 
+title: Running on Typo
+typo_id: 623
+layout: post
+---
+If you're actually reading my blog (versus some planet or an RSS feed), you've no doubt noticed my new look.  I had a post about switching from "blosxom":http://blosxom.com to "Typo":http://typo.leetsoft.com/.  Somewhere in my upgrades I think I deleted that post.  So, I just wanted to enter another post identifying my blog with Typo.  According to Justin Palmer, "typo 2.5 is almost ready":http://www.encytemedia.com/article/48/typo-25-previews.  Lots of neat stuff.  By the way, if you don't know, typo is "Ruby on Rails":http://rubyonrails.com powered!
+<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://technorati.com/tag/typo" rel="tag">typo</a></p><!-- technorati tags end -->

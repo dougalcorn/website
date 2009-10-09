@@ -1,0 +1,17 @@
+--- 
+title: First Post!
+typo_id: 612
+layout: post
+---
+OK, I'm really excited about this.  I've been excited
+about web logging (blogging) for quite some time.  Blogging is
+basically a way to keep an on-line journal easily.  There are lots of
+time throughout the day that I learn some interesting bit of news.
+Often the kids do something that is noteworthy and should be recorded.
+I also have several projects I'd like to keep notes on.
+<p />
+Thank goodness for <a href="http://www.raelity.org/apps/blosxom/" target="_top">blosxom</a>!
+I've written an article on my work integrating <a href="http://lathi.net/twiki-bin/view/Main/BlosxomAndTWiki">BlosxomAndTWiki</a>.  So
+far, I can reference documents in my TWiki in my blog.  Ultimately
+I'll be able to show blog entries on my TWiki.  Really what I've done
+is use the TWiki engine to pre-process the text of the blog entries.

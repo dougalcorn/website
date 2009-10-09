@@ -1,0 +1,24 @@
+--- 
+title: Resizing Your Terminal
+typo_id: 1144
+layout: post
+---
+I thought I'd go ahead and publish this because I found it useful (if ugly).  I do a lot of remote pair programming where my partner and I share a multi-user screen session inside a terminal.  It's very important that both partners have the same number of columns and rows visible.  Otherwise, whoever is smaller isn't going to see everything the other person sees and stuff jumps around and it's generally annoying.  
+
+So, the first thing that happens when you start a remote pairing session is you negotiate screen size.  I have my Apple Terminal.app set to show the screen size in the title bar as something like 105x54 or 94x71 or whatever.  So when my partner says, "I can do 120x62 as my maximum size" I have to click and drag my Terminal window until my size matches.  No more!
+
+As I said above, this is pretty ugly but it works.  This shell script makes a one line applescript call through @osascript@ to tell the Terminal what size to make the window.  I put it in a shell script like this to simplify calling.  I started with a straight up applescript, but it was ugly to call it from the command line.  So I converted it to what you see here:
+
+<code>
+#!/bin/sh
+
+/usr/bin/osascript -e 'tell application "Terminal"' -e "tell front window" -e "set the number of rows to $2" -e "set the number of columns to $1" -e "end tell" -e "end tell"
+</code>
+
+You can invoke it by simply saying:
+
+<code>
+$ resize_terminal 94 71
+</code>
+
+and the front most Terminal window (likely the one you're typing in) will resize to 94 rows tall by 71 columns wide.

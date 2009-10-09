@@ -1,0 +1,6 @@
+--- 
+title: Things we probably shouldn't do
+typo_id: 393
+layout: post
+---
+<a href="http://www.livejournal.com/users/jwz/" target="_top">JWZ</a> <a href="http://www.livejournal.com/users/jwz/200799.html" target="_top">points</a> out a suggestion from researchers we probably shouldn't pursue.  The idea is to build a neurtino gun to zap nuclear weapons and vaporize the bomb.  The problems acroding to the reasearchers is that the facility to do this would need to be about 600 miles across, would need more power than the entire United Kingdom consumes, would cost more than the UK's, Russia's and France's combined military budget, and may actually set off the bomb rather than neutralizing it.  Call me crazy, but seems like we should focus research on other areas.

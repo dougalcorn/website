@@ -1,0 +1,10 @@
+--- 
+title: What were they thinking?
+typo_id: 160
+layout: post
+---
+Here's the back-story.  More than a few cities and municipalities are thinking about and implementing large wireless Internet networks (aka, <span style='background : #FFFFCE;'><font color="#0000FF">WiFi</font></span><a href="http://lathi.net/twiki-bin/edit/Main/WiFi?topicparent=Main.WebHome">?</a> networks) that basically blanket their city.  The thinking is that if this is provided as a public service out of tax payers money, it will increase the overall value of the community.  To citizens it sounds like a good deal.  But here's the rub.  There are more than a few technical solutions to having voice communications over the Internet.
+<p />
+So some "neutral" research organization does a study that "<a href="http://www.boingboing.net/2005/02/04/fake_neutral_report_.html" target="_top">does a hatchet job</a>" on public <span style='background : #FFFFCE;'><font color="#0000FF">WiFi</font></span><a href="http://lathi.net/twiki-bin/edit/Main/WiFi?topicparent=Main.WebHome">?</a> saying it's a huge waste of tax payer's money.  Well, guess what?  This "neutral" research organization is basically funded by "<a href="http://wifinetnews.com/archives/cat_municipal.html" target="_top"> Ameritech, Bell South, Comcast, Pacific Bell, Qwest, SBC Communications, Sprint, U.S. West, Verizon and Verizon Wireless</a>".  Let's see, did we miss any local phone companies?
+<p />
+I don't think this kind of duplicity is illegal (although I'm not exactly sure in light of the post-Enron business world).  However, I find it at the least unethical.  I'm sure other people do too.  What I'm wondering is if the companies that funded this hatchet job think that the source wouldn't be found out?  Were they naive to the ability of the public to root this kind of stuff out?  Or did they just not care?  I had one person say in reference to this, "it doesn't hurt trying."  I find that attitude a little disturbing.

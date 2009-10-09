@@ -1,0 +1,6 @@
+--- 
+title: Calamity of Calamities!
+typo_id: 408
+layout: post
+---
+<a href="http://slashdot.org" target="_top">Slashdot.org</a> has banned my IP address!  I use <a href="http://lathi.net/twiki-bin/view/Main/FetchRss">FetchRss</a> as my <span style='background : #FFFFCE;'><font color="#0000FF">RssAggregater</font></span><a href="http://lathi.net/twiki-bin/edit/Main/RssAggregater?topicparent=Main.WebHome">?</a>.  I was doing some work on it to allow me to easily kill the daemon when it's running.  As such, I had to stop and restart fetchrss several times.  I'm guessing that during that time I "abused" their server.  Oh well.  I guess I'll pick it back up next week.

@@ -1,0 +1,14 @@
+--- 
+title: A Working Simple System
+typo_id: 965
+layout: post
+---
+"John Gruber":http://daringfireball.net/ recently "pointed out":http://daringfireball.net/linked/2006/may#thu-04-galls_law a quote from "John Gall":http://en.wikipedia.org/wiki/Gall%27s_law:
+
+<blockquote>
+A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over with a working simple system.
+</blockquote>
+
+Like John, I had never heard of this before.  However, I think it strikes to the heart of agile development.  With "SCRUM":http://www.controlchaos.com/ the mantra is to always deliver a working system at the end of each sprint.  With "Extreme Programming":http://www.xprogramming.com/ one of the practices is, "What's the simplest thing that could possibly work?"
+
+At work, we have a set of applications and services that have grown to the point where they are unwieldy and don't support our future business plans.  We're in the process of rebuilding them with our evolving business in mind.  This is a fairly hard process.  We know (or at least suspect) that the final systems that fully replace what we're using now will be quite complex.  The challenge is to grow a complex system simply while delivering incrementally useful services.

@@ -1,0 +1,6 @@
+--- 
+title: Elisp date calculation functions
+typo_id: 494
+layout: post
+---
+Due to frustration with the lack of robust date handling in elisp, I finally decided to port Perl's <a href="http://search.cpan.org/author/STBEY/Date-Calc-5.3/Calc.pod" target="_top">Date::Calc</a>.  I've uploaded it to the <a href="http://www.emacswiki.org/cgi-bin/wiki.pl?DateCalc" title="'DateCalc' on the Emacs Wiki">Emacs:DateCalc</a> wiki page.

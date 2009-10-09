@@ -1,0 +1,6 @@
+--- 
+title: Our Photo Album
+typo_id: 286
+layout: post
+---
+Ok, after many demands I'm getting closer to uploading our pictures.  Right now I have over a Gig of photos on my hard disk plus a small handful of CDs with photos archived.  I did some preparation work tonight on my server to handle that much storage without making my backups needlessly large.  I also setup Carla's computer so she can edit the photos on my hard drive.  As I type this she's going through the 1.2G of photos and deleting the ones she doesn't want to keep forever, pulling out the pictures unappropriate to pulish on the Internet and writing descriptions for the pictures.  I have no idea how long it will take her to do all that.  That's over 2000 photos she needs to cull through.  The first pass will just be to delete all the junk photos we should have deleted when we took them.  When she gets that done I'll upload them to the server.  Then I'll upload the descriptions as she gets it typed up.

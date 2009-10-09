@@ -1,0 +1,6 @@
+--- 
+title: Working in Cleveland
+typo_id: 305
+layout: post
+---
+I'll be working up in Cleveland this week.

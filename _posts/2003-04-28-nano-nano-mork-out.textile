@@ -1,0 +1,6 @@
+--- 
+title: Nano-Nano, Mork Out
+typo_id: 433
+layout: post
+---
+I'm working on-site at <a href="http://lathi.net/twiki-bin/view/Main/DataPlay">DataPlay</a> in Boulder, CO this week.

@@ -1,0 +1,11 @@
+--- 
+title: Photo Gallery Apps
+typo_id: 646
+layout: post
+---
+I'd like to get a peek at all the folks working on  photo gallery apps in Rails.  Mail messages show up on the mailing list fairly frequently related to image handling and cataloging.  I also see comments about it on IRC as well.  What I don't see is anything closed to finished and available as free software.
+
+I'm very interested in DAM(Digital Asset Management).  I don't want a "Flickr Killer", but just something for me to self-host, manage _all_ my photos, and still make it easy and enjoyable for friends and family to browse.
+
+I've started a "Photo App":http://wiki.rubyonrails.com/rails/show/PhotoApp on the Rails wiki where I hope to at least get a list of folks who are willing to admit they are working on a photo gallery, are willing to share their code, and are willing to accept help from others.
+<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://technorati.com/tag/photo gallery" rel="tag">photo gallery</a>, <a href="http://technorati.com/tag/Rails" rel="tag">Rails</a></p><!-- technorati tags end -->

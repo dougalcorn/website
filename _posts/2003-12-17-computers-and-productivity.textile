@@ -1,0 +1,14 @@
+--- 
+title: Computers and Productivity
+typo_id: 236
+layout: post
+---
+As usual on <a href="http://slashdot.org" target="_top">Slashdot</a> the arguments abound and rarely stay on topic.  In an article about <a href="http://slashdot.org/article.pl?sid=03/12/17/0056230" target="_top">the Israeli Treasury dept. testing Mandrake Linux to replace Microsoft</a> there's a sub-tread about using GUI programming tools versus the good old command line stuff.  <a href="http://slashdot.org/~term8or" target="_top">term8or</a> makes the <a href="http://slashdot.org/comments.pl?sid=89569&amp;cid=7743766" target="_top">observation</a> that it's very hard to demonstrate that GUI tools have improved programmer productivity.  Specifically, he points out that <a href="http://www.j-bradford-delong.net/movable_type/archives/001084.html" target="_top">some evidence</a> suggests "the value from a dollar spent on software has remained nearly static."  And also that <a href="http://ftp.starbase.com/pdf/productivitytrends.pdf" target="_top">productivity trends</a> don't show any increases since these tools have been introduced.  He quotes nobel laureate <a href="http://www.nobel.se/economics/laureates/1987/solow-autobio.html" target="_top">Robert Solow</a> as saying, "you can see computers everywhere but in the productivity statistics."  
+<p />
+That last quote is particularly interesting.  Computers are supposed to make our lives better.  That's been the claim since the '50s.  But do they?  We can certainly do more things now than then.  I've heard stories of rooms full of "calculators", people sitting at tables doing calculations manually.  Talk about a cog in the machine.  To think there were people who's full-time job was replaced by what is now a chip that is so cheap to be considered free.  But are we getting more accomplished?  Probably so.  I often don't feel like it.  I spend an awful lot of time answering email, reading news, and fixing stupid computer problems.  Oh yes, I also write some software.  See that's what I'm supposed to be doing.  Maybe it's my own lack of focus that keeps me from getting the things done I'm supposed to be getting done.  After all, it's 12:16pm and I'm writing this post.
+<p />
+Oh, yes.  What really prompted me to blog this was the Robert Solow quote above and term8or's conclusion.  I like to collect observations like these because it makes me feel like I'm worth the money I charge my company and clients for my time.
+<p />
+<blockquote>
+Simply put, current advances in tools have not produced a real advantage where it matters: software is still hard to construct, and no amount of tools will guarantee that the software you produce will actually work in a way that benefits the clients. You need good people to do that. Tools can help, but people can produce good programs without the tools, and tools won't produce good programs without the people.
+</blockquote>

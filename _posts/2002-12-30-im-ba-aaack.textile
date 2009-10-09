@@ -1,0 +1,6 @@
+--- 
+title: I'm Ba-aaack
+typo_id: 588
+layout: post
+---
+I'll be working from Cincinnati this week (except for New Year's Day, of course).

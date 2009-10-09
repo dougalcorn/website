@@ -1,0 +1,6 @@
+--- 
+title: Are you FilmWise?
+typo_id: 595
+layout: post
+---
+This i very well done <a href="http://www.filmwise.com/invisibles/invisible_105.shtml" target="_top">movie quiz</a>: you have to identify movies using only the scene, props, and costumes; all the actor's have been rubbed out.

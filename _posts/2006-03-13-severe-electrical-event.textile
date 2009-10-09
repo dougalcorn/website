@@ -1,0 +1,33 @@
+--- 
+title: Severe Electrical Event
+typo_id: 911
+layout: post
+---
+It's not much of an exaggeration to say our house got struck by lightening tonight.  We didn't actually get struck; however, it was very, very close by.  I'm labeling this a "severe electrical event."
+
+We've had some of the worst electrical storms for the last several days that I've experienced here in Cincinnati.  If I weren't lazy, I'd go look up how much rain we've gotten in the last six days and compare that to both norms and records.  It _feels_ like we are totally water logged.  I'm sure others have had worse, but anyway...
+
+With the ground completely saturated with water, something nearby was struck by lightning and the electrical surge struck our house... and at least one other neighbor's house.
+
+I had just let the dog out in the backyard.  Carla and I were marveling at how impervious he is to the rain.  Just running like a crazy dog through the mud with the rain pouring down.  I called him back in after he had done his business and headed down to the basement.  About five or 10 seconds after he got inside the lightning struck.  I was half way down the stairs to the basement when I saw a flash from the circuit breaker.  Our house alarm went off and things got chaotic fast.
+
+I went over to the breaker box to check what had happened and saw tendrils of smoke escaping.  Amazingly none of the circuits tripped.  After making a quick scan of the basement I went back up to find Carla struggling with the alarm system.  The LCD was just flashing random gibberish.  I headed back downstairs and tripped the circuit labeled "security" with no success.  I then unplugged the main alarm system box with no success.  Finally I just went upstairs and cut the power to the control box to silence it.  Kids and dog were pretty freaked at this point.
+
+Besides an acrid smell, I couldn't see any damage to the circuit breaker box.  Of course, I'll call an electrician tomorrow to come check it.  However, we did have several other electronic items damaged:
+
+* Cordless phone base station -- toast
+* Time-Warner Cable DVR -- toast
+* Time-Warner Cable Modem -- toast
+* Oddly enough, the ethernet card in my firewall connected to cable modem -- toast
+* Older 32" JVC TV -- not totally toast, but the picture is noticeably bad
+* Air Conditioning/Heater -- unit in basement says it's on, thermostat control is toast
+* Garage door opener -- lights come on, motor won't work
+* HP All-in-One pcs2400 printer -- toast
+* Apple 20" Cinema Display -- toast
+* At least one overhead light -- toast
+
+The good news is that all three notebook computers (including my "new Macbook pro":http://blog.lathi.net/articles/2006/03/13/welcome-to-life-in-the-fast-lane) are still fine.  My "Dell 2001FP":http://blog.lathi.net/articles/2006/02/14/a-user-experience-apple-vs-dell is still fine.  The firewall PC is fine after I swapped out one of the ethernet cards.  Luckily I have "backup Internet access":http://blog.lathi.net/articles/2006/01/27/always-have-a-plan-b, so I can work tomorrow too.
+
+Don't know when the insurance adjuster will call or come out.  Time Warner isn't coming to fix their stuff until Wednesday.  Haven't called electrician or HVAC to get them to come out.  Hopefully they'll come out tomorrow.  It's a good thing the temperatures are mild, so open windows will work.
+
+Even with the big list above, it could have been much, much worse.  I'm very thankful God was watching over us and kept us all safe.  Plus, here's hoping for a new TV!
