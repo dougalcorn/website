@@ -1,0 +1,58 @@
+/*
+Primary Color:
+687060		595F54		475936		EDF6E4		F3F6F1
+
+Secondary Color A:
+45504E		3C4443		27403B		E2F4F1		EFF4F3
+
+Secondary Color B:
+7B7C6B		696A5D		61623C		F6F7E5		F7F7F2
+
+Complementary Color:
+6F6065		5F5457		583641		F6E4EA		F6F1F3
+
+http://colorschemedesigner.com/#2.6224sfHiIX5
+
+"#27403B"
+*/
+
+body { font: 13px/18px normal Verdana, Geneva, sans-serif; color: #FEFEFE; 
+       background: #475936 url(/images/gradient-down.jpg) repeat-x; }
+
+a { color: #F6F7E5; }
+a:hover { color: #E2F4F1; }
+
+h1 { font-size: 24px; margin: 20px 0; }
+h2 { font-size: 16px; margin-bottom: 4px; }
+h3 { font-size: 14px; margin-bottom: 4px; }
+
+h1, h2, h3, h4 { color: #F6E4EA; font-family: Verdana, Geneva, sans-serif;}
+
+p { margin-bottom: 1em; }
+li { list-style: disc inside;  }
+ul { margin-bottom: 1em; padding-left: 1em; }
+
+.inner {width: 1000px; margin: 0 auto; padding: 10px; height: 1%; overflow: hidden; background: #475936;}
+
+#header { }
+#header .inner { background: #3C4443 url(/images/gradient-up.jpg) repeat-x; }
+#header h1 { float: right; width: 450px; line-height: 1.2em; font-weight: bold; }
+#header a { color: #7B7C6B; text-decoration: none;}
+#header a:visited { color: #7B7C6B; text-decoration: none; }
+#header a:hover { color: #7B7C6B; text-decoration: none; }
+
+#content { background: url(../images/green-gradient.jpg) repeat-y;
+           font-family: Georgia, Times, "Times New Roman"; }
+#content h2 { font-size: large; }
+
+#sidebar { float: left; width: 20%; padding: 10px; }
+#sidebar #my-links a { text-decoration: none; }
+
+#main { float: right; width: 75%; margin: 0 auto; padding: 10px; }
+.post { margin-bottom: 15px; }
+.pub-date { font: smaller; color: #687060; font-family: Verdana, Geneva, sans-serif;}
+
+#footer { padding: 10px ; border-top: 4px solid #3C4443;}
+#copyright { float: right; color: #7B7C6B; font-size: small; }
+#copyright a { color: #7B7C6B; text-decoration: none; }
+#info-standards { width: 0 auto; }

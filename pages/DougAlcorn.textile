@@ -4,12 +4,8 @@ title: Doug Alcorn
 ---
 h1. About Me
 
-My name is Doug Alcorn. I'm a 30-something husband, dad, Christian,
-and hacker living in Cincinnai, OH., USA. When I'm not on my computer
-or being a dad, I'm usually shooting photos or out in the woods.
-
-<div style="text-align: center; padding-top: 10px; padding-bottom: 10px;">
-     <img src="/images/stone-wall.jpg" width="320" height="213" alt="Me looking pensive" />
+<div style="width: 0 auto; float: right; padding-top: 10px; padding-bottom: 10px;">
+     <img src="/images/stone-wall.jpg" alt="Me looking pensive" />
 </div>
 
 I've been doing professional software development since I graduated
@@ -24,7 +20,9 @@ hire":/pages/ruby-on-rails-developer.
 If you need to contact me, here's my info:
 
    * 'lathinet' on Yahoo! IM
-   * 'dougalcorn@gmail.com' on Google Talks
+   * 'lathinet' on AOL IM
+   * 'dougalcorn@gmail.com' on Google Talks (Jabber)
+   * 'lathinet' on Skype
 
 
 I don't mind sharing my mailing address and phone number either.  If

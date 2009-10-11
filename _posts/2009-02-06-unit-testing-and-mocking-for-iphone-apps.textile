@@ -9,7 +9,7 @@ First, starting with a new iPhone application I followed "these directions":http
 
  * Add a new target based on Mac OS X Cocoa Unit Test Bundle.
  * In the new test target's inspector window, whack all the "User-Defined Settings" in the new build tab's settings.
- * Also delete the '‘Other Linker Flags' setting.
+ * Also delete the 'Other Linker Flags' setting.
  * In the General tab, add a dependency to the @SenTestingKit.framework@.  Here's where it gets tricky.  Don't just add any @SenTestingKit.framework@.  You need to add the one from:
 
 <code>
